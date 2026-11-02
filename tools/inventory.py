@@ -133,7 +133,9 @@ SCHEMA_DIRS = ('ooxml/schemas/',)
 
 
 def iter_files(root: Path = ROOT):
-    for path in sorted(root.rglob('*')):
+    # Sort by POSIX string: PureWindowsPath compares case-insensitively, which
+    # would reorder rows on Linux checkouts and make CI see a stale index.
+    for path in sorted(root.rglob('*'), key=lambda item: item.as_posix()):
         if not path.is_file():
             continue
         rel = path.relative_to(root).as_posix()
@@ -359,8 +361,20 @@ def render_csv(rows: list[dict]) -> bytes:
     return buffer.getvalue().encode('utf-8-sig')
 
 
+def normalized_size(path: Path) -> int:
+    """LF-normalised byte length, so the summary does not depend on checkout EOL."""
+    raw = path.read_bytes()
+    if b'\x00' in raw:
+        return len(raw)
+    try:
+        raw.decode('utf-8')
+    except UnicodeDecodeError:
+        return len(raw)
+    return len(raw.replace(b'\r\n', b'\n'))
+
+
 def render_md(rows: list[dict], kept: list[dict], collapsed_rows: list[dict]) -> str:
-    total_bytes = sum(p.stat().st_size for _, p in iter_files())
+    total_bytes = sum(normalized_size(p) for _, p in iter_files())
     by_area: dict[str, int] = {}
     by_kind: dict[str, int] = {}
     for row in rows:

@@ -47,6 +47,7 @@
 
 | 文件 | 区域 | 类型 | 用途 |
 |---|---|---|---|
+| `README.md` | 仓库支持 | 文档 | 项目入口：定位、六个技能、三步安装、能力边界与新用户路线。 |
 | `catalog/mains.json` | 仓库支持 | 索引 | 六个主入口的结构化索引：入口文件、自带脚本、参考文档。 |
 | `catalog/modules.json` | 仓库支持 | 索引 | 47 个默认内部模块索引：owner、WORKFLOW、脚本、参考。 |
 | `catalog/optional-modules.json` | 仓库支持 | 索引 | 32 个可选模块索引（正文不在包内，按 v1.1.0 固定版本恢复）。 |
@@ -65,7 +66,6 @@
 | `install-dsh.cmd` | 仓库支持 | 安装器 | Windows 双击入口，转调 install.py --host dsh。 |
 | `install.py` | 仓库支持 | 安装器 | 安装器：校验 MANIFEST → 复制六技能 → 写安装标记 → 注入受管默认规则；支持 --check/--dry-run/--replace/--smoke。 |
 | `install.sh` | 仓库支持 | 安装器 | macOS/Linux 入口，转调 install.py；与两个 .cmd 等价。 |
-| `README.md` | 仓库支持 | 文档 | 项目入口：定位、六个技能、三步安装、能力边界与新用户路线。 |
 | `tools/workbench.py` | 仓库支持 | 安装器 | 便捷转发：等价于运行有机核心的 scripts/workbench.py。 |
 
 可运行入口（有 `if __name__` 或脚本后缀）：

@@ -170,7 +170,7 @@
   {
     "path": "docs/INVENTORY.md",
     "bytes": 334627,
-    "sha256": "26de7bb35cbb555e3145a0646158b1e0c7a0379e028e798311d5dcc7aeb9c63c",
+    "sha256": "fc9e62defb4d286fdf785bb08baa5a69ff020528cf8eff7a9a24b4b41716a845",
     "normalize_lf": true
   },
   {
@@ -236,13 +236,13 @@
   {
     "path": "docs/inventory.csv",
     "bytes": 577013,
-    "sha256": "6825a64f5c6ad27501fd12a5671c38088d7ace0c97ef37c171e4467d0b9584a4",
+    "sha256": "de8bc09961e6301fde14dd8c1eca685a7ea55fbb2bf7ef3034d4278e6795c52d",
     "normalize_lf": true
   },
   {
     "path": "docs/inventory.html",
     "bytes": 838728,
-    "sha256": "64e5e8d7696fec8d3abe646758076e7d4c246defdace90165eadbcc73558a02f",
+    "sha256": "9ae067c9cb8d43b4bcb240a965aed9060583d56ae7dec7a6dcd889732d4146db",
     "normalize_lf": true
   },
   {
@@ -16295,8 +16295,8 @@
   },
   {
     "path": "tools/inventory.py",
-    "bytes": 27653,
-    "sha256": "778369cb09e6148fab51aa5a2396c6aad40d271413ed4a3c0b09e41a15b69b0b",
+    "bytes": 28181,
+    "sha256": "5318ebd7ba889d2f944e514c0dbf1e7f351cbc44aec19319da253f332bfd625c",
     "normalize_lf": true
   },
   {
