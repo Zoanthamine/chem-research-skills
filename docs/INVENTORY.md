@@ -6,7 +6,7 @@
 文件自身的一级标题或模块 docstring、以及所在目录的约定用途。
 **这是分类索引，不是逐行代码审查**；标记为“上游框架文件”的千余文件按包使用，未逐个核对实现。
 
-- 分发文件：**2720** 个（约 39.0 MB）
+- 分发文件：**2728** 个（约 39.1 MB）
 - 完整逐文件清单：[inventory.csv](inventory.csv)（Excel 可直接打开）、[inventory.html](inventory.html)（可搜索、可筛选）
 - 大块 vendored 目录在下面的表格里折叠成一行，逐文件行仍在 CSV/HTML 中。
 
@@ -14,17 +14,17 @@
 
 | 类型 | 数量 | 含义 |
 |---|---:|---|
-| 方法参考 | 839 | 按问题读取的方法/流程/边界 |
+| 方法参考 | 843 | 按问题读取的方法/流程/边界 |
 | 上游框架文件 | 743 | 随包分发的上游框架/架构文件 |
 | 可执行工具 | 343 | 可直接运行的命令行工具 |
 | 测试 | 326 | 开发/回归测试，不是科研入口 |
-| 资源 | 118 | 基组、样例、图表等资源 |
+| 资源 | 119 | 基组、样例、图表等资源 |
 | 许可与来源 | 104 | 许可与来源记录 |
 | 模板 | 70 | 报告/论文/交付模板 |
 | 模块工作流 | 53 | 吸收进主技能的专业模块入口 |
 | 函数库 | 46 | 被其他脚本导入的函数库 |
 | 宿主元数据 | 27 | Codex/DSH 的展示与调用元数据 |
-| 文档 | 18 | 面向人的说明文档 |
+| 文档 | 21 | 面向人的说明文档 |
 | 完整性账本 | 6 | 文件完整性账本 |
 | 技能入口 | 6 | 宿主发现的技能主入口 |
 | 能力目录 | 6 | 该技能自己的方法与脚本目录 |
@@ -38,10 +38,10 @@
 | 学术研究 | 1836 | 文献、SI、先例、DOI、引文核验；内置 ARS 研究框架。 |
 | 学术写作 | 384 | 论文/润色/审稿回复/开题学位/Word-PPT 七个默认模块。 |
 | 有机推断 | 156 | 结构身份/绘制/转换、机理与重排、选择性、实验复盘，并组织其他核心的证据链。 |
-| 计算化学 | 110 | 本地采样→选构象→DFT 优化/频率→GIAO/J 核磁；xTB、GROMACS、Gaussian。 |
-| 解谱鉴定 | 105 | 真实 NMR/MS 文件读取与证据化解析；Bruker/Varian/NMRPipe、Thermo RAW/mzML/MGF。 |
+| 计算化学 | 113 | 本地采样→选构象→DFT 优化/频率→GIAO/J 核磁；xTB、GROMACS、Gaussian。 |
+| 解谱鉴定 | 107 | 真实 NMR/MS 文件读取与证据化解析；Bruker/Varian/NMRPipe、Thermo RAW/mzML/MGF。 |
 | 单晶解析 | 70 | 衍射数据→解结构→精修→验证交付；21 个 Python 入口，支持 DIALS/SHELXT/SHELXL/Olex2。 |
-| 仓库支持 | 59 | 仓库级：安装器、目录索引、文档、测试与发布配置。 |
+| 仓库支持 | 62 | 仓库级：安装器、目录索引、文档、测试与发布配置。 |
 
 ## 先看这几张：入口与可运行工具
 
@@ -637,7 +637,7 @@
 | `skills/scxrd-refinement/scripts/validate_crystal_package.py` | 可执行工具 | Audit files, basenames, ABIN/include dependencies and optional recorded hashes. |
 | `skills/scxrd-refinement/scripts/xtal_core.py` | 可执行工具 | SCXRD 精修工具箱的通用核心库 |
 
-## 计算化学（110 行）
+## 计算化学（113 行）
 
 | 文件 | 类型 | 用途 |
 |---|---|---|
@@ -730,6 +730,7 @@
 | `skills/huangjt-computational-chemistry/modules/rdkit-conf/scripts/rdkit_conf_helper.py` | 可执行工具 | rdkitconfhelper.py |
 | `skills/huangjt-computational-chemistry/references/absorbed-modules.md` | 方法参考 | 内部模块：这些能力已融合在本主技能下，入口为 WORKFLOW.md。先按融合方法选择；源工作流的大流程、固定配额和工具优先级以当前用户任务及本主技能的分工为准，保留其科学不变量与必要授权边界。 |
 | `skills/huangjt-computational-chemistry/references/applied-workflows.md` | 方法参考 | 计算方法、模板与实际执行的联动：核磁计算或耦合 |
+| `skills/huangjt-computational-chemistry/references/backend-operations.md` | 方法参考 | 后端运维：注册表、集群与程序边界：来源：一次真实本地 + 集群计算环境的配置与故障记录，已脱敏：主机名、IP、账号、密钥路径、集群绝对路径与本地盘符已删除，替换为占位符或类别描述。这些是“怎么组织与排错”的经验；具体路径必须由目标机自己的配置决定。 |
 | `skills/huangjt-computational-chemistry/references/cluster-workflow.md` | 方法参考 | Cluster mode: optional complex execution：Read common principles first. Do not open SSH for knowledge-only or local-only requests. Remote operations require a configured site profile and the… |
 | `skills/huangjt-computational-chemistry/references/common.md` | 方法参考 | Shared scientific knowledge：Apply to all modes; no backend needed. |
 | `skills/huangjt-computational-chemistry/references/core-workflows.md` | 方法参考 | 本地构象搜索到核磁计算：起点与采样 |
@@ -739,9 +740,11 @@
 | `skills/huangjt-computational-chemistry/references/integrated-methods.md` | 方法参考 | 融合后的计算化学方法：首先选知识、本地或集群模式。知识解释不启动软件；已授权的计算按照当前输入与预算执行，每次启动和提交仍检查输入、重复任务和资源。HPC 模块提供调度与运行细节，不能替换当前项目参数或放大构象预算。 |
 | `skills/huangjt-computational-chemistry/references/local-conformers.md` | 方法参考 | Local xTB conformer workflow：Verified project recipe and scope |
 | `skills/huangjt-computational-chemistry/references/local-runtime.md` | 方法参考 | Local runtime, selected only for local mode：Capability selection |
+| `skills/huangjt-computational-chemistry/references/method-profiles.md` | 方法参考 | 方法档示例：构象、DFT、NMR 与 ECD：来源：某有机合成课题组的实际方法组合，已脱敏（只保留方法与参数，不含样品、结果或路径）。这是“一套自洽方法长什么样”的示例，不是推荐默认值；换体系要重新确认适用性。 |
 | `skills/huangjt-computational-chemistry/references/nmr-coupling.md` | 方法参考 | NMR and two distinct J protocols：Use in knowledge, local or cluster mode; this page alone does not launch a backend. |
 | `skills/huangjt-computational-chemistry/references/operations-lessons.md` | 方法参考 | Verified failure patterns from the 2026 project：Use when the matching failure appears; these are observations, not reasons to add every workaround to every task. |
 | `skills/huangjt-computational-chemistry/references/postprocess-cli.md` | 方法参考 | Portable post-processing, no quantum backend：Requires Python3 standard library only. Run only when file processing is requested; knowledge mode can explain the schemas without executing. CLI use… |
+| `skills/huangjt-computational-chemistry/references/practice-lessons.md` | 方法参考 | 实践教训：自由基重排、构象与核磁耦合：来源：一次真实的重排产物鉴定项目（2026-10 至 2026-11）的输入、日志、结果与纠正记录，已脱敏：项目代号、样品编号、原子编号、未发表位移/J 值、服务器与本地路径均已替换或删除。留下的是可迁移的判断规则；新体系必须重新核验结构、计算级别和适用范围，不能把这套设置当默认。 |
 | `skills/huangjt-computational-chemistry/references/runtime.md` | 方法参考 | 运行环境：本机配置来自 $CODEXHOME/tools/science/INTEGRATION.md 与 environments.json，通过 science.ps1 选择 science、retro 或 dials。新电脑按实际任务配置依赖、程序、模型和许可证，不复用来源电脑的盘符或账号。纯知识任务… |
 | `skills/huangjt-computational-chemistry/references/system-integration.md` | 方法参考 | 六个主技能的协作约定：四个化学核心分别保持完整，学术检索阅读和学术写作各有一个完整入口。其他同领域能力已经成为主技能内部模块，不再作为同级技能抢任务。模块按需读取，不能把一个简短问题升级成全部流程。 |
 | `skills/huangjt-computational-chemistry/references/task-language.md` | 方法参考 | 常见任务说法：依据可读取的科研聊天提炼，不包含样品编号、个人路径或作业号。词语不是匹配到就执行的软件命令；结合当前附件、结构和上下文选择方法。 |
@@ -752,7 +755,7 @@
 | `skills/huangjt-computational-chemistry/scripts/prepare_nmr_jobs.py` | 可执行工具 | Prepare auditable Gaussian opt/freq and NMR inputs from selected XYZ conformers. |
 | `skills/huangjt-computational-chemistry/scripts/run_gaussian_nmr.py` | 可执行工具 | Run one prepared conformer's Gaussian stages, preserving inputs and all logs. |
 
-## 解谱鉴定（105 行）
+## 解谱鉴定（107 行）
 
 | 文件 | 类型 | 用途 |
 |---|---|---|
@@ -845,7 +848,9 @@
 | `skills/huangjt-spectral-structure-analysis/references/absorbed-modules.md` | 方法参考 | 内部模块：这些能力已融合在本主技能下，入口为 WORKFLOW.md。先按融合方法选择；源工作流的大流程、固定配额和工具优先级以当前用户任务及本主技能的分工为准，保留其科学不变量与必要授权边界。 |
 | `skills/huangjt-spectral-structure-analysis/references/applied-workflows.md` | 方法参考 | 从数值谱图到候选判断的联动：先区分输入和任务 |
 | `skills/huangjt-spectral-structure-analysis/references/candidate-comparison.md` | 方法参考 | 结构与计算比较：以确切连接图和立体结构文件为准。原子编号通过元素、键图及必要立体映射核对；两个Gaussian任务的相同编号不表示同一化学位置。保留SMILES/SDF、模型身份、输入/输出和未确定立体信息。 |
+| `skills/huangjt-spectral-structure-analysis/references/case-lessons.md` | 方法参考 | 案例复盘：Barton 脱氧产物的重排鉴定（已脱敏）：来源：一次真实的谱图解析与结构鉴定项目，已脱敏：样品编号、分子式、精确质量、位移/J 数值、构象权重与文件路径均已删除或泛化。保留的是“证据怎么组织、哪里容易错、什么不能宣称”。 |
 | `skills/huangjt-spectral-structure-analysis/references/core-workflows.md` | 方法参考 | 实际文件到解谱的基础入口：readspectralfile.py 直接读取完整 Bruker fid/ser 采集目录、Bruker pdata 处理谱、Varian 目录、NMRPipe、mzML/mzXML/MGF、JCAMP 和带表头 CSV。Bruker 一维/二维 pdata 保留原处理元数据，仅在真实 SI/S… |
+| `skills/huangjt-spectral-structure-analysis/references/environment-tested.json` | 资源 | 资源文件 |
 | `skills/huangjt-spectral-structure-analysis/references/experimental-workflow.md` | 方法参考 | 实验信号处理与联合归属：数据与校准 |
 | `skills/huangjt-spectral-structure-analysis/references/foundation-and-migration.md` | 方法参考 | 基础能力与迁移：新电脑的顺序 |
 | `skills/huangjt-spectral-structure-analysis/references/host-compatibility.md` | 方法参考 | Codex 与 DeepSeek Harness：本技能使用通用 SKILL.md、Markdown参考、相对资源和命令行脚本。Codex与DSH使用同一份方法；不要求目标用户拥有Codex桌面、某一插件名称或来源电脑的盘符。 |
@@ -1804,7 +1809,7 @@
 | `skills/huangjt-academic-writing/references/system-integration.md` | 方法参考 | 六个主技能的协作约定：四个化学核心分别保持完整，学术检索阅读和学术写作各有一个完整入口。其他同领域能力已经成为主技能内部模块，不再作为同级技能抢任务。模块按需读取，不能把一个简短问题升级成全部流程。 |
 | `skills/huangjt-academic-writing/references/task-language.md` | 方法参考 | 常见任务说法：依据可读取的科研聊天提炼，不包含样品编号、个人路径或作业号。词语不是匹配到就执行的软件命令；结合当前附件、结构和上下文选择方法。 |
 
-## 仓库支持（59 行）
+## 仓库支持（62 行）
 
 | 文件 | 类型 | 用途 |
 |---|---|---|
@@ -1833,9 +1838,11 @@
 | `catalog/optional-modules.json` | 索引 | 32 个可选模块索引（正文不在包内，按 v1.1.0 固定版本恢复）。 |
 | `catalog/optional-source-licenses.json` | 许可与来源 | 可选模块的来源与许可。 |
 | `catalog/original-library.json` | 索引 | 252 项历史能力归档索引：记录去重/合并去向，不等于当前入口。 |
+| `docs/CAPABILITY-MATRIX.md` | 文档 | 能力矩阵：配置到哪一步，能做什么：这份表回答三个问题：只装包能干什么、补哪些依赖能到哪一步、哪些必须自备软件/授权。 |
 | `docs/CATALOG.md` | 文档 | 四核心+两学术的方法与工具总目录（脚本数/参考数/模块数）。 |
 | `docs/COMPATIBILITY.md` | 文档 | 宿主兼容说明：DSH 与 Codex 的发现/加载差异。 |
 | `docs/CORE_ACCEPTANCE.md` | 文档 | 各核心已做/未做的功能边界，避免把“有方法”当成“已验收”。 |
+| `docs/DESENSITIZATION.md` | 文档 | 本地经验脱敏说明：v1.3.1 把作者本机的一部分实践经验和资料脱敏后并入公开包。这份文档说明加了什么、去掉了什么、你怎么贡献自己的经验。 |
 | `docs/FIRST_RUN.md` | 文档 | 新电脑首次配置流程（读什么、装什么、按什么顺序验证）。 |
 | `docs/INVENTORY.md` | 文档 | 逐文件用途索引总览；完整行见 inventory.csv / inventory.html。 |
 | `docs/MAINTAINERS.md` | 文档 | ﻿ 维护者手册：需求、发布流程与红线 |
@@ -1844,6 +1851,7 @@
 | `docs/QUICKSTART.md` | 文档 | 5 分钟上手：安装、自检、第一次任务、常见问题。 |
 | `docs/RELEASE-v1.2.0.md` | 文档 | v1.2.0 四核心优先版：按用户要求跳过后续完整回归和迁移验证，先打包发布。此前实际完成的组件测试与适用边界见 docs/COREACCEPTANCE.md，不宣称本版已完整验收。 |
 | `docs/RELEASE-v1.3.0.md` | 文档 | v1.3.0 新手上路版：这一版不改科学方法，改的是别人拿到这份包之后能不能顺利配置和使用。 |
+| `docs/RELEASE-v1.3.1.md` | 文档 | v1.3.1 经验与能力说明版：这一版回答“配置后到底能做什么、能做到哪一步”，并把作者本机的一部分实践经验脱敏后并入公开包。 |
 | `docs/TROUBLESHOOTING.md` | 文档 | 常见安装/自检/后端问题与处理办法。 |
 | `docs/UPSTREAM_EVIDENCE.json` | 文档 | 文档文件 |
 | `docs/VALIDATION.md` | 文档 | 本版交付验证声明与未覆盖范围。 |

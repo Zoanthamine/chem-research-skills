@@ -6,7 +6,7 @@ Raw CSV columns: `conformer,H_a,H_b,FC_raw_Hz`; unordered integer H pair IDs are
 
 DU4 map CSV columns: `H_a,H_b,carbon_atom,environment,extrapolative`. Environment one of sp3_general, sp3_alpha_pi, small_ring, sp2. `extrapolative` is true or false and is preserved; validate molecular CH2 connectivity before invoking. Classification is explicit, not inferred by the script. Only mappedCH2 pairs are exported forDU4.
 
-Optional weights JSON: `{"c0003":0.8619687299811625,"c0005":0.13803127001883744}` (example only). IDs must equal input IDs and weights must sum to1, be nonnegative and finite. The CLI does not select or renormalize weights implicitly. Omit weights for per-conformer outputs only. Preserve ensemble coverage separately.
+Optional weights JSON: `{"conf-03":0.62,"conf-05":0.38}` (example only; IDs must be your own). IDs must equal input IDs and weights must sum to1, be nonnegative and finite. The CLI does not select or renormalize weights implicitly. Omit weights for per-conformer outputs only. Preserve ensemble coverage separately.
 
 ```text
 python scripts/coupling_postprocess.py --method bally --raw raw-bally.csv --out new-bally-results
