@@ -7,6 +7,13 @@ prepare --res/--lst are retained for CLI compatibility; no formula or stereochem
 import os, re, sys, json, argparse, math, glob
 from collections import defaultdict
 
+# Keep Chinese CLI logs readable in Codex, DSH and redirected Windows terminals.
+import sys as _console_sys
+from pathlib import Path as _ConsolePath
+_console_sys.path.insert(0, str(_ConsolePath(__file__).resolve().parent))
+from utf8_console import configure_utf8 as _configure_utf8
+_configure_utf8()
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from xtal_core import read_lines, write_lines
 

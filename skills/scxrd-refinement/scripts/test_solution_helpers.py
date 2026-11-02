@@ -110,7 +110,7 @@ class SolutionHelpersTests(unittest.TestCase):
             command=[sys.executable,str(script),'--outdir',str(out),'--name','selected','--zip']
             for ext in ('cif','fcf','res','ins','hkl','lst'): command+=['--'+ext,str(root/('sample.'+ext))]
             command+=['--support',str(root/'sample.fab')]
-            result=subprocess.run(command,capture_output=True,text=True)
+            result=subprocess.run(command,capture_output=True,text=True,encoding="utf-8")
             self.assertEqual(result.returncode,0,result.stderr)
             self.assertEqual(audit(out,'selected')['errors'],[])
             with zipfile.ZipFile(str(out)+'.zip') as z: self.assertIsNone(z.testzip())

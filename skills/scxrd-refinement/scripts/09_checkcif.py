@@ -6,6 +6,13 @@ Network fallback may produce CIF-only validation; inspect the saved report.
 import os, re, sys, html, uuid, ssl, time, json, argparse, urllib.request
 import urllib.parse, http.cookiejar
 
+# Keep Chinese CLI logs readable in Codex, DSH and redirected Windows terminals.
+import sys as _console_sys
+from pathlib import Path as _ConsolePath
+_console_sys.path.insert(0, str(_ConsolePath(__file__).resolve().parent))
+from utf8_console import configure_utf8 as _configure_utf8
+_configure_utf8()
+
 URL = 'https://checkcif.iucr.org/cgi-bin/checkcif_hkl.pl'
 
 
