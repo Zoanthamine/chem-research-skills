@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "Bally-H-uplus1s.gbs": "5b600aeaf2659b2041227fca6c39062b073848678352cb8a8a1ead3761679acb",
+    "DU4-CHO.gbs": "6ca53fdc15c682e4d8e0e409cc30744494d0eb149ee19e38db9938353cbf4dfe"
+  },
+  "elements": [
+    "C",
+    "H",
+    "O"
+  ],
+  "source": "Verified production Gaussian Gen blocks; author SI/method checked in 2026 project",
+  "Bally": "10.1021/jo200513q; hydrogen-only u+1s; factor0.9155",
+  "DU4": "10.1021/jo501781b; author SI S4; environment-specific geminal fit",
+  "limitations": "Must validate geometry, basis flags, elements and calibration applicability before reuse"
+}

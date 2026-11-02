@@ -1,0 +1,4 @@
+rdkit>=2024.3
+datamol
+matchms
+pyopenms

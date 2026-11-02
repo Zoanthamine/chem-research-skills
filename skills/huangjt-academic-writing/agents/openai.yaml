@@ -1,0 +1,6 @@
+interface:
+  display_name: 学术写作
+  short_description: 学术写作与成品主技能。用于写论文摘要引言、润色翻译、开题学位论文、实验日报与老师汇报、审稿回复、科研图表及论文
+  default_prompt: 请使用 $huangjt-academic-writing 按现有证据处理当前任务，并说明关键缺项。
+policy:
+  allow_implicit_invocation: true

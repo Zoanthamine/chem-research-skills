@@ -1,0 +1,548 @@
+[
+  {
+    "module": "solve-single-crystal",
+    "owner": "scxrd-refinement",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  },
+  {
+    "module": "hpc-gaussian",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  },
+  {
+    "module": "hpc-gromacs",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  },
+  {
+    "module": "hpc-orchestration",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  },
+  {
+    "module": "rdkit-conf",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  },
+  {
+    "module": "molecular-dynamics",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "spectrum-analyzer",
+    "owner": "huangjt-spectral-structure-analysis",
+    "documentation_license": "see preserved local LICENSE",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nmrglue",
+    "owner": "huangjt-spectral-structure-analysis",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "matchms",
+    "owner": "huangjt-spectral-structure-analysis",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache-2.0",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pyopenms",
+    "owner": "huangjt-spectral-structure-analysis",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "3 clause BSD license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "organic-chemistry-assistant",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  },
+  {
+    "module": "rdkit",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "datamol",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache-2.0 license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "openbabel",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "LGPL-3.0-or-later",
+    "upstream_metadata_software_license": "LGPL-3.0-or-later",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "medchem",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache-2.0 license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "experimental-design",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-brainstorming",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-critical-thinking",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "hypothesis-generation",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "analytical-method-validation",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "uncertainty-and-units",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-academic-search",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "paper-lookup",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "research-lookup",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "citation-management",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT License",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pyzotero",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT License",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-ref-verifier",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-citation",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-downloader",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-reader",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper-card",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper-xray",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper-trans",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "literature-review",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-literature-pipeline",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "academic-research-suite",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "CC-BY-NC-4.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "exa-search",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "parallel-web",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "bgpt-paper-search",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-shared",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-writing",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-writing",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "paper-write",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  },
+  {
+    "module": "nature-proposal-writer",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-polishing",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-response",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-reviewer",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "peer-review",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-data",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-statistics",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-figure",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper2word",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper2ppt",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-image2ppt",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper-to-patent",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "office-academic-skill",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  },
+  {
+    "module": "humanize-writing",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "see preserved local LICENSE",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "research-grants",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-slides",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-schematics",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-visualization",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "latex-posters",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pptx-posters",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "venue-templates",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scholar-evaluation",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "statistical-analysis",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "statistical-power",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "statsmodels",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "matplotlib",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "https://github.com/matplotlib/matplotlib/tree/main/LICENSE",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "seaborn",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "sympy",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "https://github.com/sympy/sympy/blob/master/LICENSE",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pymc",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache License, Version 2.0",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pymoo",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache-2.0 license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scikit-learn",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "polars",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "https://github.com/pola-rs/polars/blob/main/LICENSE",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "dask",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "exploratory-data-analysis",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "networkx",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "3-clause BSD license",
+    "public_variant": "preserved module"
+  }
+]

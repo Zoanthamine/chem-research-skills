@@ -1,0 +1,182 @@
+[
+  {
+    "path": "agents/openai.yaml",
+    "bytes": 380,
+    "sha256": "89a71972c9605c108a81ec2ce49cccca16258e5e95a1cd86c6422c247c35268d",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/basis/Bally-H-uplus1s.gbs",
+    "bytes": 216,
+    "sha256": "016b864b7bf860ae0741f5a426e6b3aca68e18dd22194e778a83ec34a85de379",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/basis/DU4-CHO.gbs",
+    "bytes": 273,
+    "sha256": "8bbdfb111af3a40bc642d320a15e0e8a2464a4b8d4bc6e9d6039e68859dddeda",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/basis/provenance.json",
+    "bytes": 599,
+    "sha256": "dcce6a137cf01ed2f639396265f627d40d9282b498e599017cd470ba03cda103",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/local-profile.example.json",
+    "bytes": 331,
+    "sha256": "1643587e051faa331352d7ffbc3f204c0c925b326a826a07b6d8bb28398f22e7",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/WORKFLOW.md",
+    "bytes": 660,
+    "sha256": "cd53682caaf0be045e46e3950c5c3188fbfe56232d1b9ef0140baf44050f17b1",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/WORKFLOW.md",
+    "bytes": 619,
+    "sha256": "51a9196f651306e713a1b07f1177ad929d4284623e3b13b80e1ba7e93eb28a0d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/WORKFLOW.md",
+    "bytes": 628,
+    "sha256": "e1d9dc8b018fa1e84d98f4ad42f32b6cb63ac1dbe1db31809674e303608834b1",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/molecular-dynamics/references/mdanalysis_analysis.md",
+    "bytes": 9393,
+    "sha256": "cdeb94230969b89a3e046de3edf964469ef5b23c695c8aed58045876fabbcccf",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/molecular-dynamics/references/system_preparation.md",
+    "bytes": 4889,
+    "sha256": "4fd12453719685cfc406544fb2bbd573225019a407403ad250f90ca37e56e615",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/molecular-dynamics/WORKFLOW.md",
+    "bytes": 19164,
+    "sha256": "33cc06b4dca310881178605bc3195636cf60ec00746974fc195bd47a4cbb768b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit-conf/WORKFLOW.md",
+    "bytes": 566,
+    "sha256": "25c45f33e6a36f59fe4ca359d69cfffd76d8ef64b76f3b78db2d46f604347c34",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/absorbed-modules.md",
+    "bytes": 1079,
+    "sha256": "823f5995a24165d9daf73dd6e2cc61965787a4fb4b5c8deecbe28fd5a6425d8f",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/cluster-workflow.md",
+    "bytes": 4184,
+    "sha256": "0d6a90537152298596cded361d7f3c7266e3d71be3b4a01c020f1c02304b6cd9",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/common.md",
+    "bytes": 2315,
+    "sha256": "fbaaed09a90bf92cfcfadf2f529a954bf3cbb5d7696ff4e272b56ae00f259b9e",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/experience-maintenance.md",
+    "bytes": 3119,
+    "sha256": "baee362dfd2af9066b16f6d307c80ebc25c200f21977ae4cc0dbd8c609054089",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/host-compatibility.md",
+    "bytes": 1944,
+    "sha256": "9a6c0c8c9db56e13bce0c7d096c0c7bb256c395693d9a0754c91ca9659cde99d",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/integrated-methods.md",
+    "bytes": 1443,
+    "sha256": "e2020542220623527832351d1dd67336c28729d31a971a2e3a95d6105877ae7f",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/local-conformers.md",
+    "bytes": 3534,
+    "sha256": "8bc2de503c7b6125222afdb1682c311764c562c4f39d42bfeeded8c6e4fdea8f",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/local-runtime.md",
+    "bytes": 3931,
+    "sha256": "8cd58f72529596e1fb1976fcca28d6dd54439dfa500aee70625903bfa02dfcab",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/nmr-coupling.md",
+    "bytes": 4383,
+    "sha256": "0e283f432da404f6752563cf444c3113ac78528ee3023df0684622471ba9f6cc",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/operations-lessons.md",
+    "bytes": 2184,
+    "sha256": "b711ac43a0f8b942619ab856b626be5e2489b6ffd45f243ca031840e0339dfa1",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/postprocess-cli.md",
+    "bytes": 1841,
+    "sha256": "79b6eedba9e569c957ce269dbfc8155ece4f2eb33318b462707eb8d45e9f978f",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/runtime.md",
+    "bytes": 384,
+    "sha256": "b11cf058ec8bdb65c44be8da6702d8f58f95103b206eec00603eb75184fec248",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/system-integration.md",
+    "bytes": 3262,
+    "sha256": "ddbf025a51a91c87b3720e2205b2e36975ebc797ca804711ef3fe2c49f8c6efc",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/task-language.md",
+    "bytes": 806,
+    "sha256": "bc00bd971f949c4c34f3f67d690e667a06159e34bf29e88ab349c2b21a440aab",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/task-preflight.md",
+    "bytes": 3589,
+    "sha256": "47deb3a80acfd229924165f0056bab9d365ac334c5964891189908e83ba3a359",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/backend_inventory.py",
+    "bytes": 717,
+    "sha256": "24a99d3793e2ec24b008ba91620f41e4a9c335a51c885838bdc2ffc0dcb319ca",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/coupling_postprocess.py",
+    "bytes": 4206,
+    "sha256": "c1637cdadb6b32e8e941a2c34367a0852d55da9119997902ae928b7d3d83544c",
+    "normalize_lf": true
+  },
+  {
+    "path": "SKILL.md",
+    "bytes": 6736,
+    "sha256": "dbbd7296f9fc63d946a6eba3ecdb49884a77de597eba565dd37bfd3fba2b490f",
+    "normalize_lf": true
+  }
+]

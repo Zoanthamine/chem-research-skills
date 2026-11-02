@@ -1,0 +1,284 @@
+[
+  {
+    "path": "agents/openai.yaml",
+    "bytes": 353,
+    "sha256": "b244774d4d0e066070e070295468b4917ae644158803b820eeab27b7d7df4698",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/solve-single-crystal/WORKFLOW.md",
+    "bytes": 673,
+    "sha256": "7d4ebd018be85cc3d47e3ec1403531cdc7fcff80ccea33c2fe3f12adf17b84e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/absorbed-modules.md",
+    "bytes": 608,
+    "sha256": "0777eee3b399b7d50c01f79cffb7e2099fb734fb4b8af514aa2d752391399689",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/checkcif-case-triage.md",
+    "bytes": 4038,
+    "sha256": "64437893841dfc084a48491ff7e30ea59504ff714cde2cb01b4e54e8f34e2823",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/cif-metadata.md",
+    "bytes": 3798,
+    "sha256": "733ae61bde8755e7cc16047abb4890e604fb3f4019fc15b61b7a733aef6d4ca1",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/dials-decisions.md",
+    "bytes": 9168,
+    "sha256": "ae0b95b8209f93a7e23ac5274f276cae61b0dfab57140f8853ef7bfe73e50e7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/dials-to-olex2.md",
+    "bytes": 13747,
+    "sha256": "d04a7e728fa3201c9b05c105abd18690ee15768f0274f9ce0d0a23fa2ad3a782",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/dials-tools.md",
+    "bytes": 5830,
+    "sha256": "fa0226389d4dd0d9684b48f1b201beede2a6677e859bb7fadc6455a93396f305",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/disorder-and-occupancy.md",
+    "bytes": 6283,
+    "sha256": "adf260f72c67f567a6bf38dd76b9f8161e67a7c95fa55ca343ed5870b48fc8b0",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/host-compatibility.md",
+    "bytes": 1944,
+    "sha256": "9a6c0c8c9db56e13bce0c7d096c0c7bb256c395693d9a0754c91ca9659cde99d",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/hydrogen-twin-solvent-cases.md",
+    "bytes": 5316,
+    "sha256": "626dca1b6965e8269624383100b333488bf262de0d64e97aafd74e050f5a71f4",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/integrated-methods.md",
+    "bytes": 1154,
+    "sha256": "0fe83e588e6ae3f22f00f73a4bd4711cfa961487921579a6312844e69343e973",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/integration-provenance.md",
+    "bytes": 1504,
+    "sha256": "6e19763a08758da71869085701816ae155f30bfe9522395b521c5d8c4dacdf7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/local-runtime.md",
+    "bytes": 3057,
+    "sha256": "4509bd5ced20b66f57aa3da1a668b051906567a3839c2c1f9b20ba734925981c",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/package-audit.md",
+    "bytes": 2270,
+    "sha256": "3f58e92441f9f6e403ea4c3ec9010d73b4391c94b66f5e824f8229006b38c109",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/pitfalls.md",
+    "bytes": 2504,
+    "sha256": "58b556fe5fab2d8b245919b9d0c80fec597419e9a4aae46dc1367832dbca6a13",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/practice-lessons.md",
+    "bytes": 2904,
+    "sha256": "ee1511cd777fb13f67bf02e68f9041e6b6b8d9533b58350ba3d9e3a28a406004",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/refinement-decisions.md",
+    "bytes": 3973,
+    "sha256": "23809ae5e362e80b78794be101d261af082b1d0302fadb2cad0dcefe31b77eac",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/runtime.md",
+    "bytes": 384,
+    "sha256": "b11cf058ec8bdb65c44be8da6702d8f58f95103b206eec00603eb75184fec248",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/solution-and-ligand.md",
+    "bytes": 3463,
+    "sha256": "3c01f13de32046e31e40a544b1e59dd1f2aa80218040fa4a8a90de51b96c1154",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/system-integration.md",
+    "bytes": 3262,
+    "sha256": "ddbf025a51a91c87b3720e2205b2e36975ebc797ca804711ef3fe2c49f8c6efc",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/task-language.md",
+    "bytes": 676,
+    "sha256": "2a291862e5c0c8e880ea2e10ac64e868fa7a36afb696956360bbbc54fd0663ff",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/tutorial-sources.md",
+    "bytes": 9596,
+    "sha256": "3a346647ec78b044206e608777d021c23013b3b6b954b6ddc3caf745dd770599",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/twin-investigation.md",
+    "bytes": 2737,
+    "sha256": "fe551571fc95f8a2c9f80251f3059801c71b393d2e55fb177f7638959fc90b71",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/workflow-recipes.md",
+    "bytes": 4081,
+    "sha256": "8285fb20afb0ae6905dbef277aec240564f27fd3f4e0af5f94b95fbb86622e8d",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/01_diagnose.py",
+    "bytes": 16416,
+    "sha256": "5e97e52499453957191d3b534412f1ae363eebfc76f9013270f6b338c4cf77b9",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/03_run.py",
+    "bytes": 19319,
+    "sha256": "bb19e364146084c220466e75c4e39def60f7e48881ee624adab109aa7a94aa56",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/04_summarize.py",
+    "bytes": 8167,
+    "sha256": "6a1d13e6cef05403db03ed56b154302dcf0dfedd2acb2d8fa5155bcd7e4fbcd0",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/06_hydrogen_plan.py",
+    "bytes": 8730,
+    "sha256": "720ee22b82db89045b4e19fa03a144ac9c4231f808763502db44711c4d264117",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/07_symmetry_check.py",
+    "bytes": 11056,
+    "sha256": "564e9c88c33600cc2a860de2c6b551e1f35634976760fa69d9951cd96ba194f2",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/08_cif.py",
+    "bytes": 15544,
+    "sha256": "d1a69a4ba6d4d8fe910f91ffb8cc9d0af8d6c466f649e47ef438d5ae2f37f205",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/09_checkcif.py",
+    "bytes": 11174,
+    "sha256": "d66f181da41844431553fedc9b26380090732b66a9671a64a76d1078d6745b44",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/10_delivery.py",
+    "bytes": 9306,
+    "sha256": "d9bd84f23d9ffe81f75f1a6b01b7adaeef3f61f885fdd3e90be42ee1a83f7fae",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/dials_absorption.py",
+    "bytes": 4112,
+    "sha256": "d11ecc3cce45fee5621777442ce59582eec3d66332cd59845d2483c977867716",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/dials_audit.py",
+    "bytes": 3605,
+    "sha256": "24fcaf7d10309885c7f1b2cafd60615c58a84c2d6b4a0ef25169817fd9768d4b",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/dials_common.py",
+    "bytes": 2878,
+    "sha256": "5d4c660b455aacec9edb31b6016aca0b96c1869a4c7b7d3bf200275ac5e97a18",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/dials_screen.py",
+    "bytes": 8469,
+    "sha256": "561c51a5d0b693cc2bdb3c90b6fd80ac3a8d496dfb3e2455261173dd604a8012",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/dials_stage.py",
+    "bytes": 5513,
+    "sha256": "39c3dab086997e94ab263164f26e8b24ae9e81b8ce4d7a0b7aeff6be883316d3",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/inventory_crystal_input.py",
+    "bytes": 2774,
+    "sha256": "4918c524c2a1e07450cc5d222ba2cd912a96a890f54420b2842f353f1f0bebc6",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/prepare_ligand.py",
+    "bytes": 4184,
+    "sha256": "7c75c6e89d092f834ce7728dde7eaebbaa7e1700e2abcd16614fc1dbea34c6b0",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/test_dials_helpers.py",
+    "bytes": 6198,
+    "sha256": "d91f9bdfba09f55e76b1abd41f70f0c49d8d97c7839d1f768252e1f01c059a11",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/test_regressions.py",
+    "bytes": 6360,
+    "sha256": "e8d80b2cb90ed136aea1d87012d33f8f5fbce77e84e406abcf809c8a6d10375a",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/test_solution_helpers.py",
+    "bytes": 6704,
+    "sha256": "85c1ddea78959f2ce68ad15c2081baafb9c5141ff3f033545125c091fb7e2462",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/validate_crystal_package.py",
+    "bytes": 3865,
+    "sha256": "bf14087590e523758361cfb7d922f2f14d9d6718c045d8a0ac70c9924ffeeb47",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/xtal_core.py",
+    "bytes": 21550,
+    "sha256": "618925f445fe10a0542151797c8fc40b1eddc091d54350327ad3277c48955d3a",
+    "normalize_lf": true
+  },
+  {
+    "path": "SKILL.md",
+    "bytes": 8877,
+    "sha256": "81bb268b958e238768e2f7dab9972604d2354e49184da09414d4a5f8a0e25f1c",
+    "normalize_lf": true
+  }
+]

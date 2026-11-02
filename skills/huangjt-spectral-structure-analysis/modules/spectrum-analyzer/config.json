@@ -1,0 +1,22 @@
+{
+  "software_paths": {
+    "mestrenova": "C:/Program Files/Mestrelab Research S.L/MestReNova/MestReNova.exe",
+    "spartan": "",
+    "specdis": "",
+    "chem3d": "",
+    "chemdraw": "",
+    "chemdraw_exe": ""
+  },
+  "api_keys": {
+    "pubchem": "",
+    "chemspider": ""
+  },
+  "preferred_drawing_backend": "RDKIT",
+  "output_dir": "E:/OpenAI/Codex-Outputs/spectra",
+  "log_level": "INFO",
+  "use_gui_automation": false,
+  "use_online_database": false,
+  "max_candidates": 20,
+  "hmass_tolerance_ppm": 10.0,
+  "tutorial_mode": false
+}

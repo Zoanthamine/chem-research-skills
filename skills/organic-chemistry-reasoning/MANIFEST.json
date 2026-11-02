@@ -1,0 +1,758 @@
+[
+  {
+    "path": "agents/openai.yaml",
+    "bytes": 399,
+    "sha256": "003b20e4fc267ab671a9d129ee983f66f25d38d8c88a9e7fb8b1d974bb4b6022",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/assets/validation-protocol-template.md",
+    "bytes": 4247,
+    "sha256": "c157c47eb77e136b40904f6323988ccf662dad6b60811d330323b189c232fc5f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/assets/validation-report-template.md",
+    "bytes": 4027,
+    "sha256": "f0519fb2abd9d0315f0b6cba76527659ab500f9a311f268d66452f7798e574e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/references/compendial-and-clsi.md",
+    "bytes": 7820,
+    "sha256": "f3bfe0e15892966b3c4db43c542b32af89455f755529f1f13a04c15421013230",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/references/framework-selection.md",
+    "bytes": 5427,
+    "sha256": "ad7a9d07c6c66d68464ed759bd9a646df8db06fca2897478825e0de12d341945",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/references/ich-m10-bioanalytical.md",
+    "bytes": 9001,
+    "sha256": "695367208b8b4883879b364f57df9bc73f17cb98181a093d43880c0453764c4a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/references/ich-q2r2.md",
+    "bytes": 13759,
+    "sha256": "9871db11c76e1c74e191f28a44e3047a67663d487384188b4f0b228f886ad34b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/references/source-ledger.md",
+    "bytes": 7718,
+    "sha256": "fd5605e03d4203df8caffa7ba3464147a65c3ee5f8a7056bdcc8a2d2beb2fca6",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/references/statistics.md",
+    "bytes": 13379,
+    "sha256": "0f8f33bc0c363e0fe7088ea718fe8928bd1bdd4afef1646f927cca317915d453",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/scripts/_catalog.py",
+    "bytes": 23851,
+    "sha256": "c597f14d44eceb997b7f12a5035e81669c3ad3ded1e487796f58d4392efef8ed",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/scripts/_common.py",
+    "bytes": 34649,
+    "sha256": "c801e568b409acf7a510069b3697e6a74bf372adcfa7dcfb27b442a670580b26",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/scripts/check_accuracy_precision.py",
+    "bytes": 16422,
+    "sha256": "1d24ee3f5a81d0bc40d30009f6ea7dab7422455eaf9adef6e4d0f5a1f5cd88a7",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/scripts/check_bioanalytical_run.py",
+    "bytes": 13832,
+    "sha256": "e754fc8407e5e6b003c96e25db577a1e88b6dcebc0c47f188e299cc13dfbc18c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/scripts/check_detection_limits.py",
+    "bytes": 14834,
+    "sha256": "78178d76499005497f7b05a2a8ca6b948c151860ad34195e0f3701f0b2f4d402",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/scripts/check_response.py",
+    "bytes": 10262,
+    "sha256": "fa732cb35a6652a5ffa08208271180d51160f73e89307883251da670f9aaac1d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/scripts/compare_methods.py",
+    "bytes": 9346,
+    "sha256": "d3f51cd0a31fbcc9e4259f791e1a9c515ba42f0d4090348962387cdf91f0fead",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/scripts/plan_validation.py",
+    "bytes": 15478,
+    "sha256": "e2d95299d6a4e1eaf57de9e96dfd5dae82596e5f239b14b19e0e35cc0dcf01b3",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/analytical-method-validation/WORKFLOW.md",
+    "bytes": 20066,
+    "sha256": "0c4296c763bbbf38c187df009b4bdbed7b61fe3def5fe04c24301927791dd28d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/conformers_module.md",
+    "bytes": 4568,
+    "sha256": "9af2cc31acb77aa703ac4da839175da002043abd50a55cc7e3ccd83f24dfe3a5",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/core_api.md",
+    "bytes": 4843,
+    "sha256": "b79d8668c7baacc11c83b4cfb4dd46d4ffcbebfd8d2a7773b20549d0c4113772",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/core_workflows.md",
+    "bytes": 8996,
+    "sha256": "f322bf91b377620db2ff8842eb66bb25fc0bfd8627fd7fe6b196e048f62a061c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/descriptors_viz.md",
+    "bytes": 4845,
+    "sha256": "b728295888f173f19bc1155ca3d8595358e333b6cf8230437879cb4d070ef558",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/fragments_scaffolds.md",
+    "bytes": 4272,
+    "sha256": "b00ed48bb38ebf0a6135cfaa5aa6355c41184552ce8ee9e4426e440aed583bf4",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/io_module.md",
+    "bytes": 4559,
+    "sha256": "9351e472a952e6d8e372a5892f513c84e8c5097a53988c57326e0c80fa7ca317",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/reactions_data.md",
+    "bytes": 4423,
+    "sha256": "d17db50dee1225c4ad060a4f5274899c42a4e1adb47395fce20dd388e289e208",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/review.md",
+    "bytes": 3331,
+    "sha256": "bc066f602ea4d0bda473ddf715e9a51f7a8cb4240cb69c99ba31e9b32ce0082c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/references/workflow_patterns.md",
+    "bytes": 5391,
+    "sha256": "bd84b971b4d60472fb0d5905c5fa5b6e2f8c11c092be5ee06de861b5206cfc51",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/datamol/WORKFLOW.md",
+    "bytes": 11135,
+    "sha256": "272973791bf02d2750f6086b75a3cebff1cf310d2350a7c37af8c862b9b48964",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/experimental-design/references/design_types.md",
+    "bytes": 7972,
+    "sha256": "1f36f14160bc9895773a2922402869202866410c9130f2b32c5a54e5f5a6e71b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/experimental-design/references/factorial_and_doe.md",
+    "bytes": 9069,
+    "sha256": "a59fa2279c439c096a66955b4923ad68c00d6046570665e6f6d36e807fa1de63",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/experimental-design/references/randomization_and_blocking.md",
+    "bytes": 7831,
+    "sha256": "fabcfae913397fb8c3018b959b67ddf8fe47322b40cbf4155d898fa11738e9ae",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/experimental-design/references/sequential_and_adaptive.md",
+    "bytes": 6530,
+    "sha256": "83085e2cde0942de23670d3aabb30768fb576a6aa99c2e4ac6f7790b00977051",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/experimental-design/scripts/doe_designs.py",
+    "bytes": 9575,
+    "sha256": "916996b5e6a5dbb9a408aa1e755a95800af70231e46d12c8c5efddb9e3e30683",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/experimental-design/scripts/randomization.py",
+    "bytes": 9592,
+    "sha256": "c7c2eab469618a4b27548058b924ec3f4aafaf635d3797af920b9058e700bce4",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/experimental-design/WORKFLOW.md",
+    "bytes": 16521,
+    "sha256": "d5093d089c15e1b6d74f8fff31b8fc1ef4a784d8111141c7f83dd34c65f68f4d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/assets/evidence_ledger_template.csv",
+    "bytes": 581,
+    "sha256": "1ec5cc4ada96e05041c67865bcdfd3bb0a4f7cc92f24ca1ce7a826028a41d3de",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/assets/falsification_controls_template.json",
+    "bytes": 5880,
+    "sha256": "beea4e2be3b5abdad1014934a7c2fe1f9f00f07b3270119cfeb8134a94603e26",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/assets/hypothesis_record_template.json",
+    "bytes": 13768,
+    "sha256": "73f080a6696c415f228b38100bb7b0f6bc89ad2c7997bf50d62b585b0bc8fe0c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/assets/operationalization_template.json",
+    "bytes": 2208,
+    "sha256": "36ecdbd91c022554e60db646b548f5694d8409277a5b15fdf309d86f8c1e3070",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/assets/prediction_rival_matrix_template.csv",
+    "bytes": 1638,
+    "sha256": "ccf6cb53c048a9f4d60788a8ec73c5d683ec549dab7df95b30282f6c0963653a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/assets/preregistration_scaffold_template.md",
+    "bytes": 5102,
+    "sha256": "fa577c7413435054ed927a9a925abc2f3a99373e55431eb6407425670276d87b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/assets/search_boundary_template.json",
+    "bytes": 1114,
+    "sha256": "b885d4e252c0df7010d8fca3dab7e3fef49e9f386b7a1b15240531ce374bf6ec",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/assets/source_ledger.csv",
+    "bytes": 15163,
+    "sha256": "9543f313b9cffec9bd2cf39376edca86d39c10635b447fa7689147931d8c4813",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/causal_inference_and_claims.md",
+    "bytes": 7993,
+    "sha256": "0162cd131dd12c6235a3b78c033c685abd80e98d5f40f9fb297b4d8104f85122",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/concepts_and_workflow.md",
+    "bytes": 7341,
+    "sha256": "a86a8f464fb555212e79bf13e307f3c129e9c853069856eb3c93c3c8a60bb7fc",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/ethics_safety_and_ai.md",
+    "bytes": 10507,
+    "sha256": "81d5691cd46d646ead2db50635bdcc07755e5f738b040c2ad707ac3b0eda034d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/experimental_design_patterns.md",
+    "bytes": 9765,
+    "sha256": "83c0c75c7b1edadc92e4ae23607624277c19955fc6a71ee0313b6efc51e4e939",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/hypothesis_quality_criteria.md",
+    "bytes": 8035,
+    "sha256": "12698b549f77a6ee64807b959093f39628fe3d47aa9a00a9b235681bf0b09269",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/literature_search_strategies.md",
+    "bytes": 8046,
+    "sha256": "2a34fa0645f854093aea2d867059bae563c795f1935ba4b9c6d494bdc389fdcb",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/preregistration_and_open_science.md",
+    "bytes": 7751,
+    "sha256": "33788e3cd4eeb62e80e9fb952e3bfb532320d373e7b00ed7c0a75b4200ccdbf4",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/security_validation.md",
+    "bytes": 4199,
+    "sha256": "71acbc8d040588f1ab879cafeb0e7d491cbed99359bde011c645d289446ba38a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/source_ledger.md",
+    "bytes": 10009,
+    "sha256": "b0281b810134599210f905f967267f0b44638676f673fca7528275f8e5042e55",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/references/tool_reference.md",
+    "bytes": 8397,
+    "sha256": "db2c2f8fefc4093c0e235a309de3ee5767c672519d8c8b681e65f7ac6a9ff5d7",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/scripts/_common.py",
+    "bytes": 15316,
+    "sha256": "7a41a5f9b97092ee188d45959f38f92a4215d4f298dd04fd0f2817e9f607e74e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/scripts/audit_evidence_ledger.py",
+    "bytes": 12069,
+    "sha256": "18fc0a947fec34ea573eb824f540ce6ccb351aed5e08fc80ae476c2150aef2bb",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/scripts/check_falsification_controls.py",
+    "bytes": 16477,
+    "sha256": "e56f67b92d15c93cbe9eb1b9fb89253239b6ac81328fb56fc96d9e2c3ec3ba32",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/scripts/check_operationalization.py",
+    "bytes": 8086,
+    "sha256": "efc093f4b58b23e095238e60badef04d34dfb012b7958e1326a1f7d58ed5edd6",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/scripts/generate_preregistration_scaffold.py",
+    "bytes": 14287,
+    "sha256": "12df2ad3bcd47ef172b3284e9c8c543ef01ba415d3ab21ffe3ead079cdc454da",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/scripts/lint_causal_claims.py",
+    "bytes": 6809,
+    "sha256": "561186e71f7c0b573f7ba45ef0009460c1398048929ed55fad53a65cda56dafe",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/scripts/validate_hypothesis_schema.py",
+    "bytes": 38955,
+    "sha256": "63bc1b7752d20042c2845ecb2457448ec8e2d9bc8fe1337003b222f8f4620608",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/scripts/validate_prediction_matrix.py",
+    "bytes": 9815,
+    "sha256": "3888802496f4e6ece5955b4fe28d6b2e6d810c5107ce6ca45ebbd70acceed317",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hypothesis-generation/WORKFLOW.md",
+    "bytes": 16815,
+    "sha256": "d9730846b00d62d17bb53de34ffe1b634c3e4a6387f1131fd90a5d13408ac8f5",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/medchem/references/api_guide.md",
+    "bytes": 14042,
+    "sha256": "acba89f01dfba48e3ef18edba2ee25859f8f98cc488d7c39eca9f71d32c23bd2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/medchem/references/rules_catalog.md",
+    "bytes": 11647,
+    "sha256": "0a429dfe34cf877f9a581ffac6c584d2334038a8303c5d85f6be293ca709e9aa",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/medchem/scripts/filter_molecules.py",
+    "bytes": 13637,
+    "sha256": "bed43299e25f3f12acb8e30f506e2de57a71a24852b6b19f7c3560b8fe455d67",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/medchem/WORKFLOW.md",
+    "bytes": 15925,
+    "sha256": "df34179892eeb60f65aadf8865cdbbe77a606170c3123e6bdcda50eacfd967d8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/openbabel/WORKFLOW.md",
+    "bytes": 3399,
+    "sha256": "38f52fda361c8b67495e40a665d228fe6dc3230d9661556ed1c62bb40f985d89",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/organic-chemistry-assistant/WORKFLOW.md",
+    "bytes": 618,
+    "sha256": "c9f7fa5565da415f54cef4d5968ebf032b2ef828f52c1ef015328cc387eedb04",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/references/api_reference.md",
+    "bytes": 17491,
+    "sha256": "01522edc55c660e7703114696008c0fc4490b26d4e404cf29fb556df1d579f05",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/references/core_capabilities.md",
+    "bytes": 15446,
+    "sha256": "2f9f77203f40e378f645c403de5a48697e58b10c64ad748a3a1cf7c6b7331c74",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/references/descriptors_reference.md",
+    "bytes": 11814,
+    "sha256": "e0ff611da7b9267650c8678eb4c68b0ea47aed97bf16aeec2f7940ff14374b2e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/references/smarts_patterns.md",
+    "bytes": 8143,
+    "sha256": "03760a7b75817ad49c97730cd89e535558b8c6a0a897142c873a3f1f94a45028",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/references/workflows_and_best_practices.md",
+    "bytes": 5313,
+    "sha256": "eca9c980aabb736760163e31c85fe559b60a2e639cdb88ce151eab0d0c501bab",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/scripts/molecular_properties.py",
+    "bytes": 7344,
+    "sha256": "ccedccdecfa1bb5290b41273bcb79e97cbca46dcfeec8bea7b344c654f923bdf",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/scripts/similarity_search.py",
+    "bytes": 9529,
+    "sha256": "ad10e99fb6ebd757d8025cf7c5e28cfb8f6094113e1438febf500c4af2cbac4a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/scripts/substructure_filter.py",
+    "bytes": 12337,
+    "sha256": "fba23b8af4de411afca4eb2e59fd3206f27f1ab27c9ae0f6653a3574324b526f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/rdkit/WORKFLOW.md",
+    "bytes": 6715,
+    "sha256": "d87943f6d751f72ae3b5b421f2c73a6034ef91497fb533caa851fc763dbeca47",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/references/brainstorming_methods.md",
+    "bytes": 12505,
+    "sha256": "2c3749f38c4a9ba0f310b04679b870cbf603d923aa30b82dd92720a7d2977632",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/references/facilitation_workflows.md",
+    "bytes": 10016,
+    "sha256": "bfb2acc43472f4649b10f2c3db02180fa9c86636f375f82d8bc36b28075a5ccc",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/references/idea_evaluation.md",
+    "bytes": 12165,
+    "sha256": "5a5fcb319cdcc151a9acd17e0e501d270e55f7a9fb6a829c87c43af5b5705d14",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/references/responsible_ai.md",
+    "bytes": 10584,
+    "sha256": "d5b61b2555b72914d1e2cfb6e84496ce80fc2d24a3001c9eefa04cca336b9830",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/references/sources.md",
+    "bytes": 17660,
+    "sha256": "ab4ab107ea4f94b21ce85aec6e63d3701e56a546c4840ccfd8dab5f2cdd52210",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/scripts/_common.py",
+    "bytes": 9933,
+    "sha256": "271bc1a013d83dc1bab41dc3fd3d70bae3d6f7549db70c678debfc50251efe19",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/scripts/evaluate_matrix.py",
+    "bytes": 20137,
+    "sha256": "ed38f33a7b35045217fe40b6b57ebb370c584891392899b74f4e4530e72f2215",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/scripts/session_scaffold.py",
+    "bytes": 7930,
+    "sha256": "0af7b297a8f92f1c7456b7e14c717a017315b4a71b603ca5402434dee98db5ba",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/scripts/validate_register.py",
+    "bytes": 20872,
+    "sha256": "765e57854efe9e28b4965d23b073eb67ffdc8cc0c7ac0b47d9240e4cc8ea1bd5",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-brainstorming/WORKFLOW.md",
+    "bytes": 14851,
+    "sha256": "f11a481e5ba20dc2d9df44d3bfa7d438537c7dec50ffc3d03f56919fed7f9565",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/references/common_biases.md",
+    "bytes": 12368,
+    "sha256": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/references/core_capabilities.md",
+    "bytes": 16975,
+    "sha256": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/references/evidence_hierarchy.md",
+    "bytes": 17435,
+    "sha256": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/references/experimental_design.md",
+    "bytes": 18227,
+    "sha256": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/references/logical_fallacies.md",
+    "bytes": 18659,
+    "sha256": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/references/review_sources.md",
+    "bytes": 7557,
+    "sha256": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/references/scientific_method.md",
+    "bytes": 7641,
+    "sha256": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/references/statistical_pitfalls.md",
+    "bytes": 21151,
+    "sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/scientific-critical-thinking/WORKFLOW.md",
+    "bytes": 13339,
+    "sha256": "6acb0fd854776c99de87b46581a225832968336fe953b3aecca331e2dc8be780",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/references/domain-conversions.md",
+    "bytes": 10142,
+    "sha256": "7ab73bbd69acbd23fac74ae9f3ad570a6f1501c1a5fd22998cfcd01c725441ca",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/references/gum-methodology.md",
+    "bytes": 11916,
+    "sha256": "def9b0ac9ff3d2912922d121062559b22ff3ec36aed94e183eef3338b4e0430f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/references/pint-recipes.md",
+    "bytes": 9129,
+    "sha256": "9fbc1bc7b12267777a0359bf252e52415e6e1683cd8c4c3a6582ddca6cd51baa",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/references/plausibility-scales.md",
+    "bytes": 11834,
+    "sha256": "b9ef8acbc0ff6948ec7dca027cd31b7d73d2157b18bcf0c8e92d60c0029e8131",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/references/reporting-rules.md",
+    "bytes": 7152,
+    "sha256": "8d302b26e0792b866d3249955250e9132c09337639abb8cf36ac3f5cdaf4648e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/references/review.md",
+    "bytes": 6939,
+    "sha256": "59c605f037739927495f0323246168abf9cd2bae5511b1566bb13e775bf00868",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/references/uncertainties-recipes.md",
+    "bytes": 8098,
+    "sha256": "2125796d070c4b13ed007e6d8f498c69698a1ce4917ece4cdda32a887dd7c214",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/scripts/_common.py",
+    "bytes": 23029,
+    "sha256": "9d6b9ecabf92759a5d9f017ae3174673f827328b76cde238d07089f2d99c9323",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/scripts/audit_units.py",
+    "bytes": 21229,
+    "sha256": "2b891065c8b801f4a16b8dca2b73a6348c3ecf3fc88569936ded5e7f86a1e429",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/scripts/check_plausibility.py",
+    "bytes": 36733,
+    "sha256": "f4c1bff54a483d08f794f205454ed03fa263008b26cee772bd04d417cc86384f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/scripts/convert_units.py",
+    "bytes": 11963,
+    "sha256": "89a9a0aa40a8158d2a739270115778fc1415f1a3cb207a6f17be14278872473a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/scripts/format_result.py",
+    "bytes": 12001,
+    "sha256": "a839041c3f31a67cffda00e895bfed612cbc5748e83c41da83c17ff8f7b17302",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/scripts/propagate_uncertainty.py",
+    "bytes": 28632,
+    "sha256": "6c555f3fc7095ac340d11e8dd69f29f483f309b91af4b3489cd4c5ea468ceb86",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/scripts/uncertainty_budget.py",
+    "bytes": 14044,
+    "sha256": "162699fd5336fca43489757a1c63e81c89deb46aefb51ceb99a24682fde14b44",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/uncertainty-and-units/WORKFLOW.md",
+    "bytes": 21924,
+    "sha256": "13434d69b66d39ac7027f510fe652a229663c1f815cdb1e081a06bc932fde9df",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/absorbed-modules.md",
+    "bytes": 1775,
+    "sha256": "0e5abc6b2788342fe6cb062ba9983ca0d4e9fc35015e01c3f0461213cb4fc4ff",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/crystal.md",
+    "bytes": 3487,
+    "sha256": "b3e9e73cecde0983ac4079f2d24c94bbafe2d026d8ac99ee18ad397b0c95d2af",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/experiment-analysis.md",
+    "bytes": 3469,
+    "sha256": "1d6de9ad9f2ac485f60c6ae5c52d29267bac321b839d244f881887639c164d4d",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/formula-ms.md",
+    "bytes": 3036,
+    "sha256": "e0baa06de8d7cf37c002a5a5eaeb95b188980c3f800737f1c1a27d74cdb4ac0f",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/geometry-sterics.md",
+    "bytes": 3970,
+    "sha256": "735e0c62b87f49c00724dca3cb6a4a1121d29a0d847d61979ef8993d0a5f37af",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/host-compatibility.md",
+    "bytes": 1944,
+    "sha256": "9a6c0c8c9db56e13bce0c7d096c0c7bb256c395693d9a0754c91ca9659cde99d",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/integrated-methods.md",
+    "bytes": 1954,
+    "sha256": "9a06a2041b7dd572b104d1454f64b11bd360eeb08a02a35e91475f6089fec289",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/literature-mechanism.md",
+    "bytes": 4012,
+    "sha256": "d9138ec46864553c771f121a376267485d13bcb687a1b57edee132b6bf59a487",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/nmr-identification.md",
+    "bytes": 3855,
+    "sha256": "cdf17571e047ccd7e4be6d39babf3ab70e1d00558fa3a35a8efbd93ee1fe91d5",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/research-decisions.md",
+    "bytes": 3045,
+    "sha256": "e36aaa5d4fd2c9ad142d88351dc2a2cba2a8ea782e8c332b87acabdf95bd6437",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/runtime.md",
+    "bytes": 384,
+    "sha256": "b11cf058ec8bdb65c44be8da6702d8f58f95103b206eec00603eb75184fec248",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/sources.md",
+    "bytes": 4076,
+    "sha256": "9df0ba3671cadf3d07aad1a6b378ba3af72d6d9625411b49b172e4304052670e",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/system-integration.md",
+    "bytes": 3262,
+    "sha256": "ddbf025a51a91c87b3720e2205b2e36975ebc797ca804711ef3fe2c49f8c6efc",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/task-language.md",
+    "bytes": 812,
+    "sha256": "b290ca1eaea32a976b50f30dc9a8859cd50dd4421438a8ae64cd8720d8a14748",
+    "normalize_lf": true
+  },
+  {
+    "path": "SKILL.md",
+    "bytes": 4589,
+    "sha256": "df0498f6265b46246196800d00ffc741bef522737dce962dd5da2d5f5ee5fd81",
+    "normalize_lf": true
+  }
+]

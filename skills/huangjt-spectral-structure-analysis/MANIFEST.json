@@ -1,0 +1,512 @@
+[
+  {
+    "path": "agents/openai.yaml",
+    "bytes": 410,
+    "sha256": "217b491a08c18dac31d4763057c1d8a1d6d45bba6d9130881164991f79d9df25",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/distances.example.json",
+    "bytes": 128,
+    "sha256": "dc67b1ac9b3110c128bc9126cdf62b67ee2797ff12f8a71b3f2f32a86f180eba",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/noe-windows.example.json",
+    "bytes": 312,
+    "sha256": "114df372aa2e8112e1fd00b6ca1d29becc8708e3736d8661201856a8cdf621d6",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/processing-1d.example.json",
+    "bytes": 364,
+    "sha256": "127f6796efaf47a8349f1061c01f31202b34fe20fd4baba13d4f4dc8982feb1b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/matchms/references/filtering.md",
+    "bytes": 12206,
+    "sha256": "4a327d00e01e7c328cdf91d7d6946da2801a963ddc1925ede7704daa328f6f38",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/matchms/references/importing_exporting.md",
+    "bytes": 10834,
+    "sha256": "e5e47079b69fa634cbb6ef2577632f0f33f02ed22831c5111aa83d138a8f5c46",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/matchms/references/migration.md",
+    "bytes": 8557,
+    "sha256": "3ea36ad24b3ed974f3b7dedab54110ff6217073de4e19751721f2c082856b6ea",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/matchms/references/similarity.md",
+    "bytes": 14080,
+    "sha256": "87977b3c6864f6389959c8b86bf817d5edbf70c50a4f0dbca43db5a0a865c825",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/matchms/references/sources.md",
+    "bytes": 9854,
+    "sha256": "e04c65fe7cddb83e5048a4fe0cd760ac55138ac040120a2b6452a6725fee466a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/matchms/references/workflows.md",
+    "bytes": 14273,
+    "sha256": "c58e570c35c0395f45fdc418640acc64ee9200de59cc11b9b29c6d9c76f6835c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/matchms/scripts/library_search.py",
+    "bytes": 21090,
+    "sha256": "b48c1a0cb08df70e7007eb6af390ec0a3f6c3a33d64283a3602675b1094e8d2e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/matchms/WORKFLOW.md",
+    "bytes": 13014,
+    "sha256": "e5c3a990e0e9f920d90d38a7c5790ea27d3ed6acd6211acc5f516bcf04826086",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/nmrglue/assets/processing.json",
+    "bytes": 364,
+    "sha256": "127f6796efaf47a8349f1061c01f31202b34fe20fd4baba13d4f4dc8982feb1b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/nmrglue/references/acquisition-and-validation.md",
+    "bytes": 6157,
+    "sha256": "0d220724cff854d39aeabdab4fa20ae7b9c73f38fe7a1aa653082985e9fae736",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/nmrglue/scripts/process_1d.py",
+    "bytes": 10787,
+    "sha256": "8268bd1b0b445c373e4d105faae6485dee1b41506d09cec9cd7ba8c307e6c81d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/nmrglue/WORKFLOW.md",
+    "bytes": 8641,
+    "sha256": "6cf24f90f770081cff1c6fcd61a70626c69578110abaa40409d1eb610d3a62fe",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/references/data_structures.md",
+    "bytes": 5450,
+    "sha256": "898cf4948d54191a5d077acfad2f59ab56f0bcecb6a9adba9fe9a699cb88039b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/references/feature_detection.md",
+    "bytes": 6089,
+    "sha256": "80566fd1ca4f07773683cbdbcdd182986138a40a896c4441056357b614095bd0",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/references/file_io.md",
+    "bytes": 4030,
+    "sha256": "8c96b33c68f594ce3f4d5a88dcb7e0a323acd77b6f445ad9bc7757c4f99fe877",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/references/identification.md",
+    "bytes": 5532,
+    "sha256": "ae9f80bf5492162c11f7134dcd307a08fa88a6561ce50aa9630ae7e0e32a8e7d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/references/metabolomics.md",
+    "bytes": 6179,
+    "sha256": "f5dba9fcc5fa0f69ab472b59719e050f5839cd2c7061e2240da5477ef2ae4cb9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/references/signal_processing.md",
+    "bytes": 5800,
+    "sha256": "1e2581f7012b1dd4cc2b41207074692b30f15fa5ae894d2ff19e31176654608c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/_common.py",
+    "bytes": 1033,
+    "sha256": "a19f12a4a00203c63dc7946e6194e0f2a407f3244e49c7690357e87b190b0dab",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/accurate_mass_search.py",
+    "bytes": 3812,
+    "sha256": "5bea121e79027b1b6b46ca90d58f98d24293fe90b54e35e5430c726d62a603a1",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/align_link_quantify.py",
+    "bytes": 6050,
+    "sha256": "94ce533b27f27aecdb4300ae994fe2f168d50726cb76aa36ad7f2a9649f3677a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/consensus_to_matrix.py",
+    "bytes": 2775,
+    "sha256": "783941b652c51d9f68e64b65fff9c4d186bc0ef0936f8cfa799663c0332eb731",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/convert_format.py",
+    "bytes": 3373,
+    "sha256": "3947c6e4c2d0f0c31ad907f53ec764e1c215449e7f01562ca621879b8d096b40",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/detect_adducts.py",
+    "bytes": 3988,
+    "sha256": "23e6c1426baedf69a86e90ad2fe06698043a4506e748d1d71eef6e1f7abbbec7",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/detect_features_centroided.py",
+    "bytes": 3349,
+    "sha256": "56c397dd98013d2a2e53a0b19d1d50bd2089d6107ec1d239fc175e4e3d57da83",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/detect_features_metabo.py",
+    "bytes": 4435,
+    "sha256": "524781752633e14b5ba1653f9b3a1cd0447edb97dc5078580e77aa62880585e8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/digest_protein.py",
+    "bytes": 3651,
+    "sha256": "f1bbcd43aa1706e41173e52c32ab6e3681b0c90c72f02a2461ac3046b9fe18c9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/export_gnps_sirius.py",
+    "bytes": 4349,
+    "sha256": "ca9ec520fd6a945da474c872196cf349e7a855d0f0b0ecddf0e1463f82989c21",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/extract_chromatograms.py",
+    "bytes": 4035,
+    "sha256": "a333a15e7f3c835ffcb0002757db411bda26c475c6c33240f319493873e27735",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/inspect_ms_data.py",
+    "bytes": 5980,
+    "sha256": "66c6825f789a7d41a87982c73ca75fde52a9a625f7183731c15bbf0f0bf72257",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/mass_calculator.py",
+    "bytes": 3609,
+    "sha256": "2078089fa684afc70ac6f1e2dfdf252879ad5afcde07470fa030426a0df70260",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/plot_ms_data.py",
+    "bytes": 4026,
+    "sha256": "e0c7ed3d59cdbea6e8c10f054a68a1b55e8ba451d3b0d9c7a36af308ba30c36d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/process_identifications.py",
+    "bytes": 6552,
+    "sha256": "0f486a25b0ebbaf2321f42d18ae8c42c988e83084e36101a07153ad29c303d3d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/process_spectra.py",
+    "bytes": 4874,
+    "sha256": "7e3a7c0ca548dddb5d9bc2c8b215fa51a15c3c7fe1b49fe751a56dcd01b67120",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/scripts/theoretical_spectrum.py",
+    "bytes": 3195,
+    "sha256": "d3a34bc68203d70a2add1de1fc7d2f8e9a4b580429ff7c7545a1ff710d3b9dbc",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/pyopenms/WORKFLOW.md",
+    "bytes": 12640,
+    "sha256": "ab70105636a11af452ad096031fdd25b163d76166ebaaab39ca54e908c791326",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/__init__.py",
+    "bytes": 1134,
+    "sha256": "f8abfb78ab7b8add19ebae0043b3dfe224e2d40756777f4b8a008dfc7b299463",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/AGENT_GUIDE.md",
+    "bytes": 4261,
+    "sha256": "7ba1a98724c66fbf58cd1e2e261474dcb2e65ca4715d005eecd987794d4ac3e8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/chem3d_api.py",
+    "bytes": 15721,
+    "sha256": "403bc674236437ab907868727add33f0fb0d16ffec124d255b7152d104c9fc2c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/chemdraw_gui.py",
+    "bytes": 33655,
+    "sha256": "47056a38ceb3efcf76edf5cdfeb67188e21aa19617799819b726b720839c9b05",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/chemistry_drawing_api.py",
+    "bytes": 38181,
+    "sha256": "eb9e7a8e78c4d0548d5af4bdf9bea7e1abcd96cef37b9aba30cd8ec5542ec3fc",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/config.json",
+    "bytes": 534,
+    "sha256": "892e7f713dfe281f175cbc2bd6c16fe5c5ac8edde2098ed36bf7a10c5525a405",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/db_query.py",
+    "bytes": 17527,
+    "sha256": "d7a2e721ca798d71be11f75b9e49821331650b99aaaa41ddc8b9ae0eb964927c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/gui_automation.py",
+    "bytes": 30424,
+    "sha256": "3c137c6dea5d1cf91f28034c1d3b1e17f6164c7daec3c43cf09385af52e343bc",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/main_controller.py",
+    "bytes": 36951,
+    "sha256": "1ef8ed588a683a450d00435051739a946dea01818d401555ce87df1942081bc0",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/main_controller_gui.py",
+    "bytes": 42130,
+    "sha256": "5d17ab155a8450b0bce692f887a03bb0f1fa70655f6076b6ddad9462ce84d747",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/mestrenova_api.py",
+    "bytes": 15181,
+    "sha256": "1e62d228ed53b1e40828bbffb45eada6805194acac020d7804ebd71169249f41",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/mestrenova_gui.py",
+    "bytes": 35778,
+    "sha256": "248f3490c6e8f21839979ccd3d2827c7eb7949331f8754a1655b5c9d3a349a5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/multi_spectrum_analyzer.py",
+    "bytes": 47748,
+    "sha256": "73043ad4dd539e81b9c0598d98fef2b1d2e24bcd49738c4dcce1fbfe625b4c9c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/profile_backend.py",
+    "bytes": 9596,
+    "sha256": "47731a74eea8628a67a3b94dfaae5d912a1ee263383cec2dcdce97cc002a38e7",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/README.md",
+    "bytes": 5967,
+    "sha256": "6ad21ff66ac6189b5f2451d71a44031fc1a30ef4d68c8ae35ecd40ab1776e491",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/references/upstream-workflow.md",
+    "bytes": 16595,
+    "sha256": "cc0ec838270cc2e5fc559f7005aa87e6ca454cea56d6b3ed4f8eb9392967dc8e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/requirements.txt",
+    "bytes": 198,
+    "sha256": "eb5dd9dd606807b0331ad8183ad296708e67c65fc53f5cca292e1cac59c3e025",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/sample_spectra.json",
+    "bytes": 2148,
+    "sha256": "5fce3cd011eaa05a0f443682c67c4996862261e66622b9ca922df9c505e8d944",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/spartan_api.py",
+    "bytes": 16528,
+    "sha256": "0dba132c364527adafbcf0a7420da13c7eb37c818e519da65926b63aa83eab3d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/spartan_gui.py",
+    "bytes": 41092,
+    "sha256": "a77f519248c91e34a2c9a9e0a821bff21a2d2fee450157cd38079eb833989812",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/specdis_api.py",
+    "bytes": 12153,
+    "sha256": "51984c5f3f6fce1fa25f496fb0683c0d7471e08107609870957601cb33eda744",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/spectrum_analyzer.py",
+    "bytes": 20933,
+    "sha256": "30730f96f2574f5c2797a2883d435c824a984c3ab403cfe7f89956f68523abda",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/spectrum_parser.py",
+    "bytes": 18535,
+    "sha256": "28e06178f0f4376d24ededababc19ac5c16eb874831feeaf3506f327213eaffd",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/spectrum_type_detector.py",
+    "bytes": 25593,
+    "sha256": "82840d09b0cf1f0588227e07d24630cb707c3a9dce083c7ee58d2342d06ff830",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/structure_elucidator.py",
+    "bytes": 28436,
+    "sha256": "20d66ea5dcc003ebae04fe21e2b44f8a7c9d28a20b57083623fe96cc19414501",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/test_multi_type.py",
+    "bytes": 1409,
+    "sha256": "435a19820b044a1b2e048ae22f3f819d00baa1efeb41ec4a1aeddc3a10d55a2d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/test_syntax.py",
+    "bytes": 4842,
+    "sha256": "b2daddaf8e439e633a0759f016ccdc7a878782d00979053662c707332dd94301",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/spectrum-analyzer/WORKFLOW.md",
+    "bytes": 3200,
+    "sha256": "5399300dbb00afc89119e32ae8a96c80ccb6b7b4ffa525eaec39c48d50b209aa",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/absorbed-modules.md",
+    "bytes": 876,
+    "sha256": "0f23538c75ac46e16e70077ef2f1959f4635915481a102a01d3fb187bf342d23",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/candidate-comparison.md",
+    "bytes": 2268,
+    "sha256": "ee7d94b8dfc32deeda17b9a4da3decc0c146f75a7be30fc9be49ba06c26e333c",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/experimental-workflow.md",
+    "bytes": 3470,
+    "sha256": "0be79bdbf48090623795d250c0e6edcb9b1346848e134a1c0006bbdc6327b7ff",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/host-compatibility.md",
+    "bytes": 1944,
+    "sha256": "9a6c0c8c9db56e13bce0c7d096c0c7bb256c395693d9a0754c91ca9659cde99d",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/integrated-methods.md",
+    "bytes": 1901,
+    "sha256": "11f7eb7e82423f4b51def1237bc6118ac15f567d94e40b5723d0132aa5b2538e",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/portability.md",
+    "bytes": 3445,
+    "sha256": "22ae294f643c0c89a0b245208cc5575817d74830db2a02e046dfd06637d918de",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/runtime.md",
+    "bytes": 384,
+    "sha256": "b11cf058ec8bdb65c44be8da6702d8f58f95103b206eec00603eb75184fec248",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/system-integration.md",
+    "bytes": 3262,
+    "sha256": "ddbf025a51a91c87b3720e2205b2e36975ebc797ca804711ef3fe2c49f8c6efc",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/task-language.md",
+    "bytes": 825,
+    "sha256": "d1d93b3197ac60df8ce735963078bb4ddbacb3874c0865ee8b7cc6fe360ec4b0",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/upstream-integration.md",
+    "bytes": 320,
+    "sha256": "ad9f7bb5441051cc38d4ba7d6a496a4fddf2067d392985750cbc047b8de23b79",
+    "normalize_lf": true
+  },
+  {
+    "path": "requirements-core.txt",
+    "bytes": 66,
+    "sha256": "277455c91e76140b3b5f20e7e381d94eed9cb2dde71220e1e79b861246b04b8f",
+    "normalize_lf": true
+  },
+  {
+    "path": "requirements-optional.txt",
+    "bytes": 39,
+    "sha256": "4012d26e711ea7327c0554fc7508f47ed5e60b5ad54d4c3b989a11f8425e79df",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/evidence_cli.py",
+    "bytes": 4811,
+    "sha256": "5d88230ba7b720f621ee7290c608966e9fc7647d0197f2c8c14b145ca3e3b9bd",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/legacy-profile_backend.py",
+    "bytes": 9596,
+    "sha256": "47731a74eea8628a67a3b94dfaae5d912a1ee263383cec2dcdce97cc002a38e7",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/process_1d.py",
+    "bytes": 10787,
+    "sha256": "8268bd1b0b445c373e4d105faae6485dee1b41506d09cec9cd7ba8c307e6c81d",
+    "normalize_lf": true
+  },
+  {
+    "path": "SKILL.md",
+    "bytes": 4079,
+    "sha256": "1894960e33605f0e765a3e6b158ccc77ff6928fcfd683b5d79918dc3ff839038",
+    "normalize_lf": true
+  }
+]
