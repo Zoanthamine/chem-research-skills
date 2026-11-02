@@ -16,16 +16,24 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - name: Verify package and installer
+        run: python install.py --check
+      - name: Manifest and per-file index are up to date
         run: |
-          python install.py --check
-          python -m unittest discover -s tests
+          python tools/manifest.py --check
+          python tools/inventory.py --check
+      - name: Unit tests
+        run: python -m unittest discover -s tests
       - name: Install numerical test dependencies
         run: python -m pip install numpy scipy matplotlib gemmi requests rdkit nmrglue pyopenms==3.6.0
       - name: Single crystal helper regression tests
         run: python -m unittest discover -s skills/scxrd-refinement/scripts -p "test_*.py"
       - name: Spectrum numerical examples
         run: python skills/huangjt-spectral-structure-analysis/scripts/evidence_cli.py selftest
+      - name: Offline quickstart smoke
+        run: python examples/quickstart_smoke.py
       - name: Standalone skill and structure round-trip checks
         run: python -m unittest discover -s tests -p "test_library_portability.py"
+      - name: Read-only environment doctor
+        run: python tools/doctor.py --json

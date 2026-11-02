@@ -1,4 +1,6 @@
-本版结构：四个化学核心优先；写作仅七个默认模块，32 个可选方法见写作 references/optional-methods.md。谱文件基础可配置 workbench.py setup --profile spectra/thermo-raw；实际入口见 CORE_ACCEPTANCE.md。本次按要求跳过后续完整验证。
+本版结构：四个化学核心优先；写作仅七个默认模块，32 个可选方法见写作 references/optional-methods.md。谱文件基础可配置 workbench.py setup --profile spectra/thermo-raw；实际入口见 CORE_ACCEPTANCE.md。
+
+> v1.3.0 起，日常上手先看 [QUICKSTART.md](QUICKSTART.md)；装完跑 `python tools/doctor.py` 自检。本文保留完整的“给助手看的”首次配置推理流程（读什么、按什么顺序装、如何验证），两者不冲突。
 
 # 给新电脑助手的首次配置流程
 
