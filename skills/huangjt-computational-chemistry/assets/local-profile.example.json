@@ -1,0 +1,9 @@
+{
+  "executables": {"xtb": null, "gaussian": null, "python": null},
+  "outputs_root": null,
+  "xtb_threads": 2,
+  "gaussian_cores": null,
+  "gaussian_memory": null,
+  "chemistry_connector": null,
+  "note": "Fill paths for this machine. Null is unavailable/unconfigured. Inventory does not launch software or validate a license."
+}

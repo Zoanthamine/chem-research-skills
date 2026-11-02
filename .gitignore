@@ -3,5 +3,5 @@ __pycache__/
 .venv/
 .env
 .DS_Store
-release/
-local-*.json
+/release/
+/local-*.json
