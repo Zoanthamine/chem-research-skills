@@ -11,6 +11,12 @@
 | 找文献、SOP、SI条件、读论文、DOI、Zotero | huangjt-academic-research |
 | 写作润色、汇报、科研图表、论文PPT/Word | huangjt-academic-writing |
 
+## 在另一台电脑快速配置
+
+把下面一句话发给那台电脑的AI助手，由它按[首次配置流程](docs/FIRST_RUN.md)检测现有条件、安装六技能并自主选择必要的软件与环境：
+
+> 请读取 https://github.com/Zoanthamine/chem-research-skills 的首次配置说明，检查这台电脑并配置六大技能、将四个化学核心设为默认，结合我的日常科研需求自主选择下载和安装所需软件及独立环境，优先复用已有配置，只在需要账号、付费授权或系统权限时让我处理，并完成验证和简明使用说明。
+
 ## 安装
 
 下载[最新版安装包](https://github.com/Zoanthamine/chem-research-skills/releases/latest)，解压后在目录中运行以下之一。需要Python 3.11或更新版本，安装器只使用标准库。

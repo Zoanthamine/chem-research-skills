@@ -55,9 +55,9 @@
   },
   {
     "path": "README.md",
-    "bytes": 4614,
+    "bytes": 5214,
     "normalize_lf": true,
-    "sha256": "f8e08ed82caea5535c49473f3b6e2ba84aa31dd19bdcf030d7359e6c6ef8f7a5"
+    "sha256": "2786559befd036c25e60097fb4b545dbfb75c8d787d2aa6f649ca5257632df04"
   },
   {
     "path": "SOURCE-LICENSES.json",
@@ -82,6 +82,12 @@
     "bytes": 1594,
     "normalize_lf": true,
     "sha256": "b0b09a95edd79897bafe844774be6103a27ed2d86e98096913bdae10e56eb016"
+  },
+  {
+    "path": "docs/FIRST_RUN.md",
+    "bytes": 3837,
+    "normalize_lf": true,
+    "sha256": "339525bbe46968d291249979b3de11292599e496ef364deb562008a15ae32459"
   },
   {
     "path": "install-codex.cmd",
