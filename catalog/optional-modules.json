@@ -1,0 +1,1107 @@
+[
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "dask",
+    "description": "Scales pandas, NumPy, and custom Python research workflows beyond memory or across clusters with Dask. Covers DataFrames, Arrays, Bags, Futures, chunking, schedulers, and distributed diagnostics. Use for partitioned file processing, scientific array computation, or parallel tasks whose memory and dependency structure require Dask.",
+    "workflow": "skills/huangjt-academic-writing/modules/dask/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/dask/references/arrays.md",
+      "skills/huangjt-academic-writing/modules/dask/references/bags.md",
+      "skills/huangjt-academic-writing/modules/dask/references/best-practices.md",
+      "skills/huangjt-academic-writing/modules/dask/references/dataframes.md",
+      "skills/huangjt-academic-writing/modules/dask/references/futures.md",
+      "skills/huangjt-academic-writing/modules/dask/references/review.md",
+      "skills/huangjt-academic-writing/modules/dask/references/schedulers.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "并行",
+      "数据",
+      "大数据"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "exploratory-data-analysis",
+    "description": "Performs bounded, local exploratory analysis of explicitly supported scientific files. Supports redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffolds. Other domain formats are reference-only and unknown formats fail closed.",
+    "workflow": "skills/huangjt-academic-writing/modules/exploratory-data-analysis/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/__init__.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/_capabilities.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/_common.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/_structured.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/_tabular.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/capability_manifest.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/distribution_sensitivity.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/eda_analyzer.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/image_inspector.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/report_scaffold.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/sequence_inspector.py",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/tabular_profile.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/assets/report_template.md",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/chemistry_molecular_formats.md",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/general_scientific_formats.md",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/microscopy_imaging_formats.md",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
+      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/spectroscopy_analytical_formats.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "探索性数据分析",
+      "数据质量",
+      "分布",
+      "异常"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "humanize-writing",
+    "description": "Remove signs of AI-generated writing from text. Use when the user mentions\n'sounds like AI,' 'too robotic,' 'humanize this,' 'make it sound human,'\n'de-AI this,' 'sounds like ChatGPT,' 'make it natural,' or 'doesn't sound\nlike a person wrote it.' Detects and fixes AI writing patterns including\ninflated significance, promotional language, formulaic structure, AI vocabulary,\nsuperficial analyses, vague attributions, hedging, robotic rhythm, em dash and\nboldface overuse, chatbot artifacts, and missing personality. Based on\nWikipedia's \"Signs of AI writing\" guide and editorial best practices.\n",
+    "workflow": "skills/huangjt-academic-writing/modules/humanize-writing/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/humanize-writing/install-skill.js",
+      "skills/huangjt-academic-writing/modules/humanize-writing/uninstall-skill.js"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/humanize-writing/README.md",
+      "skills/huangjt-academic-writing/modules/humanize-writing/references/ai-tells.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "润色",
+      "自然表达",
+      "保留原意"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "latex-posters",
+    "description": "Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. Use for conference posters, academic presentations, multi-column scientific layouts, figure integration, typography, compilation, and PDF preflight.",
+    "workflow": "skills/huangjt-academic-writing/modules/latex-posters/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/latex-posters/scripts/generate_schematic.py",
+      "skills/huangjt-academic-writing/modules/latex-posters/scripts/generate_schematic_ai.py",
+      "skills/huangjt-academic-writing/modules/latex-posters/scripts/review_poster.sh"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/latex-posters/assets/poster_quality_checklist.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/ai_graphics_for_posters.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/compilation_and_quality_control.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/latex_poster_packages.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/latex_poster_reference.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/poster_content_guide.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/poster_design_principles.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/poster_layout_design.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/poster_patterns_and_presentation.md",
+      "skills/huangjt-academic-writing/modules/latex-posters/references/README.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "学术海报",
+      "LaTeX"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "matplotlib",
+    "description": "Creates and customizes scientific plots with Matplotlib. Used for fine-grained control over plot elements, novel plot types, and scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
+    "workflow": "skills/huangjt-academic-writing/modules/matplotlib/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/matplotlib/scripts/plot_template.py",
+      "skills/huangjt-academic-writing/modules/matplotlib/scripts/style_configurator.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/matplotlib/references/api_reference.md",
+      "skills/huangjt-academic-writing/modules/matplotlib/references/common_issues.md",
+      "skills/huangjt-academic-writing/modules/matplotlib/references/plot_types.md",
+      "skills/huangjt-academic-writing/modules/matplotlib/references/styling_guide.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "绘图",
+      "坐标",
+      "图例",
+      "图形导出"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "nature-data",
+    "description": "Draft or audit manuscript Data/Code Availability statements, dataset access routes, repository plans, and FAIR metadata. Use for 数据可用性声明、数据共享、数据仓库选择 and dataset citations; not general data cleaning or statistical analysis.",
+    "workflow": "skills/huangjt-academic-writing/modules/nature-data/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/nature-data/README.md",
+      "skills/huangjt-academic-writing/modules/nature-data/README_EN.md",
+      "skills/huangjt-academic-writing/modules/nature-data/references/chinese-author-alignment.md",
+      "skills/huangjt-academic-writing/modules/nature-data/references/fair-metadata-checklist.md",
+      "skills/huangjt-academic-writing/modules/nature-data/references/nature-article-requirements.md",
+      "skills/huangjt-academic-writing/modules/nature-data/references/policy-principles.md",
+      "skills/huangjt-academic-writing/modules/nature-data/references/repository-and-identifiers.md",
+      "skills/huangjt-academic-writing/modules/nature-data/references/source-basis.md",
+      "skills/huangjt-academic-writing/modules/nature-data/references/statement-patterns.md",
+      "skills/huangjt-academic-writing/modules/nature-data/static/core/chinese-mode.md",
+      "skills/huangjt-academic-writing/modules/nature-data/static/core/stance.md",
+      "skills/huangjt-academic-writing/modules/nature-data/static/core/workflow.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "数据整理",
+      "分析",
+      "表格"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "nature-figure",
+    "description": "Create, revise, audit, and export manuscript scientific figures in Python or R. Use for 论文配图、科研绘图、多面板图 and submission-ready plots, or explicitly requested AI-generated graphical abstracts and mechanism schematics. Not for interactive dashboards, data cleaning, or statistics-only analysis.",
+    "workflow": "skills/huangjt-academic-writing/modules/nature-figure/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/audit_figure_collisions.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/audit_panel_alignment.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/audit_pdf_text.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/audit_svg_schematic.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/figure_safety.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/generate_openrouter_schematic.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/nature_figure_backend.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/plot_templates.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/scripts/validate_figure.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/tests/test_figure_safety.py",
+      "skills/huangjt-academic-writing/modules/nature-figure/tests/test_schematic_url_safety.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/nature-figure/EXTERNAL_RESOURCES.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/README.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/README_EN.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/ai-graphical-abstract-workflow.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/api.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/asset-adaptation.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/backend-selection.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/chart-types.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/common-patterns.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/demos.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/design-theory.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/figure-contract.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/figure-legend-conventions.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/multipanel-evidence-architecture.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/nature-2026-observations.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/nature-article-requirements.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/openrouter-image-generation.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/qa-contract.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/r-template-index.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/r-workflow.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/template-catalog.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/tutorials.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/vector-schematic-style-rules.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/references/vector-schematic-workflow.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/static/core/contract.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/static/core/stance.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/static/fragments/backend/python.md",
+      "skills/huangjt-academic-writing/modules/nature-figure/static/fragments/backend/r.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "科研图",
+      "绘图",
+      "图表",
+      "示意图",
+      "图形摘要"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "nature-image2ppt",
+    "description": "Reconstruct slide images, screenshots, scanned PDFs, or image-only PPTX files as object-level editable PowerPoint. Use for 图片转可编辑PPT、截图还原PPT and diagram reconstruction; not authoring a new deck from research notes.",
+    "workflow": "skills/huangjt-academic-writing/modules/nature-image2ppt/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/__init__.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/cli.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/__init__.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/_input_normalization.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/_page_artifacts.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/build_pptx_from_manifest.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/configure_image_backend.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/deck_run_state.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/deck_text_hints.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/finalize_deck_run.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/formula_renderer.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/image_gen.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/main.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/make_page_contact_sheet.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/paddle_text_hints.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/page_job_status.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/page_text_metrics.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/prepare_deck_run.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/process_asset_sheet.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/record_imagegen_result.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/record_page_dispatch.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/record_page_result.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/remove_chroma_key.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/reset_page_job.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/runtime_env.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/split_alpha_components.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/text_hints.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/validate_pptx.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/build_page_worker_prompt.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/inspect_arrow_atomicity.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/inspect_region_decomposition.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/postprocess_manifest_arrows.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/render_image2ppt_qa.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/run_final_image2ppt_qa.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/run_image2ppt_qa.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/runtime_paths.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/visual_review_evidence.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/support.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_console_portability.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_deck_slide_size.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_dispatch_concurrency.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_formula_renderer.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_independence.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_input_normalization_alpha.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_input_normalization_opc_targets.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_isolated_lifecycle.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_manifest_arrows.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_migration_parity.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_multi_agent_backend.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_ocr_http.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_paddle_result_url_safety.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_page_hints.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_path_confinement.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_pdf_backend.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_project_metadata.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_quality_contracts.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_region_decomposition.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_render_guard.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_runtime_config.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_runtime_paths.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_script_inventory.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_slide_layout.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_state_e2e.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_structure_reconstruction.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_thin_profile.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_visual_review_evidence.py",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_visual_review_runtime.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/prompts/page-worker-base.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/prompts/page-worker.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/README.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/README_EN.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/assets-provenance-contract.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/cli-helper.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/manifest-arrow-extension.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/manifest-schema.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/object-routing.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/ocr-text-hints-contract.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/page-decision-tree.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/qa-contract.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/region-decomposition.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/runtime-dependencies.md",
+      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/workflow.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "图片",
+      "转PPT",
+      "可编辑",
+      "幻灯片"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "nature-paper-to-patent",
+    "description": "Turn research papers or inventor materials into evidence-grounded Chinese invention patent drafts and technical disclosures. Use for 技术交底书、专利撰写、现有技术对比 and Chinese DOCX patent packages; not general manuscript writing.",
+    "workflow": "skills/huangjt-academic-writing/modules/nature-paper-to-patent/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/audit_claims.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/build_patent_package.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/cnipa_epub_crawler.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/cnipa_epub_parse.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/cnipa_epub_search.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/docx_to_md.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/iteration_dialog_log.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/math_render.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/md_to_docx.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/mermaid_render.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/pptx_to_md.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/extract_pdf_text.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/init_patent_project.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/math_to_omml.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/render_flowchart_svg.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/render_patent_docx.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/validate_patent_draft.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_audit_claims.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_inline_math_paren.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_math_to_omml_superscript.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_md_to_docx_source_overwrite.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_mermaid_render.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_validation.py",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_validation_figure_node_ids.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/README.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/README_EN.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/cn-patent-drafting-guide.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/corpus-derived-patterns.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/corpus-pair-audit.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/correction_handler.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/disclosure_builder.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/disclosure_preview.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/disclosure_self_check.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/intake.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/iteration_context.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/merger.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/patent_points_analyzer.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/prior_art_search.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/project_scan.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/template_reference.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/tooling.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/draft-schema.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/patent-figure-guide.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/core/output-contract.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/core/principles.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/core/workflow.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/invention/algorithm-software.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/invention/apparatus-system.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/invention/mixed.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/invention/process-material.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/source/mixed-project.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/source/pasted-text.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/source/pdf-text.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/source/scanned-pdf.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/claim-set.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/disclosure-analysis.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/disclosure-iteration.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/full-draft.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/paper-patent-audit.md",
+      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/technical-disclosure.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "论文",
+      "专利",
+      "技术交底"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "nature-paper2ppt",
+    "description": "Create or improve a Chinese academic PPTX from a scientific paper or research reading notes, with source figures and speaker notes. Use for 论文做PPT、文献汇报、组会PPT and paper-based conference or defense presentations.",
+    "workflow": "skills/huangjt-academic-writing/modules/nature-paper2ppt/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/scripts/audit_pptx_quality.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/README.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/README_EN.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/references/design-and-layout.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/references/figure-assets.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/references/self-review.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/core/output-and-quality.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/core/principles.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/core/toolchain.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/core/workflow.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/clinical.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/discovery.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/materials.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/methods.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/resource.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/review.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "论文",
+      "汇报",
+      "PPT",
+      "演示"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "nature-paper2word",
+    "description": "Compile an academic Markdown manuscript into a journal- or school-compliant Word (.docx): declared typography, native OMML equations, three-line tables, cross-references, per-section page numbers, CSL bibliographies (GB/T 7714, APA, Nature, IEEE), and pre/post-export quality gates. 把学术论文的 Markdown 稿件导出为符合期刊或学位论文规范的 Word：摘要、公式编号、三线表、题注、交叉引用、目录域、参考文献。Use when the user wants a submission-ready .docx — 论文转 Word、学位论文排版、期刊投稿排版、prepare submission docx — or a readable copy of a manuscript. Not for PDF, HTML or LaTeX output, and not for slide decks or grant forms.",
+    "workflow": "skills/huangjt-academic-writing/modules/nature-paper2word/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/nature-paper2word/README.md",
+      "skills/huangjt-academic-writing/modules/nature-paper2word/README_EN.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "论文",
+      "Word",
+      "DOCX",
+      "排版"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "nature-reviewer",
+    "description": "Provide evidence-grounded mock peer review of scientific manuscripts or excerpts, covering significance, validity, and major/minor concerns. Use for 模拟审稿、投稿前自审、审稿人视角评估; not author rebuttal drafting.",
+    "workflow": "skills/huangjt-academic-writing/modules/nature-reviewer/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/test_reviewer_instruction_contracts.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/nature-reviewer/CHANGELOG.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/README.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/README_EN.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/domain-specific-review-gates.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/editorial criteria and processes.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/forensic-consistency-audit.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/qa-checklist.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/report-structure.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/review-axes.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/reviewer-workflow.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/role-boundaries.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/source-basis.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/references/technical-concern-taxonomy.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/punctuation-style.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/reviewer-independence.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/severity-tiering.md",
+      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/traceable-review.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "模拟审稿",
+      "评审",
+      "独立评价"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "nature-statistics",
+    "description": "Audit or improve manuscript statistical reporting, including experimental units, replication, uncertainty, tests, and figure statistics. Use for 统计审查、统计方法小节、图注统计 and reviewer concerns; compute new analyses only when requested with data.",
+    "workflow": "skills/huangjt-academic-writing/modules/nature-statistics/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/nature-statistics/README.md",
+      "skills/huangjt-academic-writing/modules/nature-statistics/README_EN.md",
+      "skills/huangjt-academic-writing/modules/nature-statistics/references/common-failure-modes.md",
+      "skills/huangjt-academic-writing/modules/nature-statistics/references/figure-statistics.md",
+      "skills/huangjt-academic-writing/modules/nature-statistics/references/nature-article-requirements.md",
+      "skills/huangjt-academic-writing/modules/nature-statistics/references/reviewer-checklist.md",
+      "skills/huangjt-academic-writing/modules/nature-statistics/references/source-basis.md",
+      "skills/huangjt-academic-writing/modules/nature-statistics/references/statistical-reporting.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "统计",
+      "模型",
+      "检验",
+      "实验单位"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "networkx",
+    "description": "Creates, analyzes, and visualizes complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.",
+    "workflow": "skills/huangjt-academic-writing/modules/networkx/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/networkx/references/algorithms.md",
+      "skills/huangjt-academic-writing/modules/networkx/references/generators.md",
+      "skills/huangjt-academic-writing/modules/networkx/references/graph-basics.md",
+      "skills/huangjt-academic-writing/modules/networkx/references/io.md",
+      "skills/huangjt-academic-writing/modules/networkx/references/review.md",
+      "skills/huangjt-academic-writing/modules/networkx/references/visualization.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "网络",
+      "图论",
+      "关系图",
+      "路径"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "peer-review",
+    "description": "Prepares evidence-bounded, constructive peer-review drafts and structured manuscript assessments. Supports authorized review of scientific manuscripts, protocols, preprints, or research proposals; reporting-guideline selection; claim–evidence checks; methods, statistics, reproducibility, ethics, figure/table, and citation critique; or revision-response planning.",
+    "workflow": "skills/huangjt-academic-writing/modules/peer-review/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/peer-review/scripts/_common.py",
+      "skills/huangjt-academic-writing/modules/peer-review/scripts/audit_citations.py",
+      "skills/huangjt-academic-writing/modules/peer-review/scripts/audit_statistics_reproducibility.py",
+      "skills/huangjt-academic-writing/modules/peer-review/scripts/generate_review_scaffold.py",
+      "skills/huangjt-academic-writing/modules/peer-review/scripts/lint_review.py",
+      "skills/huangjt-academic-writing/modules/peer-review/scripts/select_reporting_guidelines.py",
+      "skills/huangjt-academic-writing/modules/peer-review/scripts/validate_claim_evidence.py",
+      "skills/huangjt-academic-writing/modules/peer-review/scripts/validate_review_intake.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/peer-review/assets/review_scaffold_template.md",
+      "skills/huangjt-academic-writing/modules/peer-review/references/common_issues.md",
+      "skills/huangjt-academic-writing/modules/peer-review/references/ethical_review_practice.md",
+      "skills/huangjt-academic-writing/modules/peer-review/references/reporting_standards.md",
+      "skills/huangjt-academic-writing/modules/peer-review/references/security_validation.md",
+      "skills/huangjt-academic-writing/modules/peer-review/references/statistical_reproducibility.md",
+      "skills/huangjt-academic-writing/modules/peer-review/references/tool_reference.md"
+    ],
+    "templates": [
+      "skills/huangjt-academic-writing/modules/peer-review/assets/reporting_guidelines.json",
+      "skills/huangjt-academic-writing/modules/peer-review/assets/review_intake_template.json",
+      "skills/huangjt-academic-writing/modules/peer-review/assets/statistical_reproducibility_template.json",
+      "skills/huangjt-academic-writing/modules/peer-review/assets/study_profile_template.json"
+    ],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "同行评审",
+      "审稿",
+      "检查"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "polars",
+    "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration. It supports expression-based data manipulation with lazy query optimization, parallel execution, streaming out-of-core processing, Arrow interoperability, and optional GPU execution.",
+    "workflow": "skills/huangjt-academic-writing/modules/polars/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/polars/references/best_practices.md",
+      "skills/huangjt-academic-writing/modules/polars/references/core_concepts.md",
+      "skills/huangjt-academic-writing/modules/polars/references/io_guide.md",
+      "skills/huangjt-academic-writing/modules/polars/references/operations.md",
+      "skills/huangjt-academic-writing/modules/polars/references/pandas_migration.md",
+      "skills/huangjt-academic-writing/modules/polars/references/review.md",
+      "skills/huangjt-academic-writing/modules/polars/references/transformations.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "表格",
+      "数据处理"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "pptx-posters",
+    "description": "Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Used when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
+    "workflow": "skills/huangjt-academic-writing/modules/pptx-posters/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/_common.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/_manifest.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/_pptx.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/check_layout.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/check_palette.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/generate_poster.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/inspect_pptx.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/inventory_images.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/plan_export.py",
+      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/validate_manifest.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/pptx-posters/assets/poster_quality_checklist.md",
+      "skills/huangjt-academic-writing/modules/pptx-posters/references/manifest_spec.md",
+      "skills/huangjt-academic-writing/modules/pptx-posters/references/poster_content_guide.md",
+      "skills/huangjt-academic-writing/modules/pptx-posters/references/poster_design_principles.md",
+      "skills/huangjt-academic-writing/modules/pptx-posters/references/poster_layout_design.md",
+      "skills/huangjt-academic-writing/modules/pptx-posters/references/pptx_security.md",
+      "skills/huangjt-academic-writing/modules/pptx-posters/references/security_validation.md",
+      "skills/huangjt-academic-writing/modules/pptx-posters/references/source_ledger.md"
+    ],
+    "templates": [
+      "skills/huangjt-academic-writing/modules/pptx-posters/assets/generation_dependencies.json",
+      "skills/huangjt-academic-writing/modules/pptx-posters/assets/poster_manifest_template.json"
+    ],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "学术海报",
+      "PowerPoint"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "pymc",
+    "description": "Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational inference, mutable-data predictions, posterior predictive checks, diagnostics, and PSIS-LOO model comparison. Use for probabilistic modeling and uncertainty inference in PyMC.",
+    "workflow": "skills/huangjt-academic-writing/modules/pymc/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/pymc/assets/hierarchical_model_template.py",
+      "skills/huangjt-academic-writing/modules/pymc/assets/linear_regression_template.py",
+      "skills/huangjt-academic-writing/modules/pymc/scripts/model_comparison.py",
+      "skills/huangjt-academic-writing/modules/pymc/scripts/model_diagnostics.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/pymc/references/distributions.md",
+      "skills/huangjt-academic-writing/modules/pymc/references/model_patterns.md",
+      "skills/huangjt-academic-writing/modules/pymc/references/sampling_inference.md",
+      "skills/huangjt-academic-writing/modules/pymc/references/standard_workflow.md",
+      "skills/huangjt-academic-writing/modules/pymc/references/workflows.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "贝叶斯",
+      "推断",
+      "后验",
+      "模型"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "pymoo",
+    "description": "Solves and validates single-, multi-, and many-objective optimization with pymoo, including NSGA-II, NSGA-III, MOEA/D, constraints, Pareto approximations, reference directions, and ZDT/DTLZ benchmarks for engineering and research problems.",
+    "workflow": "skills/huangjt-academic-writing/modules/pymoo/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/pymoo/scripts/custom_problem_example.py",
+      "skills/huangjt-academic-writing/modules/pymoo/scripts/decision_making_example.py",
+      "skills/huangjt-academic-writing/modules/pymoo/scripts/many_objective_example.py",
+      "skills/huangjt-academic-writing/modules/pymoo/scripts/multi_objective_example.py",
+      "skills/huangjt-academic-writing/modules/pymoo/scripts/single_objective_example.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/pymoo/references/algorithms.md",
+      "skills/huangjt-academic-writing/modules/pymoo/references/constraints_mcdm.md",
+      "skills/huangjt-academic-writing/modules/pymoo/references/lifecycle.md",
+      "skills/huangjt-academic-writing/modules/pymoo/references/operators.md",
+      "skills/huangjt-academic-writing/modules/pymoo/references/parallelization.md",
+      "skills/huangjt-academic-writing/modules/pymoo/references/problems.md",
+      "skills/huangjt-academic-writing/modules/pymoo/references/quick_start_workflows.md",
+      "skills/huangjt-academic-writing/modules/pymoo/references/visualization.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "多目标",
+      "优化",
+      "Pareto"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "research-grants",
+    "description": "Supports research proposal preparation and review for NSF, NIH, DOE, DARPA, and Taiwan NSTC, including opportunity-specific requirements, aims, review criteria, budgets, broader impacts, forms, and resubmissions. Use for investigator-authored grant development, compliance matrices, and proposal critiques.",
+    "workflow": "skills/huangjt-academic-writing/modules/research-grants/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/research-grants/assets/budget_justification_template.md",
+      "skills/huangjt-academic-writing/modules/research-grants/assets/nih_specific_aims_template.md",
+      "skills/huangjt-academic-writing/modules/research-grants/assets/nsf_project_summary_template.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/broader_impacts.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/core_components.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/darpa_guidelines.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/doe_guidelines.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/nih_guidelines.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/nsf_guidelines.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/nstc_guidelines.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/proposal_types_and_resubmission.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/README.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/review_criteria.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/specific_aims_guide.md",
+      "skills/huangjt-academic-writing/modules/research-grants/references/writing_principles.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "基金",
+      "申请",
+      "研究计划"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "scholar-evaluation",
+    "description": "Provides qualitative-first, evidence-traceable developmental review of scholarly works and audit low-stakes research-assessment rubrics with optional local quality controls. Never use for ranking people or consequential decisions.",
+    "workflow": "skills/huangjt-academic-writing/modules/scholar-evaluation/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/_common.py",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/calculate_scores.py",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/check_process.py",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/check_traceability.py",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/generate_report_scaffold.py",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/summarize_agreement.py",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/validate_rubric.py",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/weight_sensitivity.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/evaluation_framework.md",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/local_tooling.md",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/responsible_assessment.md",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/security_validation.md",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/source_ledger.md"
+    ],
+    "templates": [
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/assets/evaluation_template.json",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/assets/evidence_manifest_template.json",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/assets/process_checklist_template.json",
+      "skills/huangjt-academic-writing/modules/scholar-evaluation/assets/rubric_template.json"
+    ],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "研究评价",
+      "论证质量"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "scientific-schematics",
+    "description": "Generates scientific diagram drafts using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.7 Flash for quality review. Refines when the review requests improvement, with at most two generations. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations.",
+    "workflow": "skills/huangjt-academic-writing/modules/scientific-schematics/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/scientific-schematics/scripts/example_usage.sh",
+      "skills/huangjt-academic-writing/modules/scientific-schematics/scripts/generate_schematic.py",
+      "skills/huangjt-academic-writing/modules/scientific-schematics/scripts/generate_schematic_ai.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/scientific-schematics/references/best_practices.md",
+      "skills/huangjt-academic-writing/modules/scientific-schematics/references/iterative_refinement.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "科学示意图",
+      "机制图",
+      "流程图"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "scientific-slides",
+    "description": "Builds slide decks and presentations for research talks. Used for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX Beamer.",
+    "workflow": "skills/huangjt-academic-writing/modules/scientific-slides/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/generate_schematic.py",
+      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/generate_schematic_ai.py",
+      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/generate_slide_image.py",
+      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/generate_slide_image_ai.py",
+      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/pdf_to_images.py",
+      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/slides_to_pdf.py",
+      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/validate_presentation.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/scientific-slides/assets/powerpoint_design_guide.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/assets/timing_guidelines.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/beamer_guide.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/common_pitfalls.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/data_visualization_slides.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/presentation_structure.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/presentation_workflow.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/prompt_writing.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/script_reference.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/slide_capabilities.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/slide_design_principles.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/talk_types_guide.md",
+      "skills/huangjt-academic-writing/modules/scientific-slides/references/visual_review_workflow.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "科研汇报",
+      "幻灯片",
+      "PPT"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "scientific-visualization",
+    "description": "Creates and audits truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use it for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.",
+    "workflow": "skills/huangjt-academic-writing/modules/scientific-visualization/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/scientific-visualization/assets/color_palettes.py",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/_common.py",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/export_plan.py",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/figure_export.py",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/image_metadata.py",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/palette_audit.py",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/style_presets.py",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/style_preview.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/scientific-visualization/references/color_palettes.md",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/references/journal_requirements.md",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/references/matplotlib_examples.md",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/references/publication_guidelines.md",
+      "skills/huangjt-academic-writing/modules/scientific-visualization/references/sources.md"
+    ],
+    "templates": [
+      "skills/huangjt-academic-writing/modules/scientific-visualization/assets/publisher_profiles.json"
+    ],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "科研可视化",
+      "图表",
+      "绘图"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "scientific-writing",
+    "description": "Drafts, revises, and audits scientific manuscripts or reports with explicit evidence provenance, reporting-guideline coverage, authorship accountability, confidentiality controls, and local consistency checks. Use for manuscript sections, references, declarations, tables, figures, or submission preparation when scientific accuracy and traceability matter.",
+    "workflow": "skills/huangjt-academic-writing/modules/scientific-writing/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/_common.py",
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/audit_claims.py",
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/check_consistency.py",
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/check_references.py",
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/lint_manuscript.py",
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/scaffold_manuscript.py",
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/select_reporting_guidelines.py",
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/validate_authorship.py",
+      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/validate_manifest.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/scientific-writing/assets/manuscript_scaffold.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/assets/REPORT_FORMATTING_GUIDE.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/authorship_ai_confidentiality.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/citation_styles.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/cli_reference.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/evidence_workflow.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/figures_tables.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/imrad_structure.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/journal_policies.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/professional_report_formatting.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/reporting_guidelines.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/research_integrity_open_science.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/source_ledger.md",
+      "skills/huangjt-academic-writing/modules/scientific-writing/references/writing_principles.md"
+    ],
+    "templates": [
+      "skills/huangjt-academic-writing/modules/scientific-writing/assets/authorship_template.json",
+      "skills/huangjt-academic-writing/modules/scientific-writing/assets/consistency_manifest_template.json",
+      "skills/huangjt-academic-writing/modules/scientific-writing/assets/manuscript_manifest_template.json",
+      "skills/huangjt-academic-writing/modules/scientific-writing/assets/reporting_coverage_template.json",
+      "skills/huangjt-academic-writing/modules/scientific-writing/assets/reporting_guidelines.json",
+      "skills/huangjt-academic-writing/modules/scientific-writing/assets/source_manifest_template.json"
+    ],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "写作",
+      "一致性",
+      "论文",
+      "报告规范"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "scikit-learn",
+    "description": "Supports machine learning in Python with scikit-learn. Applies when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+    "workflow": "skills/huangjt-academic-writing/modules/scikit-learn/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/scikit-learn/scripts/classification_pipeline.py",
+      "skills/huangjt-academic-writing/modules/scikit-learn/scripts/clustering_analysis.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/scikit-learn/references/common_workflows.md",
+      "skills/huangjt-academic-writing/modules/scikit-learn/references/core_capabilities.md",
+      "skills/huangjt-academic-writing/modules/scikit-learn/references/model_evaluation.md",
+      "skills/huangjt-academic-writing/modules/scikit-learn/references/pipelines_and_composition.md",
+      "skills/huangjt-academic-writing/modules/scikit-learn/references/preprocessing.md",
+      "skills/huangjt-academic-writing/modules/scikit-learn/references/quick_reference.md",
+      "skills/huangjt-academic-writing/modules/scikit-learn/references/supervised_learning.md",
+      "skills/huangjt-academic-writing/modules/scikit-learn/references/unsupervised_learning.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "机器学习",
+      "交叉验证",
+      "回归",
+      "分类"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "seaborn",
+    "description": "Creates Seaborn statistical visualizations with pandas integration for distributions, relationships, categorical comparisons, regression displays, pair plots, and heatmaps. Supports function and objects interfaces with explicit aggregation, uncertainty, and missing-data handling. Best suited to static exploratory plots; plotly covers interactive figures and scientific-visualization covers publication styling.",
+    "workflow": "skills/huangjt-academic-writing/modules/seaborn/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/seaborn/references/examples.md",
+      "skills/huangjt-academic-writing/modules/seaborn/references/function_reference.md",
+      "skills/huangjt-academic-writing/modules/seaborn/references/grids_and_levels.md",
+      "skills/huangjt-academic-writing/modules/seaborn/references/objects_interface.md",
+      "skills/huangjt-academic-writing/modules/seaborn/references/palettes_and_theming.md",
+      "skills/huangjt-academic-writing/modules/seaborn/references/patterns_and_troubleshooting.md",
+      "skills/huangjt-academic-writing/modules/seaborn/references/plotting_functions.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "统计绘图",
+      "分布",
+      "比较",
+      "热图"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "statistical-analysis",
+    "description": "Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions, compute required sample sizes, or write up results - even if they never name a specific test. Covers t-tests, ANOVA, chi-square, correlation, regression, non-parametric and Bayesian methods. For low-level model APIs, see the statsmodels and pymc skills.",
+    "workflow": "skills/huangjt-academic-writing/modules/statistical-analysis/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/statistical-analysis/scripts/assumption_checks.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/statistical-analysis/references/assumptions_and_diagnostics.md",
+      "skills/huangjt-academic-writing/modules/statistical-analysis/references/bayesian_statistics.md",
+      "skills/huangjt-academic-writing/modules/statistical-analysis/references/effect_sizes_and_power.md",
+      "skills/huangjt-academic-writing/modules/statistical-analysis/references/reporting_standards.md",
+      "skills/huangjt-academic-writing/modules/statistical-analysis/references/test_selection_guide.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "统计",
+      "分析",
+      "检验",
+      "置信区间"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "statistical-power",
+    "description": "Calculates sample sizes and statistical power for study planning. Applies when someone asks \"how many subjects/samples/replicates do I need\", wants an a priori power analysis, a minimum detectable effect (MDE), a power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-registration. Covers closed-form power for t-tests, ANOVA, proportions, correlations, chi-square, and regression, plus simulation-based (Monte Carlo) power for complex designs — logistic/Poisson regression, mixed models, cluster-randomized trials, survival, and interactions. Also handles requests that only mention an effect size, alpha, or \"80% power\" without saying \"power analysis\" explicitly. For laying out the study (randomization, blocking, factorial/DOE, crossover, sequential designs) use experimental-design; for analyzing data already collected and reporting it use statistical-analysis.",
+    "workflow": "skills/huangjt-academic-writing/modules/statistical-power/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/statistical-power/scripts/power.py",
+      "skills/huangjt-academic-writing/modules/statistical-power/scripts/simulate_power.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/statistical-power/references/closed_form_recipes.md",
+      "skills/huangjt-academic-writing/modules/statistical-power/references/effect_sizes.md",
+      "skills/huangjt-academic-writing/modules/statistical-power/references/simulation_based_power.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "统计功效",
+      "样本量"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "statsmodels",
+    "description": "Fits and diagnoses Python statistical models including OLS, GLM, discrete and mixed models, ARIMA and SARIMAX. Supports coefficient inference, marginal effects, model comparison and time series forecasting with explicit design and uncertainty checks. Used for econometrics and statistical modeling; for guided test selection with APA reporting, see statistical-analysis.",
+    "workflow": "skills/huangjt-academic-writing/modules/statsmodels/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/statsmodels/references/discrete_choice.md",
+      "skills/huangjt-academic-writing/modules/statsmodels/references/glm.md",
+      "skills/huangjt-academic-writing/modules/statsmodels/references/linear_models.md",
+      "skills/huangjt-academic-writing/modules/statsmodels/references/model_selection.md",
+      "skills/huangjt-academic-writing/modules/statsmodels/references/modeling_capabilities.md",
+      "skills/huangjt-academic-writing/modules/statsmodels/references/quick_start_guide.md",
+      "skills/huangjt-academic-writing/modules/statsmodels/references/review.md",
+      "skills/huangjt-academic-writing/modules/statsmodels/references/stats_diagnostics.md",
+      "skills/huangjt-academic-writing/modules/statsmodels/references/time_series.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "统计模型",
+      "回归",
+      "方差分析"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "sympy",
+    "description": "Performs exact symbolic mathematics with SymPy for algebra, calculus, equation solving, symbolic linear algebra, physics, and lambdify or LaTeX code generation. Use when a task needs symbolic results, explicit assumptions, or exact arithmetic; use NumPy or SciPy for purely numerical workloads.",
+    "workflow": "skills/huangjt-academic-writing/modules/sympy/WORKFLOW.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/modules/sympy/references/advanced-topics.md",
+      "skills/huangjt-academic-writing/modules/sympy/references/code-generation-printing.md",
+      "skills/huangjt-academic-writing/modules/sympy/references/core-capabilities.md",
+      "skills/huangjt-academic-writing/modules/sympy/references/core_capabilities.md",
+      "skills/huangjt-academic-writing/modules/sympy/references/matrices-linear-algebra.md",
+      "skills/huangjt-academic-writing/modules/sympy/references/physics-mechanics.md",
+      "skills/huangjt-academic-writing/modules/sympy/references/review.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "符号计算",
+      "方程",
+      "推导"
+    ]
+  },
+  {
+    "owner": "huangjt-academic-writing",
+    "module": "venue-templates",
+    "description": "Prepares journal manuscripts, conference papers, research posters, and grant documents using venue-specific formatting guidance and bundled LaTeX scaffolds. Supports selecting an official template, checking current page or anonymity rules, adapting academic writing to a venue, or inspecting a submission PDF.",
+    "workflow": "skills/huangjt-academic-writing/modules/venue-templates/WORKFLOW.md",
+    "scripts": [
+      "skills/huangjt-academic-writing/modules/venue-templates/scripts/customize_template.py",
+      "skills/huangjt-academic-writing/modules/venue-templates/scripts/query_template.py",
+      "skills/huangjt-academic-writing/modules/venue-templates/scripts/validate_format.py"
+    ],
+    "references": [
+      "skills/huangjt-academic-writing/modules/venue-templates/assets/examples/cell_summary_example.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/assets/examples/medical_structured_abstract.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/assets/examples/nature_abstract_examples.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/assets/examples/neurips_introduction_example.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/cell_press_style.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/conferences_formatting.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/cs_conference_style.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/current_sources.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/grants_requirements.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/journals_formatting.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/medical_journal_styles.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/ml_conference_style.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/nature_science_style.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/posters_guidelines.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/reviewer_expectations.md",
+      "skills/huangjt-academic-writing/modules/venue-templates/references/venue_writing_styles.md"
+    ],
+    "templates": [],
+    "knowledge_present": true,
+    "delivery": "optional; preserved in v1.1.0, restore only when needed",
+    "keywords": [
+      "期刊",
+      "模板",
+      "格式",
+      "投稿"
+    ]
+  }
+]

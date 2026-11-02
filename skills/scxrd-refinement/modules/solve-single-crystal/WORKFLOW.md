@@ -18,3 +18,12 @@
 TwinRotMat 格式适配只作用于诊断副本：检查当前 FCF 的标签、权重来源、波长、强度/振幅定义和 PLATON 版本；没有真实来源的缺项保持未知。原格式转换脚本必须从原件获取后检查适用条件，不在缺失时静默跳过或编造字段。诊断输出不能冒充正式提交 FCF。
 
 最终 CIF/FCF、模型、强度与验证报告绑定同一轮；核对组成、氢、ADP、连接、残差、权重、嵌入记录和外部依赖。交付时提供原始数据、复跑材料、哈希、采用理由、保留警报与限制。是否需要额外去孪晶归档取决于实际数据与用途，不把原模块的固定动作提高为所有任务的要求。
+
+## 随包知识章节
+
+- [输入与数据](references/data-gates.md)
+- [精修对照](references/refinement-playbook.md)
+- [孪晶调查](references/twinning.md)
+- [验证交付](references/validation-delivery.md)
+
+主技能自己的 21 项 Python 工具、DIALS 分阶段执行和专业参考均在上层 CAPABILITIES；不以本来源子模块的脚本数替代整个单晶核心的能力。

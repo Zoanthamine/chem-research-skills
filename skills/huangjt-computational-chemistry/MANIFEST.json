@@ -31,8 +31,8 @@
   },
   {
     "path": "CAPABILITIES.md",
-    "bytes": 10998,
-    "sha256": "f33167b1f9733c08fb1ec3db687043418b2131ef9211ba4db38cc938c41af922",
+    "bytes": 10096,
+    "sha256": "9a1e6b7cc73a583cc37f1b4eb571b32cbcbe7b654dd915a233b20d48cee189c7",
     "normalize_lf": true
   },
   {
@@ -522,6 +522,12 @@
     "normalize_lf": true
   },
   {
+    "path": "references/core-workflows.md",
+    "bytes": 2075,
+    "sha256": "41f051cee26ea9eb3f8ab11c2f8e5e4e60274336c202de7c8719eb25318ca468",
+    "normalize_lf": true
+  },
+  {
     "path": "references/experience-maintenance.md",
     "bytes": 3119,
     "sha256": "baee362dfd2af9066b16f6d307c80ebc25c200f21977ae4cc0dbd8c609054089",
@@ -601,8 +607,8 @@
   },
   {
     "path": "scripts/backend_inventory.py",
-    "bytes": 717,
-    "sha256": "24a99d3793e2ec24b008ba91620f41e4a9c335a51c885838bdc2ffc0dcb319ca",
+    "bytes": 1100,
+    "sha256": "ccac5589acc8ec3d38d951e19903bf5f823539378966151600367e5388180671",
     "normalize_lf": true
   },
   {
@@ -612,9 +618,27 @@
     "normalize_lf": true
   },
   {
+    "path": "scripts/local_sampling.py",
+    "bytes": 5789,
+    "sha256": "6925c4fcf378e30edc23767662edcb1adec1f25c8817e7269b1cedefa53b95ee",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/prepare_nmr_jobs.py",
+    "bytes": 6213,
+    "sha256": "80a305250654c9753183862748b76c4b51dd9f98f2f28a5be2fbfb425996904c",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/run_gaussian_nmr.py",
+    "bytes": 3950,
+    "sha256": "9503757129a43ec871f9f0e9d7534f8751201bdcac751390793d7c5952f07e5a",
+    "normalize_lf": true
+  },
+  {
     "path": "SKILL.md",
-    "bytes": 7181,
-    "sha256": "3be8d3d8a262ea0e4071c723ab700080d15c0572d7b7cca187c54bf00528623d",
+    "bytes": 7468,
+    "sha256": "9a74a7c6fb897443dec4aace7204de7c70e7267300fa6068214784ed04f1e7db",
     "normalize_lf": true
   },
   {

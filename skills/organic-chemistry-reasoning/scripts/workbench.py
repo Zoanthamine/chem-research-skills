@@ -11,7 +11,8 @@ SKILL=Path(__file__).resolve().parents[1]
 ROOT=SKILL.parent.parent
 PROFILES={
  'foundation':{'packages':['rdkit','Pillow'],'modules':['rdkit','PIL']},
- 'spectra':{'packages':['numpy','scipy','matplotlib','nmrglue'],'modules':['numpy','scipy','matplotlib','nmrglue']},
+ 'spectra':{'packages':['numpy','scipy','matplotlib','nmrglue','pyopenms==3.6.0'],'modules':['numpy','scipy','matplotlib','nmrglue','pyopenms']},
+ 'thermo-raw':{'packages':['pyopenms==3.6.0'],'modules':['pyopenms']},
  'crystal':{'packages':['gemmi','numpy','requests'],'modules':['gemmi','numpy','requests']},
  'documents':{'packages':['python-docx','python-pptx','pypdf','Pillow'],'modules':['docx','pptx','pypdf','PIL']},
  'ocsr':{'packages':['rdkit','Pillow'],'modules':['rdkit','PIL']},
@@ -113,16 +114,66 @@ def setup(args):
             java=str(found[0]);conf['java_download']={'url':package['link'],'sha256':package['checksum']}
         subprocess.run([java,'-version'],check=True,capture_output=True)
         conf.update(java=str(java),molvec_jar=str(jar),molvec_version='0.9.8',molvec_sha256=MOLVEC_SHA)
+    if args.profile=='thermo-raw':
+        if os.name!='nt':raise RuntimeError('This automatic converter recipe targets Windows; use the official Linux/Mono distribution on other hosts.')
+        existing=conf.get('thermo_parser') or os.environ.get('THERMO_RAW_FILE_PARSER') or shutil.which('ThermoRawFileParser.exe')
+        if existing and Path(existing).is_file():conf['thermo_parser']=str(Path(existing).resolve())
+        else:
+            url='https://github.com/CompOmics/ThermoRawFileParser/releases/download/v1.4.5/ThermoRawFileParser1.4.5.zip'
+            archive=download(url,home/'downloads/ThermoRawFileParser1.4.5.zip')
+            destination=home/'thermorawfileparser-1.4.5'
+            if not destination.exists():safe_extract(archive,destination)
+            matches=list(destination.rglob('ThermoRawFileParser.exe'))
+            if len(matches)!=1:raise RuntimeError('Official converter executable not found')
+            conf['thermo_parser']=str(matches[0]);conf['thermo_archive_sha256']=hashlib.sha256(archive.read_bytes()).hexdigest()
     target=home/'workbench.json';temp=home/'workbench.json.new'
     temp.write_text(json.dumps(conf,ensure_ascii=False,indent=2),encoding='utf-8');temp.replace(target)
     return plan|{'configured':str(target),'python':str(python),'verification':'Run verify to test behavior; installation alone is not validation.'}
 
 def catalog(args):
     rows=json.loads((SKILL/'assets/module-catalog.json').read_text(encoding='utf-8'))
+    if args.optional:rows+=json.loads((SKILL/'assets/optional-module-catalog.json').read_text(encoding='utf-8'))
     query=(args.query or '').casefold()
     selected=[r for r in rows if query in json.dumps(r,ensure_ascii=False).casefold()]
     if args.details:return selected
     return [{'owner':r['owner'],'module':r['module'],'description':r['description'][:240],'workflow':r['workflow'],'scripts':len(r['scripts']),'references':len(r['references']),'templates':len(r['templates']),'delivery':r['delivery']} for r in selected]
+
+def restore_optional(args):
+    rows=json.loads((SKILL/'assets/optional-module-catalog.json').read_text(encoding='utf-8'))
+    found=[r for r in rows if r['module']==args.module]
+    if len(found)!=1:raise ValueError('Select an exact optional module from search --optional')
+    row=found[0];target=(Path(args.skills_root).expanduser() if args.skills_root else SKILL.parent)/row['owner']/'modules'/row['module']
+    if target.exists():return {'module':args.module,'path':str(target.resolve()),'status':'already present; original retained','registered_new_skills':0}
+    home=data_home(args.data_dir)
+    archive=download('https://codeload.github.com/Zoanthamine/chem-research-skills/zip/refs/tags/v1.1.0',home/'downloads/chem-research-skills-v1.1.0.zip')
+    prefix_path='skills/'+row['owner']+'/modules/'+row['module']+'/'
+    with zipfile.ZipFile(archive) as z:
+        top=z.namelist()[0].split('/')[0]+'/'
+        manifest={r['path']:r for r in json.loads(z.read(top+'MANIFEST.json'))}
+        selected=[name for name in z.namelist() if name.startswith(top+prefix_path) and not name.endswith('/')]
+        if not selected:raise ValueError('Archived module missing from fixed source version')
+        payload=[]
+        for name in selected:
+            path=name[len(top):];raw=z.read(name);record=manifest[path]
+            normalized=raw.replace(b'\r\n',b'\n') if record.get('normalize_lf') else raw
+            if hashlib.sha256(normalized).hexdigest()!=record['sha256']:raise ValueError('Archived module checksum mismatch')
+            rel=Path(path[len(prefix_path):])
+            if rel.is_absolute() or '..' in rel.parts or rel.name=='SKILL.md':raise ValueError('Unsafe module member')
+            payload.append((rel,raw))
+        for rel,raw in payload:
+            out=target/rel;out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(raw)
+    core=target.parents[1];listing=core/'MANIFEST.json'
+    if listing.is_file():
+        records={x['path']:x for x in json.loads(listing.read_text(encoding='utf-8'))}
+        for rel,raw in payload:
+            p=(target/rel).relative_to(core).as_posix()
+            try:raw.decode('utf-8');text=b'\0' not in raw
+            except UnicodeDecodeError:text=False
+            canonical=raw.replace(b'\r\n',b'\n') if text else raw
+            records[p]={'path':p,'bytes':len(canonical),'sha256':hashlib.sha256(canonical).hexdigest()}
+            if text:records[p]['normalize_lf']=True
+        listing.write_text(json.dumps([records[k] for k in sorted(records)],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    return {'module':args.module,'path':str(target.resolve()),'source_tag':'v1.1.0','verified_files':len(payload),'registered_new_skills':0,'executed_scripts':False}
 
 def fetch_source(args):
     evidence={r['key']:r for r in json.loads((SKILL/'assets/upstream-evidence.json').read_text(encoding='utf-8'))}
@@ -137,14 +188,16 @@ def main():
     for stream in (sys.stdout,sys.stderr):
         if hasattr(stream,'reconfigure'):stream.reconfigure(encoding='utf-8')
     p=argparse.ArgumentParser(description=__doc__);sub=p.add_subparsers(dest='command',required=True)
-    q=sub.add_parser('search');q.add_argument('query',nargs='?',default='');q.add_argument('--details',action='store_true')
+    q=sub.add_parser('search');q.add_argument('query',nargs='?',default='');q.add_argument('--details',action='store_true');q.add_argument('--optional',action='store_true')
     q=sub.add_parser('setup');q.add_argument('--profile',choices=PROFILES,default='foundation');q.add_argument('--data-dir');q.add_argument('--python');q.add_argument('--ketcher-dist');q.add_argument('--apply',action='store_true')
     q=sub.add_parser('verify');q.add_argument('--data-dir');q.add_argument('--output',required=True)
     q=sub.add_parser('fetch-source');q.add_argument('source',choices=['hpc','office','organic','paper','conformer','crystal','ars','nature']);q.add_argument('--data-dir')
+    q=sub.add_parser('restore-optional');q.add_argument('module');q.add_argument('--skills-root',required=True,help='Installed skill directory; keep the release source unchanged');q.add_argument('--data-dir')
     a=p.parse_args()
     if a.command=='setup':result=setup(a)
     elif a.command=='search':result=catalog(a)
     elif a.command=='fetch-source':result=fetch_source(a)
+    elif a.command=='restore-optional':result=restore_optional(a)
     else:
         home=data_home(a.data_dir);conf=load(home)
         script=SKILL/'scripts/structure_cli.py'

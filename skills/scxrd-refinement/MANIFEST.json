@@ -7,8 +7,8 @@
   },
   {
     "path": "CAPABILITIES.md",
-    "bytes": 5414,
-    "sha256": "e17bcab0ae5a076c2fe3112bf3912ccd2818e6d00f7967863134e5fffc1bf755",
+    "bytes": 7175,
+    "sha256": "27dedbd67be743c1c6d252a252e9603457e25e1c734d2deea00a5a0e4816aebd",
     "normalize_lf": true
   },
   {
@@ -84,9 +84,33 @@
     "normalize_lf": true
   },
   {
+    "path": "modules/solve-single-crystal/references/data-gates.md",
+    "bytes": 457,
+    "sha256": "b0a3182b6719021b66894ee5d138671ff03638df7f1cb56c03c0eaf1755270a5",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/solve-single-crystal/references/refinement-playbook.md",
+    "bytes": 465,
+    "sha256": "0a5dd373191a4cc0dcbc14e63d9f28ea17fa48743cd2879a0e0ec7fde92422e1",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/solve-single-crystal/references/twinning.md",
+    "bytes": 471,
+    "sha256": "a8ac8b82627ab0b13239ca9ea9e3b014904145313f3359712d10557aca3b3d9d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/solve-single-crystal/references/validation-delivery.md",
+    "bytes": 461,
+    "sha256": "261ede28719376a6593d99833e5f316c8a383bd18fd289645bf509ea744676d0",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/solve-single-crystal/WORKFLOW.md",
-    "bytes": 2732,
-    "sha256": "84fa8940c677833c3fd78826f5c6ca3dffd0939608052a907152944a9006df45",
+    "bytes": 3127,
+    "sha256": "9586310f0c47de9f7d566f3c28b80a28a678c2af61bdfb138ced949fa104aef2",
     "normalize_lf": true
   },
   {
@@ -111,6 +135,12 @@
     "path": "references/cif-metadata.md",
     "bytes": 3798,
     "sha256": "733ae61bde8755e7cc16047abb4890e604fb3f4019fc15b61b7a733aef6d4ca1",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/core-workflows.md",
+    "bytes": 1608,
+    "sha256": "53b934e61eee7c959d566db68743cbde639896e88a6f6c764e8b6788388f655d",
     "normalize_lf": true
   },
   {
@@ -367,8 +397,8 @@
   },
   {
     "path": "SKILL.md",
-    "bytes": 9322,
-    "sha256": "e264061b283724c86994299afa49e6c1675a5835a09d6cf46847efee7876ca14",
+    "bytes": 9609,
+    "sha256": "7afaef19c1e0bcdffc028b4ca50dc3a5e096fdb261a03e8b168e85569c5a4cc3",
     "normalize_lf": true
   },
   {

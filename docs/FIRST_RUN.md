@@ -1,3 +1,5 @@
+本版结构：四个化学核心优先；写作仅七个默认模块，32 个可选方法见写作 references/optional-methods.md。谱文件基础可配置 workbench.py setup --profile spectra/thermo-raw；实际入口见 CORE_ACCEPTANCE.md。本次按要求跳过后续完整验证。
+
 # 给新电脑助手的首次配置流程
 
 目标是配置本机可持续使用的化学科研工作台，并学会六个技能的结构、选择与协作；不要求重建作者电脑，也不要求一次安装全部外部程序。

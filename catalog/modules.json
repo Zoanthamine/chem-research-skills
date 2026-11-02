@@ -5,10 +5,13 @@
     "description": "单晶辅助知识与原始工具获取",
     "workflow": "skills/scxrd-refinement/modules/solve-single-crystal/WORKFLOW.md",
     "scripts": [],
-    "references": [],
+    "references": [
+      "skills/scxrd-refinement/modules/solve-single-crystal/references/data-gates.md",
+      "skills/scxrd-refinement/modules/solve-single-crystal/references/refinement-playbook.md",
+      "skills/scxrd-refinement/modules/solve-single-crystal/references/twinning.md",
+      "skills/scxrd-refinement/modules/solve-single-crystal/references/validation-delivery.md"
+    ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "source fetch plus equivalent primary tools",
     "keywords": [
       "单晶",
       "修单晶",
@@ -19,7 +22,9 @@
       "CIF",
       "FCF",
       "交付"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-computational-chemistry",
@@ -45,8 +50,6 @@
       "skills/huangjt-computational-chemistry/modules/hpc-gaussian/assets/templates/opt_freq_water.gjf",
       "skills/huangjt-computational-chemistry/modules/hpc-gaussian/assets/templates/sp_water.gjf"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "计算化学",
       "高斯",
@@ -57,7 +60,9 @@
       "频率",
       "过渡态",
       "checkpoint"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-computational-chemistry",
@@ -84,8 +89,6 @@
       "skills/huangjt-computational-chemistry/modules/hpc-gromacs/assets/templates/npt.mdp",
       "skills/huangjt-computational-chemistry/modules/hpc-gromacs/assets/templates/nvt.mdp"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "构象",
       "退火",
@@ -95,7 +98,9 @@
       "温控",
       "重启",
       "GROMACS"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-computational-chemistry",
@@ -146,8 +151,6 @@
       "skills/huangjt-computational-chemistry/modules/hpc-orchestration/assets/templates/slurm-perf-report.sh",
       "skills/huangjt-computational-chemistry/modules/hpc-orchestration/assets/templates/ssh-config-compute-proxy.example"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "集群",
       "排队",
@@ -159,7 +162,9 @@
       "Slurm",
       "PBS",
       "LSF"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-computational-chemistry",
@@ -172,15 +177,15 @@
       "skills/huangjt-computational-chemistry/modules/molecular-dynamics/references/system_preparation.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "分子动力学",
       "构象",
       "采样",
       "模拟",
       "轨迹"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-computational-chemistry",
@@ -192,8 +197,6 @@
     ],
     "references": [],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "构象",
       "生成三维",
@@ -202,7 +205,9 @@
       "3D",
       "ETKDG",
       "力场"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-spectral-structure-analysis",
@@ -221,8 +226,6 @@
       "skills/huangjt-spectral-structure-analysis/modules/matchms/references/workflows.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "质谱",
       "串联质谱",
@@ -230,7 +233,9 @@
       "谱库",
       "相似性",
       "预处理"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-spectral-structure-analysis",
@@ -243,11 +248,7 @@
     "references": [
       "skills/huangjt-spectral-structure-analysis/modules/nmrglue/references/acquisition-and-validation.md"
     ],
-    "templates": [
-      "skills/huangjt-spectral-structure-analysis/modules/nmrglue/assets/processing.json"
-    ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
+    "templates": [],
     "keywords": [
       "核磁",
       "氢谱",
@@ -258,7 +259,9 @@
       "相位",
       "Bruker",
       "NMRPipe"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-spectral-structure-analysis",
@@ -266,7 +269,6 @@
     "description": "Processes mass spectrometry data with pyOpenMS. Supports proteomics and metabolomics workflows—feature detection, peptide/protein identification, label-free quantification, adduct/accurate-mass annotation, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. For simple spectral comparison and small-molecule library matching use matchms.",
     "workflow": "skills/huangjt-spectral-structure-analysis/modules/pyopenms/WORKFLOW.md",
     "scripts": [
-      "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/_common.py",
       "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/accurate_mass_search.py",
       "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/align_link_quantify.py",
       "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/consensus_to_matrix.py",
@@ -282,7 +284,8 @@
       "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/plot_ms_data.py",
       "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/process_identifications.py",
       "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/process_spectra.py",
-      "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/theoretical_spectrum.py"
+      "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/theoretical_spectrum.py",
+      "skills/huangjt-spectral-structure-analysis/modules/pyopenms/scripts/_common.py"
     ],
     "references": [
       "skills/huangjt-spectral-structure-analysis/modules/pyopenms/references/data_structures.md",
@@ -293,8 +296,6 @@
       "skills/huangjt-spectral-structure-analysis/modules/pyopenms/references/signal_processing.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "质谱",
       "色谱",
@@ -302,7 +303,9 @@
       "特征",
       "峰识别",
       "保留时间"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-spectral-structure-analysis",
@@ -310,7 +313,6 @@
     "description": "数值谱图文件处理后端。用于格式识别、二列数据或受支持 JCAMP 的读入、轴单位核对、峰候选及数值图导出；实验解谱和多谱结构归属优先 huangjt-spectral-structure-analysis。",
     "workflow": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/WORKFLOW.md",
     "scripts": [
-      "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/__init__.py",
       "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/chem3d_api.py",
       "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/chemdraw_gui.py",
       "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/chemistry_drawing_api.py",
@@ -330,7 +332,8 @@
       "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/spectrum_type_detector.py",
       "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/structure_elucidator.py",
       "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/test_multi_type.py",
-      "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/test_syntax.py"
+      "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/test_syntax.py",
+      "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/__init__.py"
     ],
     "references": [
       "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/AGENT_GUIDE.md",
@@ -338,8 +341,6 @@
       "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/references/upstream-workflow.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "解谱",
       "看谱",
@@ -350,7 +351,9 @@
       "拉曼",
       "数值",
       "数据处理"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -358,14 +361,14 @@
     "description": "Plans, executes, and documents validation, verification, and transfer of analytical procedures under the governing framework - ICH Q2(R2) and Q14, USP <1220>/<1225>/<1226>, ICH M10 bioanalytical, CLSI EP, or ISO/IEC 17025. Use for HPLC, LC-MS/MS, GC, CE, ICP-MS, dissolution, qNMR, qPCR, NIR, and ligand binding or cell-based assays whenever the question is whether a procedure is fit for its intended purpose. Triggers include \"method validation\", \"analytical method validation\", \"AMV\", \"validation protocol\", \"acceptance criteria\", \"linearity\", \"reportable range\", \"accuracy and precision\", \"repeatability\", \"intermediate precision\", \"recovery\", \"LOD\", \"LOQ\", \"detection limit\", \"quantitation limit\", \"specificity\", \"robustness\", \"method transfer\", \"method comparison\", \"Deming\", \"Passing-Bablok\", \"Bland-Altman\", \"equivalence testing\", \"OOS investigation\", \"ICH Q2\", \"Q2(R2)\", \"Q14\", \"USP 1225\", \"ICH M10\", \"incurred sample reanalysis\", \"ISR\", \"CLSI EP\", and any request to show that an assay works.",
     "workflow": "skills/organic-chemistry-reasoning/modules/analytical-method-validation/WORKFLOW.md",
     "scripts": [
-      "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/_catalog.py",
-      "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/_common.py",
       "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/check_accuracy_precision.py",
       "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/check_bioanalytical_run.py",
       "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/check_detection_limits.py",
       "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/check_response.py",
       "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/compare_methods.py",
-      "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/plan_validation.py"
+      "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/plan_validation.py",
+      "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/_catalog.py",
+      "skills/organic-chemistry-reasoning/modules/analytical-method-validation/scripts/_common.py"
     ],
     "references": [
       "skills/organic-chemistry-reasoning/modules/analytical-method-validation/assets/validation-protocol-template.md",
@@ -378,8 +381,6 @@
       "skills/organic-chemistry-reasoning/modules/analytical-method-validation/references/statistics.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "分析方法验证",
       "定量",
@@ -387,7 +388,9 @@
       "回收率",
       "精密度",
       "检出限"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -407,15 +410,15 @@
       "skills/organic-chemistry-reasoning/modules/datamol/references/workflow_patterns.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "分子",
       "标准化",
       "清洗",
       "转换",
       "数据集"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -433,8 +436,6 @@
       "skills/organic-chemistry-reasoning/modules/experimental-design/references/sequential_and_adaptive.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "实验设计",
       "对照",
@@ -443,7 +444,9 @@
       "批次",
       "交互",
       "DOE"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -451,14 +454,14 @@
     "description": "Formulates evidence-bounded scientific questions, candidate hypotheses, rival explanations, causal or associational claims, discriminating predictions, measurements, and preregistration-ready analysis plans. Used when turning observations or preliminary findings into transparent, testable research plans without treating hypotheses as facts.",
     "workflow": "skills/organic-chemistry-reasoning/modules/hypothesis-generation/WORKFLOW.md",
     "scripts": [
-      "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/_common.py",
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/audit_evidence_ledger.py",
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/check_falsification_controls.py",
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/check_operationalization.py",
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/generate_preregistration_scaffold.py",
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/lint_causal_claims.py",
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/validate_hypothesis_schema.py",
-      "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/validate_prediction_matrix.py"
+      "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/validate_prediction_matrix.py",
+      "skills/organic-chemistry-reasoning/modules/hypothesis-generation/scripts/_common.py"
     ],
     "references": [
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/assets/preregistration_scaffold_template.md",
@@ -473,20 +476,15 @@
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/references/source_ledger.md",
       "skills/organic-chemistry-reasoning/modules/hypothesis-generation/references/tool_reference.md"
     ],
-    "templates": [
-      "skills/organic-chemistry-reasoning/modules/hypothesis-generation/assets/falsification_controls_template.json",
-      "skills/organic-chemistry-reasoning/modules/hypothesis-generation/assets/hypothesis_record_template.json",
-      "skills/organic-chemistry-reasoning/modules/hypothesis-generation/assets/operationalization_template.json",
-      "skills/organic-chemistry-reasoning/modules/hypothesis-generation/assets/search_boundary_template.json"
-    ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
+    "templates": [],
     "keywords": [
       "假说",
       "机理推断",
       "可证伪",
       "区分性实验"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -501,14 +499,14 @@
       "skills/organic-chemistry-reasoning/modules/medchem/references/rules_catalog.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "药化",
       "筛选",
       "结构警报",
       "分子性质"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -518,8 +516,6 @@
     "scripts": [],
     "references": [],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "结构",
       "格式转换",
@@ -527,7 +523,9 @@
       "SDF",
       "XYZ",
       "SMILES"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -539,13 +537,7 @@
       "skills/organic-chemistry-reasoning/modules/organic-chemistry-assistant/references/mechanism-graphics.md",
       "skills/organic-chemistry-reasoning/modules/organic-chemistry-assistant/references/mechanism-spec.md"
     ],
-    "templates": [
-      "skills/organic-chemistry-reasoning/modules/organic-chemistry-assistant/assets/cyclohexanone.mechanism.json",
-      "skills/organic-chemistry-reasoning/modules/organic-chemistry-assistant/assets/sn2.mechanism.json",
-      "skills/organic-chemistry-reasoning/modules/organic-chemistry-assistant/assets/sn2_skeletal.mechanism.json"
-    ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
+    "templates": [],
     "keywords": [
       "有机",
       "结构识别",
@@ -556,7 +548,9 @@
       "编辑",
       "SMILES",
       "Ketcher"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -576,8 +570,6 @@
       "skills/organic-chemistry-reasoning/modules/rdkit/references/workflows_and_best_practices.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "结构式",
       "分子式",
@@ -586,7 +578,9 @@
       "指纹",
       "亚结构",
       "原子映射"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -594,10 +588,10 @@
     "description": "Facilitates evidence-aware scientific ideation with independent generation, structured discussion, explicit assumptions, transparent evaluation, adversarial review, and decision logs. Use for early-stage research brainstorming or prioritizing candidate directions; hand off empirical validation, study design, ethics or regulatory review, and clinical questions to appropriate experts or skills.",
     "workflow": "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/WORKFLOW.md",
     "scripts": [
-      "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/scripts/_common.py",
       "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/scripts/evaluate_matrix.py",
       "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/scripts/session_scaffold.py",
-      "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/scripts/validate_register.py"
+      "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/scripts/validate_register.py",
+      "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/scripts/_common.py"
     ],
     "references": [
       "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/references/brainstorming_methods.md",
@@ -607,14 +601,14 @@
       "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/references/sources.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "科研思路",
       "脑暴",
       "研究问题",
       "创新"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -633,14 +627,14 @@
       "skills/organic-chemistry-reasoning/modules/scientific-critical-thinking/references/statistical_pitfalls.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "证据",
       "竞争解释",
       "批判性思考",
       "因果"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "organic-chemistry-reasoning",
@@ -648,13 +642,13 @@
     "description": "Tracks physical units and propagates measurement uncertainty in scientific calculations using pint and uncertainties. Use for unit conversion and dimensional checking, GUM uncertainty budgets, Type A and Type B evaluation, coverage factors and expanded uncertainty, Monte Carlo propagation, significant-figure and plus-minus reporting, error propagation through curve fits, CODATA constants, auditing Python code for stripped units or broken uncertainty propagation, and order-of-magnitude plausibility checks using dimensionless groups (Reynolds, Peclet, Damkohler, Knudsen, Biot, Womersley), characteristic scales such as diffusion time or Debye length, and observed magnitude ranges. Trigger on \"is this number physically reasonable\", \"sanity check these units\", \"what regime is this flow in\", or a result that looks off by orders of magnitude.",
     "workflow": "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/WORKFLOW.md",
     "scripts": [
-      "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/_common.py",
       "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/audit_units.py",
       "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/check_plausibility.py",
       "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/convert_units.py",
       "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/format_result.py",
       "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/propagate_uncertainty.py",
-      "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/uncertainty_budget.py"
+      "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/uncertainty_budget.py",
+      "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/_common.py"
     ],
     "references": [
       "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/references/domain-conversions.md",
@@ -666,14 +660,14 @@
       "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/references/uncertainties-recipes.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "不确定性",
       "单位",
       "有效数字",
       "误差传播"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -685,31 +679,6 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/pi/wrapper.integration.test.mjs",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/pi/wrapper.js",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/pi/wrapper.test.mjs",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_block_parser.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_calibration_pdf_text.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_claim_audit_constants.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_e4_evidence.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_eval_threshold_gate.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_markdown_lint_util.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_next_verified_at_ms.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_passport_yaml.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_skill_lint.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_text_similarity.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/_common.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/folder_scan.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/obsidian.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/conftest.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_check_corpus_consumer_protocol.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_check_literature_corpus_schema.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_common.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_conftest.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_folder_scan.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_literature_corpus_entry_schema.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_obsidian.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_rejection_log_schema.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_sync_adapter_docs.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_zotero.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/zotero.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adjudication_activity.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/announce-ars-loaded.sh",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/ars_anchorize_draft.py",
@@ -801,18 +770,18 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_prisma_trAIce_freshness.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_promotion_bakeoff_preregistration.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_ranking_lift.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_re_review_synthesis.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_receipt_enum_sync.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_repro_lock.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_review_form_note_sync.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_review_pathway_output.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_reviewer_data_fences.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_reviewer_finding_contract.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_reviewer_role_label.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_reviewer_scoring_honesty.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_reviewer_sprint_prompt_sync.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_review_form_note_sync.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_review_pathway_output.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_revision_claim_drift_suite_v2.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_revision_token_conservation.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_re_review_synthesis.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_risk_register.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_role_scoped_contract.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/check_routing_core_sync.py",
@@ -858,14 +827,12 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/claim_standing_stance_scorer.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/claim_strength_drift_disposition.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/contamination_signals.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/crossref_client.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_codex_transport.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_codex_verify.sh",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_handoff.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_smoke_test.sh",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_smoke_test_codex.sh",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_verification/normalize_compat_verdict.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_verification/openai_effort_guard.sh",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/crossref_client.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/dispatch_calibration_panel.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/dispatch_e4_panel.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/dispatch_panel_claim_audit.py",
@@ -876,8 +843,6 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/human_read_attestation_resolver.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/ideation_diversity_assignment_gate.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/inquiry_branch_ledger.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/legacy/ars_apply_revision_patch_v1_0.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/legacy/check_re_review_synthesis_v1_0.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/migrate_literature_corpus_to_v3_10.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/migrate_literature_corpus_to_v3_7_3.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/migrate_literature_corpus_to_v3_9_0.py",
@@ -915,9 +880,6 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/sync_adapter_docs.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/temporal_integrity_audit.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_431_exact_or_bust.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test__eval_threshold_gate.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test__markdown_lint_util.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test__next_verified_at_ms.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_adjacent_framing_probe_lint.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_adjudication_activity.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_ars_anchorize_draft.py",
@@ -1000,17 +962,17 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_prisma_trAIce_freshness.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_promotion_bakeoff_preregistration.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_ranking_lift.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_re_review_synthesis.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_receipt_enum_sync.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_repro_lock.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_review_form_note_sync.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_reviewer_data_fences.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_reviewer_finding_contract.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_reviewer_role_label.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_reviewer_scoring_honesty.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_reviewer_sprint_prompt_sync.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_review_form_note_sync.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_revision_claim_drift_suite_v2.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_revision_token_conservation.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_re_review_synthesis.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_risk_register.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_role_scoped_contract.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_check_routing_core_sync.py",
@@ -1063,18 +1025,18 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_codex_router_policy.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_contamination_signals.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_content_coverage_advisory.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_crossref_client.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_cross_document_consistency_advisory.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_cross_model_codex_transport.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_cross_model_handoff.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_cross_model_verification_guards.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_crossref_client.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_dispatch_calibration_panel.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_dispatch_e4_panel.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_dispatch_panel_claim_audit.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_e2e_claim_audit.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_eval_harness_workflow.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_evals_citation_extraction.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_evals_lift_report_schema.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_eval_harness_workflow.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_evidence_rows.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_excluded_source_entry_schema.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_experiment_alignment_overclaim_fixtures.py",
@@ -1144,6 +1106,9 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_verify_passport_cli.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_verify_submission_package.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test_version_records_schema.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test__eval_threshold_gate.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test__markdown_lint_util.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/test__next_verified_at_ms.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/tortured_phrase_screening.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/uncited_assertion_detector.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/validate_claim_standing_stance_assets.py",
@@ -1151,10 +1116,39 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/validate_ideation_diversity_assets.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/venue_disclosure_contract_harness.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/verification_cache.py",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/verification_gate/__init__.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/verify_panel_recommendations.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/verify_passport.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/verify_submission_package.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_block_parser.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_calibration_pdf_text.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_claim_audit_constants.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_e4_evidence.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_eval_threshold_gate.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_markdown_lint_util.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_next_verified_at_ms.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_passport_yaml.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_skill_lint.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/_text_similarity.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/folder_scan.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/obsidian.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/zotero.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/_common.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/conftest.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_check_corpus_consumer_protocol.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_check_literature_corpus_schema.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_common.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_conftest.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_folder_scan.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_literature_corpus_entry_schema.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_obsidian.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_rejection_log_schema.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_sync_adapter_docs.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/tests/test_zotero.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_verification/normalize_compat_verdict.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/cross_model_verification/openai_effort_guard.sh",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/legacy/ars_apply_revision_patch_v1_0.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/legacy/check_re_review_synthesis_v1_0.py",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/verification_gate/__init__.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/scripts/build_outputs.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/scripts/build_workflow.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/scripts/merge_decisions.py",
@@ -1163,10 +1157,10 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/scripts/srlib.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/templates/workflows/ft_screening.template.js",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/templates/workflows/ta_screening.template.js",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/tools/release-discipline/scripts/_release_doc_alignment_schema.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/tools/release-discipline/scripts/check_command_invariants.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/tools/release-discipline/scripts/check_release_doc_alignment.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/tools/release-discipline/scripts/sync-toolkit.sh",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/tools/release-discipline/scripts/_release_doc_alignment_schema.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/scripts/ars_codex_full_runtime.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/scripts/ars_codex_hook.py",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/scripts/ars_codex_quality_gates.py",
@@ -1185,6 +1179,22 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/tests/test_v3_24_0_patch.py"
     ],
     "references": [
+      "skills/huangjt-academic-research/modules/academic-research-suite/EXTERNAL_RESOURCES.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/CHANGELOG.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/CONTRIBUTING.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/GOVERNANCE.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/MODE_REGISTRY.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/NOTICE.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/POSITIONING.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/QUICKSTART.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.es-ES.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.ja-JP.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.ko-KR.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.zh-CN.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.zh-TW.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/SECURITY.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/THIRD_PARTY.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/.github/copilot-instructions.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/.github/pull_request_template.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper/agents/abstract_bilingual_agent.md",
@@ -1264,11 +1274,11 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/guided_mode_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/integration_guide.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/quality_rubrics.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/re_review_mode_protocol.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_criteria_framework.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_panel_provenance_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_quality_thinking.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/re_review_mode_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/sprint_contract_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/statistical_reporting_standards.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/top_journals_by_field.md",
@@ -1283,7 +1293,6 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/examples/full_pipeline_example.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/examples/integrity_failure_recovery.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/examples/mid_entry_example.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/references/adapters/overview.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/references/ai_research_failure_modes.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/references/changelog.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/references/claim_audit_calibration_protocol.md",
@@ -1302,6 +1311,7 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/references/score_trajectory_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/references/team_collaboration_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/references/two_stage_review_protocol.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/references/adapters/overview.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/templates/pipeline_status_template.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/agents/report_compiler_agent.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/agents/research_architect_agent.md",
@@ -1323,7 +1333,6 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/audits/iso42001-spirit-gap-assessment-2026-08-17.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/audits/rq-advisory-505-exemption-sharpening-2026-07-11.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/audits/rq-advisory-heldout-measurement-2026-07-11.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/CHANGELOG.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/commands/ars-3w.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/commands/ars-abstract.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/commands/ars-cache-invalidate.md",
@@ -1340,7 +1349,6 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/commands/ars-revision-coach.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/commands/ars-revision.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/commands/ars-unmark-read.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/CONTRIBUTING.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/agents/bibliography_agent.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/agents/devils_advocate_agent.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/agents/editor_in_chief_agent.md",
@@ -1368,8 +1376,8 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/arxiv_api_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/changelog.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/chinese_literature_api_protocol.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/cross_agent_quality_definitions.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/crossref_api_protocol.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/cross_agent_quality_definitions.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/equator_reporting_guidelines.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/ethics_checklist.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/references/failure_paths.md",
@@ -1394,14 +1402,22 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/templates/prisma_report_template.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/templates/research_brief_template.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ARCHITECTURE.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/CONTROL_AVAILABILITY.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/cross-paper-workflow.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/DATA_FLOWS.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/PERFORMANCE.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/PERFORMANCE.zh-TW.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/RISK_REGISTER.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ROADMAP-v3.11.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ROADMAP-v3.20.1-v3.22.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/SETUP.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/SETUP.zh-TW.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/STAGE_CAPABILITY_MATRIX.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/changelog-archive/es-ES.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/changelog-archive/ja-JP.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/changelog-archive/ko-KR.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/changelog-archive/zh-CN.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/changelog-archive/zh-TW.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/CONTROL_AVAILABILITY.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/cross-paper-workflow.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/DATA_FLOWS.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/design/2026-04-20-v3.4-prisma-trAIce-raise-readcheck-design.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/design/2026-04-22-ars-v3.7.3-reading-check-probe-design.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/design/2026-04-23-ars-v3.6.2-sprint-contract-design.md",
@@ -1505,14 +1521,6 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/design/2026-09-23-890-instruction-data-boundary-extension.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/design/2026-09-24-894-instruction-data-boundary-tool-calls.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/migration/v3.7.3-contamination-signals-backfill.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/PERFORMANCE.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/PERFORMANCE.zh-TW.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/RISK_REGISTER.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ROADMAP-v3.11.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ROADMAP-v3.20.1-v3.22.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/SETUP.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/SETUP.zh-TW.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/STAGE_CAPABILITY_MATRIX.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/contradiction_pairs_example.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/figure_table_trace_example.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/model-portability.md",
@@ -1533,13 +1541,13 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-06/process-record-en.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-06/terminal-checkpoint.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/showcase/README.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/agents/code_runner_agent.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/agents/study_manager_agent.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/CHANGELOG.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/docs/plans/2026-05-02-session-resume-implementation.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/docs/specs/2026-05-02-session-resume-design.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/README.zh-TW.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/agents/code_runner_agent.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/agents/study_manager_agent.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/docs/plans/2026-05-02-session-resume-implementation.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/docs/specs/2026-05-02-session-resume-design.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/references/ars_integration_guide.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/references/irb_ethics_checklist.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/references/reproducibility_protocol.md",
@@ -1551,41 +1559,40 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/templates/study_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/templates/study_state.example.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/templates/study_state.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/GOVERNANCE.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/MODE_REGISTRY.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/NOTICE.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/pi/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/all-9-covered.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/no-rewrite.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/all-covered.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/no-rewrite.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/pushback-flagged.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/no-committee-branch.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/no-fabrication.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/pushback-per-reviewer.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/no-severity-words.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/skill-fired.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/tracker-covers-5.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/contradiction-surfaced.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/no-rewrite.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/scope-creep-flagged.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/graders/missed-item-named.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/graders/no-new-skeleton.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/helpful-reply.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/no-reviewer-template.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/skill-not-called.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/prompt.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/01-apa-en-misattribution/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/01-apa-en-misattribution/graders/content-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/01-apa-en-misattribution/graders/format-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/01-apa-en-misattribution/graders/honest-unverified.md",
@@ -1593,7 +1600,7 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/01-apa-en-misattribution/graders/no-overreach.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/01-apa-en-misattribution/graders/orphan-named.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/01-apa-en-misattribution/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/01-apa-en-misattribution/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/02-apa-zh-mixed-overclaim/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/02-apa-zh-mixed-overclaim/graders/agent-loaded.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/02-apa-zh-mixed-overclaim/graders/content-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/02-apa-zh-mixed-overclaim/graders/format-caught.md",
@@ -1603,7 +1610,7 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/02-apa-zh-mixed-overclaim/graders/no-overreach.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/02-apa-zh-mixed-overclaim/graders/report-in-chinese.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/02-apa-zh-mixed-overclaim/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/02-apa-zh-mixed-overclaim/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/03-ieee-en-prose/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/03-ieee-en-prose/graders/content-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/03-ieee-en-prose/graders/format-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/03-ieee-en-prose/graders/honest-unverified.md",
@@ -1611,14 +1618,14 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/03-ieee-en-prose/graders/no-overreach.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/03-ieee-en-prose/graders/orphan-named.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/03-ieee-en-prose/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/03-ieee-en-prose/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/04-vancouver-en-terse-retraction/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/04-vancouver-en-terse-retraction/graders/content-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/04-vancouver-en-terse-retraction/graders/format-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/04-vancouver-en-terse-retraction/graders/honest-unverified.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/04-vancouver-en-terse-retraction/graders/no-false-positive.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/04-vancouver-en-terse-retraction/graders/no-overreach.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/04-vancouver-en-terse-retraction/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/04-vancouver-en-terse-retraction/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/05-apa-es-locale/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/05-apa-es-locale/graders/content-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/05-apa-es-locale/graders/format-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/05-apa-es-locale/graders/honest-unverified.md",
@@ -1628,7 +1635,7 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/05-apa-es-locale/graders/no-overreach.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/05-apa-es-locale/graders/orphan-named.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/05-apa-es-locale/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/05-apa-es-locale/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/06-chicago-nb-en-footnotes/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/06-chicago-nb-en-footnotes/graders/content-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/06-chicago-nb-en-footnotes/graders/format-caught.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/06-chicago-nb-en-footnotes/graders/honest-unverified.md",
@@ -1636,45 +1643,35 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/06-chicago-nb-en-footnotes/graders/no-overreach.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/06-chicago-nb-en-footnotes/graders/orphan-named.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/06-chicago-nb-en-footnotes/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/06-chicago-nb-en-footnotes/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/07-neg-convert-apa-to-ieee/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/07-neg-convert-apa-to-ieee/graders/is-conversion.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/07-neg-convert-apa-to-ieee/graders/not-audit-report.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/07-neg-convert-apa-to-ieee/graders/numbered-in-order.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/07-neg-convert-apa-to-ieee/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/08-neg-python-unused-imports/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/08-neg-python-unused-imports/graders/code-level-answer.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/08-neg-python-unused-imports/graders/names-hashlib.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/08-neg-python-unused-imports/graders/names-os.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/08-neg-python-unused-imports/graders/skill-not-called.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/08-neg-python-unused-imports/prompt.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-check/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/09-zh-stroke-inversion-two-authors/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/09-zh-stroke-inversion-two-authors/graders/agent-loaded.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/09-zh-stroke-inversion-two-authors/graders/keep-two-authors.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/09-zh-stroke-inversion-two-authors/graders/skill-fired.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/09-zh-stroke-inversion-two-authors/graders/stroke-inversion.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/09-zh-stroke-inversion-two-authors/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/10-zh-disambiguation-preserve-authors/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/10-zh-disambiguation-preserve-authors/graders/agent-loaded.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/10-zh-disambiguation-preserve-authors/graders/preserve-disambiguation.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/10-zh-disambiguation-preserve-authors/graders/preserve-reference-authors.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/10-zh-disambiguation-preserve-authors/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/10-zh-disambiguation-preserve-authors/prompt.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/11-zh-venue-romanization-order/prompt.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/11-zh-venue-romanization-order/graders/agent-loaded.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/11-zh-venue-romanization-order/graders/honor-venue-order.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/11-zh-venue-romanization-order/graders/skill-fired.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/11-zh-venue-romanization-order/prompt.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals-citation-locale/README.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/POSITIONING.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/QUICKSTART.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.es-ES.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.ja-JP.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.ko-KR.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.zh-CN.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.zh-TW.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/obsidian/input_fixture/vault/_templates/tmpl.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/obsidian/input_fixture/vault/chen2024ai.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/obsidian/input_fixture/vault/invalid.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/obsidian/input_fixture/vault/wang2023formative.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/obsidian/input_fixture/vault/_templates/tmpl.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/audit_artifact_consistency/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/committee_correspondence/16fd83f6aec7/response_skeleton.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/cross_document_consistency/accepted_draft.md",
@@ -1690,25 +1687,25 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/submission_package/venue_clean/paper.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/submission_package/venue_violations/paper.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/tortured_phrase_screening/own_draft.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/chinese_literature/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/README.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/SECURITY.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/agents/compliance_agent.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/chinese_literature/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/artifact_reproducibility_pattern.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/benchmark_report_pattern.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/bibliographic_integrity_signals.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/collaboration_depth_rubric.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/compliance_checkpoint_protocol.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/contracts/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/cross_model_verification.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/ground_truth_isolation_pattern.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/handoff_schemas.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/mode_spectrum.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/model_tiering.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/mode_spectrum.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/output_language_pair.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/policy_data/nature_policy.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/prisma_trAIce_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/raise_framework.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/style_calibration_protocol.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/agents/compliance_agent.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/contracts/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/policy_data/nature_policy.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/references/authority_content_coverage_advisory_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/references/claim_standing_candidate_ledger_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/references/claim_strength_ladder.md",
@@ -1727,7 +1724,6 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/references/routing_core.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/references/submission_packet_manifest_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/references/word_count_conventions.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/style_calibration_protocol.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/templates/codex_audit_multifile_template.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/agents/protocol_architect_agent.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/agents/qc_auditor_agent.md",
@@ -1743,8 +1739,10 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/references/reporting_and_handoff.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/references/reviewer_roles.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/templates/prompts.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/ars/THIRD_PARTY.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/tools/release-discipline/README.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/codex/compatibility-matrix.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/codex/model-runtime-policy.md",
+      "skills/huangjt-academic-research/modules/academic-research-suite/codex/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/agents/academic-paper-team.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/agents/academic-pipeline-orchestrator.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/agents/deep-research-team.md",
@@ -1752,16 +1750,12 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/agents/paper-reviewer-panel.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/agents/sr-screener-team.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/audits/2026-09-06-model-alignment.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/codex/compatibility-matrix.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/hooks/README.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/codex/model-runtime-policy.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/codex/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/tests/fixtures/reviewer_full_independent_sections.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/README.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/results/REPORT.md",
       "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/rubrics/pipeline-audit.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/rubrics/reviewer.md",
-      "skills/huangjt-academic-research/modules/academic-research-suite/EXTERNAL_RESOURCES.md"
+      "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/rubrics/reviewer.md"
     ],
     "templates": [
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper/templates/bilingual_abstract_template.md",
@@ -1796,15 +1790,15 @@
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/templates/workflows/ft_screening.template.js",
       "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/templates/workflows/ta_screening.template.js"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "系统综述",
       "筛选",
       "研究组织",
       "元分析",
       "ARS"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -1814,13 +1808,13 @@
     "scripts": [],
     "references": [],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "论文检索",
       "主张级证据",
       "BGPT"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -1828,14 +1822,14 @@
     "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
     "workflow": "skills/huangjt-academic-research/modules/citation-management/WORKFLOW.md",
     "scripts": [
-      "skills/huangjt-academic-research/modules/citation-management/scripts/_common.py",
       "skills/huangjt-academic-research/modules/citation-management/scripts/doi_to_bibtex.py",
       "skills/huangjt-academic-research/modules/citation-management/scripts/extract_metadata.py",
       "skills/huangjt-academic-research/modules/citation-management/scripts/format_bibtex.py",
       "skills/huangjt-academic-research/modules/citation-management/scripts/search_google_scholar.py",
       "skills/huangjt-academic-research/modules/citation-management/scripts/search_openalex.py",
       "skills/huangjt-academic-research/modules/citation-management/scripts/search_pubmed.py",
-      "skills/huangjt-academic-research/modules/citation-management/scripts/validate_citations.py"
+      "skills/huangjt-academic-research/modules/citation-management/scripts/validate_citations.py",
+      "skills/huangjt-academic-research/modules/citation-management/scripts/_common.py"
     ],
     "references": [
       "skills/huangjt-academic-research/modules/citation-management/assets/citation_checklist.md",
@@ -1852,15 +1846,15 @@
       "skills/huangjt-academic-research/modules/citation-management/references/search_strategies.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "引文",
       "参考文献",
       "文献管理",
       "BibTeX",
       "RIS"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -1876,13 +1870,13 @@
       "skills/huangjt-academic-research/modules/exa-search/references/web-search.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "学术搜索",
       "网页提取",
       "Exa"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -1905,13 +1899,13 @@
       "skills/huangjt-academic-research/modules/literature-review/references/search_and_citation.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "文献综述",
       "综述方法",
       "系统研究"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -1921,14 +1915,13 @@
     "scripts": [
       "skills/huangjt-academic-research/modules/nature-academic-search/install.sh",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/academic_search_server.py",
-      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/sources/__init__.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/sources/arxiv.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/sources/crossref.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/sources/elsevier_common.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/sources/pubmed.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/sources/sciencedirect.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/sources/scopus.py",
-      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/tests/__init__.py",
+      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/sources/__init__.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/tests/test_arxiv_error_entries.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/tests/test_citation_errors.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/tests/test_elsevier_live.py",
@@ -1938,20 +1931,21 @@
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/tests/test_scopus_empty_result.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/tests/test_script_converters.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/tests/test_sources.py",
-      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/utils/__init__.py",
+      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/tests/__init__.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/utils/config.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/utils/errors.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/utils/logging.py",
+      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/utils/__init__.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/scripts/academic_search.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/scripts/converters.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/scripts/format-converter.py",
       "skills/huangjt-academic-research/modules/nature-academic-search/scripts/preflight.py"
     ],
     "references": [
-      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/.pytest_cache/README.md",
-      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/README.md",
       "skills/huangjt-academic-research/modules/nature-academic-search/README.md",
       "skills/huangjt-academic-research/modules/nature-academic-search/README_EN.md",
+      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/README.md",
+      "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/.pytest_cache/README.md",
       "skills/huangjt-academic-research/modules/nature-academic-search/references/citation-parser.md",
       "skills/huangjt-academic-research/modules/nature-academic-search/references/dedup-engine.md",
       "skills/huangjt-academic-research/modules/nature-academic-search/references/ris-bibtex-format.md",
@@ -1967,8 +1961,6 @@
       "skills/huangjt-academic-research/modules/nature-academic-search/static/core/tools.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "找文献",
       "检索",
@@ -1977,7 +1969,9 @@
       "SOP",
       "procedure",
       "SI"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2001,14 +1995,14 @@
       "skills/huangjt-academic-research/modules/nature-citation/static/core/workflow.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "引用",
       "支持文献",
       "主张",
       "找证据"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2022,6 +2016,7 @@
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/configure_credentials.py",
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/configure_school.py",
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/extract_pdf_text.py",
+      "skills/huangjt-academic-research/modules/nature-downloader/scripts/retry_elsevier_api.mjs",
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/lib/anti-bot.mjs",
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/lib/cdp-utils.mjs",
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/lib/cnki.mjs",
@@ -2040,7 +2035,6 @@
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/lib/settings.mjs",
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/lib/status-codes.mjs",
       "skills/huangjt-academic-research/modules/nature-downloader/scripts/lib/wos-supporting-information.mjs",
-      "skills/huangjt-academic-research/modules/nature-downloader/scripts/retry_elsevier_api.mjs",
       "skills/huangjt-academic-research/modules/nature-downloader/src/config.py",
       "skills/huangjt-academic-research/modules/nature-downloader/src/health_check.py",
       "skills/huangjt-academic-research/modules/nature-downloader/src/schools_loader.py",
@@ -2069,22 +2063,22 @@
       "skills/huangjt-academic-research/modules/nature-downloader/tests/unit/wos-supporting-information.test.mjs"
     ],
     "references": [
-      "skills/huangjt-academic-research/modules/nature-downloader/docs/nature-downloader-reference-research-2026-07-15.md",
-      "skills/huangjt-academic-research/modules/nature-downloader/docs/superpowers/plans/2026-06-21-nature-downloader-merge.md",
       "skills/huangjt-academic-research/modules/nature-downloader/README.md",
       "skills/huangjt-academic-research/modules/nature-downloader/README_EN.md",
+      "skills/huangjt-academic-research/modules/nature-downloader/docs/nature-downloader-reference-research-2026-07-15.md",
+      "skills/huangjt-academic-research/modules/nature-downloader/docs/superpowers/plans/2026-06-21-nature-downloader-merge.md",
       "skills/huangjt-academic-research/modules/nature-downloader/references/delivery-verification-and-failures.md",
       "skills/huangjt-academic-research/modules/nature-downloader/references/institutional-browser-workflow.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "下载论文",
       "全文",
       "补充信息",
       "SI"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2106,13 +2100,13 @@
     "templates": [
       "skills/huangjt-academic-research/modules/nature-literature-pipeline/templates/literature-push-template.md"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "文献发现",
       "多阶段",
       "流水线"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2144,13 +2138,13 @@
       "skills/huangjt-academic-research/modules/nature-paper-card/static/fragments/paper_type/review.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "论文卡片",
       "阅读笔记",
       "比较"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2170,13 +2164,13 @@
       "skills/huangjt-academic-research/modules/nature-paper-trans/references/image-translation-prompt.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "论文翻译",
       "中英对照",
       "PDF"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2191,14 +2185,14 @@
       "skills/huangjt-academic-research/modules/nature-paper-xray/references/evidence-boundary.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "精读",
       "深读",
       "研究逻辑",
       "证据链"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2226,14 +2220,14 @@
       "skills/huangjt-academic-research/modules/nature-reader/static/fragments/source/scanned-pdf.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "读论文",
       "阅读",
       "双语报告",
       "翻译"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2247,14 +2241,14 @@
       "skills/huangjt-academic-research/modules/nature-ref-verifier/references/common-patterns.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "引文核验",
       "DOI",
       "参考文献",
       "错引"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2266,6 +2260,8 @@
       "skills/huangjt-academic-research/modules/nature-shared/tests/test_check_consistency.py"
     ],
     "references": [
+      "skills/huangjt-academic-research/modules/nature-shared/README.md",
+      "skills/huangjt-academic-research/modules/nature-shared/README_EN.md",
       "skills/huangjt-academic-research/modules/nature-shared/core/consistency-sweep.md",
       "skills/huangjt-academic-research/modules/nature-shared/core/discussion-argument-language.md",
       "skills/huangjt-academic-research/modules/nature-shared/core/ethics.md",
@@ -2279,19 +2275,17 @@
       "skills/huangjt-academic-research/modules/nature-shared/core/terminology-ledger.md",
       "skills/huangjt-academic-research/modules/nature-shared/journal-formats/nat-comms.md",
       "skills/huangjt-academic-research/modules/nature-shared/journal-formats/nature-machine-intelligence.md",
-      "skills/huangjt-academic-research/modules/nature-shared/journal-formats/nature.md",
-      "skills/huangjt-academic-research/modules/nature-shared/README.md",
-      "skills/huangjt-academic-research/modules/nature-shared/README_EN.md"
+      "skills/huangjt-academic-research/modules/nature-shared/journal-formats/nature.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "共享",
       "样式",
       "工作流",
       "公共资源"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2299,11 +2293,11 @@
     "description": "Searches 18 scholarly APIs for papers, preprints, citations, open-access full text, repository records, and journal OA status, and returns results with reproducible provenance. Covers PubMed, PMC, Europe PMC, bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall, OpenCitations, PubTator3, Zenodo, Figshare, ROR, BioStudies, and DOAJ. Use when searching for papers, citations, DOI/PMID/arXiv lookups, abstracts, full text, open-access PDFs, preprints, citation graphs, author publications, biomedical entity annotations, deposited records (Zenodo, Figshare, BioStudies), institution ROR IDs, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\", \"look up this DOI\", \"who cites this paper\", or \"get me the PDF\".",
     "workflow": "skills/huangjt-academic-research/modules/paper-lookup/WORKFLOW.md",
     "scripts": [
-      "skills/huangjt-academic-research/modules/paper-lookup/scripts/_common.py",
       "skills/huangjt-academic-research/modules/paper-lookup/scripts/arxiv_atom.py",
       "skills/huangjt-academic-research/modules/paper-lookup/scripts/jats_to_text.py",
       "skills/huangjt-academic-research/modules/paper-lookup/scripts/openalex_abstract.py",
-      "skills/huangjt-academic-research/modules/paper-lookup/scripts/paginate.py"
+      "skills/huangjt-academic-research/modules/paper-lookup/scripts/paginate.py",
+      "skills/huangjt-academic-research/modules/paper-lookup/scripts/_common.py"
     ],
     "references": [
       "skills/huangjt-academic-research/modules/paper-lookup/references/arxiv.md",
@@ -2326,14 +2320,14 @@
       "skills/huangjt-academic-research/modules/paper-lookup/references/zenodo.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "找论文",
       "DOI",
       "精确检索",
       "学术数据库"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2351,13 +2345,13 @@
       "skills/huangjt-academic-research/modules/parallel-web/references/web-search.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "检索",
       "网页提取",
       "Parallel"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2382,14 +2376,14 @@
       "skills/huangjt-academic-research/modules/pyzotero/references/write-api.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "Zotero",
       "文献库",
       "标签",
       "附件"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-research",
@@ -2405,474 +2399,12 @@
       "skills/huangjt-academic-research/modules/research-lookup/references/api-contracts.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "研究证据",
       "文献证据包"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "dask",
-    "description": "Scales pandas, NumPy, and custom Python research workflows beyond memory or across clusters with Dask. Covers DataFrames, Arrays, Bags, Futures, chunking, schedulers, and distributed diagnostics. Use for partitioned file processing, scientific array computation, or parallel tasks whose memory and dependency structure require Dask.",
-    "workflow": "skills/huangjt-academic-writing/modules/dask/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/dask/references/arrays.md",
-      "skills/huangjt-academic-writing/modules/dask/references/bags.md",
-      "skills/huangjt-academic-writing/modules/dask/references/best-practices.md",
-      "skills/huangjt-academic-writing/modules/dask/references/dataframes.md",
-      "skills/huangjt-academic-writing/modules/dask/references/futures.md",
-      "skills/huangjt-academic-writing/modules/dask/references/review.md",
-      "skills/huangjt-academic-writing/modules/dask/references/schedulers.md"
     ],
-    "templates": [],
     "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "并行",
-      "数据",
-      "大数据"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "exploratory-data-analysis",
-    "description": "Performs bounded, local exploratory analysis of explicitly supported scientific files. Supports redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffolds. Other domain formats are reference-only and unknown formats fail closed.",
-    "workflow": "skills/huangjt-academic-writing/modules/exploratory-data-analysis/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/__init__.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/_capabilities.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/_common.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/_structured.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/_tabular.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/capability_manifest.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/distribution_sensitivity.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/eda_analyzer.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/image_inspector.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/report_scaffold.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/sequence_inspector.py",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/scripts/tabular_profile.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/assets/report_template.md",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/chemistry_molecular_formats.md",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/general_scientific_formats.md",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/microscopy_imaging_formats.md",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
-      "skills/huangjt-academic-writing/modules/exploratory-data-analysis/references/spectroscopy_analytical_formats.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "探索性数据分析",
-      "数据质量",
-      "分布",
-      "异常"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "humanize-writing",
-    "description": "Remove signs of AI-generated writing from text. Use when the user mentions\n'sounds like AI,' 'too robotic,' 'humanize this,' 'make it sound human,'\n'de-AI this,' 'sounds like ChatGPT,' 'make it natural,' or 'doesn't sound\nlike a person wrote it.' Detects and fixes AI writing patterns including\ninflated significance, promotional language, formulaic structure, AI vocabulary,\nsuperficial analyses, vague attributions, hedging, robotic rhythm, em dash and\nboldface overuse, chatbot artifacts, and missing personality. Based on\nWikipedia's \"Signs of AI writing\" guide and editorial best practices.\n",
-    "workflow": "skills/huangjt-academic-writing/modules/humanize-writing/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/humanize-writing/install-skill.js",
-      "skills/huangjt-academic-writing/modules/humanize-writing/uninstall-skill.js"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/humanize-writing/README.md",
-      "skills/huangjt-academic-writing/modules/humanize-writing/references/ai-tells.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "润色",
-      "自然表达",
-      "保留原意"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "latex-posters",
-    "description": "Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. Use for conference posters, academic presentations, multi-column scientific layouts, figure integration, typography, compilation, and PDF preflight.",
-    "workflow": "skills/huangjt-academic-writing/modules/latex-posters/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/latex-posters/scripts/generate_schematic.py",
-      "skills/huangjt-academic-writing/modules/latex-posters/scripts/generate_schematic_ai.py",
-      "skills/huangjt-academic-writing/modules/latex-posters/scripts/review_poster.sh"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/latex-posters/assets/poster_quality_checklist.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/ai_graphics_for_posters.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/compilation_and_quality_control.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/latex_poster_packages.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/latex_poster_reference.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/poster_content_guide.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/poster_design_principles.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/poster_layout_design.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/poster_patterns_and_presentation.md",
-      "skills/huangjt-academic-writing/modules/latex-posters/references/README.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "学术海报",
-      "LaTeX"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "matplotlib",
-    "description": "Creates and customizes scientific plots with Matplotlib. Used for fine-grained control over plot elements, novel plot types, and scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
-    "workflow": "skills/huangjt-academic-writing/modules/matplotlib/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/matplotlib/scripts/plot_template.py",
-      "skills/huangjt-academic-writing/modules/matplotlib/scripts/style_configurator.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/matplotlib/references/api_reference.md",
-      "skills/huangjt-academic-writing/modules/matplotlib/references/common_issues.md",
-      "skills/huangjt-academic-writing/modules/matplotlib/references/plot_types.md",
-      "skills/huangjt-academic-writing/modules/matplotlib/references/styling_guide.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "绘图",
-      "坐标",
-      "图例",
-      "图形导出"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "nature-data",
-    "description": "Draft or audit manuscript Data/Code Availability statements, dataset access routes, repository plans, and FAIR metadata. Use for 数据可用性声明、数据共享、数据仓库选择 and dataset citations; not general data cleaning or statistical analysis.",
-    "workflow": "skills/huangjt-academic-writing/modules/nature-data/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/nature-data/README.md",
-      "skills/huangjt-academic-writing/modules/nature-data/README_EN.md",
-      "skills/huangjt-academic-writing/modules/nature-data/references/chinese-author-alignment.md",
-      "skills/huangjt-academic-writing/modules/nature-data/references/fair-metadata-checklist.md",
-      "skills/huangjt-academic-writing/modules/nature-data/references/nature-article-requirements.md",
-      "skills/huangjt-academic-writing/modules/nature-data/references/policy-principles.md",
-      "skills/huangjt-academic-writing/modules/nature-data/references/repository-and-identifiers.md",
-      "skills/huangjt-academic-writing/modules/nature-data/references/source-basis.md",
-      "skills/huangjt-academic-writing/modules/nature-data/references/statement-patterns.md",
-      "skills/huangjt-academic-writing/modules/nature-data/static/core/chinese-mode.md",
-      "skills/huangjt-academic-writing/modules/nature-data/static/core/stance.md",
-      "skills/huangjt-academic-writing/modules/nature-data/static/core/workflow.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "数据整理",
-      "分析",
-      "表格"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "nature-figure",
-    "description": "Create, revise, audit, and export manuscript scientific figures in Python or R. Use for 论文配图、科研绘图、多面板图 and submission-ready plots, or explicitly requested AI-generated graphical abstracts and mechanism schematics. Not for interactive dashboards, data cleaning, or statistics-only analysis.",
-    "workflow": "skills/huangjt-academic-writing/modules/nature-figure/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/audit_figure_collisions.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/audit_panel_alignment.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/audit_pdf_text.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/audit_svg_schematic.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/figure_safety.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/generate_openrouter_schematic.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/nature_figure_backend.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/plot_templates.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/scripts/validate_figure.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/tests/test_figure_safety.py",
-      "skills/huangjt-academic-writing/modules/nature-figure/tests/test_schematic_url_safety.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/nature-figure/EXTERNAL_RESOURCES.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/README.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/README_EN.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/ai-graphical-abstract-workflow.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/api.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/asset-adaptation.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/backend-selection.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/chart-types.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/common-patterns.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/demos.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/design-theory.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/figure-contract.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/figure-legend-conventions.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/multipanel-evidence-architecture.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/nature-2026-observations.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/nature-article-requirements.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/openrouter-image-generation.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/qa-contract.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/r-template-index.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/r-workflow.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/template-catalog.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/tutorials.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/vector-schematic-style-rules.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/references/vector-schematic-workflow.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/static/core/contract.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/static/core/stance.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/static/fragments/backend/python.md",
-      "skills/huangjt-academic-writing/modules/nature-figure/static/fragments/backend/r.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "科研图",
-      "绘图",
-      "图表",
-      "示意图",
-      "图形摘要"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "nature-image2ppt",
-    "description": "Reconstruct slide images, screenshots, scanned PDFs, or image-only PPTX files as object-level editable PowerPoint. Use for 图片转可编辑PPT、截图还原PPT and diagram reconstruction; not authoring a new deck from research notes.",
-    "workflow": "skills/huangjt-academic-writing/modules/nature-image2ppt/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/__init__.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/cli.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/__init__.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/_input_normalization.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/_page_artifacts.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/build_pptx_from_manifest.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/configure_image_backend.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/deck_run_state.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/deck_text_hints.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/finalize_deck_run.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/formula_renderer.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/image_gen.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/main.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/make_page_contact_sheet.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/paddle_text_hints.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/page_job_status.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/page_text_metrics.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/prepare_deck_run.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/process_asset_sheet.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/record_imagegen_result.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/record_page_dispatch.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/record_page_result.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/remove_chroma_key.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/reset_page_job.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/runtime_env.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/split_alpha_components.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/text_hints.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/cli/image2ppt/runtime/validate_pptx.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/build_page_worker_prompt.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/inspect_arrow_atomicity.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/inspect_region_decomposition.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/postprocess_manifest_arrows.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/render_image2ppt_qa.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/run_final_image2ppt_qa.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/run_image2ppt_qa.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/runtime_paths.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/scripts/visual_review_evidence.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/support.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_console_portability.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_deck_slide_size.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_dispatch_concurrency.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_formula_renderer.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_independence.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_input_normalization_alpha.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_input_normalization_opc_targets.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_isolated_lifecycle.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_manifest_arrows.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_migration_parity.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_multi_agent_backend.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_ocr_http.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_paddle_result_url_safety.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_page_hints.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_path_confinement.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_pdf_backend.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_project_metadata.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_quality_contracts.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_region_decomposition.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_render_guard.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_runtime_config.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_runtime_paths.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_script_inventory.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_slide_layout.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_state_e2e.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_structure_reconstruction.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_thin_profile.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_visual_review_evidence.py",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/tests/test_visual_review_runtime.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/prompts/page-worker-base.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/prompts/page-worker.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/README.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/README_EN.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/assets-provenance-contract.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/cli-helper.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/manifest-arrow-extension.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/manifest-schema.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/object-routing.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/ocr-text-hints-contract.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/page-decision-tree.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/qa-contract.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/region-decomposition.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/runtime-dependencies.md",
-      "skills/huangjt-academic-writing/modules/nature-image2ppt/references/workflow.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "图片",
-      "转PPT",
-      "可编辑",
-      "幻灯片"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "nature-paper-to-patent",
-    "description": "Turn research papers or inventor materials into evidence-grounded Chinese invention patent drafts and technical disclosures. Use for 技术交底书、专利撰写、现有技术对比 and Chinese DOCX patent packages; not general manuscript writing.",
-    "workflow": "skills/huangjt-academic-writing/modules/nature-paper-to-patent/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/audit_claims.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/build_patent_package.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/cnipa_epub_crawler.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/cnipa_epub_parse.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/cnipa_epub_search.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/docx_to_md.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/iteration_dialog_log.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/math_render.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/md_to_docx.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/mermaid_render.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/disclosure/pptx_to_md.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/extract_pdf_text.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/init_patent_project.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/math_to_omml.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/render_flowchart_svg.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/render_patent_docx.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/scripts/validate_patent_draft.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_audit_claims.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_inline_math_paren.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_math_to_omml_superscript.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_md_to_docx_source_overwrite.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_mermaid_render.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_validation.py",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/tests/test_validation_figure_node_ids.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/README.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/README_EN.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/cn-patent-drafting-guide.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/corpus-derived-patterns.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/corpus-pair-audit.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/correction_handler.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/disclosure_builder.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/disclosure_preview.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/disclosure_self_check.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/intake.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/iteration_context.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/merger.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/patent_points_analyzer.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/prior_art_search.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/project_scan.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/template_reference.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/disclosure/tooling.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/draft-schema.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/references/patent-figure-guide.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/core/output-contract.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/core/principles.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/core/workflow.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/invention/algorithm-software.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/invention/apparatus-system.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/invention/mixed.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/invention/process-material.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/source/mixed-project.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/source/pasted-text.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/source/pdf-text.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/source/scanned-pdf.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/claim-set.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/disclosure-analysis.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/disclosure-iteration.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/full-draft.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/paper-patent-audit.md",
-      "skills/huangjt-academic-writing/modules/nature-paper-to-patent/static/fragments/task/technical-disclosure.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "论文",
-      "专利",
-      "技术交底"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "nature-paper2ppt",
-    "description": "Create or improve a Chinese academic PPTX from a scientific paper or research reading notes, with source figures and speaker notes. Use for 论文做PPT、文献汇报、组会PPT and paper-based conference or defense presentations.",
-    "workflow": "skills/huangjt-academic-writing/modules/nature-paper2ppt/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/scripts/audit_pptx_quality.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/README.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/README_EN.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/references/design-and-layout.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/references/figure-assets.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/references/self-review.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/core/output-and-quality.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/core/principles.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/core/toolchain.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/core/workflow.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/clinical.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/discovery.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/materials.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/methods.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/resource.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2ppt/static/fragments/paper_type/review.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "论文",
-      "汇报",
-      "PPT",
-      "演示"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "nature-paper2word",
-    "description": "Compile an academic Markdown manuscript into a journal- or school-compliant Word (.docx): declared typography, native OMML equations, three-line tables, cross-references, per-section page numbers, CSL bibliographies (GB/T 7714, APA, Nature, IEEE), and pre/post-export quality gates. 把学术论文的 Markdown 稿件导出为符合期刊或学位论文规范的 Word：摘要、公式编号、三线表、题注、交叉引用、目录域、参考文献。Use when the user wants a submission-ready .docx — 论文转 Word、学位论文排版、期刊投稿排版、prepare submission docx — or a readable copy of a manuscript. Not for PDF, HTML or LaTeX output, and not for slide decks or grant forms.",
-    "workflow": "skills/huangjt-academic-writing/modules/nature-paper2word/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/nature-paper2word/README.md",
-      "skills/huangjt-academic-writing/modules/nature-paper2word/README_EN.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "论文",
-      "Word",
-      "DOCX",
-      "排版"
-    ]
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-writing",
@@ -2913,14 +2445,14 @@
       "skills/huangjt-academic-writing/modules/nature-polishing/static/fragments/section/title.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "润色",
       "翻译",
       "改写",
       "学术语言"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-writing",
@@ -2974,14 +2506,14 @@
       "skills/huangjt-academic-writing/modules/nature-proposal-writer/templates/qa_report.md",
       "skills/huangjt-academic-writing/modules/nature-proposal-writer/templates/revision_brief.md"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "开题",
       "研究计划",
       "项目",
       "申请"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-writing",
@@ -2994,11 +2526,11 @@
       "skills/huangjt-academic-writing/modules/nature-response/tests/test_response_instruction_contracts.py"
     ],
     "references": [
+      "skills/huangjt-academic-writing/modules/nature-response/README.md",
+      "skills/huangjt-academic-writing/modules/nature-response/README_EN.md",
       "skills/huangjt-academic-writing/modules/nature-response/examples/conflicting-reviewers.md",
       "skills/huangjt-academic-writing/modules/nature-response/examples/major-revision-with-missing-evidence.md",
       "skills/huangjt-academic-writing/modules/nature-response/examples/minor-revision.md",
-      "skills/huangjt-academic-writing/modules/nature-response/README.md",
-      "skills/huangjt-academic-writing/modules/nature-response/README_EN.md",
       "skills/huangjt-academic-writing/modules/nature-response/references/action-mapping.md",
       "skills/huangjt-academic-writing/modules/nature-response/references/chinese-author-alignment.md",
       "skills/huangjt-academic-writing/modules/nature-response/references/comment-taxonomy.md",
@@ -3029,50 +2561,14 @@
       "skills/huangjt-academic-writing/modules/nature-response/templates/response-to-reviewers.tex",
       "skills/huangjt-academic-writing/modules/nature-response/templates/revised-manuscript-redline.tex"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "审稿回复",
       "返修",
       "逐条回复",
       "rebuttal"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "nature-reviewer",
-    "description": "Provide evidence-grounded mock peer review of scientific manuscripts or excerpts, covering significance, validity, and major/minor concerns. Use for 模拟审稿、投稿前自审、审稿人视角评估; not author rebuttal drafting.",
-    "workflow": "skills/huangjt-academic-writing/modules/nature-reviewer/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/test_reviewer_instruction_contracts.py"
     ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/nature-reviewer/CHANGELOG.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/README.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/README_EN.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/domain-specific-review-gates.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/editorial criteria and processes.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/forensic-consistency-audit.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/qa-checklist.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/report-structure.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/review-axes.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/reviewer-workflow.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/role-boundaries.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/source-basis.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/references/technical-concern-taxonomy.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/punctuation-style.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/reviewer-independence.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/severity-tiering.md",
-      "skills/huangjt-academic-writing/modules/nature-reviewer/tests/traceable-review.md"
-    ],
-    "templates": [],
     "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "模拟审稿",
-      "评审",
-      "独立评价"
-    ]
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-writing",
@@ -3084,6 +2580,8 @@
       "skills/huangjt-academic-writing/modules/nature-shared/tests/test_check_consistency.py"
     ],
     "references": [
+      "skills/huangjt-academic-writing/modules/nature-shared/README.md",
+      "skills/huangjt-academic-writing/modules/nature-shared/README_EN.md",
       "skills/huangjt-academic-writing/modules/nature-shared/core/consistency-sweep.md",
       "skills/huangjt-academic-writing/modules/nature-shared/core/discussion-argument-language.md",
       "skills/huangjt-academic-writing/modules/nature-shared/core/ethics.md",
@@ -3097,45 +2595,17 @@
       "skills/huangjt-academic-writing/modules/nature-shared/core/terminology-ledger.md",
       "skills/huangjt-academic-writing/modules/nature-shared/journal-formats/nat-comms.md",
       "skills/huangjt-academic-writing/modules/nature-shared/journal-formats/nature-machine-intelligence.md",
-      "skills/huangjt-academic-writing/modules/nature-shared/journal-formats/nature.md",
-      "skills/huangjt-academic-writing/modules/nature-shared/README.md",
-      "skills/huangjt-academic-writing/modules/nature-shared/README_EN.md"
+      "skills/huangjt-academic-writing/modules/nature-shared/journal-formats/nature.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "共享",
       "样式",
       "工作流",
       "公共资源"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "nature-statistics",
-    "description": "Audit or improve manuscript statistical reporting, including experimental units, replication, uncertainty, tests, and figure statistics. Use for 统计审查、统计方法小节、图注统计 and reviewer concerns; compute new analyses only when requested with data.",
-    "workflow": "skills/huangjt-academic-writing/modules/nature-statistics/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/nature-statistics/README.md",
-      "skills/huangjt-academic-writing/modules/nature-statistics/README_EN.md",
-      "skills/huangjt-academic-writing/modules/nature-statistics/references/common-failure-modes.md",
-      "skills/huangjt-academic-writing/modules/nature-statistics/references/figure-statistics.md",
-      "skills/huangjt-academic-writing/modules/nature-statistics/references/nature-article-requirements.md",
-      "skills/huangjt-academic-writing/modules/nature-statistics/references/reviewer-checklist.md",
-      "skills/huangjt-academic-writing/modules/nature-statistics/references/source-basis.md",
-      "skills/huangjt-academic-writing/modules/nature-statistics/references/statistical-reporting.md"
     ],
-    "templates": [],
     "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "统计",
-      "模型",
-      "检验",
-      "实验单位"
-    ]
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-writing",
@@ -3150,11 +2620,22 @@
       "skills/huangjt-academic-writing/modules/nature-writing/references/article-architecture.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/chinese-author-workflow.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/conclusion.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/experiments.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/introduction.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/method.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/nat-comms-2025-corpus.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/nature-summary-paragraph.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/paper-review.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/paragraph-flow.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/related-work.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/submission-package.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/examples/abstract-examples.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/examples/index.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction-examples.md",
+      "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method-examples.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/abstract/template-a.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/abstract/template-b.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/abstract/template-c.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/examples/abstract-examples.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/examples/index.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction/novel-task-challenge-decomposition.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction/pipeline-not-recommended-abstract-only.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction/pipeline-version-1-one-contribution-multi-advantages.md",
@@ -3168,7 +2649,6 @@
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction/version-2-application-first.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction/version-3-general-to-specific-setting.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction/version-4-open-with-challenge.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction-examples.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method/example-of-the-three-elements.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method/method-writing-common-issues-note.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method/module-design-instant-ngp.md",
@@ -3178,16 +2658,6 @@
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method/overview-template.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method/pre-writing-questions.md",
       "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method/section-skeleton.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method-examples.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/experiments.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/introduction.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/method.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/nat-comms-2025-corpus.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/nature-summary-paragraph.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/paper-review.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/paragraph-flow.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/related-work.md",
-      "skills/huangjt-academic-writing/modules/nature-writing/references/submission-package.md",
       "skills/huangjt-academic-writing/modules/nature-writing/static/core/output-format.md",
       "skills/huangjt-academic-writing/modules/nature-writing/static/core/stance.md",
       "skills/huangjt-academic-writing/modules/nature-writing/static/core/workflow.md",
@@ -3221,8 +2691,6 @@
       "skills/huangjt-academic-writing/modules/nature-writing/templates/submission/initial-cover-letter.tex",
       "skills/huangjt-academic-writing/modules/nature-writing/templates/submission/title-page.tex"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "论文",
       "正文",
@@ -3230,31 +2698,9 @@
       "引言",
       "讨论",
       "研究故事"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "networkx",
-    "description": "Creates, analyzes, and visualizes complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.",
-    "workflow": "skills/huangjt-academic-writing/modules/networkx/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/networkx/references/algorithms.md",
-      "skills/huangjt-academic-writing/modules/networkx/references/generators.md",
-      "skills/huangjt-academic-writing/modules/networkx/references/graph-basics.md",
-      "skills/huangjt-academic-writing/modules/networkx/references/io.md",
-      "skills/huangjt-academic-writing/modules/networkx/references/review.md",
-      "skills/huangjt-academic-writing/modules/networkx/references/visualization.md"
     ],
-    "templates": [],
     "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "网络",
-      "图论",
-      "关系图",
-      "路径"
-    ]
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-writing",
@@ -3265,22 +2711,22 @@
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/pack.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/unpack.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/validate.py",
-      "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/__init__.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/base.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/docx.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/pptx.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/redlining.py",
-      "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/scripts/__init__.py",
+      "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/__init__.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/scripts/document.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/scripts/utilities.py",
+      "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/scripts/__init__.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/pack.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/unpack.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/validate.py",
-      "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/__init__.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/base.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/docx.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/pptx.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/redlining.py",
+      "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/__init__.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/scripts/html2pptx.js",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/scripts/inventory.py",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/scripts/rearrange.py",
@@ -3296,11 +2742,11 @@
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/thesis-defense-pptx/scripts/scan_pptx_text.py"
     ],
     "references": [
+      "skills/huangjt-academic-writing/modules/office-academic-skill/references/report-structure.md",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/docx-js.md",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml.md",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/html2pptx.md",
-      "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml.md",
-      "skills/huangjt-academic-writing/modules/office-academic-skill/references/report-structure.md"
+      "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml.md"
     ],
     "templates": [
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/scripts/templates/comments.xml",
@@ -3309,8 +2755,6 @@
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/scripts/templates/commentsIds.xml",
       "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/scripts/templates/people.xml"
     ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "Word",
       "PPT",
@@ -3322,7 +2766,9 @@
       "排版",
       "溢出",
       "缩略图"
-    ]
+    ],
+    "knowledge_present": true,
+    "delivery": "bundled default module"
   },
   {
     "owner": "huangjt-academic-writing",
@@ -3360,8 +2806,6 @@
       "skills/huangjt-academic-writing/modules/paper-write/reference/zh-to-en.md"
     ],
     "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
     "keywords": [
       "学位论文",
       "本科",
@@ -3370,563 +2814,8 @@
       "大纲",
       "中文",
       "翻译"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "peer-review",
-    "description": "Prepares evidence-bounded, constructive peer-review drafts and structured manuscript assessments. Supports authorized review of scientific manuscripts, protocols, preprints, or research proposals; reporting-guideline selection; claim–evidence checks; methods, statistics, reproducibility, ethics, figure/table, and citation critique; or revision-response planning.",
-    "workflow": "skills/huangjt-academic-writing/modules/peer-review/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/peer-review/scripts/_common.py",
-      "skills/huangjt-academic-writing/modules/peer-review/scripts/audit_citations.py",
-      "skills/huangjt-academic-writing/modules/peer-review/scripts/audit_statistics_reproducibility.py",
-      "skills/huangjt-academic-writing/modules/peer-review/scripts/generate_review_scaffold.py",
-      "skills/huangjt-academic-writing/modules/peer-review/scripts/lint_review.py",
-      "skills/huangjt-academic-writing/modules/peer-review/scripts/select_reporting_guidelines.py",
-      "skills/huangjt-academic-writing/modules/peer-review/scripts/validate_claim_evidence.py",
-      "skills/huangjt-academic-writing/modules/peer-review/scripts/validate_review_intake.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/peer-review/assets/review_scaffold_template.md",
-      "skills/huangjt-academic-writing/modules/peer-review/references/common_issues.md",
-      "skills/huangjt-academic-writing/modules/peer-review/references/ethical_review_practice.md",
-      "skills/huangjt-academic-writing/modules/peer-review/references/reporting_standards.md",
-      "skills/huangjt-academic-writing/modules/peer-review/references/security_validation.md",
-      "skills/huangjt-academic-writing/modules/peer-review/references/statistical_reproducibility.md",
-      "skills/huangjt-academic-writing/modules/peer-review/references/tool_reference.md"
-    ],
-    "templates": [
-      "skills/huangjt-academic-writing/modules/peer-review/assets/reporting_guidelines.json",
-      "skills/huangjt-academic-writing/modules/peer-review/assets/review_intake_template.json",
-      "skills/huangjt-academic-writing/modules/peer-review/assets/statistical_reproducibility_template.json",
-      "skills/huangjt-academic-writing/modules/peer-review/assets/study_profile_template.json"
     ],
     "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "同行评审",
-      "审稿",
-      "检查"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "polars",
-    "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration. It supports expression-based data manipulation with lazy query optimization, parallel execution, streaming out-of-core processing, Arrow interoperability, and optional GPU execution.",
-    "workflow": "skills/huangjt-academic-writing/modules/polars/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/polars/references/best_practices.md",
-      "skills/huangjt-academic-writing/modules/polars/references/core_concepts.md",
-      "skills/huangjt-academic-writing/modules/polars/references/io_guide.md",
-      "skills/huangjt-academic-writing/modules/polars/references/operations.md",
-      "skills/huangjt-academic-writing/modules/polars/references/pandas_migration.md",
-      "skills/huangjt-academic-writing/modules/polars/references/review.md",
-      "skills/huangjt-academic-writing/modules/polars/references/transformations.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "表格",
-      "数据处理"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "pptx-posters",
-    "description": "Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Used when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
-    "workflow": "skills/huangjt-academic-writing/modules/pptx-posters/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/_common.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/_manifest.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/_pptx.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/check_layout.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/check_palette.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/generate_poster.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/inspect_pptx.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/inventory_images.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/plan_export.py",
-      "skills/huangjt-academic-writing/modules/pptx-posters/scripts/validate_manifest.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/pptx-posters/assets/poster_quality_checklist.md",
-      "skills/huangjt-academic-writing/modules/pptx-posters/references/manifest_spec.md",
-      "skills/huangjt-academic-writing/modules/pptx-posters/references/poster_content_guide.md",
-      "skills/huangjt-academic-writing/modules/pptx-posters/references/poster_design_principles.md",
-      "skills/huangjt-academic-writing/modules/pptx-posters/references/poster_layout_design.md",
-      "skills/huangjt-academic-writing/modules/pptx-posters/references/pptx_security.md",
-      "skills/huangjt-academic-writing/modules/pptx-posters/references/security_validation.md",
-      "skills/huangjt-academic-writing/modules/pptx-posters/references/source_ledger.md"
-    ],
-    "templates": [
-      "skills/huangjt-academic-writing/modules/pptx-posters/assets/generation_dependencies.json",
-      "skills/huangjt-academic-writing/modules/pptx-posters/assets/poster_manifest_template.json"
-    ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "学术海报",
-      "PowerPoint"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "pymc",
-    "description": "Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational inference, mutable-data predictions, posterior predictive checks, diagnostics, and PSIS-LOO model comparison. Use for probabilistic modeling and uncertainty inference in PyMC.",
-    "workflow": "skills/huangjt-academic-writing/modules/pymc/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/pymc/assets/hierarchical_model_template.py",
-      "skills/huangjt-academic-writing/modules/pymc/assets/linear_regression_template.py",
-      "skills/huangjt-academic-writing/modules/pymc/scripts/model_comparison.py",
-      "skills/huangjt-academic-writing/modules/pymc/scripts/model_diagnostics.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/pymc/references/distributions.md",
-      "skills/huangjt-academic-writing/modules/pymc/references/model_patterns.md",
-      "skills/huangjt-academic-writing/modules/pymc/references/sampling_inference.md",
-      "skills/huangjt-academic-writing/modules/pymc/references/standard_workflow.md",
-      "skills/huangjt-academic-writing/modules/pymc/references/workflows.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "贝叶斯",
-      "推断",
-      "后验",
-      "模型"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "pymoo",
-    "description": "Solves and validates single-, multi-, and many-objective optimization with pymoo, including NSGA-II, NSGA-III, MOEA/D, constraints, Pareto approximations, reference directions, and ZDT/DTLZ benchmarks for engineering and research problems.",
-    "workflow": "skills/huangjt-academic-writing/modules/pymoo/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/pymoo/scripts/custom_problem_example.py",
-      "skills/huangjt-academic-writing/modules/pymoo/scripts/decision_making_example.py",
-      "skills/huangjt-academic-writing/modules/pymoo/scripts/many_objective_example.py",
-      "skills/huangjt-academic-writing/modules/pymoo/scripts/multi_objective_example.py",
-      "skills/huangjt-academic-writing/modules/pymoo/scripts/single_objective_example.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/pymoo/references/algorithms.md",
-      "skills/huangjt-academic-writing/modules/pymoo/references/constraints_mcdm.md",
-      "skills/huangjt-academic-writing/modules/pymoo/references/lifecycle.md",
-      "skills/huangjt-academic-writing/modules/pymoo/references/operators.md",
-      "skills/huangjt-academic-writing/modules/pymoo/references/parallelization.md",
-      "skills/huangjt-academic-writing/modules/pymoo/references/problems.md",
-      "skills/huangjt-academic-writing/modules/pymoo/references/quick_start_workflows.md",
-      "skills/huangjt-academic-writing/modules/pymoo/references/visualization.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "多目标",
-      "优化",
-      "Pareto"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "research-grants",
-    "description": "Supports research proposal preparation and review for NSF, NIH, DOE, DARPA, and Taiwan NSTC, including opportunity-specific requirements, aims, review criteria, budgets, broader impacts, forms, and resubmissions. Use for investigator-authored grant development, compliance matrices, and proposal critiques.",
-    "workflow": "skills/huangjt-academic-writing/modules/research-grants/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/research-grants/assets/budget_justification_template.md",
-      "skills/huangjt-academic-writing/modules/research-grants/assets/nih_specific_aims_template.md",
-      "skills/huangjt-academic-writing/modules/research-grants/assets/nsf_project_summary_template.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/broader_impacts.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/core_components.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/darpa_guidelines.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/doe_guidelines.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/nih_guidelines.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/nsf_guidelines.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/nstc_guidelines.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/proposal_types_and_resubmission.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/README.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/review_criteria.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/specific_aims_guide.md",
-      "skills/huangjt-academic-writing/modules/research-grants/references/writing_principles.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "基金",
-      "申请",
-      "研究计划"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "scholar-evaluation",
-    "description": "Provides qualitative-first, evidence-traceable developmental review of scholarly works and audit low-stakes research-assessment rubrics with optional local quality controls. Never use for ranking people or consequential decisions.",
-    "workflow": "skills/huangjt-academic-writing/modules/scholar-evaluation/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/_common.py",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/calculate_scores.py",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/check_process.py",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/check_traceability.py",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/generate_report_scaffold.py",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/summarize_agreement.py",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/validate_rubric.py",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/scripts/weight_sensitivity.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/evaluation_framework.md",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/local_tooling.md",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/responsible_assessment.md",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/security_validation.md",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/references/source_ledger.md"
-    ],
-    "templates": [
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/assets/evaluation_template.json",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/assets/evidence_manifest_template.json",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/assets/process_checklist_template.json",
-      "skills/huangjt-academic-writing/modules/scholar-evaluation/assets/rubric_template.json"
-    ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "研究评价",
-      "论证质量"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "scientific-schematics",
-    "description": "Generates scientific diagram drafts using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.7 Flash for quality review. Refines when the review requests improvement, with at most two generations. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations.",
-    "workflow": "skills/huangjt-academic-writing/modules/scientific-schematics/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/scientific-schematics/scripts/example_usage.sh",
-      "skills/huangjt-academic-writing/modules/scientific-schematics/scripts/generate_schematic.py",
-      "skills/huangjt-academic-writing/modules/scientific-schematics/scripts/generate_schematic_ai.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/scientific-schematics/references/best_practices.md",
-      "skills/huangjt-academic-writing/modules/scientific-schematics/references/iterative_refinement.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "科学示意图",
-      "机制图",
-      "流程图"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "scientific-slides",
-    "description": "Builds slide decks and presentations for research talks. Used for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX Beamer.",
-    "workflow": "skills/huangjt-academic-writing/modules/scientific-slides/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/generate_schematic.py",
-      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/generate_schematic_ai.py",
-      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/generate_slide_image.py",
-      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/generate_slide_image_ai.py",
-      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/pdf_to_images.py",
-      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/slides_to_pdf.py",
-      "skills/huangjt-academic-writing/modules/scientific-slides/scripts/validate_presentation.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/scientific-slides/assets/powerpoint_design_guide.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/assets/timing_guidelines.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/beamer_guide.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/common_pitfalls.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/data_visualization_slides.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/presentation_structure.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/presentation_workflow.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/prompt_writing.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/script_reference.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/slide_capabilities.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/slide_design_principles.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/talk_types_guide.md",
-      "skills/huangjt-academic-writing/modules/scientific-slides/references/visual_review_workflow.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "科研汇报",
-      "幻灯片",
-      "PPT"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "scientific-visualization",
-    "description": "Creates and audits truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use it for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.",
-    "workflow": "skills/huangjt-academic-writing/modules/scientific-visualization/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/scientific-visualization/assets/color_palettes.py",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/_common.py",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/export_plan.py",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/figure_export.py",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/image_metadata.py",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/palette_audit.py",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/style_presets.py",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/scripts/style_preview.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/scientific-visualization/references/color_palettes.md",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/references/journal_requirements.md",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/references/matplotlib_examples.md",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/references/publication_guidelines.md",
-      "skills/huangjt-academic-writing/modules/scientific-visualization/references/sources.md"
-    ],
-    "templates": [
-      "skills/huangjt-academic-writing/modules/scientific-visualization/assets/publisher_profiles.json"
-    ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "科研可视化",
-      "图表",
-      "绘图"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "scientific-writing",
-    "description": "Drafts, revises, and audits scientific manuscripts or reports with explicit evidence provenance, reporting-guideline coverage, authorship accountability, confidentiality controls, and local consistency checks. Use for manuscript sections, references, declarations, tables, figures, or submission preparation when scientific accuracy and traceability matter.",
-    "workflow": "skills/huangjt-academic-writing/modules/scientific-writing/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/_common.py",
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/audit_claims.py",
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/check_consistency.py",
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/check_references.py",
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/lint_manuscript.py",
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/scaffold_manuscript.py",
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/select_reporting_guidelines.py",
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/validate_authorship.py",
-      "skills/huangjt-academic-writing/modules/scientific-writing/scripts/validate_manifest.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/scientific-writing/assets/manuscript_scaffold.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/assets/REPORT_FORMATTING_GUIDE.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/authorship_ai_confidentiality.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/citation_styles.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/cli_reference.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/evidence_workflow.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/figures_tables.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/imrad_structure.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/journal_policies.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/professional_report_formatting.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/reporting_guidelines.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/research_integrity_open_science.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/source_ledger.md",
-      "skills/huangjt-academic-writing/modules/scientific-writing/references/writing_principles.md"
-    ],
-    "templates": [
-      "skills/huangjt-academic-writing/modules/scientific-writing/assets/authorship_template.json",
-      "skills/huangjt-academic-writing/modules/scientific-writing/assets/consistency_manifest_template.json",
-      "skills/huangjt-academic-writing/modules/scientific-writing/assets/manuscript_manifest_template.json",
-      "skills/huangjt-academic-writing/modules/scientific-writing/assets/reporting_coverage_template.json",
-      "skills/huangjt-academic-writing/modules/scientific-writing/assets/reporting_guidelines.json",
-      "skills/huangjt-academic-writing/modules/scientific-writing/assets/source_manifest_template.json"
-    ],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "写作",
-      "一致性",
-      "论文",
-      "报告规范"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "scikit-learn",
-    "description": "Supports machine learning in Python with scikit-learn. Applies when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
-    "workflow": "skills/huangjt-academic-writing/modules/scikit-learn/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/scikit-learn/scripts/classification_pipeline.py",
-      "skills/huangjt-academic-writing/modules/scikit-learn/scripts/clustering_analysis.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/scikit-learn/references/common_workflows.md",
-      "skills/huangjt-academic-writing/modules/scikit-learn/references/core_capabilities.md",
-      "skills/huangjt-academic-writing/modules/scikit-learn/references/model_evaluation.md",
-      "skills/huangjt-academic-writing/modules/scikit-learn/references/pipelines_and_composition.md",
-      "skills/huangjt-academic-writing/modules/scikit-learn/references/preprocessing.md",
-      "skills/huangjt-academic-writing/modules/scikit-learn/references/quick_reference.md",
-      "skills/huangjt-academic-writing/modules/scikit-learn/references/supervised_learning.md",
-      "skills/huangjt-academic-writing/modules/scikit-learn/references/unsupervised_learning.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "机器学习",
-      "交叉验证",
-      "回归",
-      "分类"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "seaborn",
-    "description": "Creates Seaborn statistical visualizations with pandas integration for distributions, relationships, categorical comparisons, regression displays, pair plots, and heatmaps. Supports function and objects interfaces with explicit aggregation, uncertainty, and missing-data handling. Best suited to static exploratory plots; plotly covers interactive figures and scientific-visualization covers publication styling.",
-    "workflow": "skills/huangjt-academic-writing/modules/seaborn/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/seaborn/references/examples.md",
-      "skills/huangjt-academic-writing/modules/seaborn/references/function_reference.md",
-      "skills/huangjt-academic-writing/modules/seaborn/references/grids_and_levels.md",
-      "skills/huangjt-academic-writing/modules/seaborn/references/objects_interface.md",
-      "skills/huangjt-academic-writing/modules/seaborn/references/palettes_and_theming.md",
-      "skills/huangjt-academic-writing/modules/seaborn/references/patterns_and_troubleshooting.md",
-      "skills/huangjt-academic-writing/modules/seaborn/references/plotting_functions.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "统计绘图",
-      "分布",
-      "比较",
-      "热图"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "statistical-analysis",
-    "description": "Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions, compute required sample sizes, or write up results - even if they never name a specific test. Covers t-tests, ANOVA, chi-square, correlation, regression, non-parametric and Bayesian methods. For low-level model APIs, see the statsmodels and pymc skills.",
-    "workflow": "skills/huangjt-academic-writing/modules/statistical-analysis/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/statistical-analysis/scripts/assumption_checks.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/statistical-analysis/references/assumptions_and_diagnostics.md",
-      "skills/huangjt-academic-writing/modules/statistical-analysis/references/bayesian_statistics.md",
-      "skills/huangjt-academic-writing/modules/statistical-analysis/references/effect_sizes_and_power.md",
-      "skills/huangjt-academic-writing/modules/statistical-analysis/references/reporting_standards.md",
-      "skills/huangjt-academic-writing/modules/statistical-analysis/references/test_selection_guide.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "统计",
-      "分析",
-      "检验",
-      "置信区间"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "statistical-power",
-    "description": "Calculates sample sizes and statistical power for study planning. Applies when someone asks \"how many subjects/samples/replicates do I need\", wants an a priori power analysis, a minimum detectable effect (MDE), a power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-registration. Covers closed-form power for t-tests, ANOVA, proportions, correlations, chi-square, and regression, plus simulation-based (Monte Carlo) power for complex designs — logistic/Poisson regression, mixed models, cluster-randomized trials, survival, and interactions. Also handles requests that only mention an effect size, alpha, or \"80% power\" without saying \"power analysis\" explicitly. For laying out the study (randomization, blocking, factorial/DOE, crossover, sequential designs) use experimental-design; for analyzing data already collected and reporting it use statistical-analysis.",
-    "workflow": "skills/huangjt-academic-writing/modules/statistical-power/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/statistical-power/scripts/power.py",
-      "skills/huangjt-academic-writing/modules/statistical-power/scripts/simulate_power.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/statistical-power/references/closed_form_recipes.md",
-      "skills/huangjt-academic-writing/modules/statistical-power/references/effect_sizes.md",
-      "skills/huangjt-academic-writing/modules/statistical-power/references/simulation_based_power.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "统计功效",
-      "样本量"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "statsmodels",
-    "description": "Fits and diagnoses Python statistical models including OLS, GLM, discrete and mixed models, ARIMA and SARIMAX. Supports coefficient inference, marginal effects, model comparison and time series forecasting with explicit design and uncertainty checks. Used for econometrics and statistical modeling; for guided test selection with APA reporting, see statistical-analysis.",
-    "workflow": "skills/huangjt-academic-writing/modules/statsmodels/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/statsmodels/references/discrete_choice.md",
-      "skills/huangjt-academic-writing/modules/statsmodels/references/glm.md",
-      "skills/huangjt-academic-writing/modules/statsmodels/references/linear_models.md",
-      "skills/huangjt-academic-writing/modules/statsmodels/references/model_selection.md",
-      "skills/huangjt-academic-writing/modules/statsmodels/references/modeling_capabilities.md",
-      "skills/huangjt-academic-writing/modules/statsmodels/references/quick_start_guide.md",
-      "skills/huangjt-academic-writing/modules/statsmodels/references/review.md",
-      "skills/huangjt-academic-writing/modules/statsmodels/references/stats_diagnostics.md",
-      "skills/huangjt-academic-writing/modules/statsmodels/references/time_series.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "统计模型",
-      "回归",
-      "方差分析"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "sympy",
-    "description": "Performs exact symbolic mathematics with SymPy for algebra, calculus, equation solving, symbolic linear algebra, physics, and lambdify or LaTeX code generation. Use when a task needs symbolic results, explicit assumptions, or exact arithmetic; use NumPy or SciPy for purely numerical workloads.",
-    "workflow": "skills/huangjt-academic-writing/modules/sympy/WORKFLOW.md",
-    "scripts": [],
-    "references": [
-      "skills/huangjt-academic-writing/modules/sympy/references/advanced-topics.md",
-      "skills/huangjt-academic-writing/modules/sympy/references/code-generation-printing.md",
-      "skills/huangjt-academic-writing/modules/sympy/references/core-capabilities.md",
-      "skills/huangjt-academic-writing/modules/sympy/references/core_capabilities.md",
-      "skills/huangjt-academic-writing/modules/sympy/references/matrices-linear-algebra.md",
-      "skills/huangjt-academic-writing/modules/sympy/references/physics-mechanics.md",
-      "skills/huangjt-academic-writing/modules/sympy/references/review.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "符号计算",
-      "方程",
-      "推导"
-    ]
-  },
-  {
-    "owner": "huangjt-academic-writing",
-    "module": "venue-templates",
-    "description": "Prepares journal manuscripts, conference papers, research posters, and grant documents using venue-specific formatting guidance and bundled LaTeX scaffolds. Supports selecting an official template, checking current page or anonymity rules, adapting academic writing to a venue, or inspecting a submission PDF.",
-    "workflow": "skills/huangjt-academic-writing/modules/venue-templates/WORKFLOW.md",
-    "scripts": [
-      "skills/huangjt-academic-writing/modules/venue-templates/scripts/customize_template.py",
-      "skills/huangjt-academic-writing/modules/venue-templates/scripts/query_template.py",
-      "skills/huangjt-academic-writing/modules/venue-templates/scripts/validate_format.py"
-    ],
-    "references": [
-      "skills/huangjt-academic-writing/modules/venue-templates/assets/examples/cell_summary_example.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/assets/examples/medical_structured_abstract.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/assets/examples/nature_abstract_examples.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/assets/examples/neurips_introduction_example.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/cell_press_style.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/conferences_formatting.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/cs_conference_style.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/current_sources.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/grants_requirements.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/journals_formatting.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/medical_journal_styles.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/ml_conference_style.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/nature_science_style.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/posters_guidelines.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/reviewer_expectations.md",
-      "skills/huangjt-academic-writing/modules/venue-templates/references/venue_writing_styles.md"
-    ],
-    "templates": [],
-    "knowledge_present": true,
-    "delivery": "bundled complete operational module",
-    "keywords": [
-      "期刊",
-      "模板",
-      "格式",
-      "投稿"
-    ]
+    "delivery": "bundled default module"
   }
 ]

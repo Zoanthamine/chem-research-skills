@@ -9,12 +9,12 @@ workbench=importlib.util.module_from_spec(spec);spec.loader.exec_module(workbenc
 class LibraryPortabilityTests(unittest.TestCase):
     def test_catalog_resolves_every_bundled_resource(self):
         rows=json.loads((ROOT/'catalog/modules.json').read_text(encoding='utf-8'))
-        self.assertEqual(len(rows),79)
+        self.assertEqual(len(rows),47)
         for row in rows:
             for name in [row['workflow'],*row['scripts'],*row['references'],*row['templates']]:
                 self.assertTrue((ROOT/name).is_file(),name)
             self.assertTrue(row['keywords'],row['module'])
-        self.assertEqual(sum(len(r['scripts']) for r in rows),940)
+        self.assertEqual(len([r for r in rows if r['owner']=='huangjt-academic-writing']),7)
 
     def test_plain_chinese_search_finds_relevant_modules(self):
         result=subprocess.check_output([sys.executable,str(ROOT/'tools/workbench.py'),'search','构象'],encoding='utf-8')

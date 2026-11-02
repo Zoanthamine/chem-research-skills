@@ -25,8 +25,8 @@
   },
   {
     "path": "CAPABILITIES.md",
-    "bytes": 16143,
-    "sha256": "e7e7bb4622720f824b8e5514951112953324937d724917d43eb8aa72aa30d96b",
+    "bytes": 6523,
+    "sha256": "203a0540467f447a2c0ce59e65a1daa7d510402da0c3ad698e326cd40b0c5c19",
     "normalize_lf": true
   },
   {
@@ -510,6 +510,12 @@
     "normalize_lf": true
   },
   {
+    "path": "references/core-workflows.md",
+    "bytes": 1763,
+    "sha256": "3944331e6786b52ec791ed3455974588437097012a99ec9084722a50e134907c",
+    "normalize_lf": true
+  },
+  {
     "path": "references/experimental-workflow.md",
     "bytes": 3470,
     "sha256": "0be79bdbf48090623795d250c0e6edcb9b1346848e134a1c0006bbdc6327b7ff",
@@ -594,9 +600,15 @@
     "normalize_lf": true
   },
   {
+    "path": "scripts/read_spectral_file.py",
+    "bytes": 11813,
+    "sha256": "681ee1469a21abb804aae81713fa8460f26d7ba290642d69fa12c43d83cd96dc",
+    "normalize_lf": true
+  },
+  {
     "path": "SKILL.md",
-    "bytes": 4524,
-    "sha256": "c352b54c0e5bd0b19fbb8f333a20e2b7d5a4f82b7b128d570379567d132604bc",
+    "bytes": 4811,
+    "sha256": "1030e1ac0f0080b66a4dcc67cbf83c15b1d5512217b74fa065c98237133316d8",
     "normalize_lf": true
   },
   {

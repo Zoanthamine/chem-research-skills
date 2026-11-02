@@ -7,8 +7,14 @@
   },
   {
     "path": "assets/module-catalog.json",
-    "bytes": 333822,
-    "sha256": "3a0e88e1b865d45a9fdfc207ad7d8d30e9ff27ee7b1427a064efe5748258a420",
+    "bytes": 256632,
+    "sha256": "02b1af4d91023f37fd614b1fe9eb502aeaee5d9b347b74a228d07a2532614611",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/optional-module-catalog.json",
+    "bytes": 76686,
+    "sha256": "ab55fca7f6566bbc2b7b2af904ee0a2b6c0cf0307e6cd8c40cd8ae71afc9846f",
     "normalize_lf": true
   },
   {
@@ -19,8 +25,8 @@
   },
   {
     "path": "CAPABILITIES.md",
-    "bytes": 22796,
-    "sha256": "ba8dbc77a96a0098214c0d3e18f02b7a3ff64e20658185103005b7dc053eaf22",
+    "bytes": 12669,
+    "sha256": "bf34a70851d67db0aa231dbb6d5ea14eedc39b542e229e6316e520540dc4978f",
     "normalize_lf": true
   },
   {
@@ -804,6 +810,12 @@
     "normalize_lf": true
   },
   {
+    "path": "references/core-workflows.md",
+    "bytes": 2037,
+    "sha256": "35ac3b9c70f74ab1d496735fed429875fd416e73a21551ea1eb805770edda8d0",
+    "normalize_lf": true
+  },
+  {
     "path": "references/crystal.md",
     "bytes": 3487,
     "sha256": "b3e9e73cecde0983ac4079f2d24c94bbafe2d026d8ac99ee18ad397b0c95d2af",
@@ -895,14 +907,14 @@
   },
   {
     "path": "scripts/workbench.py",
-    "bytes": 10575,
-    "sha256": "3e28b0c0b5ff0d28630cfb19d6dfff2d1c143f16f390fb12eafcf015507e39af",
+    "bytes": 14911,
+    "sha256": "3972991f8b71d1d292e232e5c4bc019fcf0b66f94fa9089896347f86b2f9287a",
     "normalize_lf": true
   },
   {
     "path": "SKILL.md",
-    "bytes": 5109,
-    "sha256": "bb858d141fb4543d52aebc07d5b144451c2464e463f7ea7c1ecfd15d87a519c3",
+    "bytes": 5396,
+    "sha256": "1a7acad9270139f65661bf6928a9509f0683504a78432c926d527831c759b682",
     "normalize_lf": true
   },
   {

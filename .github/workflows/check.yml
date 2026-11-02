@@ -22,7 +22,7 @@ jobs:
           python install.py --check
           python -m unittest discover -s tests
       - name: Install numerical test dependencies
-        run: python -m pip install numpy scipy matplotlib gemmi requests rdkit
+        run: python -m pip install numpy scipy matplotlib gemmi requests rdkit nmrglue pyopenms==3.6.0
       - name: Single crystal helper regression tests
         run: python -m unittest discover -s skills/scxrd-refinement/scripts -p "test_*.py"
       - name: Spectrum numerical examples

@@ -1,0 +1,226 @@
+[
+  {
+    "module": "scientific-writing",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-reviewer",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "peer-review",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-data",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-statistics",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-figure",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper2word",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper2ppt",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-image2ppt",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper-to-patent",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "humanize-writing",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "see preserved local LICENSE",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "research-grants",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-slides",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-schematics",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-visualization",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "latex-posters",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pptx-posters",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "venue-templates",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scholar-evaluation",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "statistical-analysis",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "statistical-power",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "statsmodels",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "matplotlib",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "https://github.com/matplotlib/matplotlib/tree/main/LICENSE",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "seaborn",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "sympy",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "https://github.com/sympy/sympy/blob/master/LICENSE",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pymc",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache License, Version 2.0",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pymoo",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache-2.0 license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scikit-learn",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "polars",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "https://github.com/pola-rs/polars/blob/main/LICENSE",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "dask",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "exploratory-data-analysis",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "networkx",
+    "owner": "huangjt-academic-writing",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "3-clause BSD license",
+    "public_variant": "preserved module"
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "name": "scxrd-refinement",
+    "role": "chemical_core",
+    "entry": "skills/scxrd-refinement/SKILL.md",
+    "scripts": [
+      "skills/scxrd-refinement/scripts/01_diagnose.py",
+      "skills/scxrd-refinement/scripts/03_run.py",
+      "skills/scxrd-refinement/scripts/04_summarize.py",
+      "skills/scxrd-refinement/scripts/06_hydrogen_plan.py",
+      "skills/scxrd-refinement/scripts/07_symmetry_check.py",
+      "skills/scxrd-refinement/scripts/08_cif.py",
+      "skills/scxrd-refinement/scripts/09_checkcif.py",
+      "skills/scxrd-refinement/scripts/10_delivery.py",
+      "skills/scxrd-refinement/scripts/dials_absorption.py",
+      "skills/scxrd-refinement/scripts/dials_audit.py",
+      "skills/scxrd-refinement/scripts/dials_common.py",
+      "skills/scxrd-refinement/scripts/dials_screen.py",
+      "skills/scxrd-refinement/scripts/dials_stage.py",
+      "skills/scxrd-refinement/scripts/inventory_crystal_input.py",
+      "skills/scxrd-refinement/scripts/prepare_ligand.py",
+      "skills/scxrd-refinement/scripts/test_dials_helpers.py",
+      "skills/scxrd-refinement/scripts/test_regressions.py",
+      "skills/scxrd-refinement/scripts/test_solution_helpers.py",
+      "skills/scxrd-refinement/scripts/utf8_console.py",
+      "skills/scxrd-refinement/scripts/validate_crystal_package.py",
+      "skills/scxrd-refinement/scripts/xtal_core.py"
+    ],
+    "references": [
+      "skills/scxrd-refinement/references/absorbed-modules.md",
+      "skills/scxrd-refinement/references/applied-workflows.md",
+      "skills/scxrd-refinement/references/checkcif-case-triage.md",
+      "skills/scxrd-refinement/references/cif-metadata.md",
+      "skills/scxrd-refinement/references/core-workflows.md",
+      "skills/scxrd-refinement/references/dials-decisions.md",
+      "skills/scxrd-refinement/references/dials-to-olex2.md",
+      "skills/scxrd-refinement/references/dials-tools.md",
+      "skills/scxrd-refinement/references/disorder-and-occupancy.md",
+      "skills/scxrd-refinement/references/foundation-and-migration.md",
+      "skills/scxrd-refinement/references/host-compatibility.md",
+      "skills/scxrd-refinement/references/hydrogen-twin-solvent-cases.md",
+      "skills/scxrd-refinement/references/integrated-methods.md",
+      "skills/scxrd-refinement/references/integration-provenance.md",
+      "skills/scxrd-refinement/references/local-runtime.md",
+      "skills/scxrd-refinement/references/package-audit.md",
+      "skills/scxrd-refinement/references/pitfalls.md",
+      "skills/scxrd-refinement/references/practice-lessons.md",
+      "skills/scxrd-refinement/references/refinement-decisions.md",
+      "skills/scxrd-refinement/references/runtime.md",
+      "skills/scxrd-refinement/references/solution-and-ligand.md",
+      "skills/scxrd-refinement/references/system-integration.md",
+      "skills/scxrd-refinement/references/task-language.md",
+      "skills/scxrd-refinement/references/tutorial-sources.md",
+      "skills/scxrd-refinement/references/twin-investigation.md",
+      "skills/scxrd-refinement/references/workflow-recipes.md"
+    ]
+  },
+  {
+    "name": "huangjt-computational-chemistry",
+    "role": "chemical_core",
+    "entry": "skills/huangjt-computational-chemistry/SKILL.md",
+    "scripts": [
+      "skills/huangjt-computational-chemistry/scripts/backend_inventory.py",
+      "skills/huangjt-computational-chemistry/scripts/coupling_postprocess.py",
+      "skills/huangjt-computational-chemistry/scripts/local_sampling.py",
+      "skills/huangjt-computational-chemistry/scripts/prepare_nmr_jobs.py",
+      "skills/huangjt-computational-chemistry/scripts/run_gaussian_nmr.py"
+    ],
+    "references": [
+      "skills/huangjt-computational-chemistry/references/absorbed-modules.md",
+      "skills/huangjt-computational-chemistry/references/applied-workflows.md",
+      "skills/huangjt-computational-chemistry/references/cluster-workflow.md",
+      "skills/huangjt-computational-chemistry/references/common.md",
+      "skills/huangjt-computational-chemistry/references/core-workflows.md",
+      "skills/huangjt-computational-chemistry/references/experience-maintenance.md",
+      "skills/huangjt-computational-chemistry/references/foundation-and-migration.md",
+      "skills/huangjt-computational-chemistry/references/host-compatibility.md",
+      "skills/huangjt-computational-chemistry/references/integrated-methods.md",
+      "skills/huangjt-computational-chemistry/references/local-conformers.md",
+      "skills/huangjt-computational-chemistry/references/local-runtime.md",
+      "skills/huangjt-computational-chemistry/references/nmr-coupling.md",
+      "skills/huangjt-computational-chemistry/references/operations-lessons.md",
+      "skills/huangjt-computational-chemistry/references/postprocess-cli.md",
+      "skills/huangjt-computational-chemistry/references/runtime.md",
+      "skills/huangjt-computational-chemistry/references/system-integration.md",
+      "skills/huangjt-computational-chemistry/references/task-language.md",
+      "skills/huangjt-computational-chemistry/references/task-preflight.md"
+    ]
+  },
+  {
+    "name": "huangjt-spectral-structure-analysis",
+    "role": "chemical_core",
+    "entry": "skills/huangjt-spectral-structure-analysis/SKILL.md",
+    "scripts": [
+      "skills/huangjt-spectral-structure-analysis/scripts/evidence_cli.py",
+      "skills/huangjt-spectral-structure-analysis/scripts/legacy-profile_backend.py",
+      "skills/huangjt-spectral-structure-analysis/scripts/process_1d.py",
+      "skills/huangjt-spectral-structure-analysis/scripts/read_spectral_file.py"
+    ],
+    "references": [
+      "skills/huangjt-spectral-structure-analysis/references/absorbed-modules.md",
+      "skills/huangjt-spectral-structure-analysis/references/applied-workflows.md",
+      "skills/huangjt-spectral-structure-analysis/references/candidate-comparison.md",
+      "skills/huangjt-spectral-structure-analysis/references/core-workflows.md",
+      "skills/huangjt-spectral-structure-analysis/references/experimental-workflow.md",
+      "skills/huangjt-spectral-structure-analysis/references/foundation-and-migration.md",
+      "skills/huangjt-spectral-structure-analysis/references/host-compatibility.md",
+      "skills/huangjt-spectral-structure-analysis/references/integrated-methods.md",
+      "skills/huangjt-spectral-structure-analysis/references/portability.md",
+      "skills/huangjt-spectral-structure-analysis/references/runtime.md",
+      "skills/huangjt-spectral-structure-analysis/references/system-integration.md",
+      "skills/huangjt-spectral-structure-analysis/references/task-language.md",
+      "skills/huangjt-spectral-structure-analysis/references/upstream-integration.md"
+    ]
+  },
+  {
+    "name": "organic-chemistry-reasoning",
+    "role": "chemical_core",
+    "entry": "skills/organic-chemistry-reasoning/SKILL.md",
+    "scripts": [
+      "skills/organic-chemistry-reasoning/scripts/structure_cli.py",
+      "skills/organic-chemistry-reasoning/scripts/workbench.py"
+    ],
+    "references": [
+      "skills/organic-chemistry-reasoning/references/absorbed-modules.md",
+      "skills/organic-chemistry-reasoning/references/applied-workflows.md",
+      "skills/organic-chemistry-reasoning/references/core-workflows.md",
+      "skills/organic-chemistry-reasoning/references/crystal.md",
+      "skills/organic-chemistry-reasoning/references/experiment-analysis.md",
+      "skills/organic-chemistry-reasoning/references/formula-ms.md",
+      "skills/organic-chemistry-reasoning/references/foundation-and-migration.md",
+      "skills/organic-chemistry-reasoning/references/geometry-sterics.md",
+      "skills/organic-chemistry-reasoning/references/host-compatibility.md",
+      "skills/organic-chemistry-reasoning/references/integrated-methods.md",
+      "skills/organic-chemistry-reasoning/references/literature-mechanism.md",
+      "skills/organic-chemistry-reasoning/references/nmr-identification.md",
+      "skills/organic-chemistry-reasoning/references/research-decisions.md",
+      "skills/organic-chemistry-reasoning/references/runtime.md",
+      "skills/organic-chemistry-reasoning/references/sources.md",
+      "skills/organic-chemistry-reasoning/references/system-integration.md",
+      "skills/organic-chemistry-reasoning/references/task-language.md"
+    ]
+  },
+  {
+    "name": "huangjt-academic-research",
+    "role": "academic_support",
+    "entry": "skills/huangjt-academic-research/SKILL.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-research/references/absorbed-modules.md",
+      "skills/huangjt-academic-research/references/applied-workflows.md",
+      "skills/huangjt-academic-research/references/foundation-and-migration.md",
+      "skills/huangjt-academic-research/references/host-compatibility.md",
+      "skills/huangjt-academic-research/references/integrated-methods.md",
+      "skills/huangjt-academic-research/references/modules.md",
+      "skills/huangjt-academic-research/references/runtime.md",
+      "skills/huangjt-academic-research/references/system-integration.md",
+      "skills/huangjt-academic-research/references/task-language.md"
+    ]
+  },
+  {
+    "name": "huangjt-academic-writing",
+    "role": "academic_support",
+    "entry": "skills/huangjt-academic-writing/SKILL.md",
+    "scripts": [],
+    "references": [
+      "skills/huangjt-academic-writing/references/absorbed-modules.md",
+      "skills/huangjt-academic-writing/references/applied-workflows.md",
+      "skills/huangjt-academic-writing/references/foundation-and-migration.md",
+      "skills/huangjt-academic-writing/references/host-compatibility.md",
+      "skills/huangjt-academic-writing/references/integrated-methods.md",
+      "skills/huangjt-academic-writing/references/modules.md",
+      "skills/huangjt-academic-writing/references/optional-methods.md",
+      "skills/huangjt-academic-writing/references/runtime.md",
+      "skills/huangjt-academic-writing/references/system-integration.md",
+      "skills/huangjt-academic-writing/references/task-language.md"
+    ]
+  }
+]

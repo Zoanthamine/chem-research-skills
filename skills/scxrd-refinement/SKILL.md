@@ -97,3 +97,7 @@ DIALS 是可选分支，不是所有精修的前置步骤。没有原始帧时�
 ## 完整方法、工具与迁移
 
 需要找回旧模块、选择实际脚本、模板或迁移软件时，读 [完整能力目录](CAPABILITIES.md)；需要把专业方法连成当前任务时，读 [实操与联动](references/applied-workflows.md)。新电脑和结构基础能力先读 [基础与迁移](references/foundation-and-migration.md)。保留原有方法、工具和资料，按需读取相关分支；减少的是重复入口。
+
+## 本核心的基础工作流
+
+处理实际数据、构象/核磁任务或有机分析时，先按 [基础功能与联动](references/core-workflows.md) 定位输入和可执行入口；[完整目录](CAPABILITIES.md) 同时列出本主技能自己的方法、脚本和内部扩展。
