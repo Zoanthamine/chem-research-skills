@@ -44,7 +44,8 @@ python tools/workbench.py setup --profile thermo-raw --apply   # Thermo RAW 转�
 - [5 分钟上手](docs/QUICKSTART.md) · [故障处理](docs/TROUBLESHOOTING.md)
 - [真实工作流与软件依赖](docs/WORKFLOWS.md) · [四核心方法与脚本总目录](docs/CATALOG.md)
 - [逐文件用途索引](docs/INVENTORY.md)（或打开 [inventory.html](docs/inventory.html) 搜索）
-- [基础功能与边界](docs/CORE_ACCEPTANCE.md) · [迁移](docs/MIGRATION.md) · [维护者手册](docs/MAINTAINERS.md)
+- [能力矩阵：配到哪一步能做什么](docs/CAPABILITY-MATRIX.md) · [基础功能与边界](docs/CORE_ACCEPTANCE.md)
+- [迁移](docs/MIGRATION.md) · [维护者手册](docs/MAINTAINERS.md) · [本地经验脱敏说明](docs/DESENSITIZATION.md)
 
 ## 学术支持保持收敛
 

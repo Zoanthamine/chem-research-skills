@@ -1,0 +1,15 @@
+{
+  "note": "本文件是一台真实机器上数值自检的环境记录，用于说明'跑通过'的具体含义；换机器必须重新运行 tools/doctor.py 与 examples/quickstart_smoke.py，不能把这里的版本号当目标机状态。",
+  "python": "3.12.16",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.16.3",
+    "matplotlib": "3.11.2",
+    "nmrglue": "0.12"
+  },
+  "scope": "numerical selftest on the source host; other computers not tested",
+  "verified": {
+    "read_spectral_file": "synthetic Bruker/Varian/NMRPipe/mzML/MGF boundary files",
+    "evidence_cli": "numerical examples (selftest)"
+  }
+}
