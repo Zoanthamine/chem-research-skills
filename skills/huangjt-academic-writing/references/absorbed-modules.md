@@ -6,7 +6,7 @@
 |---|---|---|
 | nature-writing | [方法与工具](../modules/nature-writing/WORKFLOW.md) | 0 项脚本记录；77 文件 |
 | scientific-writing | [方法与工具](../modules/scientific-writing/WORKFLOW.md) | 9 项脚本记录；31 文件 |
-| paper-write | [方法与工具](../modules/paper-write/WORKFLOW.md) | 公开版独立通用方法；原件不打包 |
+| paper-write | [方法与工具](../modules/paper-write/WORKFLOW.md) | 完整模块已随包；0 项脚本/模板；参考与示例见 CAPABILITIES |
 | nature-proposal-writer | [方法与工具](../modules/nature-proposal-writer/WORKFLOW.md) | 3 项脚本记录；36 文件 |
 | nature-polishing | [方法与工具](../modules/nature-polishing/WORKFLOW.md) | 0 项脚本记录；33 文件 |
 | nature-response | [方法与工具](../modules/nature-response/WORKFLOW.md) | 3 项脚本记录；38 文件 |
@@ -19,7 +19,7 @@
 | nature-paper2ppt | [方法与工具](../modules/nature-paper2ppt/WORKFLOW.md) | 1 项脚本记录；19 文件 |
 | nature-image2ppt | [方法与工具](../modules/nature-image2ppt/WORKFLOW.md) | 40 项脚本记录；91 文件 |
 | nature-paper-to-patent | [方法与工具](../modules/nature-paper-to-patent/WORKFLOW.md) | 24 项脚本记录；69 文件 |
-| office-academic-skill | [方法与工具](../modules/office-academic-skill/WORKFLOW.md) | 公开版独立通用方法；原件不打包 |
+| office-academic-skill | [方法与工具](../modules/office-academic-skill/WORKFLOW.md) | 完整模块已随包；32 项脚本/模板；参考与示例见 CAPABILITIES |
 | humanize-writing | [方法与工具](../modules/humanize-writing/WORKFLOW.md) | 0 项脚本记录；8 文件 |
 | research-grants | [方法与工具](../modules/research-grants/WORKFLOW.md) | 0 项脚本记录；16 文件 |
 | scientific-slides | [方法与工具](../modules/scientific-slides/WORKFLOW.md) | 7 项脚本记录；24 文件 |

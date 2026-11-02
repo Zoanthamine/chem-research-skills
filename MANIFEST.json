@@ -11274,7 +11274,7 @@
   {
     "path": "skills/huangjt-academic-writing/MANIFEST.json",
     "bytes": 213000,
-    "sha256": "fb5ff697fec5fb20d96bdbde9c955cdc971914af0bb4b1eebb313ce998893293",
+    "sha256": "38e010d0a423c0eeacbc0d8f1a0f38ab7352927e2e619ac3dbb1dff47d25e3dd",
     "normalize_lf": true
   },
   {
@@ -17186,8 +17186,8 @@
   },
   {
     "path": "skills/huangjt-academic-writing/references/absorbed-modules.md",
-    "bytes": 4860,
-    "sha256": "6312b668a9adbcfee9d90c267e93a027ab44996a20c719d9cea824ad8ccdf1dd",
+    "bytes": 4923,
+    "sha256": "130e77726be74d16e578b8e0595af48de47aa3c70eaef37e7f2454ba7b936b50",
     "normalize_lf": true
   },
   {
@@ -17216,8 +17216,8 @@
   },
   {
     "path": "skills/huangjt-academic-writing/references/modules.md",
-    "bytes": 4860,
-    "sha256": "6312b668a9adbcfee9d90c267e93a027ab44996a20c719d9cea824ad8ccdf1dd",
+    "bytes": 4923,
+    "sha256": "130e77726be74d16e578b8e0595af48de47aa3c70eaef37e7f2454ba7b936b50",
     "normalize_lf": true
   },
   {
@@ -17367,7 +17367,7 @@
   {
     "path": "skills/huangjt-computational-chemistry/MANIFEST.json",
     "bytes": 20670,
-    "sha256": "b468a1d1a564397662a146d45ea0c5a4ec2fb7b6fb00ed54e6b60eb36685a527",
+    "sha256": "9c7e66d28e75d064dd99f92078a836f80274c437eccf8d0da754f0f809b56425",
     "normalize_lf": true
   },
   {
@@ -17762,8 +17762,8 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/references/absorbed-modules.md",
-    "bytes": 1079,
-    "sha256": "823f5995a24165d9daf73dd6e2cc61965787a4fb4b5c8deecbe28fd5a6425d8f",
+    "bytes": 1204,
+    "sha256": "d65c3a36a8ee38b9b5142401928bfa03b24118f43d1505ac643f1739ff7efd62",
     "normalize_lf": true
   },
   {
@@ -18609,7 +18609,7 @@
   {
     "path": "skills/organic-chemistry-reasoning/MANIFEST.json",
     "bytes": 30973,
-    "sha256": "032855afad7d29c1fd82f9bc3fc6e30efc3565c29fb240220ac0fb7b47c08e99",
+    "sha256": "2c3dd130d4ae482b94015cb2a3643396b24e1c8dc64ff6105e70ba335357927e",
     "normalize_lf": true
   },
   {
@@ -19310,8 +19310,8 @@
   },
   {
     "path": "skills/organic-chemistry-reasoning/references/absorbed-modules.md",
-    "bytes": 1775,
-    "sha256": "0e5abc6b2788342fe6cb062ba9983ca0d4e9fc35015e01c3f0461213cb4fc4ff",
+    "bytes": 1806,
+    "sha256": "4badab41e3549bcba3bb6689496ab263649d60998d97cd1f80847ccb0c4bdadd",
     "normalize_lf": true
   },
   {
@@ -19521,7 +19521,7 @@
   {
     "path": "skills/scxrd-refinement/MANIFEST.json",
     "bytes": 11533,
-    "sha256": "ae7dddb4cd7a52564c382e52dafac8e745300b1b0e87bdf07b398ac69a054e95",
+    "sha256": "63ca89b10ba1465627124c0249dc9fb0cce77ef9621d0f147e8d553b9e5a27be",
     "normalize_lf": true
   },
   {
@@ -19532,8 +19532,8 @@
   },
   {
     "path": "skills/scxrd-refinement/references/absorbed-modules.md",
-    "bytes": 608,
-    "sha256": "0777eee3b399b7d50c01f79cffb7e2099fb734fb4b8af514aa2d752391399689",
+    "bytes": 638,
+    "sha256": "cab1f6689d05ac40bc4a124ce21799343c25c8efd34fe9cc3c14fccefa087027",
     "normalize_lf": true
   },
   {

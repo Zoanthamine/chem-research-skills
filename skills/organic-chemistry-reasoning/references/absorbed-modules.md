@@ -4,7 +4,7 @@
 
 | 模块 | 完整参考 | 保留的工具 |
 |---|---|---|
-| organic-chemistry-assistant | [方法与工具](../modules/organic-chemistry-assistant/WORKFLOW.md) | 公开版独立通用方法；原件不打包 |
+| organic-chemistry-assistant | [方法与工具](../modules/organic-chemistry-assistant/WORKFLOW.md) | 完整模块已随包；0 项脚本/模板；参考与示例见 CAPABILITIES |
 | rdkit | [方法与工具](../modules/rdkit/WORKFLOW.md) | 3 项脚本记录；9 文件 |
 | datamol | [方法与工具](../modules/datamol/WORKFLOW.md) | 0 项脚本记录；10 文件 |
 | openbabel | [方法与工具](../modules/openbabel/WORKFLOW.md) | 0 项脚本记录；1 文件 |

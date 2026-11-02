@@ -5992,8 +5992,8 @@
   },
   {
     "path": "references/absorbed-modules.md",
-    "bytes": 4860,
-    "sha256": "6312b668a9adbcfee9d90c267e93a027ab44996a20c719d9cea824ad8ccdf1dd",
+    "bytes": 4923,
+    "sha256": "130e77726be74d16e578b8e0595af48de47aa3c70eaef37e7f2454ba7b936b50",
     "normalize_lf": true
   },
   {
@@ -6022,8 +6022,8 @@
   },
   {
     "path": "references/modules.md",
-    "bytes": 4860,
-    "sha256": "6312b668a9adbcfee9d90c267e93a027ab44996a20c719d9cea824ad8ccdf1dd",
+    "bytes": 4923,
+    "sha256": "130e77726be74d16e578b8e0595af48de47aa3c70eaef37e7f2454ba7b936b50",
     "normalize_lf": true
   },
   {

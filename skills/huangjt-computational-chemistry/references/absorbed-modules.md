@@ -4,10 +4,10 @@
 
 | 模块 | 完整参考 | 保留的工具 |
 |---|---|---|
-| hpc-gaussian | [方法与工具](../modules/hpc-gaussian/WORKFLOW.md) | 公开版独立通用方法；原件不打包 |
-| hpc-gromacs | [方法与工具](../modules/hpc-gromacs/WORKFLOW.md) | 公开版独立通用方法；原件不打包 |
-| hpc-orchestration | [方法与工具](../modules/hpc-orchestration/WORKFLOW.md) | 公开版独立通用方法；原件不打包 |
-| rdkit-conf | [方法与工具](../modules/rdkit-conf/WORKFLOW.md) | 公开版独立通用方法；原件不打包 |
+| hpc-gaussian | [方法与工具](../modules/hpc-gaussian/WORKFLOW.md) | 完整模块已随包；1 项脚本/模板；参考与示例见 CAPABILITIES |
+| hpc-gromacs | [方法与工具](../modules/hpc-gromacs/WORKFLOW.md) | 完整模块已随包；1 项脚本/模板；参考与示例见 CAPABILITIES |
+| hpc-orchestration | [方法与工具](../modules/hpc-orchestration/WORKFLOW.md) | 完整模块已随包；13 项脚本/模板；参考与示例见 CAPABILITIES |
+| rdkit-conf | [方法与工具](../modules/rdkit-conf/WORKFLOW.md) | 完整模块已随包；1 项脚本/模板；参考与示例见 CAPABILITIES |
 | molecular-dynamics | [方法与工具](../modules/molecular-dynamics/WORKFLOW.md) | 0 项脚本记录；3 文件 |
 
 公开版的源文档许可见仓库THIRD_PARTY.md。图表示例素材的第三方原件不作自动可发布授权，不包含在本版。

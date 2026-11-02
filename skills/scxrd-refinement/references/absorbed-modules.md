@@ -4,6 +4,6 @@
 
 | 模块 | 完整参考 | 保留的工具 |
 |---|---|---|
-| solve-single-crystal | [方法与工具](../modules/solve-single-crystal/WORKFLOW.md) | 公开版独立通用方法；原件不打包 |
+| solve-single-crystal | [方法与工具](../modules/solve-single-crystal/WORKFLOW.md) | 完整方法与主技能工具；原始辅助文件可按固定来源恢复 |
 
 公开版的源文档许可见仓库THIRD_PARTY.md。图表示例素材的第三方原件不作自动可发布授权，不包含在本版。
