@@ -7,7 +7,7 @@ spec=importlib.util.spec_from_file_location('installer',ROOT/'install.py');insta
 
 class InstallationTests(unittest.TestCase):
     def setUp(self):
-        self.tmp=tempfile.TemporaryDirectory();self.base=Path(self.tmp.name);self.source=self.base/'package'
+        self.tmp=tempfile.TemporaryDirectory(ignore_cleanup_errors=True);self.base=Path(self.tmp.name);self.source=self.base/'package'
         for name in installer.NAMES:
             p=self.source/'skills'/name/'SKILL.md';p.parent.mkdir(parents=True);p.write_text('---\nname: '+name+'\ndescription: test fixture\n---\nExample\n',encoding='utf-8')
         (self.source/'routing').mkdir();(self.source/'routing/global-defaults.md').write_text('# Chemistry\nRoot: {{SKILL_ROOT}}\n',encoding='utf-8')

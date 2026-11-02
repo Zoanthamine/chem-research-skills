@@ -13,8 +13,104 @@
   },
   {
     "path": ".gitignore",
-    "bytes": 65,
-    "sha256": "177fa92232eea7d1255fe6f4402d76c15e3f2340375f66162dffb4f0b5b2f13e",
+    "bytes": 138,
+    "sha256": "2dfbf4973db596b56e06b4e1a4c1fc25257a151d10d5f5050f7e0c1f4622afa7",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "README.md",
+    "bytes": 4141,
+    "sha256": "276e1cfa0e0bb03236be87651cbfb8074683e47ad3eb980a2425005bb173fde4",
+    "normalize_lf": true
+  },
+  {
+    "path": "SOURCE-LICENSES.json",
+    "bytes": 11568,
+    "sha256": "6998cef591f2b6c2203d7b89b19df03eef0a7cc57482ab6a14e9808525499c92",
+    "normalize_lf": true
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "bytes": 2689,
+    "sha256": "ab0427de3823311485df6a73d616b3355f6bc8f3164eb65bb783aed545c64dcc",
+    "normalize_lf": true
+  },
+  {
+    "path": "VERSION",
+    "bytes": 5,
+    "sha256": "59296d23d623ce0adf7675d22156e83b1248c8508135a65dd8a9e38c497e94a8",
     "normalize_lf": true
   },
   {
@@ -49,8 +145,8 @@
   },
   {
     "path": "docs/CATALOG.md",
-    "bytes": 1464,
-    "sha256": "8b6943d47e5fe07a200da3afd30ea6f6780a5d86a1b72d8dd6a67de9da46ecf4",
+    "bytes": 1697,
+    "sha256": "aaaa7e6d881a43b520731db14e74b3a4d8f1c16d5c833187da35daf46bee5c1c",
     "normalize_lf": true
   },
   {
@@ -67,8 +163,20 @@
   },
   {
     "path": "docs/FIRST_RUN.md",
-    "bytes": 4532,
-    "sha256": "f810719a7da8f791668d7c0fa8387448159e2573a3c8aebd0ed0426a1060c371",
+    "bytes": 4741,
+    "sha256": "e40c7cf2cbeec1577df89ce76b5edc50dadde791d763ac10c5649bd791b2d733",
+    "normalize_lf": true
+  },
+  {
+    "path": "docs/INVENTORY.md",
+    "bytes": 334627,
+    "sha256": "26de7bb35cbb555e3145a0646158b1e0c7a0379e028e798311d5dcc7aeb9c63c",
+    "normalize_lf": true
+  },
+  {
+    "path": "docs/MAINTAINERS.md",
+    "bytes": 5456,
+    "sha256": "fe141075bc773682d57893dc431cfa2bf44f490c5da04a7dfebea3b97fd5aeb4",
     "normalize_lf": true
   },
   {
@@ -84,9 +192,27 @@
     "normalize_lf": true
   },
   {
+    "path": "docs/QUICKSTART.md",
+    "bytes": 5635,
+    "sha256": "d32f1bc6d9e47415984463cd62d24e2ec37b689ba421429bed6f0a2472aad1a7",
+    "normalize_lf": true
+  },
+  {
     "path": "docs/RELEASE-v1.2.0.md",
     "bytes": 1191,
     "sha256": "0860be34ad960397597b535b777746bf7247ea3b4c7daed99e30f29082b3d401",
+    "normalize_lf": true
+  },
+  {
+    "path": "docs/RELEASE-v1.3.0.md",
+    "bytes": 2894,
+    "sha256": "dd28eff12a2646fc7bda2a32e04c3c76897617ab6fa047156ddf94833e755dd4",
+    "normalize_lf": true
+  },
+  {
+    "path": "docs/TROUBLESHOOTING.md",
+    "bytes": 4574,
+    "sha256": "c8808b0e200ebb6bcb8422a17cc36f32678374e554bc75993b0a4c0198d15dad",
     "normalize_lf": true
   },
   {
@@ -99,6 +225,36 @@
     "path": "docs/VALIDATION.md",
     "bytes": 477,
     "sha256": "1e43e0b95ec29524e4170466a9f098fcf094fcb41b10ba9805677170cc6c3944",
+    "normalize_lf": true
+  },
+  {
+    "path": "docs/WORKFLOWS.md",
+    "bytes": 8079,
+    "sha256": "08291fb6ea377379e2b354e9d804bce86010335c86d2aa379e694c9463214374",
+    "normalize_lf": true
+  },
+  {
+    "path": "docs/inventory.csv",
+    "bytes": 577013,
+    "sha256": "6825a64f5c6ad27501fd12a5671c38088d7ace0c97ef37c171e4467d0b9584a4",
+    "normalize_lf": true
+  },
+  {
+    "path": "docs/inventory.html",
+    "bytes": 838728,
+    "sha256": "64e5e8d7696fec8d3abe646758076e7d4c246defdace90165eadbcc73558a02f",
+    "normalize_lf": true
+  },
+  {
+    "path": "examples/README.md",
+    "bytes": 717,
+    "sha256": "7a46f5a4ad63ada57fffb970ecae09b39bbfd2e8ea92aa21def476496b88c0a0",
+    "normalize_lf": true
+  },
+  {
+    "path": "examples/quickstart_smoke.py",
+    "bytes": 4047,
+    "sha256": "2af1afcb12f434a35314e8a2b7095eaae015dbbc96213f5010874455aa0821be",
     "normalize_lf": true
   },
   {
@@ -115,98 +271,20 @@
   },
   {
     "path": "install.py",
-    "bytes": 7045,
-    "sha256": "b6f7c0e7bdc42612d3ff357204bf289df880f7f6915f9e3e3ffdcd5c1b4426fa",
+    "bytes": 14626,
+    "sha256": "35778968e6f701db33a7fbbe5d1a044428d5c76787872489e4de2baf92afac57",
     "normalize_lf": true
   },
   {
-    "path": "LICENSE",
-    "bytes": 1068,
-    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/conformer-upstream-LICENSE.txt",
-    "bytes": 7652,
-    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/GPL-3.0.txt",
-    "bytes": 34674,
-    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/hpc-upstream-LICENSE.txt",
-    "bytes": 1067,
-    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
-    "bytes": 19584,
-    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
-    "bytes": 1068,
-    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
-    "bytes": 1103,
-    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/office-upstream-LICENSE.txt",
-    "bytes": 1066,
-    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/organic-upstream-LICENSE.txt",
-    "bytes": 1103,
-    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/paper-upstream-LICENSE.txt",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
-    "path": "README.md",
-    "bytes": 3138,
-    "sha256": "d9c1f4154b7326006be67876c0d71e7dd6eb37597b3cdd73e3d52370bb63986f",
+    "path": "install.sh",
+    "bytes": 248,
+    "sha256": "467b964dc6fd7687f56cc3154d4bb060c6d2b5c95f822448796a42aa522c10ca",
     "normalize_lf": true
   },
   {
     "path": "routing/global-defaults.md",
     "bytes": 1973,
     "sha256": "789c1c8db3b24d475aecf50e2ec830f09483f3d888b90ef0b69d64aef19e587a",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/agents/openai.yaml",
-    "bytes": 355,
-    "sha256": "88b719ddc763ca2e9b33d35b4b7ec69a118c1f596017e7274ce8417feda80167",
     "normalize_lf": true
   },
   {
@@ -222,21 +300,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/LICENSES/conformer-upstream-LICENSE.txt",
-    "bytes": 7652,
-    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/LICENSES/GPL-3.0.txt",
     "bytes": 34674,
     "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/LICENSES/hpc-upstream-LICENSE.txt",
-    "bytes": 1067,
-    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
     "normalize_lf": true
   },
   {
@@ -252,15 +318,33 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
     "bytes": 1103,
     "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
     "normalize_lf": true
   },
   {
@@ -282,15 +366,45 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/LICENSES/Yuan1z0825__nature-skills-LICENSE",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/MANIFEST.json",
     "bytes": 422620,
     "sha256": "5f5d51d188ebb77798f308ebecdc85e41e0a2a635483391bb68312c4576caef7",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/SKILL.md",
+    "bytes": 3472,
+    "sha256": "82d194bff2401ca730027467277e454b67f6cf74036387f0069a9c5c744a02b9",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/SOURCE-LICENSES.json",
+    "bytes": 4118,
+    "sha256": "81c7e1165f2f3ba6de7e30f0f597fdaaa076a28a5c7a09a9185552c51790c73f",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/THIRD_PARTY.md",
+    "bytes": 1481,
+    "sha256": "5ab7676969138c59fd21f6ca33b59b0e78bb6295ad5f821d7a27f354927289f4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/agents/openai.yaml",
+    "bytes": 355,
+    "sha256": "88b719ddc763ca2e9b33d35b4b7ec69a118c1f596017e7274ce8417feda80167",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/EXTERNAL_RESOURCES.md",
+    "bytes": 480,
+    "sha256": "18127705b489ddb8689712c47b5255c98cd21ad97f6de3121ff7e125888b4737",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/WORKFLOW.md",
+    "bytes": 50051,
+    "sha256": "e879d571e52cf1fac4a88560ac5757ff0692750fbd28f8ff5dc95c9b9efeac91",
     "normalize_lf": true
   },
   {
@@ -306,15 +420,15 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/.github/copilot-instructions.md",
-    "bytes": 2653,
-    "sha256": "71178dbbcb465473b9ae76da20620403a0f69caa11cfd5aa5c49864db381f657",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/.github/FUNDING.yml",
     "bytes": 29,
     "sha256": "4a6aab449f7f9a44c2e8c2a5228acb29f9c961b1d17f45af4a238fe9217bad3b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/.github/copilot-instructions.md",
+    "bytes": 2653,
+    "sha256": "71178dbbcb465473b9ae76da20620403a0f69caa11cfd5aa5c49864db381f657",
     "normalize_lf": true
   },
   {
@@ -417,6 +531,288 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/.gitleaksignore",
     "bytes": 641,
     "sha256": "2fa8853a66e37609e5abf6696f4bb20f73a2014d027c59172fb92a2a67b26471",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/CHANGELOG.md",
+    "bytes": 834637,
+    "sha256": "6ad3dfb9d89d1d35ee1dfb37967c0fbc54b08426a9fede8a2e54ebabe087eca7",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/CITATION.cff",
+    "bytes": 1462,
+    "sha256": "15eeaaa91a3e5fb287a29fa584838e0516bc718dcbd79852170a6297c115158b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/CONTRIBUTING.md",
+    "bytes": 14154,
+    "sha256": "4fb35a5b093cbd7829615289bbc47434ea54fd2652e57b0eff7d74d8e7b744b6",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/GOVERNANCE.md",
+    "bytes": 8584,
+    "sha256": "f3a55a45138f7014e3b0364b7b077407512659af4dd40b1cfb92475bbc3d7c16",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/LICENSE.academic-research-skills",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/MODE_REGISTRY.md",
+    "bytes": 6813,
+    "sha256": "6a0d4e3854d358c23e69a364f5c925ffbcbe1f9f582cd72076065aef71034260",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/NOTICE.md",
+    "bytes": 942,
+    "sha256": "4f8eb1306c01b419baeff7f66d96ea3bd46076436406954c7eff21fb2e0003f1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/POSITIONING.md",
+    "bytes": 15367,
+    "sha256": "dd6294571859adc9c20730ca6d79ddb2a0fd4bfb11361e44ae980f90b0253f75",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/QUICKSTART.md",
+    "bytes": 3734,
+    "sha256": "6f1ff99b9530633f81aaa7256d6223c2dcf095dd0c218f77d9d6462a9fb15a0b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.es-ES.md",
+    "bytes": 53019,
+    "sha256": "040e5a2b61135d7aeaf689220d190dd31f04c7ac710faccad17ca0694c770dc8",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.ja-JP.md",
+    "bytes": 43808,
+    "sha256": "5f4b2f03378678f506485aefe3bd962530a9e491e27f41c2f98e513b3b089a82",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.ko-KR.md",
+    "bytes": 42968,
+    "sha256": "7661d0c96f0ec06884318717776527ab5dd16529f0b73ec21518e895754e462a",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.md",
+    "bytes": 47045,
+    "sha256": "80d1d8eadada1a1a6f56234be66cf58dd6577b6c90642b7d4b9f2d09718dd84d",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.zh-CN.md",
+    "bytes": 32617,
+    "sha256": "08ea16de11bd22fffe44ecdf0767732f8f916fe9a8ee414f00e04d60e5e13dd7",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.zh-TW.md",
+    "bytes": 39469,
+    "sha256": "53c1d8e61abbddb810e50b10d5df8bc2cafb850d7b50b1dd50f1517d1d24050b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/SECURITY.md",
+    "bytes": 3473,
+    "sha256": "f224e3d65fc85219993cd377af25dc42c0deb98e5df79ff6776ce4030aaf4481",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/THIRD_PARTY.md",
+    "bytes": 5137,
+    "sha256": "3d12c8049415597b1eb594d7d9de255fa047f4a40f87765ca9a1f1f2b7f4e83f",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/WORKFLOW.md",
+    "bytes": 48548,
+    "sha256": "a00ff74bb9b00515df8dc359bcb97115282bb835f3a787f3862eaa5157b582c3",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/devils_advocate_reviewer_agent.md",
+    "bytes": 43018,
+    "sha256": "a3ddde4c1e26e9e8603f71e47b3afb0c83131e0428b84048c0c3e634f19e5b5c",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/domain_reviewer_agent.md",
+    "bytes": 34167,
+    "sha256": "706a70fab08a37dff52f6e097787cf8d5712fff02bcce87ac0a184109f478f55",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/editorial_synthesizer_agent.md",
+    "bytes": 42807,
+    "sha256": "75209938bfcb77ae203435580f74cc539b522168312429606137b8c3557e3b6f",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/eic_agent.md",
+    "bytes": 28807,
+    "sha256": "9690e570d081bfcdef6da23fb93064af4028c9d6b766fcbcf0cf0981463d492f",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/field_analyst_agent.md",
+    "bytes": 11494,
+    "sha256": "26dacdebdfdd70373cf93167c7b02cca41306fe21f9a25a5d615f7aea61dadee",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/methodology_reviewer_agent.md",
+    "bytes": 45049,
+    "sha256": "7369527eb99f1ca2a7351a338a4e7ef0df482d3fb516056d271a944eb7d6d8b9",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/perspective_reviewer_agent.md",
+    "bytes": 34502,
+    "sha256": "a99386515c1e9e5b73e91f3f9cd62f6ec3660f03e229371ad53531fa165cf007",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/examples/hei_paper_review_example.md",
+    "bytes": 34657,
+    "sha256": "d64f2280fa17fe2f94f8f177a9ef40e412ced68f4da03987199b5507606e07ff",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/examples/interdisciplinary_review_example.md",
+    "bytes": 28262,
+    "sha256": "c6cb1168a34c11bfd083cf94606417aa5da3c6ddff7d8064ca3809222fd9f957",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/examples/subclaim_decomposition_example.md",
+    "bytes": 8528,
+    "sha256": "71b6c6923a3e0cc597f87da1ae95f2e422d2617a833475ef8a1d6cb148caeff3",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/calibration_mode_protocol.md",
+    "bytes": 15840,
+    "sha256": "f6ebedf09fd7810372f1150227065aad03f5bf30f49be47226b1be26fc771bfd",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/changelog.md",
+    "bytes": 1396,
+    "sha256": "aabe2ccbd96dc70280ea10f6eb7e5dce59cea48ee633dc736273e5dadf662d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/editorial_decision_standards.md",
+    "bytes": 13142,
+    "sha256": "88e186e8d743ee40a83842ab2f00f442cd23de417e7e3ba0a7b9b8b5dc91e76d",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/guided_mode_protocol.md",
+    "bytes": 2036,
+    "sha256": "0f5ca4d432a4e10ba5c404c0e3cffc823513c3d2de2bab50996ea200579f6297",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/integration_guide.md",
+    "bytes": 680,
+    "sha256": "5f0f4a9a386e603d8f7ed50a8ec67073153e2391bfb4b60bf25eacd9dca3ca01",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/quality_rubrics.md",
+    "bytes": 6400,
+    "sha256": "7335aa653d3573a323d9de522b0bc98f3230b7c639b673fc812fa46d607e01e1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/re_review_mode_protocol.md",
+    "bytes": 53211,
+    "sha256": "25ec67e5cd22fe449d8385f704ce8fdb9b2a2725c9776fb0d306cc3bfca270cb",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_criteria_framework.md",
+    "bytes": 6335,
+    "sha256": "6af77dc4a0b86c84dd3b1b7c9849294deb869899c9d82ff100816aca7c1eead9",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_panel_provenance_protocol.md",
+    "bytes": 9656,
+    "sha256": "0e3e8c7e64dc4ac61a5a6a973698515a387eb71dd10e8131b9c2ea617859d439",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_quality_thinking.md",
+    "bytes": 3337,
+    "sha256": "ee4fa6bf144a30810ebe0bbbffa71a79c739398afeb06ca97cb7f1090d3bdb90",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md",
+    "bytes": 49020,
+    "sha256": "fb11e4ebb5dd72b17018486409623f0e7bae21728830adf2c7ea1093ae2b0b8b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/sprint_contract_protocol.md",
+    "bytes": 32859,
+    "sha256": "6759c0bf1f61b0be9b6bdddc0859f4d15abc47a6c209de8f66a20ce4a3960f89",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/statistical_reporting_standards.md",
+    "bytes": 30511,
+    "sha256": "cfab6520a3d758a94dd165e74cdfee5dbe4e66fdb8f9590462ce94bd77eb93f0",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/top_journals_by_field.md",
+    "bytes": 12916,
+    "sha256": "9a163c97714ddcd4f3d7bcb2beb72ca454c880fe08c255afb43177f3db17ed57",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/templates/editorial_decision_template.md",
+    "bytes": 11659,
+    "sha256": "447f31ef57d2a26fd17d7f0d5c27258d3a18e484246602aacdf465dafb682625",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/templates/peer_review_report_template.md",
+    "bytes": 15184,
+    "sha256": "5da1f9d24d6e321cec5f38c13fa03fe23b9363b1842cb0d8111c5e39a810c7d1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/templates/revision_response_template.md",
+    "bytes": 7595,
+    "sha256": "ccac360301149a0805f24b23340193ca39b62907ce9d8279c07de5eae55885a4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper/WORKFLOW.md",
+    "bytes": 65341,
+    "sha256": "926ed8a6dc28fb62fc83b150964b9f955878789ca0d38f848f6b180b82a0bf57",
     "normalize_lf": true
   },
   {
@@ -792,177 +1188,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper/WORKFLOW.md",
-    "bytes": 65341,
-    "sha256": "926ed8a6dc28fb62fc83b150964b9f955878789ca0d38f848f6b180b82a0bf57",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/devils_advocate_reviewer_agent.md",
-    "bytes": 43018,
-    "sha256": "a3ddde4c1e26e9e8603f71e47b3afb0c83131e0428b84048c0c3e634f19e5b5c",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/domain_reviewer_agent.md",
-    "bytes": 34167,
-    "sha256": "706a70fab08a37dff52f6e097787cf8d5712fff02bcce87ac0a184109f478f55",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/editorial_synthesizer_agent.md",
-    "bytes": 42807,
-    "sha256": "75209938bfcb77ae203435580f74cc539b522168312429606137b8c3557e3b6f",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/eic_agent.md",
-    "bytes": 28807,
-    "sha256": "9690e570d081bfcdef6da23fb93064af4028c9d6b766fcbcf0cf0981463d492f",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/field_analyst_agent.md",
-    "bytes": 11494,
-    "sha256": "26dacdebdfdd70373cf93167c7b02cca41306fe21f9a25a5d615f7aea61dadee",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/methodology_reviewer_agent.md",
-    "bytes": 45049,
-    "sha256": "7369527eb99f1ca2a7351a338a4e7ef0df482d3fb516056d271a944eb7d6d8b9",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/agents/perspective_reviewer_agent.md",
-    "bytes": 34502,
-    "sha256": "a99386515c1e9e5b73e91f3f9cd62f6ec3660f03e229371ad53531fa165cf007",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/examples/hei_paper_review_example.md",
-    "bytes": 34657,
-    "sha256": "d64f2280fa17fe2f94f8f177a9ef40e412ced68f4da03987199b5507606e07ff",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/examples/interdisciplinary_review_example.md",
-    "bytes": 28262,
-    "sha256": "c6cb1168a34c11bfd083cf94606417aa5da3c6ddff7d8064ca3809222fd9f957",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/examples/subclaim_decomposition_example.md",
-    "bytes": 8528,
-    "sha256": "71b6c6923a3e0cc597f87da1ae95f2e422d2617a833475ef8a1d6cb148caeff3",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/calibration_mode_protocol.md",
-    "bytes": 15840,
-    "sha256": "f6ebedf09fd7810372f1150227065aad03f5bf30f49be47226b1be26fc771bfd",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/changelog.md",
-    "bytes": 1396,
-    "sha256": "aabe2ccbd96dc70280ea10f6eb7e5dce59cea48ee633dc736273e5dadf662d7c",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/editorial_decision_standards.md",
-    "bytes": 13142,
-    "sha256": "88e186e8d743ee40a83842ab2f00f442cd23de417e7e3ba0a7b9b8b5dc91e76d",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/guided_mode_protocol.md",
-    "bytes": 2036,
-    "sha256": "0f5ca4d432a4e10ba5c404c0e3cffc823513c3d2de2bab50996ea200579f6297",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/integration_guide.md",
-    "bytes": 680,
-    "sha256": "5f0f4a9a386e603d8f7ed50a8ec67073153e2391bfb4b60bf25eacd9dca3ca01",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/quality_rubrics.md",
-    "bytes": 6400,
-    "sha256": "7335aa653d3573a323d9de522b0bc98f3230b7c639b673fc812fa46d607e01e1",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/re_review_mode_protocol.md",
-    "bytes": 53211,
-    "sha256": "25ec67e5cd22fe449d8385f704ce8fdb9b2a2725c9776fb0d306cc3bfca270cb",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_criteria_framework.md",
-    "bytes": 6335,
-    "sha256": "6af77dc4a0b86c84dd3b1b7c9849294deb869899c9d82ff100816aca7c1eead9",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_panel_provenance_protocol.md",
-    "bytes": 9656,
-    "sha256": "0e3e8c7e64dc4ac61a5a6a973698515a387eb71dd10e8131b9c2ea617859d439",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/review_quality_thinking.md",
-    "bytes": 3337,
-    "sha256": "ee4fa6bf144a30810ebe0bbbffa71a79c739398afeb06ca97cb7f1090d3bdb90",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md",
-    "bytes": 49020,
-    "sha256": "fb11e4ebb5dd72b17018486409623f0e7bae21728830adf2c7ea1093ae2b0b8b",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/sprint_contract_protocol.md",
-    "bytes": 32859,
-    "sha256": "6759c0bf1f61b0be9b6bdddc0859f4d15abc47a6c209de8f66a20ce4a3960f89",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/statistical_reporting_standards.md",
-    "bytes": 30511,
-    "sha256": "cfab6520a3d758a94dd165e74cdfee5dbe4e66fdb8f9590462ce94bd77eb93f0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/references/top_journals_by_field.md",
-    "bytes": 12916,
-    "sha256": "9a163c97714ddcd4f3d7bcb2beb72ca454c880fe08c255afb43177f3db17ed57",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/templates/editorial_decision_template.md",
-    "bytes": 11659,
-    "sha256": "447f31ef57d2a26fd17d7f0d5c27258d3a18e484246602aacdf465dafb682625",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/templates/peer_review_report_template.md",
-    "bytes": 15184,
-    "sha256": "5da1f9d24d6e321cec5f38c13fa03fe23b9363b1842cb0d8111c5e39a810c7d1",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/templates/revision_response_template.md",
-    "bytes": 7595,
-    "sha256": "ccac360301149a0805f24b23340193ca39b62907ce9d8279c07de5eae55885a4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-paper-reviewer/WORKFLOW.md",
-    "bytes": 48548,
-    "sha256": "a00ff74bb9b00515df8dc359bcb97115282bb835f3a787f3862eaa5157b582c3",
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/WORKFLOW.md",
+    "bytes": 59587,
+    "sha256": "71659b63ffef1f81aa7b63b9bdd8bbe180ab75e2f01c27026368023e560a84ef",
     "normalize_lf": true
   },
   {
@@ -1140,12 +1368,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/academic-pipeline/WORKFLOW.md",
-    "bytes": 59587,
-    "sha256": "71659b63ffef1f81aa7b63b9bdd8bbe180ab75e2f01c27026368023e560a84ef",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/agents/report_compiler_agent.md",
     "bytes": 26656,
     "sha256": "546fccee1fab315d9a43a528c50862a2d27a17db1275d2fc58e2e312733fcbfd",
@@ -1266,18 +1488,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/CHANGELOG.md",
-    "bytes": 834637,
-    "sha256": "6ad3dfb9d89d1d35ee1dfb37967c0fbc54b08426a9fede8a2e54ebabe087eca7",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/CITATION.cff",
-    "bytes": 1462,
-    "sha256": "15eeaaa91a3e5fb287a29fa584838e0516bc718dcbd79852170a6297c115158b",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/commands/ars-3w.md",
     "bytes": 1127,
     "sha256": "d7cfb12e7cc0d3001e4d6b816b17b63d6f877b030f719493b7101c2230a852b1",
@@ -1374,9 +1584,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/CONTRIBUTING.md",
-    "bytes": 14154,
-    "sha256": "4fb35a5b093cbd7829615289bbc47434ea54fd2652e57b0eff7d74d8e7b744b6",
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/WORKFLOW.md",
+    "bytes": 52543,
+    "sha256": "9bd749a30a61db5abc8d387673d4bb2b38f16858f022a84752e2eeb3bea72ed9",
     "normalize_lf": true
   },
   {
@@ -1692,15 +1902,69 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/deep-research/WORKFLOW.md",
-    "bytes": 52543,
-    "sha256": "9bd749a30a61db5abc8d387673d4bb2b38f16858f022a84752e2eeb3bea72ed9",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ARCHITECTURE.md",
     "bytes": 52808,
     "sha256": "f740a6babd11ba383e32fb57ff2922886ba5183ecda53b85a5108aecdbd77763",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/CONTROL_AVAILABILITY.md",
+    "bytes": 15129,
+    "sha256": "05f6ddb72679a7da286a6b58d0c5c2ffaa2b21b0544ba7714968fa9b0dbb2717",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/DATA_FLOWS.md",
+    "bytes": 15044,
+    "sha256": "953e15e636b40ad40a2afceee668a65c273c9fa90a8afb0292d2df646732433a",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/PERFORMANCE.md",
+    "bytes": 19305,
+    "sha256": "55151a31a1c68cb4f421975544db0361cefe8831a5f8f971e0d549d02229e61b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/PERFORMANCE.zh-TW.md",
+    "bytes": 18173,
+    "sha256": "53645e32addf0e1b2ef82b9271cd0d1cb185b616ff3ae40e23b2a47167b9bfd1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/RISK_REGISTER.md",
+    "bytes": 18352,
+    "sha256": "3348f600cc3298c3bba7e327224c8fd11eae819b8eba5e987d23d8f0b2a8ffb1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ROADMAP-v3.11.md",
+    "bytes": 9867,
+    "sha256": "57039fb802a183ca9b4915ae599a164fbc46c2dcae320e87c370ce72f0b75353",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ROADMAP-v3.20.1-v3.22.md",
+    "bytes": 12864,
+    "sha256": "8956ad4a31dab655b715aa43b86350dc21e9a11315c3d8952adde24f3b95b798",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/SETUP.md",
+    "bytes": 41370,
+    "sha256": "c9e03778fbaebeb1e0fa07bd9aab3f59dce4a11b3c9fdcde9efcb83cdea32dd3",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/SETUP.zh-TW.md",
+    "bytes": 39610,
+    "sha256": "eb0ebebdea3c2c78938724c06d96d85941418bb0f0435254289ec807ca1258ae",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/STAGE_CAPABILITY_MATRIX.md",
+    "bytes": 20275,
+    "sha256": "60e8cb159732d90171235a8c6b69a4d859d3fa2535622473eb6fc7ad080ab4e9",
     "normalize_lf": true
   },
   {
@@ -1734,21 +1998,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/CONTROL_AVAILABILITY.md",
-    "bytes": 15129,
-    "sha256": "05f6ddb72679a7da286a6b58d0c5c2ffaa2b21b0544ba7714968fa9b0dbb2717",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/cross-paper-workflow.md",
     "bytes": 3574,
     "sha256": "0e8b0d6bc7b7a31f0aa82916a2681e8c7cdc2e3f6142f5b7981c6dbd02d39d4a",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/DATA_FLOWS.md",
-    "bytes": 15044,
-    "sha256": "953e15e636b40ad40a2afceee668a65c273c9fa90a8afb0292d2df646732433a",
     "normalize_lf": true
   },
   {
@@ -2400,54 +2652,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/PERFORMANCE.md",
-    "bytes": 19305,
-    "sha256": "55151a31a1c68cb4f421975544db0361cefe8831a5f8f971e0d549d02229e61b",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/PERFORMANCE.zh-TW.md",
-    "bytes": 18173,
-    "sha256": "53645e32addf0e1b2ef82b9271cd0d1cb185b616ff3ae40e23b2a47167b9bfd1",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/RISK_REGISTER.md",
-    "bytes": 18352,
-    "sha256": "3348f600cc3298c3bba7e327224c8fd11eae819b8eba5e987d23d8f0b2a8ffb1",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ROADMAP-v3.11.md",
-    "bytes": 9867,
-    "sha256": "57039fb802a183ca9b4915ae599a164fbc46c2dcae320e87c370ce72f0b75353",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/ROADMAP-v3.20.1-v3.22.md",
-    "bytes": 12864,
-    "sha256": "8956ad4a31dab655b715aa43b86350dc21e9a11315c3d8952adde24f3b95b798",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/SETUP.md",
-    "bytes": 41370,
-    "sha256": "c9e03778fbaebeb1e0fa07bd9aab3f59dce4a11b3c9fdcde9efcb83cdea32dd3",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/SETUP.zh-TW.md",
-    "bytes": 39610,
-    "sha256": "eb0ebebdea3c2c78938724c06d96d85941418bb0f0435254289ec807ca1258ae",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/docs/STAGE_CAPABILITY_MATRIX.md",
-    "bytes": 20275,
-    "sha256": "60e8cb159732d90171235a8c6b69a4d859d3fa2535622473eb6fc7ad080ab4e9",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/benchmark_report_template.json",
     "bytes": 765,
     "sha256": "b60ece7cce60128fd7a6065d03d8287240b8edc48e552fc1e5de5dc146cc7c11",
@@ -2496,6 +2700,18 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/README.md",
+    "bytes": 8404,
+    "sha256": "3da15ecfd8896bc35a0bf5af218fb64b9a69b08cad0fad160642b50c66169e95",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/SHA256SUMS",
+    "bytes": 2295,
+    "sha256": "e3cffe49c5b6808fca0a41a23c41876c773a81129d3b837004710eb6402c258e",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/inventory.json",
     "bytes": 10068,
     "sha256": "fb8f6fc3edebe9c52bd41aa47a8f4ccb43c0530ba70c1ce1ec1f560f0b7d7f4e",
@@ -2505,12 +2721,6 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/model-portability.md",
     "bytes": 7151,
     "sha256": "2a4316b250cc7fe4cd57ed4d42a0185bddf1e10d4dfd2fc4af0ddbce7cecf8a6",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/README.md",
-    "bytes": 8404,
-    "sha256": "3da15ecfd8896bc35a0bf5af218fb64b9a69b08cad0fad160642b50c66169e95",
     "normalize_lf": true
   },
   {
@@ -2532,27 +2742,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/SHA256SUMS",
-    "bytes": 2295,
-    "sha256": "e3cffe49c5b6808fca0a41a23c41876c773a81129d3b837004710eb6402c258e",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-01/revised-research-report.md",
     "bytes": 38561,
     "sha256": "cee08d1b349854631a5634302852e58c16e0c51f480042fd467d1daa76e3abab",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-02/course-paper-draft.md",
-    "bytes": 34191,
-    "sha256": "953badfa35dab3ae6bcd183918b5d319b8575e22df944a3f0fa2ac54429f6507",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-02.5/focused-reverification-report.md",
     "bytes": 6410,
     "sha256": "614081675275d7b21b395c191b88545e779c130a626e91c941888b83b9c93a19",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-02/course-paper-draft.md",
+    "bytes": 34191,
+    "sha256": "953badfa35dab3ae6bcd183918b5d319b8575e22df944a3f0fa2ac54429f6507",
     "normalize_lf": true
   },
   {
@@ -2568,15 +2772,15 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-04/response-to-reviewers.md",
-    "bytes": 5579,
-    "sha256": "c53ed200fe21b5ccc43a17ad3339995112ea53efd10adc5b03c4fe49a4feafd3",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-04.5/final-integrity-verification-report.md",
     "bytes": 12623,
     "sha256": "d68db78036962dbcb6588a888343e5b611647203835ff263b7ef22e81be0bc9f",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/examples/pi/stage-04/response-to-reviewers.md",
+    "bytes": 5579,
+    "sha256": "c53ed200fe21b5ccc43a17ad3339995112ea53efd10adc5b03c4fe49a4feafd3",
     "normalize_lf": true
   },
   {
@@ -2646,33 +2850,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/agents/code_runner_agent.md",
-    "bytes": 4921,
-    "sha256": "54937084589413787fe328ab1561329791cc2ca83222d9bf8283949399cf66de",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/agents/study_manager_agent.md",
-    "bytes": 19231,
-    "sha256": "0416767252da10adcb5c35c2fa2ccea905f51d39a24d4b296db270df72eaf635",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/CHANGELOG.md",
     "bytes": 4774,
     "sha256": "742f66d22fd0a608ed76bc9ccbf7983b533bd7ae7289ef0e6d1977bcab744c51",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/docs/plans/2026-05-02-session-resume-implementation.md",
-    "bytes": 66176,
-    "sha256": "272aaa74c964d1d084cdf756931fb22ef2ac79746fc3fdf5a06ee9ecef0e39c3",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/docs/specs/2026-05-02-session-resume-design.md",
-    "bytes": 30246,
-    "sha256": "8e2ec81582b2646146e427196620d4bfac7f229f44069bd01dab42b729f5dedd",
     "normalize_lf": true
   },
   {
@@ -2691,6 +2871,36 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/README.zh-TW.md",
     "bytes": 3734,
     "sha256": "8a9d39a1ee28d4284515898abfdc14877c57db3b460c9efd5c831f759d574982",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/WORKFLOW.md",
+    "bytes": 11555,
+    "sha256": "c89cb26ec05ed9facf80301df04ec1d892d74b5c7c68d42afbb2511a7c3268ef",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/agents/code_runner_agent.md",
+    "bytes": 4921,
+    "sha256": "54937084589413787fe328ab1561329791cc2ca83222d9bf8283949399cf66de",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/agents/study_manager_agent.md",
+    "bytes": 19231,
+    "sha256": "0416767252da10adcb5c35c2fa2ccea905f51d39a24d4b296db270df72eaf635",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/docs/plans/2026-05-02-session-resume-implementation.md",
+    "bytes": 66176,
+    "sha256": "272aaa74c964d1d084cdf756931fb22ef2ac79746fc3fdf5a06ee9ecef0e39c3",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/docs/specs/2026-05-02-session-resume-design.md",
+    "bytes": 30246,
+    "sha256": "8e2ec81582b2646146e427196620d4bfac7f229f44069bd01dab42b729f5dedd",
     "normalize_lf": true
   },
   {
@@ -2760,18 +2970,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/experiment-agent/WORKFLOW.md",
-    "bytes": 11555,
-    "sha256": "c89cb26ec05ed9facf80301df04ec1d892d74b5c7c68d42afbb2511a7c3268ef",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/GOVERNANCE.md",
-    "bytes": 8584,
-    "sha256": "f3a55a45138f7014e3b0364b7b077407512659af4dd40b1cfb92475bbc3d7c16",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/hooks/hooks.json",
     "bytes": 486,
     "sha256": "e23d2cf8679d727a4e16866b0531471d5f9fe0ff5df977030b384bf9cc519c04",
@@ -2784,45 +2982,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/LICENSE",
-    "bytes": 19584,
-    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/LICENSE.academic-research-skills",
-    "bytes": 19584,
-    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/MODE_REGISTRY.md",
-    "bytes": 6813,
-    "sha256": "6a0d4e3854d358c23e69a364f5c925ffbcbe1f9f582cd72076065aef71034260",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/NOTICE.md",
-    "bytes": 942,
-    "sha256": "4f8eb1306c01b419baeff7f66d96ea3bd46076436406954c7eff21fb2e0003f1",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/package.json",
     "bytes": 484,
     "sha256": "5497d262a2af42e25d0e31ab65f115735c2b85c6c256576494cafda760165550",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/pi/package.json",
-    "bytes": 542,
-    "sha256": "a4fceb32c55830f4cbd0116482414707de4a37067036bfa8243321186f06687a",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/pi/README.md",
     "bytes": 12005,
     "sha256": "abc61db126e8f17274b297f01717abbf415ac4e4275194167376999efd5026a1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/pi/package.json",
+    "bytes": 542,
+    "sha256": "a4fceb32c55830f4cbd0116482414707de4a37067036bfa8243321186f06687a",
     "normalize_lf": true
   },
   {
@@ -2841,192 +3015,6 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/pi/wrapper.test.mjs",
     "bytes": 15639,
     "sha256": "47eb43f30d5e5a081edf84db145d87b4cdfe4f5c181c7e11003e8ecdc8f18ee2",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/all-9-covered.md",
-    "bytes": 1324,
-    "sha256": "0f56a7c60663e4d0b7e1b34d127bd99023183ef233e052b05627723fcd05efda",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/no-rewrite.md",
-    "bytes": 1744,
-    "sha256": "0f138e56aadc7e7de5588251c9a66ae4c87d3ab21ce2f91c72048bdda5aff32f",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/skill-fired.md",
-    "bytes": 36,
-    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/prompt.md",
-    "bytes": 2345,
-    "sha256": "9f8dfefbad42c59184978114b8b0f46a696473ad8550d2a74a7884be3ad5468d",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/all-covered.md",
-    "bytes": 1332,
-    "sha256": "93ba588a929b4de21d37144138f438b3554eb1d571aa86a0337a12e4a55a5a62",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/no-rewrite.md",
-    "bytes": 1529,
-    "sha256": "7e3700b567f9b3aa41e3f03eaa7cfd9b4e813e0306ec23fbdb6daad55209c059",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/pushback-flagged.md",
-    "bytes": 828,
-    "sha256": "160a71a23c6239f4732ea7459e7754bced471ed028ab369d3ab0d921e96995a5",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/skill-fired.md",
-    "bytes": 36,
-    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/prompt.md",
-    "bytes": 1954,
-    "sha256": "50c1f09d558630545e8afc3ea0193e3e9316451c915e6557f82a29adbb83b3af",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/no-committee-branch.md",
-    "bytes": 536,
-    "sha256": "718d28893645b92a506c025c2907af77d2154b16c04a7152634a5bcf81e39861",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/no-fabrication.md",
-    "bytes": 2151,
-    "sha256": "61e7993d7c0c0743595c5cf9b18c0f327ca47b0a80a3bd74914b8680c6d1b24e",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/pushback-per-reviewer.md",
-    "bytes": 1348,
-    "sha256": "680c90d64577c96e79f95b2461a142a8b1e8afd87c4dd54e7d349cae75f64555",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/skill-fired.md",
-    "bytes": 36,
-    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/prompt.md",
-    "bytes": 1762,
-    "sha256": "0ce4ac6d728fe8e94cc0ab5ea0e1c86302f48794931c5e7420405dbe519c1356",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/no-severity-words.md",
-    "bytes": 198,
-    "sha256": "fc07860475ffea5e2827cf8a5f419bb000851acd96cb3aead210b2a9a68397e5",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/skill-fired.md",
-    "bytes": 36,
-    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/tracker-covers-5.md",
-    "bytes": 1960,
-    "sha256": "13fd42e1e0157c56b18c7dd5b59ad57aa8acb3b7eb87e0f81ca1905c4a2dbb86",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/prompt.md",
-    "bytes": 913,
-    "sha256": "9f95c3cd69b0ac112a52f1e411cd504effc52006760f9e2dfc0e49fbd12caaff",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/contradiction-surfaced.md",
-    "bytes": 717,
-    "sha256": "be1558acd5425340b3babd5cc29ba22d9a4177d4b5d5ac78ad9d5a92cf458f21",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/no-rewrite.md",
-    "bytes": 893,
-    "sha256": "f3965bc34cd76aa54b4e689a5c4cf55f211fa53b05d4b8d54d0966d0902ac191",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/scope-creep-flagged.md",
-    "bytes": 998,
-    "sha256": "4774e15922d5aee131b046f32b3d90e10d132eb79b8b4cc29da5895fe08673aa",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/skill-fired.md",
-    "bytes": 36,
-    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/prompt.md",
-    "bytes": 664,
-    "sha256": "0b05430f0573157fe8c231a8d08884b1abd578086ac5c715076f07a8e006bc4e",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/graders/missed-item-named.md",
-    "bytes": 88,
-    "sha256": "7a73ce9db1f6db42f39c76ab57556396406531534d80d3fc6ee7c2663a8d2ce5",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/graders/no-new-skeleton.md",
-    "bytes": 1513,
-    "sha256": "3458bfbd1f0d48e04c7b8b706df360a69b066dcf71872ea8811b36a94d55ecd3",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/prompt.md",
-    "bytes": 1038,
-    "sha256": "118e5e39b7e22145a850eb0b02347cdcc70042b3db911c4f192095441e123280",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/helpful-reply.md",
-    "bytes": 704,
-    "sha256": "53f372431918d4adfbe7339f503006dbc5f9ee6e7317265b0e7a69cb31a36e28",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/no-reviewer-template.md",
-    "bytes": 129,
-    "sha256": "09e64d145bd15d9a33b49ce04bac1c94a76a962935eace08e667fc3618a436da",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/skill-not-called.md",
-    "bytes": 82,
-    "sha256": "a117d02ed7b2e0076409519b0cb76cbe62d4890011bc9d6a62f2b685ad46724b",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/prompt.md",
-    "bytes": 564,
-    "sha256": "0f7b3a095aed3d076b0e88b7ecf1c650877e0a4585be15cd057789dd3ee1c49a",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/README.md",
-    "bytes": 7894,
-    "sha256": "aa7201576bfd645731f5d506b943db0c46118591abbf5ef9212b36b794d9d639",
     "normalize_lf": true
   },
   {
@@ -3486,57 +3474,195 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/POSITIONING.md",
-    "bytes": 15367,
-    "sha256": "dd6294571859adc9c20730ca6d79ddb2a0fd4bfb11361e44ae980f90b0253f75",
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/all-9-covered.md",
+    "bytes": 1324,
+    "sha256": "0f56a7c60663e4d0b7e1b34d127bd99023183ef233e052b05627723fcd05efda",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/no-rewrite.md",
+    "bytes": 1744,
+    "sha256": "0f138e56aadc7e7de5588251c9a66ae4c87d3ab21ce2f91c72048bdda5aff32f",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/graders/skill-fired.md",
+    "bytes": 36,
+    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/01-journal-mixed-format-zh/prompt.md",
+    "bytes": 2345,
+    "sha256": "9f8dfefbad42c59184978114b8b0f46a696473ad8550d2a74a7884be3ad5468d",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/all-covered.md",
+    "bytes": 1332,
+    "sha256": "93ba588a929b4de21d37144138f438b3554eb1d571aa86a0337a12e4a55a5a62",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/no-rewrite.md",
+    "bytes": 1529,
+    "sha256": "7e3700b567f9b3aa41e3f03eaa7cfd9b4e813e0306ec23fbdb6daad55209c059",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/pushback-flagged.md",
+    "bytes": 828,
+    "sha256": "160a71a23c6239f4732ea7459e7754bced471ed028ab369d3ab0d921e96995a5",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/graders/skill-fired.md",
+    "bytes": 36,
+    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/02-decision-letter-email-en/prompt.md",
+    "bytes": 1954,
+    "sha256": "50c1f09d558630545e8afc3ea0193e3e9316451c915e6557f82a29adbb83b3af",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/no-committee-branch.md",
+    "bytes": 536,
+    "sha256": "718d28893645b92a506c025c2907af77d2154b16c04a7152634a5bcf81e39861",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/no-fabrication.md",
+    "bytes": 2151,
+    "sha256": "61e7993d7c0c0743595c5cf9b18c0f327ca47b0a80a3bd74914b8680c6d1b24e",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/pushback-per-reviewer.md",
+    "bytes": 1348,
+    "sha256": "680c90d64577c96e79f95b2461a142a8b1e8afd87c4dd54e7d349cae75f64555",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/graders/skill-fired.md",
+    "bytes": 36,
+    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/03-iclr-rebuttal-en/prompt.md",
+    "bytes": 1762,
+    "sha256": "0ce4ac6d728fe8e94cc0ab5ea0e1c86302f48794931c5e7420405dbe519c1356",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/no-severity-words.md",
+    "bytes": 198,
+    "sha256": "fc07860475ffea5e2827cf8a5f419bb000851acd96cb3aead210b2a9a68397e5",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/skill-fired.md",
+    "bytes": 36,
+    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/graders/tracker-covers-5.md",
+    "bytes": 1960,
+    "sha256": "13fd42e1e0157c56b18c7dd5b59ad57aa8acb3b7eb87e0f81ca1905c4a2dbb86",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/04-ethics-committee-letter-zh/prompt.md",
+    "bytes": 913,
+    "sha256": "9f95c3cd69b0ac112a52f1e411cd504effc52006760f9e2dfc0e49fbd12caaff",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/contradiction-surfaced.md",
+    "bytes": 717,
+    "sha256": "be1558acd5425340b3babd5cc29ba22d9a4177d4b5d5ac78ad9d5a92cf458f21",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/no-rewrite.md",
+    "bytes": 893,
+    "sha256": "f3965bc34cd76aa54b4e689a5c4cf55f211fa53b05d4b8d54d0966d0902ac191",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/scope-creep-flagged.md",
+    "bytes": 998,
+    "sha256": "4774e15922d5aee131b046f32b3d90e10d132eb79b8b4cc29da5895fe08673aa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/graders/skill-fired.md",
+    "bytes": 36,
+    "sha256": "071db4c9e0ef9fe898b6a3848cc2837e9d452f439e03310128375eaf2a91d806",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/05-terse-contradictory-zh/prompt.md",
+    "bytes": 664,
+    "sha256": "0b05430f0573157fe8c231a8d08884b1abd578086ac5c715076f07a8e006bc4e",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/graders/missed-item-named.md",
+    "bytes": 88,
+    "sha256": "7a73ce9db1f6db42f39c76ab57556396406531534d80d3fc6ee7c2663a8d2ce5",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/graders/no-new-skeleton.md",
+    "bytes": 1513,
+    "sha256": "3458bfbd1f0d48e04c7b8b706df360a69b066dcf71872ea8811b36a94d55ecd3",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/06-neg-existing-rebuttal-draft-zh/prompt.md",
+    "bytes": 1038,
+    "sha256": "118e5e39b7e22145a850eb0b02347cdcc70042b3db911c4f192095441e123280",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/helpful-reply.md",
+    "bytes": 704,
+    "sha256": "53f372431918d4adfbe7339f503006dbc5f9ee6e7317265b0e7a69cb31a36e28",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/no-reviewer-template.md",
+    "bytes": 129,
+    "sha256": "09e64d145bd15d9a33b49ce04bac1c94a76a962935eace08e667fc3618a436da",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/graders/skill-not-called.md",
+    "bytes": 82,
+    "sha256": "a117d02ed7b2e0076409519b0cb76cbe62d4890011bc9d6a62f2b685ad46724b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/07-neg-landlord-letter-zh/prompt.md",
+    "bytes": 564,
+    "sha256": "0f7b3a095aed3d076b0e88b7ecf1c650877e0a4585be15cd057789dd3ee1c49a",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/plugin-evals/README.md",
+    "bytes": 7894,
+    "sha256": "aa7201576bfd645731f5d506b943db0c46118591abbf5ef9212b36b794d9d639",
     "normalize_lf": true
   },
   {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/pyproject.toml",
     "bytes": 45,
     "sha256": "16713d02c4751fb02221a274d20fe9f3be7ffaffd1a3031af82cd37f3a6456f3",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/QUICKSTART.md",
-    "bytes": 3734,
-    "sha256": "6f1ff99b9530633f81aaa7256d6223c2dcf095dd0c218f77d9d6462a9fb15a0b",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.es-ES.md",
-    "bytes": 53019,
-    "sha256": "040e5a2b61135d7aeaf689220d190dd31f04c7ac710faccad17ca0694c770dc8",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.ja-JP.md",
-    "bytes": 43808,
-    "sha256": "5f4b2f03378678f506485aefe3bd962530a9e491e27f41c2f98e513b3b089a82",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.ko-KR.md",
-    "bytes": 42968,
-    "sha256": "7661d0c96f0ec06884318717776527ab5dd16529f0b73ec21518e895754e462a",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.md",
-    "bytes": 47045,
-    "sha256": "80d1d8eadada1a1a6f56234be66cf58dd6577b6c90642b7d4b9f2d09718dd84d",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.zh-CN.md",
-    "bytes": 32617,
-    "sha256": "08ea16de11bd22fffe44ecdf0767732f8f916fe9a8ee414f00e04d60e5e13dd7",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/README.zh-TW.md",
-    "bytes": 39469,
-    "sha256": "53c1d8e61abbddb810e50b10d5df8bc2cafb850d7b50b1dd50f1517d1d24050b",
     "normalize_lf": true
   },
   {
@@ -3618,6 +3744,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/README.md",
+    "bytes": 5176,
+    "sha256": "759a2db27ed614bfe3257ba11295398e33497704e3249570010afe6161940f2b",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/_common.py",
     "bytes": 7091,
     "sha256": "0652cf868b33fba4edb2f2c68e6e4097abc1458e4b7ac43729a988a6d8d51bad",
@@ -3642,13 +3774,13 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/folder_scan/input_fixture/paper1.pdf",
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/folder_scan/input_fixture/Wang_2023_formative_feedback.pdf",
     "bytes": 0,
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/folder_scan/input_fixture/Wang_2023_formative_feedback.pdf",
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/examples/folder_scan/input_fixture/paper1.pdf",
     "bytes": 0,
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "normalize_lf": true
@@ -3741,12 +3873,6 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/obsidian.py",
     "bytes": 12749,
     "sha256": "ed8c011e61bf18e2bb9585cc9bc925d1850f37ce2a1bbabb8e632dc1ec83f1c4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/adapters/README.md",
-    "bytes": 5176,
-    "sha256": "759a2db27ed614bfe3257ba11295398e33497704e3249570010afe6161940f2b",
     "normalize_lf": true
   },
   {
@@ -4908,6 +5034,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/audit_artifact_consistency/README.md",
+    "bytes": 2708,
+    "sha256": "8d0dc43ae536fa9422abdd0ca6c6efb0463d38839d261392be0dcf8e76179e9d",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/audit_artifact_consistency/negative/a1_pass_with_p1/2026-04-30T15-22-04Z-d8f3.audit_artifact_entry.json",
     "bytes": 680,
     "sha256": "111f87834d4b767b5b1298122dbee450458fa5f68cd1ce495ccf2313929c1b6a",
@@ -4983,12 +5115,6 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/audit_artifact_consistency/positive/proposal_pass/2026-04-30T15-22-04Z-d8f3.verdict.yaml",
     "bytes": 241,
     "sha256": "e425b5db9e608fa562d136e2359de7cfa62ee1ea7109b0aff3542f8de41a2b94",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/audit_artifact_consistency/README.md",
-    "bytes": 2708,
-    "sha256": "8d0dc43ae536fa9422abdd0ca6c6efb0463d38839d261392be0dcf8e76179e9d",
     "normalize_lf": true
   },
   {
@@ -5112,6 +5238,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/cross_document_consistency/README.md",
+    "bytes": 323,
+    "sha256": "456a0b0fb2c3caa35c916f87d5b0435a94513b05c958623aa4e8c2660d127154",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/cross_document_consistency/accepted_draft.md",
     "bytes": 923,
     "sha256": "e4013c47f2130098cdc2a7696d8e4539ea476b0e7dfa1ce7dae34a651a8313f0",
@@ -5127,12 +5259,6 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/cross_document_consistency/preregistration.md",
     "bytes": 164,
     "sha256": "5624b775313d1b49c2e10cf5eb9471fa985d63b7a5b65e8a53430d5eb09b019b",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/cross_document_consistency/README.md",
-    "bytes": 323,
-    "sha256": "456a0b0fb2c3caa35c916f87d5b0435a94513b05c958623aa4e8c2660d127154",
     "normalize_lf": true
   },
   {
@@ -5490,6 +5616,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/README.md",
+    "bytes": 2984,
+    "sha256": "fef6e9cf5073d8bddb81b6f28b8d94882fcde54a930ab57d36150471b88a6332",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/arxiv/empty_feed.xml",
     "bytes": 709,
     "sha256": "88d3655a273670071e04b1b19d3afafd787d3ac20c0f920561241616d82ac0c8",
@@ -5505,6 +5637,12 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/arxiv/id_hit.xml",
     "bytes": 1566,
     "sha256": "753a9bcee265de7bed4afe05861e24b7275b10563ea9515358bb83604f798845",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/chinese_literature/README.md",
+    "bytes": 4678,
+    "sha256": "28a919401a3dcd8716d37cb66abb1e80316ab92157ea45b9fe7a58a488a07c33",
     "normalize_lf": true
   },
   {
@@ -5634,12 +5772,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/chinese_literature/README.md",
-    "bytes": 4678,
-    "sha256": "28a919401a3dcd8716d37cb66abb1e80316ab92157ea45b9fe7a58a488a07c33",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/crossref/doi_hit.json",
     "bytes": 758,
     "sha256": "8365a33f4bdbf6fcf92398663d111d4de4396ae1b5f330a78c0b4b68f199d5cb",
@@ -5673,12 +5805,6 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/openalex/title_search_miss.json",
     "bytes": 161,
     "sha256": "c8c3852df837501aa145f449b2fcca2c9c9bd9d8489090b680ee8b1f639ce814",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/scripts/fixtures/transport_bodies/README.md",
-    "bytes": 2984,
-    "sha256": "fef6e9cf5073d8bddb81b6f28b8d94882fcde54a930ab57d36150471b88a6332",
     "normalize_lf": true
   },
   {
@@ -7416,12 +7542,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/SECURITY.md",
-    "bytes": 3473,
-    "sha256": "f224e3d65fc85219993cd377af25dc42c0deb98e5df79ff6776ce4030aaf4481",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/agents/compliance_agent.md",
     "bytes": 8904,
     "sha256": "cf51ff7a3bf3fb40fa072e465974fdd934c4922392f57cb6609f24bd4cbef0b9",
@@ -7467,6 +7587,12 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/compliance_report.schema.json",
     "bytes": 8314,
     "sha256": "4e5d162f5ee64e52393720f0d47d204ea389d7d871649f234164329d4931caf2",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/contracts/README.md",
+    "bytes": 55937,
+    "sha256": "8231badd7e23945725f6de1ebf822ebeec0414a909705cf49733f669df1c4fdd",
     "normalize_lf": true
   },
   {
@@ -7944,12 +8070,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/contracts/README.md",
-    "bytes": 55937,
-    "sha256": "8231badd7e23945725f6de1ebf822ebeec0414a909705cf49733f669df1c4fdd",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/shared/contracts/research_workflow/inquiry_branch_ledger.schema.json",
     "bytes": 17378,
     "sha256": "6b88b75fb8f6350b7926738653006a32e7501fdae4d8b7eea63f3aaa26afed2d",
@@ -8352,6 +8472,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/WORKFLOW.md",
+    "bytes": 33843,
+    "sha256": "b737e314865c0d26cbfc2721a2e7a2df430a0687be950636329cb6ad52cd15f0",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/agents/protocol_architect_agent.md",
     "bytes": 5920,
     "sha256": "99dd7482340eb18094cfebdfd8ca60bdf2922ba90911a6a3340b8b1315f1fb2c",
@@ -8496,18 +8622,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/sr-screener/WORKFLOW.md",
-    "bytes": 33843,
-    "sha256": "b737e314865c0d26cbfc2721a2e7a2df430a0687be950636329cb6ad52cd15f0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/THIRD_PARTY.md",
-    "bytes": 5137,
-    "sha256": "3d12c8049415597b1eb594d7d9de255fa047f4a40f87765ca9a1f1f2b7f4e83f",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/tools/release-discipline/.toolkit-version",
     "bytes": 6,
     "sha256": "511a100eedfb9ea66441e5d506392dba2d8aa290f98c4c544c70ae75ec3c3396",
@@ -8541,6 +8655,12 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/ars/tools/release-discipline/scripts/sync-toolkit.sh",
     "bytes": 5474,
     "sha256": "bb2778edb8b5f438df2757d59b97c5e36fa1078ff215aa86db7da2ddf13b6cd5",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/README.md",
+    "bytes": 12541,
+    "sha256": "94086249bdc5aa723e792f03034108dd256e451b11126d8c63b46ddcea175d0a",
     "normalize_lf": true
   },
   {
@@ -8598,27 +8718,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/hooks/hooks.json",
-    "bytes": 581,
-    "sha256": "719c98204f9f8947d38f2fa26d4bf975065dff83de69e4649c507881834a916a",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/hooks/README.md",
     "bytes": 809,
     "sha256": "88cc48b13ee4cf9dc421f5f3599dc99d48c1b80ce4851e06bb07698d802608d3",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/model-runtime-policy.md",
-    "bytes": 6957,
-    "sha256": "40709481acedeea1b85bf414c2a7a7c73f4571c0cf38ad48a62fe22db36dd1a3",
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/hooks/hooks.json",
+    "bytes": 581,
+    "sha256": "719c98204f9f8947d38f2fa26d4bf975065dff83de69e4649c507881834a916a",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/README.md",
-    "bytes": 12541,
-    "sha256": "94086249bdc5aa723e792f03034108dd256e451b11126d8c63b46ddcea175d0a",
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/model-runtime-policy.md",
+    "bytes": 6957,
+    "sha256": "40709481acedeea1b85bf414c2a7a7c73f4571c0cf38ad48a62fe22db36dd1a3",
     "normalize_lf": true
   },
   {
@@ -8724,6 +8838,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/README.md",
+    "bytes": 3106,
+    "sha256": "eb0e80f6cdf2a816802e9dae136740709a0a6e8a020c6fa1922d64309ef85e02",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/adjudications-v1.json",
     "bytes": 6702,
     "sha256": "3acb31a37bade93a5fa1bb93bd01eb26fc9853bf08a83ba1cfbbe2f29f30d9ee",
@@ -8754,9 +8874,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/README.md",
-    "bytes": 3106,
-    "sha256": "eb0e80f6cdf2a816802e9dae136740709a0a6e8a020c6fa1922d64309ef85e02",
+    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/results/REPORT.md",
+    "bytes": 2972,
+    "sha256": "6c4bbc080a436b2f79ab303dbbcdc57f364c59bdd20e880897af36cc826dfd73",
     "normalize_lf": true
   },
   {
@@ -8919,12 +9039,6 @@
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/results/report.json",
     "bytes": 31782,
     "sha256": "cf2dd993d1c6c46095d9411d2c5c4d41e8bf35e91ef1363bdbe1484a743a2da0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/codex/topology-experiment/results/REPORT.md",
-    "bytes": 2972,
-    "sha256": "6c4bbc080a436b2f79ab303dbbcdc57f364c59bdd20e880897af36cc826dfd73",
     "normalize_lf": true
   },
   {
@@ -9102,27 +9216,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/EXTERNAL_RESOURCES.md",
-    "bytes": 480,
-    "sha256": "18127705b489ddb8689712c47b5255c98cd21ad97f6de3121ff7e125888b4737",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/academic-research-suite/manifest.json",
     "bytes": 29973,
     "sha256": "33c025bd85d76bd4ba754439604fb6940b0fea4a6f75978419bb0734c7f7e605",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/academic-research-suite/WORKFLOW.md",
-    "bytes": 50051,
-    "sha256": "e879d571e52cf1fac4a88560ac5757ff0692750fbd28f8ff5dc95c9b9efeac91",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/bgpt-paper-search/WORKFLOW.md",
     "bytes": 8096,
     "sha256": "7c854e83f7639fc72cceac007af9e1358bbec61e87fe40f33c9cd2bf33eff18a",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/citation-management/WORKFLOW.md",
+    "bytes": 16823,
+    "sha256": "1d5810798f772fef341119f832bd0ad22b272c41ee2fbccf88e68fda20759226",
     "normalize_lf": true
   },
   {
@@ -9252,9 +9360,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/citation-management/WORKFLOW.md",
-    "bytes": 16823,
-    "sha256": "1d5810798f772fef341119f832bd0ad22b272c41ee2fbccf88e68fda20759226",
+    "path": "skills/huangjt-academic-research/modules/exa-search/WORKFLOW.md",
+    "bytes": 6563,
+    "sha256": "a2f5077bb76573b63288f840b61756019c107d786400b01adcbe1e78f5a619f4",
     "normalize_lf": true
   },
   {
@@ -9282,9 +9390,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/exa-search/WORKFLOW.md",
-    "bytes": 6563,
-    "sha256": "a2f5077bb76573b63288f840b61756019c107d786400b01adcbe1e78f5a619f4",
+    "path": "skills/huangjt-academic-research/modules/literature-review/WORKFLOW.md",
+    "bytes": 13062,
+    "sha256": "f2f131f8b9527950002d37f7ffabfc89a4334a509547f7c2b76832ec90dca2a6",
     "normalize_lf": true
   },
   {
@@ -9354,9 +9462,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/literature-review/WORKFLOW.md",
-    "bytes": 13062,
-    "sha256": "f2f131f8b9527950002d37f7ffabfc89a4334a509547f7c2b76832ec90dca2a6",
+    "path": "skills/huangjt-academic-research/modules/nature-academic-search/README.md",
+    "bytes": 2435,
+    "sha256": "4274cb9307a7410a3698d2c81c95c2798f91ea3f62d8542db199034104712c3e",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-academic-search/README_EN.md",
+    "bytes": 2762,
+    "sha256": "e39f0aa8968c457722e562520586eedc33cbbbdd3b6e89998fb4a9361a17be09",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-academic-search/WORKFLOW.md",
+    "bytes": 3803,
+    "sha256": "09bb640f7a0faf9f3ebb9e83718cd82760b833ada2d5109c116ede514eb8c79b",
     "normalize_lf": true
   },
   {
@@ -9414,6 +9534,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/README.md",
+    "bytes": 1959,
+    "sha256": "a4d037bcebbe5d2ac4dbeef2e56796c294bab871df0e9980505cdb5d078892d7",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/academic_search_server.py",
     "bytes": 21382,
     "sha256": "5eea25c7a001cbca2182e680415d6ac0b10cec65e2c36e87efdaeed85fbca864",
@@ -9423,12 +9549,6 @@
     "path": "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/config.toml",
     "bytes": 249,
     "sha256": "a5cbbbcd2cc2dacb1b56df7366288e61ca8c655141bc57374bb600d389105fef",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-academic-search/mcp-server/README.md",
-    "bytes": 1959,
-    "sha256": "a4d037bcebbe5d2ac4dbeef2e56796c294bab871df0e9980505cdb5d078892d7",
     "normalize_lf": true
   },
   {
@@ -9564,18 +9684,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-academic-search/README.md",
-    "bytes": 2435,
-    "sha256": "4274cb9307a7410a3698d2c81c95c2798f91ea3f62d8542db199034104712c3e",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-academic-search/README_EN.md",
-    "bytes": 2762,
-    "sha256": "e39f0aa8968c457722e562520586eedc33cbbbdd3b6e89998fb4a9361a17be09",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/nature-academic-search/references/citation-parser.md",
     "bytes": 2715,
     "sha256": "e5b71f3ee82dcda320d98ac0d85bdea60df6f570bf41183254b8c3d8a8756107",
@@ -9696,9 +9804,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-academic-search/WORKFLOW.md",
-    "bytes": 3803,
-    "sha256": "09bb640f7a0faf9f3ebb9e83718cd82760b833ada2d5109c116ede514eb8c79b",
+    "path": "skills/huangjt-academic-research/modules/nature-citation/README.md",
+    "bytes": 2121,
+    "sha256": "f000e9cf8549450e8a0c42c911d36ee431c2b5130b327c8397b3d3e09c4c7950",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-citation/README_EN.md",
+    "bytes": 2266,
+    "sha256": "e642dc44e2d034339bea42e1ccc1c90622b7fc46811055677b0eff1072c78815",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-citation/WORKFLOW.md",
+    "bytes": 3289,
+    "sha256": "c14dae309487a8e42ff0c3ac5c747a138b200e1d2835fcc1571fa992a7136790",
     "normalize_lf": true
   },
   {
@@ -9723,18 +9843,6 @@
     "path": "skills/huangjt-academic-research/modules/nature-citation/manifest.yaml",
     "bytes": 1726,
     "sha256": "024385463c48f722653d935e592d36766ebb00d2a35d7e138e1d87c72c0b8510",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-citation/README.md",
-    "bytes": 2121,
-    "sha256": "f000e9cf8549450e8a0c42c911d36ee431c2b5130b327c8397b3d3e09c4c7950",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-citation/README_EN.md",
-    "bytes": 2266,
-    "sha256": "e642dc44e2d034339bea42e1ccc1c90622b7fc46811055677b0eff1072c78815",
     "normalize_lf": true
   },
   {
@@ -9798,9 +9906,27 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-citation/WORKFLOW.md",
-    "bytes": 3289,
-    "sha256": "c14dae309487a8e42ff0c3ac5c747a138b200e1d2835fcc1571fa992a7136790",
+    "path": "skills/huangjt-academic-research/modules/nature-downloader/LICENSE",
+    "bytes": 1065,
+    "sha256": "ebb3defbe421c016c1d5f2ae18c53954a44236b51e81f12fa7aaff57905d3f66",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-downloader/README.md",
+    "bytes": 7311,
+    "sha256": "87710a05f68900e984b5ee8a118c42f7c52881c53fab4be2943b324f1753bfaa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-downloader/README_EN.md",
+    "bytes": 7040,
+    "sha256": "6ca0031edde696f47c880844301dd5816425e1463221483acfcea8e88792386e",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-downloader/WORKFLOW.md",
+    "bytes": 26698,
+    "sha256": "b48b8676b990211cd3eeb4212551452b693ed08578a0f1f7c23b468fcefbe41b",
     "normalize_lf": true
   },
   {
@@ -9863,27 +9989,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-downloader/LICENSE",
-    "bytes": 1065,
-    "sha256": "ebb3defbe421c016c1d5f2ae18c53954a44236b51e81f12fa7aaff57905d3f66",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/nature-downloader/manifest.yaml",
     "bytes": 1721,
     "sha256": "a0128cce0f6421929e8ac073c3a887657ffa9f800c6aed4424cea67526059f8a",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-downloader/README.md",
-    "bytes": 7311,
-    "sha256": "87710a05f68900e984b5ee8a118c42f7c52881c53fab4be2943b324f1753bfaa",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-downloader/README_EN.md",
-    "bytes": 7040,
-    "sha256": "6ca0031edde696f47c880844301dd5816425e1463221483acfcea8e88792386e",
     "normalize_lf": true
   },
   {
@@ -10211,9 +10319,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-downloader/WORKFLOW.md",
-    "bytes": 26698,
-    "sha256": "b48b8676b990211cd3eeb4212551452b693ed08578a0f1f7c23b468fcefbe41b",
+    "path": "skills/huangjt-academic-research/modules/nature-literature-pipeline/README.md",
+    "bytes": 2111,
+    "sha256": "9cbbbb2bfd0826644f4522a12d8c7811eccc8544e27be6971ec324d1830647ae",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-literature-pipeline/README_EN.md",
+    "bytes": 2340,
+    "sha256": "3a46b433ac1d154de349860be3d2fe02b32a65bdb54b962b19a54c87fb4ab035",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-literature-pipeline/WORKFLOW.md",
+    "bytes": 4963,
+    "sha256": "314c1cec2dbeff08e9e4d0658c0b54785c5503417043f9e4b561f9bce4b719a2",
     "normalize_lf": true
   },
   {
@@ -10226,18 +10346,6 @@
     "path": "skills/huangjt-academic-research/modules/nature-literature-pipeline/manifest.yaml",
     "bytes": 1480,
     "sha256": "9fb5e0dbc13277663b8027f25072935b64bf325e25f667e8817a3155fa9ec4df",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-literature-pipeline/README.md",
-    "bytes": 2111,
-    "sha256": "9cbbbb2bfd0826644f4522a12d8c7811eccc8544e27be6971ec324d1830647ae",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-literature-pipeline/README_EN.md",
-    "bytes": 2340,
-    "sha256": "3a46b433ac1d154de349860be3d2fe02b32a65bdb54b962b19a54c87fb4ab035",
     "normalize_lf": true
   },
   {
@@ -10283,9 +10391,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-literature-pipeline/WORKFLOW.md",
-    "bytes": 4963,
-    "sha256": "314c1cec2dbeff08e9e4d0658c0b54785c5503417043f9e4b561f9bce4b719a2",
+    "path": "skills/huangjt-academic-research/modules/nature-paper-card/README.md",
+    "bytes": 3863,
+    "sha256": "056c00d74b2f71edd347f3800341cfce4a4ef07431b074871a46e848198e2831",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-paper-card/README_EN.md",
+    "bytes": 4348,
+    "sha256": "5a4bb5c3444df32f879a0a85bcb289862e0a98da0c2a6859bfc3bee7100ab4b7",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-paper-card/WORKFLOW.md",
+    "bytes": 8561,
+    "sha256": "ddbc1d798a5ccd9b0abebbcafb039b64d77120ee3bd96191c3160629609017fd",
     "normalize_lf": true
   },
   {
@@ -10304,18 +10424,6 @@
     "path": "skills/huangjt-academic-research/modules/nature-paper-card/manifest.yaml",
     "bytes": 2755,
     "sha256": "0feb08158b0cf0376fc0df93792c63544deff539769ff9086c48e287261f53c3",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-card/README.md",
-    "bytes": 3863,
-    "sha256": "056c00d74b2f71edd347f3800341cfce4a4ef07431b074871a46e848198e2831",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-card/README_EN.md",
-    "bytes": 4348,
-    "sha256": "5a4bb5c3444df32f879a0a85bcb289862e0a98da0c2a6859bfc3bee7100ab4b7",
     "normalize_lf": true
   },
   {
@@ -10427,9 +10535,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-card/WORKFLOW.md",
-    "bytes": 8561,
-    "sha256": "ddbc1d798a5ccd9b0abebbcafb039b64d77120ee3bd96191c3160629609017fd",
+    "path": "skills/huangjt-academic-research/modules/nature-paper-trans/README.md",
+    "bytes": 4192,
+    "sha256": "9bb6e8f522b29da2110935d63e74412f81d7fea7b7864124ce628b5fe0e300ed",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-paper-trans/README_EN.md",
+    "bytes": 4853,
+    "sha256": "3942ddb9b0536176d18878cc96636aedfafd184a96073cb9c9c6c13ad43efb04",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-paper-trans/WORKFLOW.md",
+    "bytes": 9714,
+    "sha256": "398dfebe93eca3f57cf4b1c97f7230ea84c75ae1f230003e5a66360a92b310b8",
     "normalize_lf": true
   },
   {
@@ -10447,18 +10567,6 @@
     "path": "skills/huangjt-academic-research/modules/nature-paper-trans/manifest.yaml",
     "bytes": 670,
     "sha256": "eba488305e6ddf7b6ec46350f288cffa476ca680943e2c7243cbddd841338635",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-trans/README.md",
-    "bytes": 4192,
-    "sha256": "9bb6e8f522b29da2110935d63e74412f81d7fea7b7864124ce628b5fe0e300ed",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-trans/README_EN.md",
-    "bytes": 4853,
-    "sha256": "3942ddb9b0536176d18878cc96636aedfafd184a96073cb9c9c6c13ad43efb04",
     "normalize_lf": true
   },
   {
@@ -10504,9 +10612,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-trans/WORKFLOW.md",
-    "bytes": 9714,
-    "sha256": "398dfebe93eca3f57cf4b1c97f7230ea84c75ae1f230003e5a66360a92b310b8",
+    "path": "skills/huangjt-academic-research/modules/nature-paper-xray/README.md",
+    "bytes": 3243,
+    "sha256": "6301650e7005a26f38947690f5823af68f91adcf6a5a69a8b5cef2c5b1cc9ac7",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-paper-xray/README_EN.md",
+    "bytes": 3749,
+    "sha256": "a9be569c0988c53fc9dfbee2dab173a4ea595260aa7d043414d857e78808b265",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-paper-xray/WORKFLOW.md",
+    "bytes": 6383,
+    "sha256": "4cf26ac870f56a4b339901a7897379661ef5da8db6e2965233046f1fb7f75191",
     "normalize_lf": true
   },
   {
@@ -10522,18 +10642,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-xray/README.md",
-    "bytes": 3243,
-    "sha256": "6301650e7005a26f38947690f5823af68f91adcf6a5a69a8b5cef2c5b1cc9ac7",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-xray/README_EN.md",
-    "bytes": 3749,
-    "sha256": "a9be569c0988c53fc9dfbee2dab173a4ea595260aa7d043414d857e78808b265",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/nature-paper-xray/references/deep-reading-protocol.md",
     "bytes": 3518,
     "sha256": "a076facb386f8868759f834a11f1b598a0eaf369ffcc74d679c8a33ac06f8874",
@@ -10546,9 +10654,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-paper-xray/WORKFLOW.md",
-    "bytes": 6383,
-    "sha256": "4cf26ac870f56a4b339901a7897379661ef5da8db6e2965233046f1fb7f75191",
+    "path": "skills/huangjt-academic-research/modules/nature-reader/README.md",
+    "bytes": 2108,
+    "sha256": "2e0d2cb22a51c3ba6fe92d0da80dbf89d756c85448cadd9d3215b3e20f36750b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-reader/README_EN.md",
+    "bytes": 2398,
+    "sha256": "5f34fa9cfd7b3f45647b4451349a42ef4537b89a0fa9c37d487dbfec0dc10d9a",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-reader/WORKFLOW.md",
+    "bytes": 4095,
+    "sha256": "0253801c8158c5b9db8660d3787314a98a961c2b3e24727fcb0805d436dfdc22",
     "normalize_lf": true
   },
   {
@@ -10567,18 +10687,6 @@
     "path": "skills/huangjt-academic-research/modules/nature-reader/manifest.yaml",
     "bytes": 2194,
     "sha256": "f287b0f61dd096467ee4f670fc9c752b972b9b5d56a5c21397d816c200256051",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-reader/README.md",
-    "bytes": 2108,
-    "sha256": "2e0d2cb22a51c3ba6fe92d0da80dbf89d756c85448cadd9d3215b3e20f36750b",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-reader/README_EN.md",
-    "bytes": 2398,
-    "sha256": "5f34fa9cfd7b3f45647b4451349a42ef4537b89a0fa9c37d487dbfec0dc10d9a",
     "normalize_lf": true
   },
   {
@@ -10666,9 +10774,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-reader/WORKFLOW.md",
-    "bytes": 4095,
-    "sha256": "0253801c8158c5b9db8660d3787314a98a961c2b3e24727fcb0805d436dfdc22",
+    "path": "skills/huangjt-academic-research/modules/nature-ref-verifier/README.md",
+    "bytes": 1930,
+    "sha256": "57d07eebb059a5117c20b9626a4361f3648b0b6f031fb9c76ea018aca4a0ca5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-ref-verifier/README_EN.md",
+    "bytes": 2089,
+    "sha256": "986aafcee95af57fee26434707bcd70138c7b831fca9d79de81f1ea86ad4ed80",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-ref-verifier/WORKFLOW.md",
+    "bytes": 9949,
+    "sha256": "70b4754ce6f882ac705bcabe30416199d6f79377961d6bd404630e349066a37d",
     "normalize_lf": true
   },
   {
@@ -10684,27 +10804,27 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-ref-verifier/README.md",
-    "bytes": 1930,
-    "sha256": "57d07eebb059a5117c20b9626a4361f3648b0b6f031fb9c76ea018aca4a0ca5d",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-ref-verifier/README_EN.md",
-    "bytes": 2089,
-    "sha256": "986aafcee95af57fee26434707bcd70138c7b831fca9d79de81f1ea86ad4ed80",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/nature-ref-verifier/references/common-patterns.md",
     "bytes": 3623,
     "sha256": "0f8bba9f8d4e159c7a8dd8a7c971f8faa9ce03c25ce0248015be67eaf1fdf243",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-ref-verifier/WORKFLOW.md",
-    "bytes": 9949,
-    "sha256": "70b4754ce6f882ac705bcabe30416199d6f79377961d6bd404630e349066a37d",
+    "path": "skills/huangjt-academic-research/modules/nature-shared/README.md",
+    "bytes": 3351,
+    "sha256": "2e42d487b9aa4985933dfb230ac57c88e8dfeba97644bb30d2c222de9a65e61e",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-shared/README_EN.md",
+    "bytes": 3441,
+    "sha256": "1d2fd257264aa512f52dfc131d9adfd67c7dcf2b6f1e3c059c693360b027b245",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/nature-shared/WORKFLOW.md",
+    "bytes": 2323,
+    "sha256": "101c32e09db489aa25e3c11696e84d595df71620e24f9138132444bbd637f5cf",
     "normalize_lf": true
   },
   {
@@ -10804,18 +10924,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-shared/README.md",
-    "bytes": 3351,
-    "sha256": "2e42d487b9aa4985933dfb230ac57c88e8dfeba97644bb30d2c222de9a65e61e",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/nature-shared/README_EN.md",
-    "bytes": 3441,
-    "sha256": "1d2fd257264aa512f52dfc131d9adfd67c7dcf2b6f1e3c059c693360b027b245",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/nature-shared/scripts/check_consistency.py",
     "bytes": 8977,
     "sha256": "f20b6c24b5203cdcbfd03c83b2c8b055c49581be06a77e619afb7c1352e62bbf",
@@ -10828,9 +10936,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/nature-shared/WORKFLOW.md",
-    "bytes": 2323,
-    "sha256": "101c32e09db489aa25e3c11696e84d595df71620e24f9138132444bbd637f5cf",
+    "path": "skills/huangjt-academic-research/modules/paper-lookup/WORKFLOW.md",
+    "bytes": 26329,
+    "sha256": "d2fd8e6328c7640e6eb9c9d80ca6342836fefe10abf6ada1b05b3d5d4515d212",
     "normalize_lf": true
   },
   {
@@ -10972,9 +11080,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/paper-lookup/WORKFLOW.md",
-    "bytes": 26329,
-    "sha256": "d2fd8e6328c7640e6eb9c9d80ca6342836fefe10abf6ada1b05b3d5d4515d212",
+    "path": "skills/huangjt-academic-research/modules/parallel-web/WORKFLOW.md",
+    "bytes": 9073,
+    "sha256": "a7948eb2ee8027ef3dbb6c610d136ae620c23db43337a59a0e1230b5d2ebcc92",
     "normalize_lf": true
   },
   {
@@ -11020,9 +11128,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/parallel-web/WORKFLOW.md",
-    "bytes": 9073,
-    "sha256": "a7948eb2ee8027ef3dbb6c610d136ae620c23db43337a59a0e1230b5d2ebcc92",
+    "path": "skills/huangjt-academic-research/modules/pyzotero/WORKFLOW.md",
+    "bytes": 8216,
+    "sha256": "5128d08d41b9176b9c5f6677790420aabf7a1643a1a9ba9b76b8486d51a438d7",
     "normalize_lf": true
   },
   {
@@ -11110,15 +11218,15 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/modules/pyzotero/WORKFLOW.md",
-    "bytes": 8216,
-    "sha256": "5128d08d41b9176b9c5f6677790420aabf7a1643a1a9ba9b76b8486d51a438d7",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-research/modules/research-lookup/README.md",
     "bytes": 4213,
     "sha256": "279299d1307e84d126f90c055d2635780ceef1478af6b3668122b14e41cf53af",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-research/modules/research-lookup/WORKFLOW.md",
+    "bytes": 17430,
+    "sha256": "589c5538efc9fb7ad06738d7a1985d16674bcc9b321accd6d9ca0fd1e61bc552",
     "normalize_lf": true
   },
   {
@@ -11137,12 +11245,6 @@
     "path": "skills/huangjt-academic-research/modules/research-lookup/scripts/research_lookup.py",
     "bytes": 48387,
     "sha256": "626cdcd4a89f4c96ed4c117381612872fa5d65f2e1b8a5b6cbef69d5c36b9015",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/modules/research-lookup/WORKFLOW.md",
-    "bytes": 17430,
-    "sha256": "589c5538efc9fb7ad06738d7a1985d16674bcc9b321accd6d9ca0fd1e61bc552",
     "normalize_lf": true
   },
   {
@@ -11200,30 +11302,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-research/SKILL.md",
-    "bytes": 3472,
-    "sha256": "82d194bff2401ca730027467277e454b67f6cf74036387f0069a9c5c744a02b9",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/SOURCE-LICENSES.json",
-    "bytes": 4118,
-    "sha256": "81c7e1165f2f3ba6de7e30f0f597fdaaa076a28a5c7a09a9185552c51790c73f",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-research/THIRD_PARTY.md",
-    "bytes": 1481,
-    "sha256": "5ab7676969138c59fd21f6ca33b59b0e78bb6295ad5f821d7a27f354927289f4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/agents/openai.yaml",
-    "bytes": 384,
-    "sha256": "f8563cf5ae8f942756144b5794aebc6fef635239c3ffd3a74aba1e66a61262a8",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/CAPABILITIES.md",
     "bytes": 31146,
     "sha256": "8afa65ff5dcb165dd35b179881fac97b2fc1670c79ab6566da1443dbce23f973",
@@ -11236,21 +11314,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/LICENSES/conformer-upstream-LICENSE.txt",
-    "bytes": 7652,
-    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/LICENSES/GPL-3.0.txt",
     "bytes": 34674,
     "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/LICENSES/hpc-upstream-LICENSE.txt",
-    "bytes": 1067,
-    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
     "normalize_lf": true
   },
   {
@@ -11266,15 +11332,33 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
     "bytes": 1103,
     "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
     "normalize_lf": true
   },
   {
@@ -11296,27 +11380,33 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/LICENSES/Yuan1z0825__nature-skills-LICENSE",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/MANIFEST.json",
     "bytes": 83994,
     "sha256": "16b31445de40e4555720e3c24a360e5fcd6f87e65219df3b7f2ad888edbf22b1",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-polishing/agents/openai.yaml",
-    "bytes": 263,
-    "sha256": "5cbdbff93809f5cf0487fdde2f0ff5a037afd300847a802f4f622f3586af18d3",
+    "path": "skills/huangjt-academic-writing/SKILL.md",
+    "bytes": 3735,
+    "sha256": "b2a47523314ed37d9af9d6f9a7628d1d792914adfd53c9be0a4be3e97692c87d",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-polishing/manifest.yaml",
-    "bytes": 6920,
-    "sha256": "830a96827f6a8aeb41fb8b96a9f970b04bc73df4d87c2239705ab54c189e9e05",
+    "path": "skills/huangjt-academic-writing/SOURCE-LICENSES.json",
+    "bytes": 1934,
+    "sha256": "9adba6d37e6b0ddbccf69d3a990ccfed8bb057062095b0fc3281d72e49a89f20",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/THIRD_PARTY.md",
+    "bytes": 223,
+    "sha256": "c91c254fd12ea46032f890e88ab24c08d761f06d3a7a097e81a25d455819a879",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/agents/openai.yaml",
+    "bytes": 384,
+    "sha256": "f8563cf5ae8f942756144b5794aebc6fef635239c3ffd3a74aba1e66a61262a8",
     "normalize_lf": true
   },
   {
@@ -11329,6 +11419,24 @@
     "path": "skills/huangjt-academic-writing/modules/nature-polishing/README_EN.md",
     "bytes": 4282,
     "sha256": "8a6f8d07417b31a0efd5b0b7bd17be9bcb70f1c9f0e3da32664511f7d6db4ee6",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-polishing/WORKFLOW.md",
+    "bytes": 6284,
+    "sha256": "d5dfcaf406c6c3ea59c566ae751d6cc3b29c3989eef318f2f8afd48e70f32a25",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-polishing/agents/openai.yaml",
+    "bytes": 263,
+    "sha256": "5cbdbff93809f5cf0487fdde2f0ff5a037afd300847a802f4f622f3586af18d3",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-polishing/manifest.yaml",
+    "bytes": 6920,
+    "sha256": "830a96827f6a8aeb41fb8b96a9f970b04bc73df4d87c2239705ab54c189e9e05",
     "normalize_lf": true
   },
   {
@@ -11500,9 +11608,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-polishing/WORKFLOW.md",
-    "bytes": 6284,
-    "sha256": "d5dfcaf406c6c3ea59c566ae751d6cc3b29c3989eef318f2f8afd48e70f32a25",
+    "path": "skills/huangjt-academic-writing/modules/nature-proposal-writer/README.md",
+    "bytes": 2669,
+    "sha256": "b8d778ea13eabc490153cf0dcbde2ccc280c6913d2d709eb5358b03eacb778b5",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-proposal-writer/README_EN.md",
+    "bytes": 3022,
+    "sha256": "031afb9a708f67259512a22168fcdb0b18cf6f68a047ca5c2b74c2716bf3727c",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-proposal-writer/WORKFLOW.md",
+    "bytes": 7081,
+    "sha256": "cc44e80306c8b769a5772a8ea60c15586a77059651e79613b6cfe9bc87b999df",
     "normalize_lf": true
   },
   {
@@ -11515,18 +11635,6 @@
     "path": "skills/huangjt-academic-writing/modules/nature-proposal-writer/manifest.yaml",
     "bytes": 4298,
     "sha256": "5ec0345d9924fba12905500f8232dab5583347000c9723df9067c74c43c71172",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/nature-proposal-writer/README.md",
-    "bytes": 2669,
-    "sha256": "b8d778ea13eabc490153cf0dcbde2ccc280c6913d2d709eb5358b03eacb778b5",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/nature-proposal-writer/README_EN.md",
-    "bytes": 3022,
-    "sha256": "031afb9a708f67259512a22168fcdb0b18cf6f68a047ca5c2b74c2716bf3727c",
     "normalize_lf": true
   },
   {
@@ -11716,9 +11824,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-proposal-writer/WORKFLOW.md",
-    "bytes": 7081,
-    "sha256": "cc44e80306c8b769a5772a8ea60c15586a77059651e79613b6cfe9bc87b999df",
+    "path": "skills/huangjt-academic-writing/modules/nature-response/README.md",
+    "bytes": 3843,
+    "sha256": "f1b5fe23c7fd1a82f18c49891d4118e4264b5f18e68eaf1ef06d49cc1a5b2bc9",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-response/README_EN.md",
+    "bytes": 4272,
+    "sha256": "b80a51abf055e37363c41bfdebe83e27826ac5176216a9980e01ad884f7de237",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-response/WORKFLOW.md",
+    "bytes": 6163,
+    "sha256": "e97c5bf5b87e210da8679d3240ea001be0e98505c775a46a790e023ceddc575a",
     "normalize_lf": true
   },
   {
@@ -11749,18 +11869,6 @@
     "path": "skills/huangjt-academic-writing/modules/nature-response/manifest.yaml",
     "bytes": 3555,
     "sha256": "380811f3414e60a124bd8185a25bb118872029b78a323a54669f519be8f0f0ab",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/nature-response/README.md",
-    "bytes": 3843,
-    "sha256": "f1b5fe23c7fd1a82f18c49891d4118e4264b5f18e68eaf1ef06d49cc1a5b2bc9",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/nature-response/README_EN.md",
-    "bytes": 4272,
-    "sha256": "b80a51abf055e37363c41bfdebe83e27826ac5176216a9980e01ad884f7de237",
     "normalize_lf": true
   },
   {
@@ -11944,9 +12052,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-response/WORKFLOW.md",
-    "bytes": 6163,
-    "sha256": "e97c5bf5b87e210da8679d3240ea001be0e98505c775a46a790e023ceddc575a",
+    "path": "skills/huangjt-academic-writing/modules/nature-shared/README.md",
+    "bytes": 3351,
+    "sha256": "2e42d487b9aa4985933dfb230ac57c88e8dfeba97644bb30d2c222de9a65e61e",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-shared/README_EN.md",
+    "bytes": 3441,
+    "sha256": "1d2fd257264aa512f52dfc131d9adfd67c7dcf2b6f1e3c059c693360b027b245",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-shared/WORKFLOW.md",
+    "bytes": 2323,
+    "sha256": "101c32e09db489aa25e3c11696e84d595df71620e24f9138132444bbd637f5cf",
     "normalize_lf": true
   },
   {
@@ -12046,18 +12166,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-shared/README.md",
-    "bytes": 3351,
-    "sha256": "2e42d487b9aa4985933dfb230ac57c88e8dfeba97644bb30d2c222de9a65e61e",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/nature-shared/README_EN.md",
-    "bytes": 3441,
-    "sha256": "1d2fd257264aa512f52dfc131d9adfd67c7dcf2b6f1e3c059c693360b027b245",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/modules/nature-shared/scripts/check_consistency.py",
     "bytes": 8977,
     "sha256": "f20b6c24b5203cdcbfd03c83b2c8b055c49581be06a77e619afb7c1352e62bbf",
@@ -12070,9 +12178,21 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-shared/WORKFLOW.md",
-    "bytes": 2323,
-    "sha256": "101c32e09db489aa25e3c11696e84d595df71620e24f9138132444bbd637f5cf",
+    "path": "skills/huangjt-academic-writing/modules/nature-writing/README.md",
+    "bytes": 4381,
+    "sha256": "8e2b300189ba2fb33e849ac2c9299a903ffb4da3b2629e55736904925671e813",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-writing/README_EN.md",
+    "bytes": 4988,
+    "sha256": "f491a275177ef2560c1a17b24085d568ec05cecb9766824e3f4c5813a96ad44d",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-writing/WORKFLOW.md",
+    "bytes": 8471,
+    "sha256": "3a568eda3d4f9fdb42e2045bbcb2d6bafd6e049bed6fc24ae21eccc47da1ed4c",
     "normalize_lf": true
   },
   {
@@ -12085,18 +12205,6 @@
     "path": "skills/huangjt-academic-writing/modules/nature-writing/manifest.yaml",
     "bytes": 9054,
     "sha256": "ac414d72b31c10ffeb19afc750cb5e8c0c8749ea777cf254c8e2c0ea46ae2fcd",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/nature-writing/README.md",
-    "bytes": 4381,
-    "sha256": "8e2b300189ba2fb33e849ac2c9299a903ffb4da3b2629e55736904925671e813",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/nature-writing/README_EN.md",
-    "bytes": 4988,
-    "sha256": "f491a275177ef2560c1a17b24085d568ec05cecb9766824e3f4c5813a96ad44d",
     "normalize_lf": true
   },
   {
@@ -12124,6 +12232,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/abstract-examples.md",
+    "bytes": 875,
+    "sha256": "8228ce8ec4a35b8339bcb439c4292bb2d678e5be17af2ef1d7631d03ebf40010",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/abstract/template-a.md",
     "bytes": 950,
     "sha256": "c4cec6346be6d76350bfacea36c1abad5bce669e810f7facc2c884b664a8d83e",
@@ -12142,15 +12256,15 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/abstract-examples.md",
-    "bytes": 875,
-    "sha256": "8228ce8ec4a35b8339bcb439c4292bb2d678e5be17af2ef1d7631d03ebf40010",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/index.md",
     "bytes": 2402,
     "sha256": "8652823627fd0f56a5e2be3eff192dcc5925f482380d7b45321cd9cfc6ba4b03",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction-examples.md",
+    "bytes": 1544,
+    "sha256": "0fb5b62e4353f71e586f8873881d2a60a86ad756e02bd0e7ef626dcafa0e5d71",
     "normalize_lf": true
   },
   {
@@ -12232,9 +12346,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/introduction-examples.md",
-    "bytes": 1544,
-    "sha256": "0fb5b62e4353f71e586f8873881d2a60a86ad756e02bd0e7ef626dcafa0e5d71",
+    "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method-examples.md",
+    "bytes": 1028,
+    "sha256": "8a8499c32096fbdf9baac6d00d71df750fba2909d29a0bc37e559ebd02d10210",
     "normalize_lf": true
   },
   {
@@ -12289,12 +12403,6 @@
     "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method/section-skeleton.md",
     "bytes": 110,
     "sha256": "e437a48be1e608bed3200844e1033b8b9da900aa1e4512dccb80f778e6fe0590",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/nature-writing/references/examples/method-examples.md",
-    "bytes": 1028,
-    "sha256": "8a8499c32096fbdf9baac6d00d71df750fba2909d29a0bc37e559ebd02d10210",
     "normalize_lf": true
   },
   {
@@ -12532,9 +12640,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/nature-writing/WORKFLOW.md",
-    "bytes": 8471,
-    "sha256": "3a568eda3d4f9fdb42e2045bbcb2d6bafd6e049bed6fc24ae21eccc47da1ed4c",
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/WORKFLOW.md",
+    "bytes": 6908,
+    "sha256": "45156a6fc0c2acbef2d3c1c6a2f4ea43d78e35b0f05922e551d9f8c4c425f2d8",
     "normalize_lf": true
   },
   {
@@ -12550,27 +12658,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
-    "bytes": 1963,
-    "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
-    "bytes": 2515,
-    "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd",
-    "bytes": 2856,
-    "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd",
-    "bytes": 1344,
-    "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml.md",
+    "bytes": 23345,
+    "sha256": "e2e65ea095400ead316289a7fb0080bcb9e48fc066704be7b81b6aa181fe5ac8",
     "normalize_lf": true
   },
   {
@@ -12736,6 +12826,30 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+    "bytes": 1963,
+    "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+    "bytes": 2515,
+    "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd",
+    "bytes": 2856,
+    "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd",
+    "bytes": 1344,
+    "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml/schemas/mce/mc.xsd",
     "bytes": 3127,
     "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
@@ -12832,12 +12946,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/ooxml.md",
-    "bytes": 23345,
-    "sha256": "e2e65ea095400ead316289a7fb0080bcb9e48fc066704be7b81b6aa181fe5ac8",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-docx/scripts/__init__.py",
     "bytes": 65,
     "sha256": "83e262a425814b72add701272b99ddcf9635251c5d4672bf9fc38d2b03f00d85",
@@ -12892,27 +13000,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
-    "bytes": 1963,
-    "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
-    "bytes": 2515,
-    "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd",
-    "bytes": 2856,
-    "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd",
-    "bytes": 1344,
-    "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml.md",
+    "bytes": 10388,
+    "sha256": "09868e9f1786765421ecf3f0f49c77006738efda82a76df43ed87f7a9bfe2467",
     "normalize_lf": true
   },
   {
@@ -13078,6 +13168,30 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+    "bytes": 1963,
+    "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+    "bytes": 2515,
+    "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd",
+    "bytes": 2856,
+    "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd",
+    "bytes": 1344,
+    "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml/schemas/mce/mc.xsd",
     "bytes": 3127,
     "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
@@ -13174,12 +13288,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/ooxml.md",
-    "bytes": 10388,
-    "sha256": "09868e9f1786765421ecf3f0f49c77006738efda82a76df43ed87f7a9bfe2467",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/modules/office-academic-skill/references/office-pptx/scripts/html2pptx.js",
     "bytes": 38334,
     "sha256": "ee0f1519f0de9ffe5bc254975d591bebcc3481a52f7edf8fbbff604121655f78",
@@ -13270,9 +13378,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/office-academic-skill/WORKFLOW.md",
-    "bytes": 6908,
-    "sha256": "45156a6fc0c2acbef2d3c1c6a2f4ea43d78e35b0f05922e551d9f8c4c425f2d8",
+    "path": "skills/huangjt-academic-writing/modules/paper-write/WORKFLOW.md",
+    "bytes": 5116,
+    "sha256": "652352acda9fa9774f430ef0ed6732b3cc3e35da7ad5a4777c239b9ddf6a999e",
     "normalize_lf": true
   },
   {
@@ -13438,12 +13546,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/modules/paper-write/WORKFLOW.md",
-    "bytes": 5116,
-    "sha256": "652352acda9fa9774f430ef0ed6732b3cc3e35da7ad5a4777c239b9ddf6a999e",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-academic-writing/references/absorbed-modules.md",
     "bytes": 667,
     "sha256": "9726996b9d3a2540330b8425282ad3940f8b3233b1861aca0c661eed3ad3c015",
@@ -13504,21 +13606,105 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/SKILL.md",
-    "bytes": 3735,
-    "sha256": "b2a47523314ed37d9af9d6f9a7628d1d792914adfd53c9be0a4be3e97692c87d",
+    "path": "skills/huangjt-computational-chemistry/CAPABILITIES.md",
+    "bytes": 10096,
+    "sha256": "9a1e6b7cc73a583cc37f1b4eb571b32cbcbe7b654dd915a233b20d48cee189c7",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/SOURCE-LICENSES.json",
-    "bytes": 1934,
-    "sha256": "9adba6d37e6b0ddbccf69d3a990ccfed8bb057062095b0fc3281d72e49a89f20",
+    "path": "skills/huangjt-computational-chemistry/LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-academic-writing/THIRD_PARTY.md",
-    "bytes": 223,
-    "sha256": "c91c254fd12ea46032f890e88ab24c08d761f06d3a7a097e81a25d455819a879",
+    "path": "skills/huangjt-computational-chemistry/LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/MANIFEST.json",
+    "bytes": 21382,
+    "sha256": "897f3db259ba1bf91b05047f13ba4ccfa58c78240e686f17270ec8e238f79741",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/SKILL.md",
+    "bytes": 7468,
+    "sha256": "9a74a7c6fb897443dec4aace7204de7c70e7267300fa6068214784ed04f1e7db",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/SOURCE-LICENSES.json",
+    "bytes": 1921,
+    "sha256": "497973b3a32aad47a89ac19e3cc84b2787baafdb669b56208f5229a4a1ea06d9",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-computational-chemistry/THIRD_PARTY.md",
+    "bytes": 767,
+    "sha256": "9add0cd663e02b00465651891b6a314fe4cc850c8977cfdce099a90262bc1ba4",
     "normalize_lf": true
   },
   {
@@ -13552,87 +13738,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-computational-chemistry/CAPABILITIES.md",
-    "bytes": 10096,
-    "sha256": "9a1e6b7cc73a583cc37f1b4eb571b32cbcbe7b654dd915a233b20d48cee189c7",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSE",
-    "bytes": 1068,
-    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/conformer-upstream-LICENSE.txt",
-    "bytes": 7652,
-    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/GPL-3.0.txt",
-    "bytes": 34674,
-    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/hpc-upstream-LICENSE.txt",
-    "bytes": 1067,
-    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
-    "bytes": 19584,
-    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
-    "bytes": 1068,
-    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
-    "bytes": 1103,
-    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/office-upstream-LICENSE.txt",
-    "bytes": 1066,
-    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/organic-upstream-LICENSE.txt",
-    "bytes": 1103,
-    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/paper-upstream-LICENSE.txt",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/LICENSES/Yuan1z0825__nature-skills-LICENSE",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/MANIFEST.json",
-    "bytes": 21382,
-    "sha256": "897f3db259ba1bf91b05047f13ba4ccfa58c78240e686f17270ec8e238f79741",
+    "path": "skills/huangjt-computational-chemistry/modules/hpc-gaussian/WORKFLOW.md",
+    "bytes": 2541,
+    "sha256": "9dafc4431cb57b0f24f07777661fc96d4d55625e2a06fd89fbf5dbe0d061e2e3",
     "normalize_lf": true
   },
   {
@@ -13714,9 +13822,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-computational-chemistry/modules/hpc-gaussian/WORKFLOW.md",
-    "bytes": 2541,
-    "sha256": "9dafc4431cb57b0f24f07777661fc96d4d55625e2a06fd89fbf5dbe0d061e2e3",
+    "path": "skills/huangjt-computational-chemistry/modules/hpc-gromacs/WORKFLOW.md",
+    "bytes": 2479,
+    "sha256": "518d738b180e0718b6196101d3fca088f8598dfd28b139b53d87bbb6142971b7",
     "normalize_lf": true
   },
   {
@@ -13804,9 +13912,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-computational-chemistry/modules/hpc-gromacs/WORKFLOW.md",
-    "bytes": 2479,
-    "sha256": "518d738b180e0718b6196101d3fca088f8598dfd28b139b53d87bbb6142971b7",
+    "path": "skills/huangjt-computational-chemistry/modules/hpc-orchestration/WORKFLOW.md",
+    "bytes": 3259,
+    "sha256": "96fdce9965ba1d5010fbcbf4c5371bea3a354731622d9cba02990b197a8ebcaf",
     "normalize_lf": true
   },
   {
@@ -13990,9 +14098,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-computational-chemistry/modules/hpc-orchestration/WORKFLOW.md",
-    "bytes": 3259,
-    "sha256": "96fdce9965ba1d5010fbcbf4c5371bea3a354731622d9cba02990b197a8ebcaf",
+    "path": "skills/huangjt-computational-chemistry/modules/molecular-dynamics/WORKFLOW.md",
+    "bytes": 19164,
+    "sha256": "33cc06b4dca310881178605bc3195636cf60ec00746974fc195bd47a4cbb768b",
     "normalize_lf": true
   },
   {
@@ -14008,21 +14116,15 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-computational-chemistry/modules/molecular-dynamics/WORKFLOW.md",
-    "bytes": 19164,
-    "sha256": "33cc06b4dca310881178605bc3195636cf60ec00746974fc195bd47a4cbb768b",
+    "path": "skills/huangjt-computational-chemistry/modules/rdkit-conf/WORKFLOW.md",
+    "bytes": 9882,
+    "sha256": "3874045117de9dc000fa755f651a713c5ba037df4ecf20b754e631a53c814c31",
     "normalize_lf": true
   },
   {
     "path": "skills/huangjt-computational-chemistry/modules/rdkit-conf/scripts/rdkit_conf_helper.py",
     "bytes": 25265,
     "sha256": "7ce0b1c63896b0f10ff79572f3c17b8ce96bb01dd68565fc72c3d919b8654357",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-computational-chemistry/modules/rdkit-conf/WORKFLOW.md",
-    "bytes": 9882,
-    "sha256": "3874045117de9dc000fa755f651a713c5ba037df4ecf20b754e631a53c814c31",
     "normalize_lf": true
   },
   {
@@ -14164,21 +14266,105 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-computational-chemistry/SKILL.md",
-    "bytes": 7468,
-    "sha256": "9a74a7c6fb897443dec4aace7204de7c70e7267300fa6068214784ed04f1e7db",
+    "path": "skills/huangjt-spectral-structure-analysis/CAPABILITIES.md",
+    "bytes": 6523,
+    "sha256": "203a0540467f447a2c0ce59e65a1daa7d510402da0c3ad698e326cd40b0c5c19",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-computational-chemistry/SOURCE-LICENSES.json",
-    "bytes": 1921,
-    "sha256": "497973b3a32aad47a89ac19e3cc84b2787baafdb669b56208f5229a4a1ea06d9",
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-computational-chemistry/THIRD_PARTY.md",
-    "bytes": 767,
-    "sha256": "9add0cd663e02b00465651891b6a314fe4cc850c8977cfdce099a90262bc1ba4",
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/MANIFEST.json",
+    "bytes": 19681,
+    "sha256": "ca0fc913b4016b9952ffcb4cc1d694ebf4f430b53cf86db132b71b4a4f228fc7",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/SKILL.md",
+    "bytes": 4811,
+    "sha256": "1030e1ac0f0080b66a4dcc67cbf83c15b1d5512217b74fa065c98237133316d8",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/SOURCE-LICENSES.json",
+    "bytes": 908,
+    "sha256": "1a4b62ad5f5fb9a39c24a4522a217cec63e314979171ee8d37644f6871cb101f",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/THIRD_PARTY.md",
+    "bytes": 690,
+    "sha256": "bbdc9310646f35ec92df4639769b53c248d3bdf46e23bb5eea029e66d88e10df",
     "normalize_lf": true
   },
   {
@@ -14206,87 +14392,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-spectral-structure-analysis/CAPABILITIES.md",
-    "bytes": 6523,
-    "sha256": "203a0540467f447a2c0ce59e65a1daa7d510402da0c3ad698e326cd40b0c5c19",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSE",
-    "bytes": 1068,
-    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/conformer-upstream-LICENSE.txt",
-    "bytes": 7652,
-    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/GPL-3.0.txt",
-    "bytes": 34674,
-    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/hpc-upstream-LICENSE.txt",
-    "bytes": 1067,
-    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
-    "bytes": 19584,
-    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
-    "bytes": 1068,
-    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
-    "bytes": 1103,
-    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/office-upstream-LICENSE.txt",
-    "bytes": 1066,
-    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/organic-upstream-LICENSE.txt",
-    "bytes": 1103,
-    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/paper-upstream-LICENSE.txt",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/LICENSES/Yuan1z0825__nature-skills-LICENSE",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/MANIFEST.json",
-    "bytes": 19681,
-    "sha256": "ca0fc913b4016b9952ffcb4cc1d694ebf4f430b53cf86db132b71b4a4f228fc7",
+    "path": "skills/huangjt-spectral-structure-analysis/modules/matchms/WORKFLOW.md",
+    "bytes": 13014,
+    "sha256": "e5c3a990e0e9f920d90d38a7c5790ea27d3ed6acd6211acc5f516bcf04826086",
     "normalize_lf": true
   },
   {
@@ -14332,9 +14440,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-spectral-structure-analysis/modules/matchms/WORKFLOW.md",
-    "bytes": 13014,
-    "sha256": "e5c3a990e0e9f920d90d38a7c5790ea27d3ed6acd6211acc5f516bcf04826086",
+    "path": "skills/huangjt-spectral-structure-analysis/modules/nmrglue/WORKFLOW.md",
+    "bytes": 8641,
+    "sha256": "6cf24f90f770081cff1c6fcd61a70626c69578110abaa40409d1eb610d3a62fe",
     "normalize_lf": true
   },
   {
@@ -14356,9 +14464,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-spectral-structure-analysis/modules/nmrglue/WORKFLOW.md",
-    "bytes": 8641,
-    "sha256": "6cf24f90f770081cff1c6fcd61a70626c69578110abaa40409d1eb610d3a62fe",
+    "path": "skills/huangjt-spectral-structure-analysis/modules/pyopenms/WORKFLOW.md",
+    "bytes": 12640,
+    "sha256": "ab70105636a11af452ad096031fdd25b163d76166ebaaab39ca54e908c791326",
     "normalize_lf": true
   },
   {
@@ -14500,21 +14608,33 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-spectral-structure-analysis/modules/pyopenms/WORKFLOW.md",
-    "bytes": 12640,
-    "sha256": "ab70105636a11af452ad096031fdd25b163d76166ebaaab39ca54e908c791326",
+    "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/AGENT_GUIDE.md",
+    "bytes": 4261,
+    "sha256": "7ba1a98724c66fbf58cd1e2e261474dcb2e65ca4715d005eecd987794d4ac3e8",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/README.md",
+    "bytes": 5967,
+    "sha256": "6ad21ff66ac6189b5f2451d71a44031fc1a30ef4d68c8ae35ecd40ab1776e491",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/WORKFLOW.md",
+    "bytes": 3200,
+    "sha256": "5399300dbb00afc89119e32ae8a96c80ccb6b7b4ffa525eaec39c48d50b209aa",
     "normalize_lf": true
   },
   {
     "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/__init__.py",
     "bytes": 1134,
     "sha256": "f8abfb78ab7b8add19ebae0043b3dfe224e2d40756777f4b8a008dfc7b299463",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/AGENT_GUIDE.md",
-    "bytes": 4261,
-    "sha256": "7ba1a98724c66fbf58cd1e2e261474dcb2e65ca4715d005eecd987794d4ac3e8",
     "normalize_lf": true
   },
   {
@@ -14554,12 +14674,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/main_controller.py",
     "bytes": 36951,
     "sha256": "1ef8ed588a683a450d00435051739a946dea01818d401555ce87df1942081bc0",
@@ -14593,12 +14707,6 @@
     "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/profile_backend.py",
     "bytes": 9596,
     "sha256": "47731a74eea8628a67a3b94dfaae5d912a1ee263383cec2dcdce97cc002a38e7",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/README.md",
-    "bytes": 5967,
-    "sha256": "6ad21ff66ac6189b5f2451d71a44031fc1a30ef4d68c8ae35ecd40ab1776e491",
     "normalize_lf": true
   },
   {
@@ -14671,12 +14779,6 @@
     "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/test_syntax.py",
     "bytes": 4842,
     "sha256": "b2daddaf8e439e633a0759f016ccdc7a878782d00979053662c707332dd94301",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/huangjt-spectral-structure-analysis/modules/spectrum-analyzer/WORKFLOW.md",
-    "bytes": 3200,
-    "sha256": "5399300dbb00afc89119e32ae8a96c80ccb6b7b4ffa525eaec39c48d50b209aa",
     "normalize_lf": true
   },
   {
@@ -14794,21 +14896,105 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-spectral-structure-analysis/SKILL.md",
-    "bytes": 4811,
-    "sha256": "1030e1ac0f0080b66a4dcc67cbf83c15b1d5512217b74fa065c98237133316d8",
+    "path": "skills/organic-chemistry-reasoning/CAPABILITIES.md",
+    "bytes": 12669,
+    "sha256": "bf34a70851d67db0aa231dbb6d5ea14eedc39b542e229e6316e520540dc4978f",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-spectral-structure-analysis/SOURCE-LICENSES.json",
-    "bytes": 908,
-    "sha256": "1a4b62ad5f5fb9a39c24a4522a217cec63e314979171ee8d37644f6871cb101f",
+    "path": "skills/organic-chemistry-reasoning/LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
     "normalize_lf": true
   },
   {
-    "path": "skills/huangjt-spectral-structure-analysis/THIRD_PARTY.md",
-    "bytes": 690,
-    "sha256": "bbdc9310646f35ec92df4639769b53c248d3bdf46e23bb5eea029e66d88e10df",
+    "path": "skills/organic-chemistry-reasoning/LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/MANIFEST.json",
+    "bytes": 31339,
+    "sha256": "914926384d4a5a11f5d515dba625ec47b0d17a6df979eb85b9710431cb4a9b8a",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/SKILL.md",
+    "bytes": 5396,
+    "sha256": "1a7acad9270139f65661bf6928a9509f0683504a78432c926d527831c759b682",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/SOURCE-LICENSES.json",
+    "bytes": 2674,
+    "sha256": "af7d0ca5ae2e64b8a9df6fee082b97592ba3f05c13c946b85d01b7c96aacab64",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/THIRD_PARTY.md",
+    "bytes": 1063,
+    "sha256": "56a16fff7dc9c7b800a09c38301e80555e7338c89f6d9205ab9159f657b674f6",
     "normalize_lf": true
   },
   {
@@ -14836,87 +15022,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/CAPABILITIES.md",
-    "bytes": 12669,
-    "sha256": "bf34a70851d67db0aa231dbb6d5ea14eedc39b542e229e6316e520540dc4978f",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSE",
-    "bytes": 1068,
-    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/conformer-upstream-LICENSE.txt",
-    "bytes": 7652,
-    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/GPL-3.0.txt",
-    "bytes": 34674,
-    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/hpc-upstream-LICENSE.txt",
-    "bytes": 1067,
-    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
-    "bytes": 19584,
-    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
-    "bytes": 1068,
-    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
-    "bytes": 1103,
-    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/office-upstream-LICENSE.txt",
-    "bytes": 1066,
-    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/organic-upstream-LICENSE.txt",
-    "bytes": 1103,
-    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/paper-upstream-LICENSE.txt",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/LICENSES/Yuan1z0825__nature-skills-LICENSE",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/MANIFEST.json",
-    "bytes": 31339,
-    "sha256": "914926384d4a5a11f5d515dba625ec47b0d17a6df979eb85b9710431cb4a9b8a",
+    "path": "skills/organic-chemistry-reasoning/modules/analytical-method-validation/WORKFLOW.md",
+    "bytes": 20066,
+    "sha256": "0c4296c763bbbf38c187df009b4bdbed7b61fe3def5fe04c24301927791dd28d",
     "normalize_lf": true
   },
   {
@@ -15016,9 +15124,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/analytical-method-validation/WORKFLOW.md",
-    "bytes": 20066,
-    "sha256": "0c4296c763bbbf38c187df009b4bdbed7b61fe3def5fe04c24301927791dd28d",
+    "path": "skills/organic-chemistry-reasoning/modules/datamol/WORKFLOW.md",
+    "bytes": 11135,
+    "sha256": "272973791bf02d2750f6086b75a3cebff1cf310d2350a7c37af8c862b9b48964",
     "normalize_lf": true
   },
   {
@@ -15076,9 +15184,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/datamol/WORKFLOW.md",
-    "bytes": 11135,
-    "sha256": "272973791bf02d2750f6086b75a3cebff1cf310d2350a7c37af8c862b9b48964",
+    "path": "skills/organic-chemistry-reasoning/modules/experimental-design/WORKFLOW.md",
+    "bytes": 16521,
+    "sha256": "d5093d089c15e1b6d74f8fff31b8fc1ef4a784d8111141c7f83dd34c65f68f4d",
     "normalize_lf": true
   },
   {
@@ -15118,9 +15226,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/experimental-design/WORKFLOW.md",
-    "bytes": 16521,
-    "sha256": "d5093d089c15e1b6d74f8fff31b8fc1ef4a784d8111141c7f83dd34c65f68f4d",
+    "path": "skills/organic-chemistry-reasoning/modules/hypothesis-generation/WORKFLOW.md",
+    "bytes": 16815,
+    "sha256": "d9730846b00d62d17bb53de34ffe1b634c3e4a6387f1131fd90a5d13408ac8f5",
     "normalize_lf": true
   },
   {
@@ -15280,9 +15388,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/hypothesis-generation/WORKFLOW.md",
-    "bytes": 16815,
-    "sha256": "d9730846b00d62d17bb53de34ffe1b634c3e4a6387f1131fd90a5d13408ac8f5",
+    "path": "skills/organic-chemistry-reasoning/modules/medchem/WORKFLOW.md",
+    "bytes": 15925,
+    "sha256": "df34179892eeb60f65aadf8865cdbbe77a606170c3123e6bdcda50eacfd967d8",
     "normalize_lf": true
   },
   {
@@ -15304,15 +15412,15 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/medchem/WORKFLOW.md",
-    "bytes": 15925,
-    "sha256": "df34179892eeb60f65aadf8865cdbbe77a606170c3123e6bdcda50eacfd967d8",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/organic-chemistry-reasoning/modules/openbabel/WORKFLOW.md",
     "bytes": 3399,
     "sha256": "38f52fda361c8b67495e40a665d228fe6dc3230d9661556ed1c62bb40f985d89",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/organic-chemistry-reasoning/modules/organic-chemistry-assistant/WORKFLOW.md",
+    "bytes": 11955,
+    "sha256": "497b35122d6335b7b1ff8807767b02b0246f8981e83be1804e945d746833e921",
     "normalize_lf": true
   },
   {
@@ -15352,9 +15460,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/organic-chemistry-assistant/WORKFLOW.md",
-    "bytes": 11955,
-    "sha256": "497b35122d6335b7b1ff8807767b02b0246f8981e83be1804e945d746833e921",
+    "path": "skills/organic-chemistry-reasoning/modules/rdkit/WORKFLOW.md",
+    "bytes": 6715,
+    "sha256": "d87943f6d751f72ae3b5b421f2c73a6034ef91497fb533caa851fc763dbeca47",
     "normalize_lf": true
   },
   {
@@ -15406,9 +15514,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/rdkit/WORKFLOW.md",
-    "bytes": 6715,
-    "sha256": "d87943f6d751f72ae3b5b421f2c73a6034ef91497fb533caa851fc763dbeca47",
+    "path": "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/WORKFLOW.md",
+    "bytes": 14851,
+    "sha256": "f11a481e5ba20dc2d9df44d3bfa7d438537c7dec50ffc3d03f56919fed7f9565",
     "normalize_lf": true
   },
   {
@@ -15466,9 +15574,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/scientific-brainstorming/WORKFLOW.md",
-    "bytes": 14851,
-    "sha256": "f11a481e5ba20dc2d9df44d3bfa7d438537c7dec50ffc3d03f56919fed7f9565",
+    "path": "skills/organic-chemistry-reasoning/modules/scientific-critical-thinking/WORKFLOW.md",
+    "bytes": 13339,
+    "sha256": "6acb0fd854776c99de87b46581a225832968336fe953b3aecca331e2dc8be780",
     "normalize_lf": true
   },
   {
@@ -15520,9 +15628,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/modules/scientific-critical-thinking/WORKFLOW.md",
-    "bytes": 13339,
-    "sha256": "6acb0fd854776c99de87b46581a225832968336fe953b3aecca331e2dc8be780",
+    "path": "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/WORKFLOW.md",
+    "bytes": 21924,
+    "sha256": "13434d69b66d39ac7027f510fe652a229663c1f815cdb1e081a06bc932fde9df",
     "normalize_lf": true
   },
   {
@@ -15607,12 +15715,6 @@
     "path": "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/scripts/uncertainty_budget.py",
     "bytes": 14044,
     "sha256": "162699fd5336fca43489757a1c63e81c89deb46aefb51ceb99a24682fde14b44",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/modules/uncertainty-and-units/WORKFLOW.md",
-    "bytes": 21924,
-    "sha256": "13434d69b66d39ac7027f510fe652a229663c1f815cdb1e081a06bc932fde9df",
     "normalize_lf": true
   },
   {
@@ -15730,30 +15832,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/organic-chemistry-reasoning/SKILL.md",
-    "bytes": 5396,
-    "sha256": "1a7acad9270139f65661bf6928a9509f0683504a78432c926d527831c759b682",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/SOURCE-LICENSES.json",
-    "bytes": 2674,
-    "sha256": "af7d0ca5ae2e64b8a9df6fee082b97592ba3f05c13c946b85d01b7c96aacab64",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/organic-chemistry-reasoning/THIRD_PARTY.md",
-    "bytes": 1063,
-    "sha256": "56a16fff7dc9c7b800a09c38301e80555e7338c89f6d9205ab9159f657b674f6",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/scxrd-refinement/agents/openai.yaml",
-    "bytes": 353,
-    "sha256": "b244774d4d0e066070e070295468b4917ae644158803b820eeab27b7d7df4698",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/scxrd-refinement/CAPABILITIES.md",
     "bytes": 7175,
     "sha256": "27dedbd67be743c1c6d252a252e9603457e25e1c734d2deea00a5a0e4816aebd",
@@ -15766,21 +15844,9 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/scxrd-refinement/LICENSES/conformer-upstream-LICENSE.txt",
-    "bytes": 7652,
-    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/scxrd-refinement/LICENSES/GPL-3.0.txt",
     "bytes": 34674,
     "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/scxrd-refinement/LICENSES/hpc-upstream-LICENSE.txt",
-    "bytes": 1067,
-    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
     "normalize_lf": true
   },
   {
@@ -15796,15 +15862,33 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/scxrd-refinement/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/scxrd-refinement/LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
     "bytes": 1103,
     "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
     "normalize_lf": true
   },
   {
@@ -15826,15 +15910,39 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/scxrd-refinement/LICENSES/Yuan1z0825__nature-skills-LICENSE",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "normalize_lf": true
-  },
-  {
     "path": "skills/scxrd-refinement/MANIFEST.json",
     "bytes": 12540,
     "sha256": "20cd02c73f3aca4b713e29ea3131975e51b4f147a28320170d7c57e2726e67af",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/SKILL.md",
+    "bytes": 9609,
+    "sha256": "7afaef19c1e0bcdffc028b4ca50dc3a5e096fdb261a03e8b168e85569c5a4cc3",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/SOURCE-LICENSES.json",
+    "bytes": 237,
+    "sha256": "33ab8247f318319747da1b3a49306c75c7594a0a57ba9c67b345bbd9f022c645",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/THIRD_PARTY.md",
+    "bytes": 584,
+    "sha256": "5eacdbc0f135022659f3652c52ae6b97d12731fd548cad4efbcabfe55518727b",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/agents/openai.yaml",
+    "bytes": 353,
+    "sha256": "b244774d4d0e066070e070295468b4917ae644158803b820eeab27b7d7df4698",
+    "normalize_lf": true
+  },
+  {
+    "path": "skills/scxrd-refinement/modules/solve-single-crystal/WORKFLOW.md",
+    "bytes": 3127,
+    "sha256": "9586310f0c47de9f7d566f3c28b80a28a678c2af61bdfb138ced949fa104aef2",
     "normalize_lf": true
   },
   {
@@ -15859,12 +15967,6 @@
     "path": "skills/scxrd-refinement/modules/solve-single-crystal/references/validation-delivery.md",
     "bytes": 461,
     "sha256": "261ede28719376a6593d99833e5f316c8a383bd18fd289645bf509ea744676d0",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/scxrd-refinement/modules/solve-single-crystal/WORKFLOW.md",
-    "bytes": 3127,
-    "sha256": "9586310f0c47de9f7d566f3c28b80a28a678c2af61bdfb138ced949fa104aef2",
     "normalize_lf": true
   },
   {
@@ -16150,30 +16252,6 @@
     "normalize_lf": true
   },
   {
-    "path": "skills/scxrd-refinement/SKILL.md",
-    "bytes": 9609,
-    "sha256": "7afaef19c1e0bcdffc028b4ca50dc3a5e096fdb261a03e8b168e85569c5a4cc3",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/scxrd-refinement/SOURCE-LICENSES.json",
-    "bytes": 237,
-    "sha256": "33ab8247f318319747da1b3a49306c75c7594a0a57ba9c67b345bbd9f022c645",
-    "normalize_lf": true
-  },
-  {
-    "path": "skills/scxrd-refinement/THIRD_PARTY.md",
-    "bytes": 584,
-    "sha256": "5eacdbc0f135022659f3652c52ae6b97d12731fd548cad4efbcabfe55518727b",
-    "normalize_lf": true
-  },
-  {
-    "path": "SOURCE-LICENSES.json",
-    "bytes": 11568,
-    "sha256": "6998cef591f2b6c2203d7b89b19df03eef0a7cc57482ab6a14e9808525499c92",
-    "normalize_lf": true
-  },
-  {
     "path": "tests/probe-dsh.cjs",
     "bytes": 1998,
     "sha256": "96fabceb306391a00299be6c50631cd0a1b455008f41a6d3633908a1f778d4cc",
@@ -16181,20 +16259,20 @@
   },
   {
     "path": "tests/test_install.py",
-    "bytes": 4872,
-    "sha256": "68181b34fac7db745f2d42e53c99a28c36cee7eb2cdbbc4d22171b0d8d1603cc",
+    "bytes": 4898,
+    "sha256": "bc6172d8de855ae61a0d06c40ea7934c60dbc4ca35dd6b0e0a318e56e28724d3",
     "normalize_lf": true
   },
   {
     "path": "tests/test_library_portability.py",
-    "bytes": 4202,
-    "sha256": "9166109bb2a836fe9d0c28b1e81231329b51a6782f923622c4933f1cc2af2da0",
+    "bytes": 4337,
+    "sha256": "aaf5f7073434095293cfc8b73e1af9861b78ba361b839ec3d3703eeb75ef16c6",
     "normalize_lf": true
   },
   {
     "path": "tests/test_spectral_reading.py",
-    "bytes": 4754,
-    "sha256": "f3cd5d3e01d9a38b7e44458ed817f8dfb3f2935fa9e843949f6ceea58b227d89",
+    "bytes": 4916,
+    "sha256": "f0344735d3df809820578f9e270ab83cf82afe85c7945b453bed4666bdbff895",
     "normalize_lf": true
   },
   {
@@ -16204,21 +16282,33 @@
     "normalize_lf": true
   },
   {
-    "path": "THIRD_PARTY.md",
-    "bytes": 2689,
-    "sha256": "ab0427de3823311485df6a73d616b3355f6bc8f3164eb65bb783aed545c64dcc",
+    "path": "tests/test_tools.py",
+    "bytes": 3874,
+    "sha256": "b4d75eafed4810350ce2d0ec0c05bbfd2436476120219eff159acaec5e81678c",
+    "normalize_lf": true
+  },
+  {
+    "path": "tools/doctor.py",
+    "bytes": 14121,
+    "sha256": "5f12b7982333c3795c46e13080b674f81199687c20dfc332b597d8cd681a9aa7",
+    "normalize_lf": true
+  },
+  {
+    "path": "tools/inventory.py",
+    "bytes": 27653,
+    "sha256": "778369cb09e6148fab51aa5a2396c6aad40d271413ed4a3c0b09e41a15b69b0b",
+    "normalize_lf": true
+  },
+  {
+    "path": "tools/manifest.py",
+    "bytes": 5002,
+    "sha256": "187021dd432628293387302c488a8d8fe318e52b349108e5bbad09f8282f6a2e",
     "normalize_lf": true
   },
   {
     "path": "tools/workbench.py",
     "bytes": 173,
     "sha256": "71e308f7025e539288e42a6a58bd8d3a9c41e0087e06a2ba0d8609933a96a508",
-    "normalize_lf": true
-  },
-  {
-    "path": "VERSION",
-    "bytes": 6,
-    "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d",
     "normalize_lf": true
   }
 ]

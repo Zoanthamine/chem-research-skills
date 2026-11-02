@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 /release/
 /local-*.json
+# local scratch used by maintainers when running tools/tests
+/.tmp/
+/.t/
