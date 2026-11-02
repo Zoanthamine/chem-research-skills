@@ -1,0 +1,82 @@
+[
+  {
+    "module": "organic-chemistry-assistant",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/LaoZhong-Mihari/codex-organic-chem",
+    "source_revision": "703998db2ef5901e9b04d85fe4819d12f9596039",
+    "license_file": "LICENSES/organic-upstream-LICENSE.txt"
+  },
+  {
+    "module": "rdkit",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "BSD-3-Clause license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "datamol",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache-2.0 license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "openbabel",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "LGPL-3.0-or-later",
+    "upstream_metadata_software_license": "LGPL-3.0-or-later",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "medchem",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache-2.0 license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "experimental-design",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-brainstorming",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "scientific-critical-thinking",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "hypothesis-generation",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "analytical-method-validation",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "uncertainty-and-units",
+    "owner": "organic-chemistry-reasoning",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  }
+]

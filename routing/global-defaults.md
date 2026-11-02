@@ -7,7 +7,7 @@
 | 单晶、修单晶、晶体结构、无序孪晶、警报、CIF/FCF | scxrd-refinement |
 | 计算、核磁计算、构象退火、轨道、Gaussian/ORCA、TS/IRC、化学作业 | huangjt-computational-chemistry |
 | 解谱、看谱、目标峰在哪、原料副产物、核磁质谱、多谱归属 | huangjt-spectral-structure-analysis |
-| 有机、机理、重排、位阻、选择性、反应成败、保护基、淬灭分离 | organic-chemistry-reasoning |
+| 有机、结构式识别、画结构、SMILES转换、机理、位阻、选择性、反应成败、淬灭分离 | organic-chemistry-reasoning |
 | 找文献、SOP/procedure、SI、读论文、DOI、引文与Zotero | huangjt-academic-research |
 | 写作、润色、日报汇报、科研图表、论文PPT/Word、审稿回复 | huangjt-academic-writing |
 

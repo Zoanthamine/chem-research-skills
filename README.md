@@ -17,6 +17,12 @@
 
 > 请读取 https://github.com/Zoanthamine/chem-research-skills 的首次配置说明，检查这台电脑并配置六大技能、将四个化学核心设为默认，结合我的日常科研需求自主选择下载和安装所需软件及独立环境，优先复用已有配置，只在需要账号、付费授权或系统权限时让我处理，并完成验证和简明使用说明。
 
+## 浏览完整内容
+
+直接打开 [六主技能能力总目录](docs/CATALOG.md)：每个模块都能继续看到工作流、参考资料、模板和脚本。查看 [原件保留与恢复对照](docs/PRESERVATION.md)，明确哪些随包、哪些需要获取，以及原技能的去向。安装软件与迁移步骤见 [MIGRATION](docs/MIGRATION.md)。
+
+本版恢复七个此前被过度简化的完整模块及 48 项脚本/程序模板；内部模块合计 940 项脚本记录，另外 39 项原件有获取路径并保留在个人迁移包。并非只保留六个短入口。
+
 ## 安装
 
 下载[最新版安装包](https://github.com/Zoanthamine/chem-research-skills/releases/latest)，解压后在目录中运行以下之一。需要Python 3.11或更新版本，安装器只使用标准库。
@@ -56,10 +62,21 @@ python install.py --host both
 
 ## 内容与许可
 
-四核心保持完整和独立。78个专门方向按需放入内部modules，入口为WORKFLOW.md，避免注册成更多同级技能。公开版保留有分发依据的源模块；8个未能确认原件分发条件的方向使用本项目独立整理的通用方法。本机完整资料不随公开版上传。ARS的上游维护测试、held-out评测和原始评测运行记录不在发布版内，运行方法、工作流、契约和工具保留；不将上游整仓发布门槛当作用户任务的前置条件。
+四核心保持完整和独立。78个专门方向按需放入内部modules，入口为WORKFLOW.md，避免注册成更多同级技能。公开版保留有分发依据的源模块；七个原来未确认来源的模块现已恢复完整内容；单晶辅助模块保留完整知识与原件获取路径。本机完整资料不随公开版上传。ARS的上游维护测试、held-out评测和原始评测运行记录不在发布版内，运行方法、工作流、契约和工具保留；不将上游整仓发布门槛当作用户任务的前置条件。
 
 原创部分MIT，第三方模块各按原许可；ARS文档和适配内容含CC BY-NC 4.0非商业限制。具体见[THIRD_PARTY.md](THIRD_PARTY.md)及[SOURCE-LICENSES.json](SOURCE-LICENSES.json)。外部科学软件的许可另行适用。
 
 ## 验证
 
 `python install.py --check`验证文件哈希和六个入口；`python -m unittest discover -s tests`检查安装、全局规则、覆盖保护和篡改拒绝。CI还运行现有单晶辅助测试与波谱数值自检。它们不替代真实样品精修、量化计算或文献原文核验，也不承诺模型每次自动选择技能。
+
+## 优先配置基础能力
+
+```text
+python tools/workbench.py setup --profile foundation --apply
+python tools/workbench.py setup --profile ocsr --apply
+python tools/workbench.py verify --output 自选验收目录
+python tools/workbench.py search 核磁
+```
+
+助手先检查并复用现有配置，再按需安装。基础层先支持结构识别、绘制编辑、格式转换和身份核对；大型专业程序和集群按任务另配。上述工具同样随有机核心 scripts 迁移，六个文件夹单独安装后仍能配置。详见首次配置说明。

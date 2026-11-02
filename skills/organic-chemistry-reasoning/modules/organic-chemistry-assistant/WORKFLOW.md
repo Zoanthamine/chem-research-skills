@@ -1,5 +1,182 @@
-# 结构工具与化学推断
+---
+name: organic-chemistry-assistant
+description: "本地 codex-chem CLI MCP 工具接口。用于明确需要结构标准化、SMILES SDF 转换、分子绘图、结构编辑或化学工具数值操作的任务；有机机理和实验结果讨论优先 organic-chemistry-reasoning。"
+metadata:
+  short-description: Structure-grounded organic chemistry reasoning and publication
+    figures
+---
 
-需要结构标准化、分子式质量、原子编号和三维几何时，使用本核心的RDKit、datamol或Open Babel模块。将用户结构、程序输出与机理推断分开，逐原子核对键和立体化学。有已配置codex-chem服务时可调用其真实工具；无服务时直接使用受支持文件和通用化学库。
+## 运行环境
 
-这是本公开版独立整理的通用方法。未将缺少明确分发声明的第三方原始文件发布；本地原件保持不变。按主技能的融合方法和实际工具完成当前问题，不以未提供的源脚本为执行前提。
+已有统一运行环境时复用其配置；新电脑先读主技能的 references/foundation-and-migration.md（如存在），按当前模块依赖建立环境，不依赖原作者盘符。
+
+# Organic Chemistry Assistant
+
+Use the `codex-chem` CLI or `codex-organic-chem` MCP tools before making
+nontrivial chemistry claims. Tool output is evidence, not truth: keep warnings
+visible, label unverified mechanism or synthesis ideas as hypotheses, and never
+let a missing optional tool become a reason to invent results. Check optional
+capabilities only when needed: `codex-chem doctor`.
+
+## Reason from structure, not from names
+
+- Normalize every molecule with `chem_normalize_structure` before reasoning;
+  check sanitization, dummy atoms, metals, and stereo warnings.
+- Inspect the rendered molecule, then build a structure map: functional groups,
+  heteroatoms, pi systems, acidic/basic sites, nucleophilic/electrophilic
+  sites, leaving/protecting groups, steric congestion, stereo anchors, and
+  groups that must stay untouched. Reason from mapped reactive sites — never
+  from a compound name, formula, or remembered reaction pattern without
+  checking the required atoms and competing sites exist.
+- `chem_reaction_analyze` for sanity checks and condition/retro notes. It closes
+  mass/charge balance (hydrogens included): `analysis.mass_charge_balance`
+  `unbalanced` means the equation as written is wrong, not just
+  under-annotated — fix it or say what is missing before reasoning on it. Keep
+  tool facts, literature evidence, rule inference, and assumptions separate.
+- `chem_compute` when data can change the decision: `xtb_reactivity` ranks
+  nucleophilic/electrophilic sites by Fukui index and GFN2 charge per RDKit atom
+  index; `xtb_opt`/`xtb_thermo`/`crest` add geometry, free energy and imaginary
+  modes, conformer populations. Ions and `--solvent` are handled; read warnings.
+
+## Mechanistic reasoning
+
+For mechanisms, read [references/mechanism-spec.md](references/mechanism-spec.md).
+For drawing quality, also use the concrete reference-and-inspection workflow in
+[references/mechanism-graphics.md](references/mechanism-graphics.md).
+Use one chemical source of truth: a mapped state + object-anchored electron
+moves + explicit next state. Write a MechanismSpec 2.1 JSON before drawing;
+the supplied [SN2 example](assets/sn2.mechanism.json) shows the exact fields.
+
+- Build the elementary steps from the validated structures and the specified
+  conditions. `chem_mechanism_draft` is a rule-template hypothesis with a
+  **reaction preview**, not a mechanism generator or evidence for the pathway.
+  A stronger model still needs to supply the intermediates and electron moves.
+- Keep atom maps stable, map each transferred H as a separate atom, and include
+  participating acids/bases and byproducts in both states. All arrows within
+  an elementary step act simultaneously on its starting state.
+- Run `chem_mechanism_validate` (CLI `mechanism-validate`) before rendering.
+  Fix invalid states, missing arrows and graph edits; do not explain away a
+  mass/charge discrepancy with a caption. `semantic_checks.status=valid` proves
+  only the supported electron bookkeeping. `incomplete` or `unsupported`
+  cannot support a claim that the mechanism was validated.
+- Check the live server's `chem_mechanism_spec_example`: if it returns a
+  pre-2.1 example, omits `layout.renderer: "compact"`, or lacks the validator,
+  use the updated checkout's CLI for **both validation and rendering**.
+  Compact output must report `figure_audit.renderer: "rdkit_compact_mechanism"`;
+  fall back to the CLI if a stale server still returns `codex_mechanism_canvas`.
+  A running MCP process may retain old code even after local files are synced;
+  a newer validator alone does not establish that the renderer was reloaded.
+- Render with `chem_mechanism_render`, inspect the image, and read the emitted
+  trace back. Use `mechanism.trace.json` or the SVG's embedded chemical bundle
+  to continue reasoning; a screenshot or an OCSR molecule alone loses electron
+  movement and state identity. Keep spec, SVG and trace from the same export.
+- Use the checked graph changes to explain which sites react and what remains
+  available for the next step. Separately assess competing paths, solvent,
+  acid/base state and stereoelectronic constraints. State conditional predictions
+  and evidence limits; connectivity checks alone do not establish kinetics,
+  selectivity, stereochemical outcome or experimental mechanism.
+
+## Images in: OCSR
+
+- `chem_parse_image` (crops) / `chem_parse_scheme` (multi-compound schemes).
+  Preprocessing variants and all configured engines run automatically; ranking
+  rewards independent engines agreeing on one canonical structure.
+- Read the top candidate's `metadata.consensus`: `multi_engine` is strong;
+  `single_read` means compare the rendered candidate against the source image
+  before trusting it. Resolve `R`/`X` groups and abbreviations by graph
+  replacement, never string substitution.
+- Raw OCSR is never confirmed chemistry. Confirmation is **interactive, in the
+  editor — not "look at this picture"**: `chem_input_review` (single input or
+  OCSR result) and `chem_structure_review_batch` (multiple SMILES) open the
+  local structure editor in the browser automatically (Ketcher when built, a
+  built-in fallback otherwise). Tell the user it is open (give `review_url` if
+  `browser_opened` is false), block on
+  `chem_structure_review_result(session_id=..., wait=true)`, and continue only
+  with the returned structures — the user may have *corrected* them, so never
+  reuse the pre-review SMILES. Never infer stereochemistry an image does not
+  make explicit.
+- From the CLI, use `codex-chem input-review ... --wait`; without `--wait` the
+  command intentionally returns a static preview because its daemon review
+  server cannot outlive the command. MCP sessions remain live in the MCP
+  server process.
+
+## Images out: figures
+
+Molecule, route and compact mechanism figures share the RDKit fixed-geometry
+painter. Use compact mechanisms by default; `layout.renderer: "legacy"` retains
+the old canvas only for compatibility. Results carry `publication_checks`;
+blocking issues downgrade `status` to `blocked_for_publication`.
+
+- Molecules/reactions: `chem_draw` (SVG master; PNG derived after the audit via
+  `output_file`).
+- Routes/schemes: `chem_route_figure` (`style_preset`: `acs` default, `rsc`,
+  `presentation`). Use it for any rendered scheme; RDKit one-call previews are
+  for internal checks only.
+- Mechanisms: resolve ambiguous/user-image inputs through `chem_input_review`.
+  Explicit text examples, tool tests and assistant-authored educational drafts
+  can proceed directly through normalization and validation; do not ask users
+  to approve each benchmark molecule. Require confirmed input for manuscript
+  claims. Use the mechanism workflow above for actual curved-arrow artwork.
+- Chemistry-aware renderers draw all bonds and arrows; hand-built SVG/PIL/canvas
+  may only do page composition. Prose belongs in the caption, not the graphic.
+- For a publication-like mechanism, inspect actual published Schemes and record
+  their DOI and Scheme number. Use skeletal structures, ordinary charge glyphs,
+  a shared bond scale, and short local electron arrows. Move/rotate the reagent
+  next to the reacting atom before trying a larger curve. Preserve the common
+  scaffold across states; keep captions and long explanations outside the art.
+- Open each exported image at its intended reading size and magnified. Inspect
+  arrow tails, arrowheads, implicit H, charges, lone pairs, plus signs and all
+  crossings. Compare it with a normal reaction figure of the same structures.
+  A nonblank PNG, valid graph, or passing geometric audit does not establish
+  good layout. Fix visible defects and render again before showing the result.
+- Report artifact status honestly: confirmed, draft, or blocked — with the
+  audit's warnings. `blocked_for_publication` output must be fixed or reported
+  as blocked, never shipped. A figure is "publication-ready" only when the
+  input was confirmed, `publication_checks` passes, and a human reviewed it.
+
+## Synthesis reasoning
+
+- Work one decision layer at a time: `chem_synthesis_suggest(...,
+  confirmed=false)` renders and requests confirmation; `confirmed=true`
+  proceeds with the first disconnection layer.
+- Screen broad, then narrow by structural fit, functional-group tolerance,
+  step economy, selectivity risk, redox/protecting-group burden, precedent,
+  and starting-material availability. Explain why alternatives fail.
+- `chem_literature_search` for route-defining or disputed steps: exact
+  transformation first, then analogous class/catalyst/substrate. Cite
+  DOI/title/year, and grade support: exact precedent > close analog > same
+  class > review > unsupported inference. Weak support must be called weak.
+- Wet-lab advice stays at condition-family level unless the user supplies
+  validated protocols and asks for operational detail.
+
+## Quick calls
+
+```bash
+uv run codex-chem normalize --smiles "CC(=O)Oc1ccccc1C(=O)O"
+uv run codex-chem draw --smiles "c1ccccc1C(=O)O" --output svg
+uv run codex-chem parse-image crop.png --kind molecule
+uv run codex-chem input-review --reaction-smiles "CBr.[OH-]>>CO.[Br-]" --wait
+uv run codex-chem review-batch --input reviews.json --wait
+uv run codex-chem route-figure --spec route.spec.json --output-dir out --format svg --format png
+uv run codex-chem reaction-analyze --reaction "CBr.[OH-]>>CO.[Br-]" --mode sanity_check
+uv run codex-chem compute --smiles "CC(=O)C" --task xtb_reactivity --solvent water
+uv run codex-chem mechanism-render --spec mechanism.spec.json --output-dir out
+uv run codex-chem mechanism-validate --spec mechanism.spec.json
+uv run codex-chem synthesis-suggest --target-smiles "CC(=O)Oc1ccccc1C(=O)O" --confirmed
+```
+
+
+## Local editor and spectrum handoff
+
+The local Ketcher frontend is built under `tools/science/vendor/ketcher/dist` and configured through the shared environments.json. Use the existing review session API when interactive structure correction is needed. Browser auto-opening remains disabled by user preference; provide the local review URL on request. A candidate or displayed drawing is not a completed human review. Preserve the corrected structures returned by the session.
+
+For real measured spectra, route to `spectrum-analyzer`; use the explicit spectrum type, axis units, IR polarity and profile/peak-list distinction. Normalize candidate structures here before comparing formula, exact mass, stereochemistry and spectral evidence. Do not infer a unique structure from a generic spectral threshold. Image-to-structure OCSR engines remain unconfigured: do not claim a model prediction from visual reasoning. Accepted alternatives are a supplied SMILES/MOL/SDF or a user-corrected editor structure.
+
+
+## 联合波谱结构鉴定与案例归档
+真实小分子NMR/HRMS联合归属、重叠峰、计算J/位移与NOE比较，使用相邻的 [huangjt-spectral-structure-analysis](../../../huangjt-spectral-structure-analysis/SKILL.md)。本技能原有专门后端边界继续适用。
+
+
+## 融合入口与来源
+
+这是保留完整知识、工具、模板与参考资料的内部模块；主技能决定任务范围和授权，模块不独立注册。上游固定版本：https://github.com/LaoZhong-Mihari/codex-organic-chem/tree/703998db2ef5901e9b04d85fe4819d12f9596039。来源许可及本次变更见仓库 THIRD_PARTY.md。

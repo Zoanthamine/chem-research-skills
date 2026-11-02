@@ -83,7 +83,7 @@ def install(root,targets,args):
         shutil.copytree(src,dst)
     for host,(target,instructions) in targets:
         target=target.resolve();backup=backups[str(target)]
-        marker={'package':'huangjt-chemistry-skills','version':'1.0.0','host':host,'fingerprints':{n:fingerprint(target/n) for n in NAMES}}
+        marker={'package':'huangjt-chemistry-skills','version':(root/'VERSION').read_text(encoding='utf-8').strip() if (root/'VERSION').exists() else 'unversioned','host':host,'fingerprints':{n:fingerprint(target/n) for n in NAMES}}
         (target/'.huangjt-chemistry-install.json').write_text(json.dumps(marker,ensure_ascii=False,indent=2),encoding='utf-8')
         if not args.no_defaults:write_defaults(instructions,target,(root/'routing/global-defaults.md').read_text(encoding='utf-8'),backup)
     return [{'host':host,'skills':str(target.resolve()),'global_instructions':str(instructions),'defaults_installed':not args.no_defaults} for host,(target,instructions) in targets]

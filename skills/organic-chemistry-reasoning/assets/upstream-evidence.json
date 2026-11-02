@@ -1,0 +1,72 @@
+[
+  {
+    "key": "hpc",
+    "repo": "SciMate-AI/HPC-Skills",
+    "branch": "main",
+    "url": "https://raw.githubusercontent.com/SciMate-AI/HPC-Skills/main/LICENSE",
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "text": "MIT License\n\nCopyright (c) 2026 SciMate AI\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software an",
+    "commit": "4ea8069188d931875121cdd418d7a26e60f47152"
+  },
+  {
+    "key": "office",
+    "repo": "zLanqing/codex-claude-academic-skills",
+    "branch": "main",
+    "url": "https://raw.githubusercontent.com/zLanqing/codex-claude-academic-skills/main/LICENSE",
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "text": "MIT License\n\nCopyright (c) 2026 [zLanqing]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software an",
+    "commit": "7ed6377f0efb6a38951b48ef03b19d996e454b1f"
+  },
+  {
+    "key": "organic",
+    "repo": "LaoZhong-Mihari/codex-organic-chem",
+    "branch": "main",
+    "url": "https://raw.githubusercontent.com/LaoZhong-Mihari/codex-organic-chem/main/LICENSE",
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "text": "MIT License\n\nCopyright (c) 2026 Codex Organic Chemistry Assistant contributors\n\nPermission is hereby granted, free of charge, to any person ",
+    "commit": "703998db2ef5901e9b04d85fe4819d12f9596039"
+  },
+  {
+    "key": "paper",
+    "repo": "xstongxue/best-skills",
+    "branch": "main",
+    "url": "https://raw.githubusercontent.com/xstongxue/best-skills/main/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "text": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apac",
+    "commit": "9aa4e555950da6e43e7d98c5f0c7b70264204850"
+  },
+  {
+    "key": "conformer",
+    "repo": "jinzhezenggroup/computational-chemistry-agent-skills",
+    "branch": "master",
+    "url": "https://raw.githubusercontent.com/jinzhezenggroup/computational-chemistry-agent-skills/master/LICENSE",
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "text": "                   GNU LESSER GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Found",
+    "commit": "8ab83a96292bb4d13ba7e4a2b015015f0332e8cc"
+  },
+  {
+    "key": "crystal",
+    "repo": "owenxyzhang-seseTJ/solve-single-crystal-skill",
+    "branch": "main",
+    "last_error": "HTTP Error 404: Not Found",
+    "commit": "2dc5c8d29c887e877f03bd71da52c377f47d9c84"
+  },
+  {
+    "key": "ars",
+    "repo": "Imbad0202/academic-research-skills-codex",
+    "branch": "main",
+    "url": "https://raw.githubusercontent.com/Imbad0202/academic-research-skills-codex/main/LICENSE",
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "text": "Copyright (c) 2026 Cheng-I Wu\n\nThis work is licensed under the Creative Commons\nAttribution-NonCommercial 4.0 International License.\n\nFull l",
+    "commit": "a1556557887f345aac99bdc6027e008e91fef236"
+  },
+  {
+    "key": "nature",
+    "repo": "Yuan1z0825/nature-skills",
+    "branch": "main",
+    "url": "https://raw.githubusercontent.com/Yuan1z0825/nature-skills/main/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "text": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apac",
+    "commit": "69817e4dad8bfc52fa4e59a9d8355e4264a4d3a7"
+  }
+]

@@ -6,6 +6,84 @@
     "normalize_lf": true
   },
   {
+    "path": "CAPABILITIES.md",
+    "bytes": 121925,
+    "sha256": "d9a898066fcbc3ce19ef49c74c611dc43fd26cef490108fdf2e9cf3116f28030",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/dask/references/arrays.md",
     "bytes": 13837,
     "sha256": "9505d826de392bd9ac35a00bb082e275156cd746a251fac36bdb987a11a6fcda",
@@ -540,6 +618,12 @@
     "path": "modules/nature-figure/evals/evals.json",
     "bytes": 22195,
     "sha256": "3d75ea7f279ca45fe0ed6db3f7110f653c94eb01c9626b4d823a2df22029d01c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/nature-figure/EXTERNAL_RESOURCES.md",
+    "bytes": 944,
+    "sha256": "e05f5b0e560ed516fe58b8318ea54c6638841c86e12a079d1c8e89e58ca26c02",
     "normalize_lf": true
   },
   {
@@ -3363,15 +3447,909 @@
     "normalize_lf": true
   },
   {
+    "path": "modules/office-academic-skill/agents/openai.yaml",
+    "bytes": 258,
+    "sha256": "d2ba3c34bb8247ddc6987587b67539be3adaf1569d7113a585eb75873643c12a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/docx-js.md",
+    "bytes": 16509,
+    "sha256": "83b4a2f88d058a10509fbc0b3b12b6933c407805f4d4afc955cd3fb939c16428",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+    "bytes": 1963,
+    "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+    "bytes": 2515,
+    "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd",
+    "bytes": 2856,
+    "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd",
+    "bytes": 1344,
+    "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+    "bytes": 74984,
+    "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+    "bytes": 6956,
+    "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+    "bytes": 51302,
+    "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+    "bytes": 624,
+    "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+    "bytes": 152039,
+    "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+    "bytes": 1231,
+    "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+    "bytes": 8862,
+    "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+    "bytes": 14795,
+    "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd",
+    "bytes": 83612,
+    "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+    "bytes": 1269,
+    "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+    "bytes": 7328,
+    "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+    "bytes": 6382,
+    "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+    "bytes": 1248,
+    "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+    "bytes": 880,
+    "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+    "bytes": 2608,
+    "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+    "bytes": 3507,
+    "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+    "bytes": 7507,
+    "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+    "bytes": 23313,
+    "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+    "bytes": 1367,
+    "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/sml.xsd",
+    "bytes": 242277,
+    "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+    "bytes": 26148,
+    "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+    "bytes": 25279,
+    "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+    "bytes": 535,
+    "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+    "bytes": 5712,
+    "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+    "bytes": 4010,
+    "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/wml.xsd",
+    "bytes": 171367,
+    "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/ISO-IEC29500-4_2016/xml.xsd",
+    "bytes": 4646,
+    "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/mce/mc.xsd",
+    "bytes": 3127,
+    "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/microsoft/wml-2010.xsd",
+    "bytes": 26549,
+    "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/microsoft/wml-2012.xsd",
+    "bytes": 3745,
+    "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/microsoft/wml-2018.xsd",
+    "bytes": 901,
+    "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/microsoft/wml-cex-2018.xsd",
+    "bytes": 1778,
+    "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/microsoft/wml-cid-2016.xsd",
+    "bytes": 1002,
+    "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+    "bytes": 600,
+    "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/schemas/microsoft/wml-symex-2015.xsd",
+    "bytes": 745,
+    "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/scripts/pack.py",
+    "bytes": 5596,
+    "sha256": "6fe762f45aff8c63fd95b9fcb1337b28921d6fa454e18a0e8158d4c8708d6d00",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/scripts/unpack.py",
+    "bytes": 1037,
+    "sha256": "0bd17f76a1a4c388aba42c6d1d39015fa84e405c3e0692397fe12762bd632b58",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/scripts/validate.py",
+    "bytes": 1959,
+    "sha256": "1ec252de8b14b07d16966c48906ccb1c45c68bcd23557ad31d8c50a27f5f8c0f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/__init__.py",
+    "bytes": 336,
+    "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/base.py",
+    "bytes": 39892,
+    "sha256": "f2c70d481613456e32b43869d1604b05c236c8da34b5b3967677a661cac7ba63",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/docx.py",
+    "bytes": 9996,
+    "sha256": "e65d6cda0525866a24cc847b2e883bd2416ae6f87b3f5b9e2784dfbb0ec13093",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/pptx.py",
+    "bytes": 12327,
+    "sha256": "00bf2623da1177b3948143a4ade2f1cda7cb389dee31960861913fa42ef1b00f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml/scripts/validation/redlining.py",
+    "bytes": 11179,
+    "sha256": "97abfdff4f08f43f9a4bb5c8a2f8fd483398b5b339592724e8635153b5507967",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/ooxml.md",
+    "bytes": 23345,
+    "sha256": "e2e65ea095400ead316289a7fb0080bcb9e48fc066704be7b81b6aa181fe5ac8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/scripts/__init__.py",
+    "bytes": 65,
+    "sha256": "83e262a425814b72add701272b99ddcf9635251c5d4672bf9fc38d2b03f00d85",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/scripts/document.py",
+    "bytes": 50137,
+    "sha256": "9e1e091f987d72a8fa2d8e3046f06fdb71e6a1626dea7239582ed429c471d754",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/scripts/templates/comments.xml",
+    "bytes": 2635,
+    "sha256": "87e218a3a295016ec855f2cd74495c416072f29c4846e86b527aec0a4d93ba21",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/scripts/templates/commentsExtended.xml",
+    "bytes": 2643,
+    "sha256": "86bf401354c111102033ed147763faccb82479598f17777a3384c2f3e9fa0014",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/scripts/templates/commentsExtensible.xml",
+    "bytes": 2739,
+    "sha256": "af5d057e16462ca172cea845e502bafb4f3e1b474a8d5848ffe92214853a4935",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/scripts/templates/commentsIds.xml",
+    "bytes": 2651,
+    "sha256": "20168f7b237af091332f8348c548eb7f755f583185bb198359c5978155099d67",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/scripts/templates/people.xml",
+    "bytes": 147,
+    "sha256": "61db9900b579acd4c4f84ff7f40df47e77e9e780c40d5f5ef6a7beba41d62ec5",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-docx/scripts/utilities.py",
+    "bytes": 13694,
+    "sha256": "62a4b689056501b91e2df2d1f4e6335818e421c7390e48050717ea8f461a0ed0",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/html2pptx.md",
+    "bytes": 19906,
+    "sha256": "70f6a6f2f097cf35dc6f9020a6f8c2b4b76c86804d613f03f360dcf17bfc7159",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+    "bytes": 1963,
+    "sha256": "9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+    "bytes": 2515,
+    "sha256": "451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd",
+    "bytes": 2856,
+    "sha256": "6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd",
+    "bytes": 1344,
+    "sha256": "f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+    "bytes": 74984,
+    "sha256": "41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+    "bytes": 6956,
+    "sha256": "3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+    "bytes": 51302,
+    "sha256": "29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+    "bytes": 624,
+    "sha256": "5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+    "bytes": 152039,
+    "sha256": "5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+    "bytes": 1231,
+    "sha256": "5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+    "bytes": 8862,
+    "sha256": "b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+    "bytes": 14795,
+    "sha256": "bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd",
+    "bytes": 83612,
+    "sha256": "d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+    "bytes": 1269,
+    "sha256": "3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+    "bytes": 7328,
+    "sha256": "0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+    "bytes": 6382,
+    "sha256": "e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+    "bytes": 1248,
+    "sha256": "0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+    "bytes": 880,
+    "sha256": "0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+    "bytes": 2608,
+    "sha256": "9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+    "bytes": 3507,
+    "sha256": "bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+    "bytes": 7507,
+    "sha256": "7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+    "bytes": 23313,
+    "sha256": "3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+    "bytes": 1367,
+    "sha256": "12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/sml.xsd",
+    "bytes": 242277,
+    "sha256": "beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+    "bytes": 26148,
+    "sha256": "f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+    "bytes": 25279,
+    "sha256": "585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+    "bytes": 535,
+    "sha256": "133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+    "bytes": 5712,
+    "sha256": "6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+    "bytes": 4010,
+    "sha256": "475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/wml.xsd",
+    "bytes": 171367,
+    "sha256": "c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/ISO-IEC29500-4_2016/xml.xsd",
+    "bytes": 4646,
+    "sha256": "a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/mce/mc.xsd",
+    "bytes": 3127,
+    "sha256": "3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/microsoft/wml-2010.xsd",
+    "bytes": 26549,
+    "sha256": "568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/microsoft/wml-2012.xsd",
+    "bytes": 3745,
+    "sha256": "0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/microsoft/wml-2018.xsd",
+    "bytes": 901,
+    "sha256": "be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/microsoft/wml-cex-2018.xsd",
+    "bytes": 1778,
+    "sha256": "fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/microsoft/wml-cid-2016.xsd",
+    "bytes": 1002,
+    "sha256": "127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+    "bytes": 600,
+    "sha256": "842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/schemas/microsoft/wml-symex-2015.xsd",
+    "bytes": 745,
+    "sha256": "16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/scripts/pack.py",
+    "bytes": 5596,
+    "sha256": "6fe762f45aff8c63fd95b9fcb1337b28921d6fa454e18a0e8158d4c8708d6d00",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/scripts/unpack.py",
+    "bytes": 1037,
+    "sha256": "0bd17f76a1a4c388aba42c6d1d39015fa84e405c3e0692397fe12762bd632b58",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/scripts/validate.py",
+    "bytes": 1959,
+    "sha256": "1ec252de8b14b07d16966c48906ccb1c45c68bcd23557ad31d8c50a27f5f8c0f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/__init__.py",
+    "bytes": 336,
+    "sha256": "83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/base.py",
+    "bytes": 39892,
+    "sha256": "f2c70d481613456e32b43869d1604b05c236c8da34b5b3967677a661cac7ba63",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/docx.py",
+    "bytes": 9996,
+    "sha256": "e65d6cda0525866a24cc847b2e883bd2416ae6f87b3f5b9e2784dfbb0ec13093",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/pptx.py",
+    "bytes": 12327,
+    "sha256": "00bf2623da1177b3948143a4ade2f1cda7cb389dee31960861913fa42ef1b00f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml/scripts/validation/redlining.py",
+    "bytes": 11179,
+    "sha256": "97abfdff4f08f43f9a4bb5c8a2f8fd483398b5b339592724e8635153b5507967",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/ooxml.md",
+    "bytes": 10388,
+    "sha256": "09868e9f1786765421ecf3f0f49c77006738efda82a76df43ed87f7a9bfe2467",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/scripts/html2pptx.js",
+    "bytes": 38334,
+    "sha256": "ee0f1519f0de9ffe5bc254975d591bebcc3481a52f7edf8fbbff604121655f78",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/scripts/inventory.py",
+    "bytes": 38126,
+    "sha256": "adead8fe6270e520c397cec9fbee4d606ab10bb80f749e018b42ec894c60d2e5",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/scripts/rearrange.py",
+    "bytes": 8514,
+    "sha256": "c04ac37916f398ba621b2d9e1e4c1a69225eaad6d7fb0ad116c237ddeb1b2b68",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/scripts/replace.py",
+    "bytes": 13594,
+    "sha256": "8a590747551be847a904e3296fb2f35aa4e7feeb4970a61596c2375306462820",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/office-pptx/scripts/thumbnail.py",
+    "bytes": 15484,
+    "sha256": "c21fd950b6ada7bd2f029885d3e56bc66b7ff061cc8404c492eb301664aa9e5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/report-structure.md",
+    "bytes": 3894,
+    "sha256": "08be06d95297c5be11bb50a58016e31572a021431116fc11242ef115a5760101",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/requirements.txt",
+    "bytes": 58,
+    "sha256": "b9fc8c32b1b1b003805e1ef96c5eb08ea74b700ca29b4573136df507b9e633b1",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/scripts/clone_template_deck.ps1",
+    "bytes": 2682,
+    "sha256": "c2e3310c4e556361e582a3399c89a0bbee0f2153693da40803607a3fa040ffbb",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/scripts/dump_pptx_content.py",
+    "bytes": 4933,
+    "sha256": "52319a17cf1d8f4999bb52120de0e770a183f5b785eab5005437256e8960a3e9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/scripts/export_pptx_png.ps1",
+    "bytes": 1709,
+    "sha256": "94f69e75b4c85070ae604ef57124c7b1e82c233768722fdc5503a280d7e55de8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/scripts/extract_thesis_context.py",
+    "bytes": 5488,
+    "sha256": "c6328b7212556e31ad0fe4f41c89f16e2cebe23b4aa026a806f321c3bd716c30",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/scripts/inspect_pptx_overflow.ps1",
+    "bytes": 3985,
+    "sha256": "7717944e0b4c617e3c312ba04fdebd412ab9dc45ab89e5f91222c5937934114f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/scripts/make_contact_sheet.py",
+    "bytes": 2306,
+    "sha256": "fea85be505432e53ceb8ed6fddb35d69337e0c15dbb584dcb7219036c822d1a8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/scripts/pptx_template_tools.py",
+    "bytes": 10042,
+    "sha256": "f857f9a87f69ba3e159cf24d1fde1003a692d7540db4bb6a1554441f8d879817",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/office-academic-skill/references/thesis-defense-pptx/scripts/scan_pptx_text.py",
+    "bytes": 2454,
+    "sha256": "aaaa96a14709a8ddd7421b1b56da693d39d2ea3f362e4f16dbff03d57656b331",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/office-academic-skill/WORKFLOW.md",
-    "bytes": 601,
-    "sha256": "071557e483f4a188d5f5c05947bd9fccef7425faa54a22a4382ab89204cf20e8",
+    "bytes": 6908,
+    "sha256": "45156a6fc0c2acbef2d3c1c6a2f4ea43d78e35b0f05922e551d9f8c4c425f2d8",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/abbreviate.md",
+    "bytes": 2244,
+    "sha256": "08c571a0bc280433e89e26626045fc9152bb51562fdfed1421309d09985338f5",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/anti-aigc.md",
+    "bytes": 5776,
+    "sha256": "ae205d041864af5eaa30312ce5163a355a87645ba5de7774419d128cea611ee0",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/check-issues-and-format.md",
+    "bytes": 5393,
+    "sha256": "b379f5f11ef2e7954eda8e74535f25e84e5598bb927f94137d25262301dcb4df",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/en-to-zh.md",
+    "bytes": 2185,
+    "sha256": "73a580b9f32d26028027394669d7f749f03f9f1a43f2e5caee9571af52061302",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/expand.md",
+    "bytes": 2428,
+    "sha256": "f5f5c86c086571c0dc590f5a3e5583d7c5ac59dbf3ce9e93af02899cf8bd514e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/extract-structured.md",
+    "bytes": 5720,
+    "sha256": "dcfdbbeda594ccd6570a320735f69565138df6c9fb6c17ed374faccbe9790be3",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/merge.md",
+    "bytes": 2525,
+    "sha256": "4674392e36d5e749ccca127396f351d18a0d34ce989fb114996a04538266da9e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/outline-review-liberal.md",
+    "bytes": 2198,
+    "sha256": "cd6d72211b77939dee6d59182b58808576ea7a0d9b6c4e468a6d4f3e677b0a2f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/outline-review-science.md",
+    "bytes": 1773,
+    "sha256": "d9aafcbd34ba63543282eb2b7d7efbe42bcd1bd8aa377564a61f345a18abf395",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/polish-experiment.md",
+    "bytes": 1760,
+    "sha256": "8469735ac75f9c5e345f9b4fff3e5ceed54af1b87d51e8163c23f0ce6092c32f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/polish-liberal.md",
+    "bytes": 2276,
+    "sha256": "97a8d08cf219aa6efd10663c7d7b2311a70158d932fc57818e1d17c024e63ecc",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/polish-science-experiment.md",
+    "bytes": 1772,
+    "sha256": "d1b0e50aa744767fd7d8cd7cb33162bec6261026c58a5540027134301f2197be",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/polish.md",
+    "bytes": 2718,
+    "sha256": "7058c9fc3be9eae83117592f86231a094db9d8cc14c7f54341f3d33454c247fe",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/references.md",
+    "bytes": 2704,
+    "sha256": "2b32d6bb166fa88da455c9b46e7a138e13d85dc61ded52e48363b05c4251eec9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-abstract.md",
+    "bytes": 3603,
+    "sha256": "5b1447f16faa630beeb25cf190bc37605628b1d53bb0d8ccf9ee39e433fb8322",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-experiment.md",
+    "bytes": 2913,
+    "sha256": "5b22db306f10b0b527769246d7686f3fc15b20a7e6350466db2c7f16736abc66",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-general.md",
+    "bytes": 2485,
+    "sha256": "0fd9d37527d3cf52f4c04889a9ddfac96eda3acc1e55f73eb5aa7e558584b4a3",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-introduction.md",
+    "bytes": 3318,
+    "sha256": "3d83ede6239d3ab492028d750c9feb9d0e6a53bcec031b24cd3c4667f89d5ec7",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-liberal-abstract.md",
+    "bytes": 3155,
+    "sha256": "e14d9cbcac6aed1b07525a4293abce062d7b4d5be9630a9f2b39409b6f5ff757",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-liberal-case-analysis.md",
+    "bytes": 3001,
+    "sha256": "b8641cb6b50dde43c47cfb897a527fea0ef2979ef8f3c56d8e8c6e166c9a33e6",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-liberal-introduction.md",
+    "bytes": 3065,
+    "sha256": "b25c15b6f2544333bfe87d71f47383732e23182d9bdf7c3d952dfbceaed46677",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-liberal-literature-review.md",
+    "bytes": 3054,
+    "sha256": "77dbf62bc8a85092e1f1172872ebc2869da8b700b7aa017bb227d25066c2a2ae",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-liberal-policy.md",
+    "bytes": 3029,
+    "sha256": "b8b1300757bd1087533fc5d173027d371bf85b2bc80e76eca134b6869236ff53",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-science-abstract.md",
+    "bytes": 3611,
+    "sha256": "0514ca6ff4a753ad78a2cec8d3350b33e574a322f5bca860898b05e316e4412b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-science-experiment.md",
+    "bytes": 2921,
+    "sha256": "de0b53df3d92a3cf85f6d28f2741ff1a3bfc389f220188657edd1f3403ac720c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/structure-imitate-science-introduction.md",
+    "bytes": 3326,
+    "sha256": "0b2a77ae7e04f81be22e1f282000935c1fce61d09cb6551aead2d7c4f5619937",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/paper-write/reference/zh-to-en.md",
+    "bytes": 2496,
+    "sha256": "a7932228adaa889f94559062ed72f8bcc36779d96fd8353f48e07c2763a5c626",
     "normalize_lf": true
   },
   {
     "path": "modules/paper-write/WORKFLOW.md",
-    "bytes": 622,
-    "sha256": "b85527122a60bb3a9072541d2193d0c5ead9868d3578deeb813e4dd6ac210881",
+    "bytes": 5116,
+    "sha256": "652352acda9fa9774f430ef0ed6732b3cc3e35da7ad5a4777c239b9ddf6a999e",
     "normalize_lf": true
   },
   {
@@ -5019,6 +5997,18 @@
     "normalize_lf": true
   },
   {
+    "path": "references/applied-workflows.md",
+    "bytes": 2119,
+    "sha256": "7d0f1d613487c7d0da29e3aef9289e2f5ac130c86ecbbabea77141109f940b19",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/foundation-and-migration.md",
+    "bytes": 2980,
+    "sha256": "a318b193e950eec118b78225f4bd9a383e8a04fa24637d92c071065bdca8d1df",
+    "normalize_lf": true
+  },
+  {
     "path": "references/host-compatibility.md",
     "bytes": 1944,
     "sha256": "9a6c0c8c9db56e13bce0c7d096c0c7bb256c395693d9a0754c91ca9659cde99d",
@@ -5056,8 +6046,20 @@
   },
   {
     "path": "SKILL.md",
-    "bytes": 2909,
-    "sha256": "7ae2102714ca1d87c92a28d61a709a608ccd258c14f530e48ccc0dda5d4f02f8",
+    "bytes": 3354,
+    "sha256": "e2293500864d1f24b980354188eda1ee787cfba708dbda9334db6e1a361274fc",
+    "normalize_lf": true
+  },
+  {
+    "path": "SOURCE-LICENSES.json",
+    "bytes": 8976,
+    "sha256": "b581a3290d79f83337e080cadf2a8c48772dbb11e69fa6a1d64b8f31514485c0",
+    "normalize_lf": true
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "bytes": 2405,
+    "sha256": "377f53e20fa9d0717e64f818d06b695aea7b0dd0203794858939ea992f168830",
     "normalize_lf": true
   }
 ]

@@ -30,21 +30,441 @@
     "normalize_lf": true
   },
   {
+    "path": "CAPABILITIES.md",
+    "bytes": 10998,
+    "sha256": "f33167b1f9733c08fb1ec3db687043418b2131ef9211ba4db38cc938c41af922",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/agents/openai.yaml",
+    "bytes": 216,
+    "sha256": "48256d886b5455dcbf6bfd5b5d7cd55679032ee90ef518055c098620db8e7c2e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/assets/templates/gaussian-g16-slurm.sh",
+    "bytes": 510,
+    "sha256": "ca20796259ed939a77303f08f255992689a12da2358f2b24681e63554cb5ed1e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/assets/templates/opt_freq_water.gjf",
+    "bytes": 217,
+    "sha256": "00cfcb38f8a1a67e8afdb7f3a864359a6c015775056a405d6bc612a9486cc1a6",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/assets/templates/sp_water.gjf",
+    "bytes": 194,
+    "sha256": "ae1631aded152be32a3139f9ab0f2b9a12d4a5e8ac4cbaf5b20c7e44083a727b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/checkpoint-restart-and-artifacts.md",
+    "bytes": 1857,
+    "sha256": "f3da40979beb60acaa662759466c1bb36b99e902a53b34e187a4a45a3904d9d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/cluster-execution-playbook.md",
+    "bytes": 2540,
+    "sha256": "3c30836d4f350aa809b6b95f4922cc051231670bf20b1c0312f50fed289cb6d6",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/error-pattern-dictionary.md",
+    "bytes": 1483,
+    "sha256": "73d847c9a1f4171b15a5830640e2af4de2721495012c46e5ef8c04546db8ea67",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/error-recovery.md",
+    "bytes": 1504,
+    "sha256": "06bc79f5e3fe676afcf346ebdb9f60e3212c19a7b2f70cdf9e9f8a9f30480cbf",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/geometry-charge-spin.md",
+    "bytes": 1730,
+    "sha256": "81fbe6dbee9a28df5560170a5cc1ab3ed46f1dde8e2f59301332e2cdc356a8a9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/input-and-link0-matrix.md",
+    "bytes": 2327,
+    "sha256": "9e8fae7e59ff1b13bacb76145f514bdbf08898263f80931fe56aa727395ca8d5",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/method-basis-and-jobtype.md",
+    "bytes": 2019,
+    "sha256": "8a88473bb0970300874cb8ef6c3aa981ef676b0d4e0b292bd52ea69ad781aaf3",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/scf-opt-freq-and-solvation.md",
+    "bytes": 1972,
+    "sha256": "c9fc3e430c844395ad9cd2e77862a4d72a56b052f623e03a14a1cd1fb5cee6ad",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/references/workflow-manual.md",
+    "bytes": 1879,
+    "sha256": "55b2ea533b4420e907b45a056c33c0adac73fd2cfaace43d33e1dbc3d9acfe06",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/hpc-gaussian/WORKFLOW.md",
-    "bytes": 660,
-    "sha256": "cd53682caaf0be045e46e3950c5c3188fbfe56232d1b9ef0140baf44050f17b1",
+    "bytes": 2541,
+    "sha256": "9dafc4431cb57b0f24f07777661fc96d4d55625e2a06fd89fbf5dbe0d061e2e3",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/agents/openai.yaml",
+    "bytes": 197,
+    "sha256": "80a21da65b0a7db12e15d77dbba2189184004e0ed89101370bc60224b13c8bae",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/assets/templates/em.mdp",
+    "bytes": 208,
+    "sha256": "1450971efcd961911c5badd70dadc1d6851cf221441e395f2b987b2dc51f44de",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/assets/templates/gromacs-mdrun-slurm.sh",
+    "bytes": 403,
+    "sha256": "57cde3f617d61b5c9fd3eeb6360119db1e58e68847440530af8e8f9e09eb0a12",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/assets/templates/md_prod.mdp",
+    "bytes": 670,
+    "sha256": "6df3d215be219ad724df5a976dc62274150b95386bd66c0bfe0250d685b4f290",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/assets/templates/npt.mdp",
+    "bytes": 546,
+    "sha256": "f8add16c4c7085fff6b9c9f1a188676b044d9d81df0c3ee9563a376f2574732b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/assets/templates/nvt.mdp",
+    "bytes": 438,
+    "sha256": "b98ad982b212894044fcb00d7e55d2714a45844a4412282ef5752dd7436b6b09",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/references/cluster-execution-playbook.md",
+    "bytes": 3037,
+    "sha256": "e39b339e5af4086a1bd755743dfcbb35fe395310c50512a668b8f0c6241b9311",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/references/ensembles-and-analysis.md",
+    "bytes": 985,
+    "sha256": "201de096f08ecf3c8e5dd11998dcab12fa6233c7fc7f7919e895b4104f543a9f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/references/error-recovery.md",
+    "bytes": 1161,
+    "sha256": "435567dc1f88ac11b9ab2ec43f48c6c6283a5b2e69d7ea09433e704d813477e1",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/references/file-and-parameter-matrix.md",
+    "bytes": 1344,
+    "sha256": "d4a67719eedf5bc77980a31401ee9bb7ae7161d135d328ac115a850320f931bc",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/references/mdp-coupling-and-constraints-matrix.md",
+    "bytes": 1513,
+    "sha256": "79706bb557cb36f37b18babc3c55ed8c4fd841912afcaa488674c39d10fc0842",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/references/restarts-and-output-control.md",
+    "bytes": 1355,
+    "sha256": "1b30d754e77382ecf21e2eefd93e794a93d5468b3440b176db2262f58a2f219e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/references/topology-and-system-building.md",
+    "bytes": 1996,
+    "sha256": "0d2d7ee018a325f4b1a6c38bb7091843472d33058bd52ab789110332a27e5ae4",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gromacs/references/workflow-manual.md",
+    "bytes": 1303,
+    "sha256": "91aacc3e7b5c60aeb910733bb2fb29f90b6189ff66cff1a3a23625cede526256",
     "normalize_lf": true
   },
   {
     "path": "modules/hpc-gromacs/WORKFLOW.md",
-    "bytes": 619,
-    "sha256": "51a9196f651306e713a1b07f1177ad929d4284623e3b13b80e1ba7e93eb28a0d",
+    "bytes": 2479,
+    "sha256": "518d738b180e0718b6196101d3fca088f8598dfd28b139b53d87bbb6142971b7",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/agents/openai.yaml",
+    "bytes": 232,
+    "sha256": "d200de28f2f1efdbdc8c2c79a1ab3f567941ff636c94215ca64ecafd0b670d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/jupyter-lab-compute.sh",
+    "bytes": 282,
+    "sha256": "4f0ace404c681fe455e75e6a32c2d49e3accf12e6cc9ea39c6c822e2d01e8ae6",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/lsf-basic.sh",
+    "bytes": 186,
+    "sha256": "f769d107dd8f24771377ae2c900722a0b5ab2be70a8c49eebc3265bf54b7b4f6",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/pbs-basic.sh",
+    "bytes": 233,
+    "sha256": "710358d941e279f9e380d934d96d154eeebde113f64a4da1c055acded8611d69",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/rsync-stage-in.sh",
+    "bytes": 160,
+    "sha256": "f03e02dbc19019fb9cf70ca38a8e3d71822974c004f3aad4176b5e2b33aee469",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/slurm-apptainer.sh",
+    "bytes": 614,
+    "sha256": "018bfe7aece13b67047c63a24577bc6504bb86e5ce47a1e5a13ba2f275832c47",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/slurm-array.sh",
+    "bytes": 454,
+    "sha256": "211a2761d6ad838d84202ec6faa3516c8b83967c55d08777d13f132735c3de2e",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/slurm-basic.sh",
+    "bytes": 265,
+    "sha256": "3cd7ee84e738349d701ec6c1800095ed48490b74273a64c797bc7073037f93c2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/slurm-packed-single-node.sh",
+    "bytes": 717,
+    "sha256": "49541bbeccab5d9127a97ebf050cbea899f1df895e97fa724ae9a90e7bed2730",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/slurm-perf-report.sh",
+    "bytes": 412,
+    "sha256": "a71d26133c7479c7abea510fd4cc107219410bc37dfdeeebe2c1e3f0f366ca69",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/assets/templates/ssh-config-compute-proxy.example",
+    "bytes": 147,
+    "sha256": "0fa324a189e8ef26751f6e00f3b6817602fe92113006b4de4168bcf6b78c32b0",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/cluster-operations-manual.md",
+    "bytes": 7739,
+    "sha256": "8573677125f710699f784a4ddc815f57ca93be60e9c19abe7e734d0816683569",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/container-workflows.md",
+    "bytes": 4718,
+    "sha256": "eee77b4268dc21db38160a69c82a26eb489249d566f9eed2dacadd2647c70bb3",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/data-transfer-and-staging.md",
+    "bytes": 3876,
+    "sha256": "2fb8fe786bfd4b2fca98b049ca0cba59d24bfedad1f9747d2aec944881a20cad",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/ecosystem-roadmap.md",
+    "bytes": 8348,
+    "sha256": "e040f2d9727d279e5570a5e3e1c5a26676749b6f4d5a5c4f0a0c88b2ae2c81d9",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/environment-and-storage-hygiene.md",
+    "bytes": 5897,
+    "sha256": "47130a662e4dcd529ee3fb9bce9ebcb860f5b059939761f90674794dff98f71b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/error-pattern-dictionary.md",
+    "bytes": 4736,
+    "sha256": "86a5fa7de4977dc97b69c1ca67e5a49c3ce25919f756db702b28320efa6ab769",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/interactive-debugging-and-profiling.md",
+    "bytes": 4148,
+    "sha256": "6aa5d628013bf0011c6127a56d3295d7093e5b895590524c789cf3704dcf873b",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/legacy-template.md",
+    "bytes": 2736,
+    "sha256": "a5b42aadb5e6123198239b08be423db9c57e20bc767e6f9dcf44a7a04821cba3",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/lifecycle-manual.md",
+    "bytes": 1143,
+    "sha256": "b991c61cc5f2dafc8532d7723675f161736d4345b4a3f92c07fd244aaac7d98f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/public-protocol.md",
+    "bytes": 3588,
+    "sha256": "0bc1b0f9e8a110d1af0325540f343569f824a6e6b125ec8a862678f38fe16022",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/remote-development-and-notebooks.md",
+    "bytes": 3169,
+    "sha256": "5fb1a38e8083c617d161e6945eba3e686c02d78f61c258a99184e5d7a466e8ae",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/scheduler-and-parallelism.md",
+    "bytes": 5552,
+    "sha256": "d00eae0239f629aa9b83d3499aa4197508b3ec2320b9fb971d02080c5f931ab3",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/slurm-launch-patterns.md",
+    "bytes": 6264,
+    "sha256": "4517ba8b233dad47e1b42a2db503fc591847156e814eb27169f39bb18248c122",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/software-build-and-reproducibility.md",
+    "bytes": 3190,
+    "sha256": "70796bcacb1a98c1bc8f46fc57b4c37618a7993722d926c68b2c137b93ddf62d",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/references/tools-and-scripts.md",
+    "bytes": 1084,
+    "sha256": "7f50c0ed843434981add4d090477276639cb7488fdd2365396decb1791e169da",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/scripts/hpc_job_monitor.py",
+    "bytes": 4395,
+    "sha256": "6daac985778bdbd112a051118cb38560d060a02e0ccad7db078bc8fbc7a8cb21",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/scripts/hpc_job_submitter.py",
+    "bytes": 7437,
+    "sha256": "713629b27fc9cedc4daa822d4ed4d8e70f7a4397efa0b4d68bc687ce28987f9f",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/scripts/hpc_log_tracker.py",
+    "bytes": 4575,
+    "sha256": "118eb8589adcaaa8e85a0dae3d9a1d4f09d2aae012e9f3ea9a39ce6c173a93db",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-orchestration/scripts/hpc_slurm_deploy.py",
+    "bytes": 3645,
+    "sha256": "c772fc7dc7f40c77233cbb3bdf348068f13e9a91059ee572b19a19fe4e9e168b",
     "normalize_lf": true
   },
   {
     "path": "modules/hpc-orchestration/WORKFLOW.md",
-    "bytes": 628,
-    "sha256": "e1d9dc8b018fa1e84d98f4ad42f32b6cb63ac1dbe1db31809674e303608834b1",
+    "bytes": 3259,
+    "sha256": "96fdce9965ba1d5010fbcbf4c5371bea3a354731622d9cba02990b197a8ebcaf",
     "normalize_lf": true
   },
   {
@@ -66,15 +486,27 @@
     "normalize_lf": true
   },
   {
+    "path": "modules/rdkit-conf/scripts/rdkit_conf_helper.py",
+    "bytes": 25265,
+    "sha256": "7ce0b1c63896b0f10ff79572f3c17b8ce96bb01dd68565fc72c3d919b8654357",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/rdkit-conf/WORKFLOW.md",
-    "bytes": 566,
-    "sha256": "25c45f33e6a36f59fe4ca359d69cfffd76d8ef64b76f3b78db2d46f604347c34",
+    "bytes": 9882,
+    "sha256": "3874045117de9dc000fa755f651a713c5ba037df4ecf20b754e631a53c814c31",
     "normalize_lf": true
   },
   {
     "path": "references/absorbed-modules.md",
     "bytes": 1079,
     "sha256": "823f5995a24165d9daf73dd6e2cc61965787a4fb4b5c8deecbe28fd5a6425d8f",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/applied-workflows.md",
+    "bytes": 2177,
+    "sha256": "3b2b7298f997e6338cb76b3933fb415f83b966c345eb4f1fbd65811bd5923c2c",
     "normalize_lf": true
   },
   {
@@ -93,6 +525,12 @@
     "path": "references/experience-maintenance.md",
     "bytes": 3119,
     "sha256": "baee362dfd2af9066b16f6d307c80ebc25c200f21977ae4cc0dbd8c609054089",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/foundation-and-migration.md",
+    "bytes": 2980,
+    "sha256": "a318b193e950eec118b78225f4bd9a383e8a04fa24637d92c071065bdca8d1df",
     "normalize_lf": true
   },
   {
@@ -175,8 +613,20 @@
   },
   {
     "path": "SKILL.md",
-    "bytes": 6736,
-    "sha256": "dbbd7296f9fc63d946a6eba3ecdb49884a77de597eba565dd37bfd3fba2b490f",
+    "bytes": 7181,
+    "sha256": "3be8d3d8a262ea0e4071c723ab700080d15c0572d7b7cca187c54bf00528623d",
+    "normalize_lf": true
+  },
+  {
+    "path": "SOURCE-LICENSES.json",
+    "bytes": 1921,
+    "sha256": "497973b3a32aad47a89ac19e3cc84b2787baafdb669b56208f5229a4a1ea06d9",
+    "normalize_lf": true
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "bytes": 767,
+    "sha256": "9add0cd663e02b00465651891b6a314fe4cc850c8977cfdce099a90262bc1ba4",
     "normalize_lf": true
   }
 ]

@@ -27,3 +27,5 @@ jobs:
         run: python -m unittest discover -s skills/scxrd-refinement/scripts -p "test_*.py"
       - name: Spectrum numerical examples
         run: python skills/huangjt-spectral-structure-analysis/scripts/evidence_cli.py selftest
+      - name: Standalone skill and structure round-trip checks
+        run: python -m unittest discover -s tests -p "test_library_portability.py"

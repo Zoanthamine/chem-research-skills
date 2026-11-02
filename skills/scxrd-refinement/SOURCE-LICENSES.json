@@ -1,0 +1,9 @@
+[
+  {
+    "module": "solve-single-crystal",
+    "owner": "scxrd-refinement",
+    "documentation_license": "independent original guidance",
+    "upstream_metadata_software_license": null,
+    "public_variant": "independent guidance"
+  }
+]

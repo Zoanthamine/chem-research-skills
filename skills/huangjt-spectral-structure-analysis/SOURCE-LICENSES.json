@@ -1,0 +1,30 @@
+[
+  {
+    "module": "spectrum-analyzer",
+    "owner": "huangjt-spectral-structure-analysis",
+    "documentation_license": "see preserved local LICENSE",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nmrglue",
+    "owner": "huangjt-spectral-structure-analysis",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "matchms",
+    "owner": "huangjt-spectral-structure-analysis",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "Apache-2.0",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pyopenms",
+    "owner": "huangjt-spectral-structure-analysis",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "3 clause BSD license",
+    "public_variant": "preserved module"
+  }
+]

@@ -1,290 +1,386 @@
 [
   {
-    "path": "LICENSE",
-    "bytes": 1068,
-    "normalize_lf": true,
-    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d"
-  },
-  {
-    "path": "SKILL.md",
-    "bytes": 8877,
-    "normalize_lf": true,
-    "sha256": "81bb268b958e238768e2f7dab9972604d2354e49184da09414d4a5f8a0e25f1c"
-  },
-  {
     "path": "agents/openai.yaml",
     "bytes": 353,
-    "normalize_lf": true,
-    "sha256": "b244774d4d0e066070e070295468b4917ae644158803b820eeab27b7d7df4698"
+    "sha256": "b244774d4d0e066070e070295468b4917ae644158803b820eeab27b7d7df4698",
+    "normalize_lf": true
+  },
+  {
+    "path": "CAPABILITIES.md",
+    "bytes": 5414,
+    "sha256": "e17bcab0ae5a076c2fe3112bf3912ccd2818e6d00f7967863134e5fffc1bf755",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
   },
   {
     "path": "modules/solve-single-crystal/WORKFLOW.md",
-    "bytes": 673,
-    "normalize_lf": true,
-    "sha256": "7d4ebd018be85cc3d47e3ec1403531cdc7fcff80ccea33c2fe3f12adf17b84e0"
+    "bytes": 2732,
+    "sha256": "84fa8940c677833c3fd78826f5c6ca3dffd0939608052a907152944a9006df45",
+    "normalize_lf": true
   },
   {
     "path": "references/absorbed-modules.md",
     "bytes": 608,
-    "normalize_lf": true,
-    "sha256": "0777eee3b399b7d50c01f79cffb7e2099fb734fb4b8af514aa2d752391399689"
+    "sha256": "0777eee3b399b7d50c01f79cffb7e2099fb734fb4b8af514aa2d752391399689",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/applied-workflows.md",
+    "bytes": 2015,
+    "sha256": "7236245065e1378029ab5a47ff4ba3684734e4cb21ba8b7cc378bf758508c30c",
+    "normalize_lf": true
   },
   {
     "path": "references/checkcif-case-triage.md",
     "bytes": 4038,
-    "normalize_lf": true,
-    "sha256": "64437893841dfc084a48491ff7e30ea59504ff714cde2cb01b4e54e8f34e2823"
+    "sha256": "64437893841dfc084a48491ff7e30ea59504ff714cde2cb01b4e54e8f34e2823",
+    "normalize_lf": true
   },
   {
     "path": "references/cif-metadata.md",
     "bytes": 3798,
-    "normalize_lf": true,
-    "sha256": "733ae61bde8755e7cc16047abb4890e604fb3f4019fc15b61b7a733aef6d4ca1"
+    "sha256": "733ae61bde8755e7cc16047abb4890e604fb3f4019fc15b61b7a733aef6d4ca1",
+    "normalize_lf": true
   },
   {
     "path": "references/dials-decisions.md",
     "bytes": 9168,
-    "normalize_lf": true,
-    "sha256": "ae0b95b8209f93a7e23ac5274f276cae61b0dfab57140f8853ef7bfe73e50e7c"
+    "sha256": "ae0b95b8209f93a7e23ac5274f276cae61b0dfab57140f8853ef7bfe73e50e7c",
+    "normalize_lf": true
   },
   {
     "path": "references/dials-to-olex2.md",
     "bytes": 13747,
-    "normalize_lf": true,
-    "sha256": "d04a7e728fa3201c9b05c105abd18690ee15768f0274f9ce0d0a23fa2ad3a782"
+    "sha256": "d04a7e728fa3201c9b05c105abd18690ee15768f0274f9ce0d0a23fa2ad3a782",
+    "normalize_lf": true
   },
   {
     "path": "references/dials-tools.md",
     "bytes": 5830,
-    "normalize_lf": true,
-    "sha256": "fa0226389d4dd0d9684b48f1b201beede2a6677e859bb7fadc6455a93396f305"
+    "sha256": "fa0226389d4dd0d9684b48f1b201beede2a6677e859bb7fadc6455a93396f305",
+    "normalize_lf": true
   },
   {
     "path": "references/disorder-and-occupancy.md",
     "bytes": 6283,
-    "normalize_lf": true,
-    "sha256": "adf260f72c67f567a6bf38dd76b9f8161e67a7c95fa55ca343ed5870b48fc8b0"
+    "sha256": "adf260f72c67f567a6bf38dd76b9f8161e67a7c95fa55ca343ed5870b48fc8b0",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/foundation-and-migration.md",
+    "bytes": 2980,
+    "sha256": "a318b193e950eec118b78225f4bd9a383e8a04fa24637d92c071065bdca8d1df",
+    "normalize_lf": true
   },
   {
     "path": "references/host-compatibility.md",
     "bytes": 1944,
-    "normalize_lf": true,
-    "sha256": "9a6c0c8c9db56e13bce0c7d096c0c7bb256c395693d9a0754c91ca9659cde99d"
+    "sha256": "9a6c0c8c9db56e13bce0c7d096c0c7bb256c395693d9a0754c91ca9659cde99d",
+    "normalize_lf": true
   },
   {
     "path": "references/hydrogen-twin-solvent-cases.md",
     "bytes": 5316,
-    "normalize_lf": true,
-    "sha256": "626dca1b6965e8269624383100b333488bf262de0d64e97aafd74e050f5a71f4"
+    "sha256": "626dca1b6965e8269624383100b333488bf262de0d64e97aafd74e050f5a71f4",
+    "normalize_lf": true
   },
   {
     "path": "references/integrated-methods.md",
     "bytes": 1154,
-    "normalize_lf": true,
-    "sha256": "0fe83e588e6ae3f22f00f73a4bd4711cfa961487921579a6312844e69343e973"
+    "sha256": "0fe83e588e6ae3f22f00f73a4bd4711cfa961487921579a6312844e69343e973",
+    "normalize_lf": true
   },
   {
     "path": "references/integration-provenance.md",
     "bytes": 1504,
-    "normalize_lf": true,
-    "sha256": "6e19763a08758da71869085701816ae155f30bfe9522395b521c5d8c4dacdf7c"
+    "sha256": "6e19763a08758da71869085701816ae155f30bfe9522395b521c5d8c4dacdf7c",
+    "normalize_lf": true
   },
   {
     "path": "references/local-runtime.md",
     "bytes": 3057,
-    "normalize_lf": true,
-    "sha256": "4509bd5ced20b66f57aa3da1a668b051906567a3839c2c1f9b20ba734925981c"
+    "sha256": "4509bd5ced20b66f57aa3da1a668b051906567a3839c2c1f9b20ba734925981c",
+    "normalize_lf": true
   },
   {
     "path": "references/package-audit.md",
     "bytes": 2270,
-    "normalize_lf": true,
-    "sha256": "3f58e92441f9f6e403ea4c3ec9010d73b4391c94b66f5e824f8229006b38c109"
+    "sha256": "3f58e92441f9f6e403ea4c3ec9010d73b4391c94b66f5e824f8229006b38c109",
+    "normalize_lf": true
   },
   {
     "path": "references/pitfalls.md",
     "bytes": 2504,
-    "normalize_lf": true,
-    "sha256": "58b556fe5fab2d8b245919b9d0c80fec597419e9a4aae46dc1367832dbca6a13"
+    "sha256": "58b556fe5fab2d8b245919b9d0c80fec597419e9a4aae46dc1367832dbca6a13",
+    "normalize_lf": true
   },
   {
     "path": "references/practice-lessons.md",
     "bytes": 2904,
-    "normalize_lf": true,
-    "sha256": "ee1511cd777fb13f67bf02e68f9041e6b6b8d9533b58350ba3d9e3a28a406004"
+    "sha256": "ee1511cd777fb13f67bf02e68f9041e6b6b8d9533b58350ba3d9e3a28a406004",
+    "normalize_lf": true
   },
   {
     "path": "references/refinement-decisions.md",
     "bytes": 3973,
-    "normalize_lf": true,
-    "sha256": "23809ae5e362e80b78794be101d261af082b1d0302fadb2cad0dcefe31b77eac"
+    "sha256": "23809ae5e362e80b78794be101d261af082b1d0302fadb2cad0dcefe31b77eac",
+    "normalize_lf": true
   },
   {
     "path": "references/runtime.md",
     "bytes": 384,
-    "normalize_lf": true,
-    "sha256": "b11cf058ec8bdb65c44be8da6702d8f58f95103b206eec00603eb75184fec248"
+    "sha256": "b11cf058ec8bdb65c44be8da6702d8f58f95103b206eec00603eb75184fec248",
+    "normalize_lf": true
   },
   {
     "path": "references/solution-and-ligand.md",
     "bytes": 3463,
-    "normalize_lf": true,
-    "sha256": "3c01f13de32046e31e40a544b1e59dd1f2aa80218040fa4a8a90de51b96c1154"
+    "sha256": "3c01f13de32046e31e40a544b1e59dd1f2aa80218040fa4a8a90de51b96c1154",
+    "normalize_lf": true
   },
   {
     "path": "references/system-integration.md",
     "bytes": 3262,
-    "normalize_lf": true,
-    "sha256": "ddbf025a51a91c87b3720e2205b2e36975ebc797ca804711ef3fe2c49f8c6efc"
+    "sha256": "ddbf025a51a91c87b3720e2205b2e36975ebc797ca804711ef3fe2c49f8c6efc",
+    "normalize_lf": true
   },
   {
     "path": "references/task-language.md",
     "bytes": 676,
-    "normalize_lf": true,
-    "sha256": "2a291862e5c0c8e880ea2e10ac64e868fa7a36afb696956360bbbc54fd0663ff"
+    "sha256": "2a291862e5c0c8e880ea2e10ac64e868fa7a36afb696956360bbbc54fd0663ff",
+    "normalize_lf": true
   },
   {
     "path": "references/tutorial-sources.md",
     "bytes": 9596,
-    "normalize_lf": true,
-    "sha256": "3a346647ec78b044206e608777d021c23013b3b6b954b6ddc3caf745dd770599"
+    "sha256": "3a346647ec78b044206e608777d021c23013b3b6b954b6ddc3caf745dd770599",
+    "normalize_lf": true
   },
   {
     "path": "references/twin-investigation.md",
     "bytes": 2737,
-    "normalize_lf": true,
-    "sha256": "fe551571fc95f8a2c9f80251f3059801c71b393d2e55fb177f7638959fc90b71"
+    "sha256": "fe551571fc95f8a2c9f80251f3059801c71b393d2e55fb177f7638959fc90b71",
+    "normalize_lf": true
   },
   {
     "path": "references/workflow-recipes.md",
     "bytes": 4081,
-    "normalize_lf": true,
-    "sha256": "8285fb20afb0ae6905dbef277aec240564f27fd3f4e0af5f94b95fbb86622e8d"
+    "sha256": "8285fb20afb0ae6905dbef277aec240564f27fd3f4e0af5f94b95fbb86622e8d",
+    "normalize_lf": true
   },
   {
     "path": "scripts/01_diagnose.py",
     "bytes": 16717,
-    "normalize_lf": true,
-    "sha256": "62fc73a54d4240c6fd12fd45d55ea8f4810484e9ba52a2d5a7d7b3b17e48c052"
+    "sha256": "62fc73a54d4240c6fd12fd45d55ea8f4810484e9ba52a2d5a7d7b3b17e48c052",
+    "normalize_lf": true
   },
   {
     "path": "scripts/03_run.py",
     "bytes": 19620,
-    "normalize_lf": true,
-    "sha256": "bb8c8e8f0d6ca95c26208a3f9342829287fe2bd83e158f8e5e5a28512cade0b4"
+    "sha256": "bb8c8e8f0d6ca95c26208a3f9342829287fe2bd83e158f8e5e5a28512cade0b4",
+    "normalize_lf": true
   },
   {
     "path": "scripts/04_summarize.py",
     "bytes": 8468,
-    "normalize_lf": true,
-    "sha256": "2d971b8ab45d74f62d3a3d2a68bf23eaee391832ac3de14179cc7199fc97c6f3"
+    "sha256": "2d971b8ab45d74f62d3a3d2a68bf23eaee391832ac3de14179cc7199fc97c6f3",
+    "normalize_lf": true
   },
   {
     "path": "scripts/06_hydrogen_plan.py",
     "bytes": 9031,
-    "normalize_lf": true,
-    "sha256": "7e87ab388276baf8d10d4424a8a3bd3cede12d20829186f63c04536c598ffd0d"
+    "sha256": "7e87ab388276baf8d10d4424a8a3bd3cede12d20829186f63c04536c598ffd0d",
+    "normalize_lf": true
   },
   {
     "path": "scripts/07_symmetry_check.py",
     "bytes": 11357,
-    "normalize_lf": true,
-    "sha256": "4badaec4fa6a912fd6e744bdb695c0d77eb3018d2c8dce16a9ddc63f702f3201"
+    "sha256": "4badaec4fa6a912fd6e744bdb695c0d77eb3018d2c8dce16a9ddc63f702f3201",
+    "normalize_lf": true
   },
   {
     "path": "scripts/08_cif.py",
     "bytes": 15845,
-    "normalize_lf": true,
-    "sha256": "f2c3b98856838cf03ed8f78e7d5ebea872ea5fed32d5eecac589343155caf267"
+    "sha256": "f2c3b98856838cf03ed8f78e7d5ebea872ea5fed32d5eecac589343155caf267",
+    "normalize_lf": true
   },
   {
     "path": "scripts/09_checkcif.py",
     "bytes": 11475,
-    "normalize_lf": true,
-    "sha256": "79eb4fe7d36cc404e973a98b8a3c33c953dfc07cba5d22060751cfa746ad7a5f"
+    "sha256": "79eb4fe7d36cc404e973a98b8a3c33c953dfc07cba5d22060751cfa746ad7a5f",
+    "normalize_lf": true
   },
   {
     "path": "scripts/10_delivery.py",
     "bytes": 9607,
-    "normalize_lf": true,
-    "sha256": "cadec58ad07dcfee404bf44dd6cae78cb7e4c192bab62bbd89fed8b0a4ce36f7"
+    "sha256": "cadec58ad07dcfee404bf44dd6cae78cb7e4c192bab62bbd89fed8b0a4ce36f7",
+    "normalize_lf": true
   },
   {
     "path": "scripts/dials_absorption.py",
     "bytes": 4112,
-    "normalize_lf": true,
-    "sha256": "d11ecc3cce45fee5621777442ce59582eec3d66332cd59845d2483c977867716"
+    "sha256": "d11ecc3cce45fee5621777442ce59582eec3d66332cd59845d2483c977867716",
+    "normalize_lf": true
   },
   {
     "path": "scripts/dials_audit.py",
     "bytes": 3605,
-    "normalize_lf": true,
-    "sha256": "24fcaf7d10309885c7f1b2cafd60615c58a84c2d6b4a0ef25169817fd9768d4b"
+    "sha256": "24fcaf7d10309885c7f1b2cafd60615c58a84c2d6b4a0ef25169817fd9768d4b",
+    "normalize_lf": true
   },
   {
     "path": "scripts/dials_common.py",
     "bytes": 2878,
-    "normalize_lf": true,
-    "sha256": "5d4c660b455aacec9edb31b6016aca0b96c1869a4c7b7d3bf200275ac5e97a18"
+    "sha256": "5d4c660b455aacec9edb31b6016aca0b96c1869a4c7b7d3bf200275ac5e97a18",
+    "normalize_lf": true
   },
   {
     "path": "scripts/dials_screen.py",
     "bytes": 8469,
-    "normalize_lf": true,
-    "sha256": "561c51a5d0b693cc2bdb3c90b6fd80ac3a8d496dfb3e2455261173dd604a8012"
+    "sha256": "561c51a5d0b693cc2bdb3c90b6fd80ac3a8d496dfb3e2455261173dd604a8012",
+    "normalize_lf": true
   },
   {
     "path": "scripts/dials_stage.py",
     "bytes": 5513,
-    "normalize_lf": true,
-    "sha256": "39c3dab086997e94ab263164f26e8b24ae9e81b8ce4d7a0b7aeff6be883316d3"
+    "sha256": "39c3dab086997e94ab263164f26e8b24ae9e81b8ce4d7a0b7aeff6be883316d3",
+    "normalize_lf": true
   },
   {
     "path": "scripts/inventory_crystal_input.py",
     "bytes": 2774,
-    "normalize_lf": true,
-    "sha256": "4918c524c2a1e07450cc5d222ba2cd912a96a890f54420b2842f353f1f0bebc6"
+    "sha256": "4918c524c2a1e07450cc5d222ba2cd912a96a890f54420b2842f353f1f0bebc6",
+    "normalize_lf": true
   },
   {
     "path": "scripts/prepare_ligand.py",
     "bytes": 4184,
-    "normalize_lf": true,
-    "sha256": "7c75c6e89d092f834ce7728dde7eaebbaa7e1700e2abcd16614fc1dbea34c6b0"
+    "sha256": "7c75c6e89d092f834ce7728dde7eaebbaa7e1700e2abcd16614fc1dbea34c6b0",
+    "normalize_lf": true
   },
   {
     "path": "scripts/test_dials_helpers.py",
     "bytes": 6198,
-    "normalize_lf": true,
-    "sha256": "d91f9bdfba09f55e76b1abd41f70f0c49d8d97c7839d1f768252e1f01c059a11"
+    "sha256": "d91f9bdfba09f55e76b1abd41f70f0c49d8d97c7839d1f768252e1f01c059a11",
+    "normalize_lf": true
   },
   {
     "path": "scripts/test_regressions.py",
     "bytes": 6360,
-    "normalize_lf": true,
-    "sha256": "e8d80b2cb90ed136aea1d87012d33f8f5fbce77e84e406abcf809c8a6d10375a"
+    "sha256": "e8d80b2cb90ed136aea1d87012d33f8f5fbce77e84e406abcf809c8a6d10375a",
+    "normalize_lf": true
   },
   {
     "path": "scripts/test_solution_helpers.py",
     "bytes": 6721,
-    "normalize_lf": true,
-    "sha256": "bb2571bb691c6c769d3c99c68aa18cc53e1b3ffba34af17ed0471e99f7aa359d"
+    "sha256": "bb2571bb691c6c769d3c99c68aa18cc53e1b3ffba34af17ed0471e99f7aa359d",
+    "normalize_lf": true
   },
   {
     "path": "scripts/utf8_console.py",
     "bytes": 387,
-    "normalize_lf": true,
-    "sha256": "80817e3b252b9c958d8750c2dcc5184ba6e14dbfe0fa18aad8581d4af74dcc0c"
+    "sha256": "80817e3b252b9c958d8750c2dcc5184ba6e14dbfe0fa18aad8581d4af74dcc0c",
+    "normalize_lf": true
   },
   {
     "path": "scripts/validate_crystal_package.py",
     "bytes": 3865,
-    "normalize_lf": true,
-    "sha256": "bf14087590e523758361cfb7d922f2f14d9d6718c045d8a0ac70c9924ffeeb47"
+    "sha256": "bf14087590e523758361cfb7d922f2f14d9d6718c045d8a0ac70c9924ffeeb47",
+    "normalize_lf": true
   },
   {
     "path": "scripts/xtal_core.py",
     "bytes": 21550,
-    "normalize_lf": true,
-    "sha256": "618925f445fe10a0542151797c8fc40b1eddc091d54350327ad3277c48955d3a"
+    "sha256": "618925f445fe10a0542151797c8fc40b1eddc091d54350327ad3277c48955d3a",
+    "normalize_lf": true
+  },
+  {
+    "path": "SKILL.md",
+    "bytes": 9322,
+    "sha256": "e264061b283724c86994299afa49e6c1675a5835a09d6cf46847efee7876ca14",
+    "normalize_lf": true
+  },
+  {
+    "path": "SOURCE-LICENSES.json",
+    "bytes": 237,
+    "sha256": "33ab8247f318319747da1b3a49306c75c7594a0a57ba9c67b345bbd9f022c645",
+    "normalize_lf": true
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "bytes": 584,
+    "sha256": "5eacdbc0f135022659f3652c52ae6b97d12731fd548cad4efbcabfe55518727b",
+    "normalize_lf": true
   }
 ]

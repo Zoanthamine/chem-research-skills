@@ -6,6 +6,84 @@
     "normalize_lf": true
   },
   {
+    "path": "CAPABILITIES.md",
+    "bytes": 276711,
+    "sha256": "3568fe7af4ac6eab473a791f97476f950a9db2aed6a6da85b69e0c2abeb16e8f",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/academic-research-suite/agents/openai.yaml",
     "bytes": 292,
     "sha256": "bd0e23c9b8af61fc2b1315ced9f8841dfa1f3235c27cdbaa583c636a285bae9d",
@@ -8814,6 +8892,12 @@
     "normalize_lf": true
   },
   {
+    "path": "modules/academic-research-suite/EXTERNAL_RESOURCES.md",
+    "bytes": 480,
+    "sha256": "18127705b489ddb8689712c47b5255c98cd21ad97f6de3121ff7e125888b4737",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/academic-research-suite/manifest.json",
     "bytes": 29973,
     "sha256": "33c025bd85d76bd4ba754439604fb6940b0fea4a6f75978419bb0734c7f7e605",
@@ -10858,6 +10942,18 @@
     "normalize_lf": true
   },
   {
+    "path": "references/applied-workflows.md",
+    "bytes": 1587,
+    "sha256": "59c7a6109f2e7fb172465478fe87ffa128d9448538015d35812f988cac75ca4d",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/foundation-and-migration.md",
+    "bytes": 2980,
+    "sha256": "a318b193e950eec118b78225f4bd9a383e8a04fa24637d92c071065bdca8d1df",
+    "normalize_lf": true
+  },
+  {
     "path": "references/host-compatibility.md",
     "bytes": 1944,
     "sha256": "9a6c0c8c9db56e13bce0c7d096c0c7bb256c395693d9a0754c91ca9659cde99d",
@@ -10895,8 +10991,20 @@
   },
   {
     "path": "SKILL.md",
-    "bytes": 3027,
-    "sha256": "256adc4d1c5575b07e92852dd17dfed284f48297079e23eef4535dbc48dbe49b",
+    "bytes": 3472,
+    "sha256": "82d194bff2401ca730027467277e454b67f6cf74036387f0069a9c5c744a02b9",
+    "normalize_lf": true
+  },
+  {
+    "path": "SOURCE-LICENSES.json",
+    "bytes": 4118,
+    "sha256": "81c7e1165f2f3ba6de7e30f0f597fdaaa076a28a5c7a09a9185552c51790c73f",
+    "normalize_lf": true
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "bytes": 1481,
+    "sha256": "5ab7676969138c59fd21f6ca33b59b0e78bb6295ad5f821d7a27f354927289f4",
     "normalize_lf": true
   }
 ]

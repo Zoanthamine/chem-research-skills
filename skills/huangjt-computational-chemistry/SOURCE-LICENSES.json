@@ -1,0 +1,49 @@
+[
+  {
+    "module": "hpc-gaussian",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/SciMate-AI/HPC-Skills",
+    "source_revision": "4ea8069188d931875121cdd418d7a26e60f47152",
+    "license_file": "LICENSES/hpc-upstream-LICENSE.txt"
+  },
+  {
+    "module": "hpc-gromacs",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/SciMate-AI/HPC-Skills",
+    "source_revision": "4ea8069188d931875121cdd418d7a26e60f47152",
+    "license_file": "LICENSES/hpc-upstream-LICENSE.txt"
+  },
+  {
+    "module": "hpc-orchestration",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/SciMate-AI/HPC-Skills",
+    "source_revision": "4ea8069188d931875121cdd418d7a26e60f47152",
+    "license_file": "LICENSES/hpc-upstream-LICENSE.txt"
+  },
+  {
+    "module": "rdkit-conf",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "LGPL-3.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/jinzhezenggroup/computational-chemistry-agent-skills",
+    "source_revision": "8ab83a96292bb4d13ba7e4a2b015015f0332e8cc",
+    "license_file": "LICENSES/conformer-upstream-LICENSE.txt"
+  },
+  {
+    "module": "molecular-dynamics",
+    "owner": "huangjt-computational-chemistry",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  }
+]

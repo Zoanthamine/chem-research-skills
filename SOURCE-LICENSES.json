@@ -9,30 +9,42 @@
   {
     "module": "hpc-gaussian",
     "owner": "huangjt-computational-chemistry",
-    "documentation_license": "independent original guidance",
+    "documentation_license": "MIT",
     "upstream_metadata_software_license": null,
-    "public_variant": "independent guidance"
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/SciMate-AI/HPC-Skills",
+    "source_revision": "4ea8069188d931875121cdd418d7a26e60f47152",
+    "license_file": "LICENSES/hpc-upstream-LICENSE.txt"
   },
   {
     "module": "hpc-gromacs",
     "owner": "huangjt-computational-chemistry",
-    "documentation_license": "independent original guidance",
+    "documentation_license": "MIT",
     "upstream_metadata_software_license": null,
-    "public_variant": "independent guidance"
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/SciMate-AI/HPC-Skills",
+    "source_revision": "4ea8069188d931875121cdd418d7a26e60f47152",
+    "license_file": "LICENSES/hpc-upstream-LICENSE.txt"
   },
   {
     "module": "hpc-orchestration",
     "owner": "huangjt-computational-chemistry",
-    "documentation_license": "independent original guidance",
+    "documentation_license": "MIT",
     "upstream_metadata_software_license": null,
-    "public_variant": "independent guidance"
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/SciMate-AI/HPC-Skills",
+    "source_revision": "4ea8069188d931875121cdd418d7a26e60f47152",
+    "license_file": "LICENSES/hpc-upstream-LICENSE.txt"
   },
   {
     "module": "rdkit-conf",
     "owner": "huangjt-computational-chemistry",
-    "documentation_license": "independent original guidance",
+    "documentation_license": "LGPL-3.0",
     "upstream_metadata_software_license": null,
-    "public_variant": "independent guidance"
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/jinzhezenggroup/computational-chemistry-agent-skills",
+    "source_revision": "8ab83a96292bb4d13ba7e4a2b015015f0332e8cc",
+    "license_file": "LICENSES/conformer-upstream-LICENSE.txt"
   },
   {
     "module": "molecular-dynamics",
@@ -72,9 +84,12 @@
   {
     "module": "organic-chemistry-assistant",
     "owner": "organic-chemistry-reasoning",
-    "documentation_license": "independent original guidance",
+    "documentation_license": "MIT",
     "upstream_metadata_software_license": null,
-    "public_variant": "independent guidance"
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/LaoZhong-Mihari/codex-organic-chem",
+    "source_revision": "703998db2ef5901e9b04d85fe4819d12f9596039",
+    "license_file": "LICENSES/organic-upstream-LICENSE.txt"
   },
   {
     "module": "rdkit",
@@ -296,9 +311,12 @@
   {
     "module": "paper-write",
     "owner": "huangjt-academic-writing",
-    "documentation_license": "independent original guidance",
+    "documentation_license": "Apache-2.0",
     "upstream_metadata_software_license": null,
-    "public_variant": "independent guidance"
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/xstongxue/best-skills",
+    "source_revision": "9aa4e555950da6e43e7d98c5f0c7b70264204850",
+    "license_file": "LICENSES/paper-upstream-LICENSE.txt"
   },
   {
     "module": "nature-proposal-writer",
@@ -387,9 +405,12 @@
   {
     "module": "office-academic-skill",
     "owner": "huangjt-academic-writing",
-    "documentation_license": "independent original guidance",
+    "documentation_license": "MIT",
     "upstream_metadata_software_license": null,
-    "public_variant": "independent guidance"
+    "public_variant": "preserved complete module",
+    "source_repository": "https://github.com/zLanqing/codex-claude-academic-skills",
+    "source_revision": "7ed6377f0efb6a38951b48ef03b19d996e454b1f",
+    "license_file": "LICENSES/office-upstream-LICENSE.txt"
   },
   {
     "module": "humanize-writing",

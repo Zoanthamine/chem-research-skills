@@ -1,0 +1,135 @@
+[
+  {
+    "module": "nature-academic-search",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "paper-lookup",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "research-lookup",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "citation-management",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT License",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "pyzotero",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT License",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-ref-verifier",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-citation",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-downloader",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-reader",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper-card",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper-xray",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-paper-trans",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "literature-review",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT license",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-literature-pipeline",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "academic-research-suite",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "CC-BY-NC-4.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "exa-search",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "parallel-web",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "bgpt-paper-search",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "MIT",
+    "upstream_metadata_software_license": "MIT",
+    "public_variant": "preserved module"
+  },
+  {
+    "module": "nature-shared",
+    "owner": "huangjt-academic-research",
+    "documentation_license": "Apache-2.0",
+    "upstream_metadata_software_license": null,
+    "public_variant": "preserved module"
+  }
+]

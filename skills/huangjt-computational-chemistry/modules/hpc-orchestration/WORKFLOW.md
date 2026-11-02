@@ -1,5 +1,67 @@
-# 计算作业编排
+---
+name: hpc-orchestration
+description: Coordinate end-to-end HPC execution workflows across scheduler submission, job monitoring, log tracking, self-healing, and post-processing handoff. Use when a task spans Slurm, PBS, LSF, MPI sizing, queue operations, cluster-safe execution, or multi-stage HPC workflow orchestration.
+---
 
-以当前核心的cluster-workflow和task-preflight为准。任务需要远端执行时，使用已配置的主机、认证、调度器和资源预算，建立清单、提交回执与日志。未知提交状态先核队列，避免重复任务；失败保持现场和已完成阶段。只停止被当前任务明确识别并授权停止的进程或作业。
+# HPC Orchestration
 
-这是本公开版独立整理的通用方法。未将缺少明确分发声明的第三方原始文件发布；本地原件保持不变。按主技能的融合方法和实际工具完成当前问题，不以未提供的源脚本为执行前提。
+Use this skill as the repository-level execution layer above solver-specific HPC skills.
+
+## Start
+
+1. Read `references/cluster-operations-manual.md` first for any end-to-end cluster workflow.
+2. Read `references/lifecycle-manual.md` when coordinating solver skills with orchestration stages.
+3. Read `references/scheduler-and-parallelism.md` when choosing scheduler directives or MPI sizing.
+4. Read `references/slurm-launch-patterns.md` when the main decision is how to launch work inside a Slurm allocation.
+5. Read `references/environment-and-storage-hygiene.md` when environment modules, scratch policy, or filesystem behavior may decide workflow reliability.
+6. Read `references/data-transfer-and-staging.md` when files must be synchronized, staged, archived, or verified.
+7. Read `references/software-build-and-reproducibility.md` when compilation, package stacks, or rebuildability are in scope.
+8. Read `references/interactive-debugging-and-profiling.md` when the task needs live diagnosis, scaling studies, or profiler evidence.
+9. Read `references/remote-development-and-notebooks.md` when VS Code Remote SSH, Jupyter, or port forwarding is involved.
+10. Read `references/container-workflows.md` when Apptainer or Singularity-style execution is in scope.
+11. Read `references/public-protocol.md` when aligning solver skills with the repository lifecycle contract.
+12. Read `references/error-pattern-dictionary.md` when scheduler, monitoring, or log-tracking failures occur.
+
+## Additional References
+
+Load these on demand:
+
+- `references/tools-and-scripts.md` for shared execution tool roles
+- `references/ecosystem-roadmap.md` for repository-wide coverage goals
+- `references/legacy-template.md` when adapting an older solver skill draft into the current format
+
+## Reusable Templates
+
+Use `assets/templates/` when a concrete scheduler scaffold is needed:
+
+- `slurm-basic.sh`
+- `slurm-array.sh`
+- `slurm-packed-single-node.sh`
+- `slurm-apptainer.sh`
+- `slurm-perf-report.sh`
+- `pbs-basic.sh`
+- `lsf-basic.sh`
+- `rsync-stage-in.sh`
+- `jupyter-lab-compute.sh`
+- `ssh-config-compute-proxy.example`
+
+## Shared Scripts
+
+Use `scripts/` for deterministic orchestration tasks:
+
+- `hpc_job_submitter.py`
+- `hpc_job_monitor.py`
+- `hpc_log_tracker.py`
+- `hpc_slurm_deploy.py`
+
+## Guardrails
+
+- Do not run heavy MPI workloads on login nodes.
+- Do not separate queue submission from runtime monitoring in a production workflow.
+- Do not resubmit unchanged failing jobs when a solver-specific error dictionary exists.
+- Do not choose core counts without a scale-based heuristic.
+
+
+## 融合入口与来源
+
+这是保留完整知识、工具、模板与参考资料的内部模块；主技能决定任务范围和授权，模块不独立注册。上游固定版本：https://github.com/SciMate-AI/HPC-Skills/tree/4ea8069188d931875121cdd418d7a26e60f47152。来源许可及本次变更见仓库 THIRD_PARTY.md。

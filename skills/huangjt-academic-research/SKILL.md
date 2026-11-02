@@ -31,3 +31,7 @@ description: "学术检索与阅读主技能。用于找文献、有没有类似
 ## Codex 与 DSH
 
 两个宿主共用本技能的方法、证据与工具。迁移或工具名称不同先读 [宿主适配](references/host-compatibility.md)，按实际文件、命令、检索及文档能力完成任务，不依赖Codex私有API。
+
+## 完整方法、工具与迁移
+
+需要找回旧模块、选择实际脚本、模板或迁移软件时，读 [完整能力目录](CAPABILITIES.md)；需要把专业方法连成当前任务时，读 [实操与联动](references/applied-workflows.md)。新电脑和结构基础能力先读 [基础与迁移](references/foundation-and-migration.md)。保留原有方法、工具和资料，按需读取相关分支；减少的是重复入口。

@@ -6,6 +6,96 @@
     "normalize_lf": true
   },
   {
+    "path": "assets/module-catalog.json",
+    "bytes": 333822,
+    "sha256": "3a0e88e1b865d45a9fdfc207ad7d8d30e9ff27ee7b1427a064efe5748258a420",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/upstream-evidence.json",
+    "bytes": 3680,
+    "sha256": "af28c3ef8e9d20c744c27aea8c4b2fe12b70f1fe212053862063a222da7ace72",
+    "normalize_lf": true
+  },
+  {
+    "path": "CAPABILITIES.md",
+    "bytes": 22796,
+    "sha256": "ba8dbc77a96a0098214c0d3e18f02b7a3ff64e20658185103005b7dc053eaf22",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1068,
+    "sha256": "ab325236c5b8cbe67c123ef312b3fa659b458dec9e61b290bc7b42bfd95fad5d",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/GPL-3.0.txt",
+    "bytes": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Imbad0202__academic-research-skills-codex-LICENSE",
+    "bytes": 19584,
+    "sha256": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/K-Dense-AI__scientific-agent-skills-LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/office-upstream-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "36567c1c66b9971768a8693f6c6bc230655c3cbd7a8ec3de754e549398af8c00",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/organic-upstream-LICENSE.txt",
+    "bytes": 1103,
+    "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/paper-upstream-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/analytical-method-validation/assets/validation-protocol-template.md",
     "bytes": 4247,
     "sha256": "c157c47eb77e136b40904f6323988ccf662dad6b60811d330323b189c232fc5f",
@@ -402,9 +492,45 @@
     "normalize_lf": true
   },
   {
+    "path": "modules/organic-chemistry-assistant/agents/openai.yaml",
+    "bytes": 1101,
+    "sha256": "4754900ee6a9768d2ad114252d8af33ea36f305ae826a1cd24ba866b52c26521",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/organic-chemistry-assistant/assets/cyclohexanone.mechanism.json",
+    "bytes": 6109,
+    "sha256": "92c1008040ca280bc2d6449d17e558a16af59a77f1e77e897f5f81a26582e0aa",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/organic-chemistry-assistant/assets/sn2.mechanism.json",
+    "bytes": 4772,
+    "sha256": "609ee47e45c2741b54832c727a1ec056dd777912adcfa884fee28c766eed9464",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/organic-chemistry-assistant/assets/sn2_skeletal.mechanism.json",
+    "bytes": 5107,
+    "sha256": "7d01da48290551db29f5b4b79941d5693f78439e0c841420736003c8b249adbd",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/organic-chemistry-assistant/references/mechanism-graphics.md",
+    "bytes": 8001,
+    "sha256": "661408bb1a01b62af7a0753c812484ca787b1b8c3f4d87bcc7a92b371414c3e2",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/organic-chemistry-assistant/references/mechanism-spec.md",
+    "bytes": 8749,
+    "sha256": "b48d0a3866f0bb52cd55cb4a8867b5360e1452165fb66e576c1a01f2accf451a",
+    "normalize_lf": true
+  },
+  {
     "path": "modules/organic-chemistry-assistant/WORKFLOW.md",
-    "bytes": 618,
-    "sha256": "c9f7fa5565da415f54cef4d5968ebf032b2ef828f52c1ef015328cc387eedb04",
+    "bytes": 11955,
+    "sha256": "497b35122d6335b7b1ff8807767b02b0246f8981e83be1804e945d746833e921",
     "normalize_lf": true
   },
   {
@@ -672,6 +798,12 @@
     "normalize_lf": true
   },
   {
+    "path": "references/applied-workflows.md",
+    "bytes": 2209,
+    "sha256": "936339643863bbeed77a638310aaf51d6a4bf7aefbab13a7c99a096e982cbcdc",
+    "normalize_lf": true
+  },
+  {
     "path": "references/crystal.md",
     "bytes": 3487,
     "sha256": "b3e9e73cecde0983ac4079f2d24c94bbafe2d026d8ac99ee18ad397b0c95d2af",
@@ -687,6 +819,12 @@
     "path": "references/formula-ms.md",
     "bytes": 3036,
     "sha256": "e0baa06de8d7cf37c002a5a5eaeb95b188980c3f800737f1c1a27d74cdb4ac0f",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/foundation-and-migration.md",
+    "bytes": 2980,
+    "sha256": "a318b193e950eec118b78225f4bd9a383e8a04fa24637d92c071065bdca8d1df",
     "normalize_lf": true
   },
   {
@@ -750,9 +888,33 @@
     "normalize_lf": true
   },
   {
+    "path": "scripts/structure_cli.py",
+    "bytes": 7527,
+    "sha256": "ff1b8815550a1385503b32664efa4ce56fd28646f510b843fa1a31a518f5715a",
+    "normalize_lf": true
+  },
+  {
+    "path": "scripts/workbench.py",
+    "bytes": 10575,
+    "sha256": "3e28b0c0b5ff0d28630cfb19d6dfff2d1c143f16f390fb12eafcf015507e39af",
+    "normalize_lf": true
+  },
+  {
     "path": "SKILL.md",
-    "bytes": 4589,
-    "sha256": "df0498f6265b46246196800d00ffc741bef522737dce962dd5da2d5f5ee5fd81",
+    "bytes": 5109,
+    "sha256": "bb858d141fb4543d52aebc07d5b144451c2464e463f7ea7c1ecfd15d87a519c3",
+    "normalize_lf": true
+  },
+  {
+    "path": "SOURCE-LICENSES.json",
+    "bytes": 2674,
+    "sha256": "af7d0ca5ae2e64b8a9df6fee082b97592ba3f05c13c946b85d01b7c96aacab64",
+    "normalize_lf": true
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "bytes": 1063,
+    "sha256": "56a16fff7dc9c7b800a09c38301e80555e7338c89f6d9205ab9159f657b674f6",
     "normalize_lf": true
   }
 ]
