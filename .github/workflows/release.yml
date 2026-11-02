@@ -1,0 +1,45 @@
+name: Release package
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check tag matches VERSION
+        run: |
+          version="$(tr -d '[:space:]' < VERSION)"
+          if [ "v${version}" != "${GITHUB_REF_NAME}" ]; then
+            echo "VERSION (${version}) does not match tag (${GITHUB_REF_NAME})" >&2
+            exit 1
+          fi
+      - name: Verify package integrity
+        run: |
+          python install.py --check
+          python tools/manifest.py --check
+      - name: Build source archive and checksums
+        run: |
+          mkdir -p dist
+          git archive --format=zip \
+            --prefix="chem-research-skills-${GITHUB_REF_NAME}/" \
+            -o "dist/chem-research-skills-${GITHUB_REF_NAME}.zip" HEAD
+          ( cd dist && sha256sum *.zip > SHA256SUMS.txt && cat SHA256SUMS.txt )
+      - name: Attach archive and checksums to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1 \
+            || gh release create "${GITHUB_REF_NAME}" --title "${GITHUB_REF_NAME}" --generate-notes
+          gh release upload "${GITHUB_REF_NAME}" dist/* --clobber

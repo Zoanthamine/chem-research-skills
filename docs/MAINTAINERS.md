@@ -51,11 +51,11 @@ python install.py --host dsh --target /tmp/chem-install --no-defaults --smoke   
 
 # 5. 提 PR（说明改了什么、为什么、验证到哪一步）
 
-# 6. 合并后打 tag，手工上传源码 zip + SHA256SUMS（release workflow 待补）
+# 6. 合并后打 tag，Release 工作流自动生成源码 zip + SHA256SUMS 并挂到 Release
 git tag vX.Y.Z && git push origin vX.Y.Z
 ```
 
-`VERSION` 与 tag 保持一致；发布工作流（tag → 源码 zip + 校验和）尚未入库：推送 `.github/workflows/` 需要 token 的 `workflow` scope，获得授权后补上。
+`VERSION` 与 tag 保持一致；`release.yml` 在 tag 推送时构建 `chem-research-skills-<tag>.zip` 和校验和，并挂到 Release。
 
 ## CI 检查项
 

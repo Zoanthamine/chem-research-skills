@@ -6,7 +6,7 @@
 文件自身的一级标题或模块 docstring、以及所在目录的约定用途。
 **这是分类索引，不是逐行代码审查**；标记为“上游框架文件”的千余文件按包使用，未逐个核对实现。
 
-- 分发文件：**2719** 个（约 39.0 MB）
+- 分发文件：**2720** 个（约 39.0 MB）
 - 完整逐文件清单：[inventory.csv](inventory.csv)（Excel 可直接打开）、[inventory.html](inventory.html)（可搜索、可筛选）
 - 大块 vendored 目录在下面的表格里折叠成一行，逐文件行仍在 CSV/HTML 中。
 
@@ -31,7 +31,7 @@
 | 安装器 | 5 | 安装与配置入口 |
 | 索引 | 4 | 结构化索引（catalog） |
 | 配置 | 4 | 配置、依赖清单或环境说明 |
-| 自动检查 | 1 | GitHub Actions 检查/发布 |
+| 自动检查 | 2 | GitHub Actions 检查/发布 |
 
 | 区域 | 文件数 | 说明 |
 |---|---:|---|
@@ -41,7 +41,7 @@
 | 计算化学 | 110 | 本地采样→选构象→DFT 优化/频率→GIAO/J 核磁；xTB、GROMACS、Gaussian。 |
 | 解谱鉴定 | 105 | 真实 NMR/MS 文件读取与证据化解析；Bruker/Varian/NMRPipe、Thermo RAW/mzML/MGF。 |
 | 单晶解析 | 70 | 衍射数据→解结构→精修→验证交付；21 个 Python 入口，支持 DIALS/SHELXT/SHELXL/Olex2。 |
-| 仓库支持 | 58 | 仓库级：安装器、目录索引、文档、测试与发布配置。 |
+| 仓库支持 | 59 | 仓库级：安装器、目录索引、文档、测试与发布配置。 |
 
 ## 先看这几张：入口与可运行工具
 
@@ -1804,12 +1804,13 @@
 | `skills/huangjt-academic-writing/references/system-integration.md` | 方法参考 | 六个主技能的协作约定：四个化学核心分别保持完整，学术检索阅读和学术写作各有一个完整入口。其他同领域能力已经成为主技能内部模块，不再作为同级技能抢任务。模块按需读取，不能把一个简短问题升级成全部流程。 |
 | `skills/huangjt-academic-writing/references/task-language.md` | 方法参考 | 常见任务说法：依据可读取的科研聊天提炼，不包含样品编号、个人路径或作业号。词语不是匹配到就执行的软件命令；结合当前附件、结构和上下文选择方法。 |
 
-## 仓库支持（58 行）
+## 仓库支持（59 行）
 
 | 文件 | 类型 | 用途 |
 |---|---|---|
 | `.gitattributes` | 配置 | 行尾规则：md/py/yml 用 LF，.cmd 用 CRLF，保证跨平台哈希一致。 |
 | `.github/workflows/check.yml` | 自动检查 | CI：校验账本、跑单元测试、单晶辅助测试、谱学自检。 |
+| `.github/workflows/release.yml` | 自动检查 | 发布：打 tag 时生成源码包与 SHA256SUMS 并挂到 Release。 |
 | `.gitignore` | 配置 | 忽略缓存、虚拟环境、本地配置和发布产物。 |
 | `LICENSE` | 许可与来源 | 本库 MIT 许可。 |
 | `LICENSES/GPL-3.0.txt` | 许可与来源 | 许可与来源文件 |

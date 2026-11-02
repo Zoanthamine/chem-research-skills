@@ -7,8 +7,14 @@
   },
   {
     "path": ".github/workflows/check.yml",
-    "bytes": 1099,
-    "sha256": "8ecd98bfeae00357380645ee803654bb8b0ea441c7e687b29eb84a164834bdb0",
+    "bytes": 1447,
+    "sha256": "8824807717bdad03519708c19880bbf13a8886fe7d358d6902af49822261e0b1",
+    "normalize_lf": true
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 1433,
+    "sha256": "88ce3b038cddf9a8f887d56e882662b5b97717deb82ca7819fc2c35015a4b875",
     "normalize_lf": true
   },
   {
@@ -169,14 +175,14 @@
   },
   {
     "path": "docs/INVENTORY.md",
-    "bytes": 334627,
-    "sha256": "fc9e62defb4d286fdf785bb08baa5a69ff020528cf8eff7a9a24b4b41716a845",
+    "bytes": 334751,
+    "sha256": "e4894dd15df0a5ff5f35e4b3ebb8313d49b142265c054feb6a1fa66696a5f68c",
     "normalize_lf": true
   },
   {
     "path": "docs/MAINTAINERS.md",
-    "bytes": 5456,
-    "sha256": "fe141075bc773682d57893dc431cfa2bf44f490c5da04a7dfebea3b97fd5aeb4",
+    "bytes": 5414,
+    "sha256": "43a203184d3c2f8c464b8c3d98ee6f2c9365eeacc137118fcef81c2355ecdad6",
     "normalize_lf": true
   },
   {
@@ -205,8 +211,8 @@
   },
   {
     "path": "docs/RELEASE-v1.3.0.md",
-    "bytes": 2894,
-    "sha256": "dd28eff12a2646fc7bda2a32e04c3c76897617ab6fa047156ddf94833e755dd4",
+    "bytes": 2803,
+    "sha256": "aac5e16dd8c00a82e0d688376f371db269258d929585fcc21b7d43b8f13b72c8",
     "normalize_lf": true
   },
   {
@@ -235,14 +241,14 @@
   },
   {
     "path": "docs/inventory.csv",
-    "bytes": 577013,
-    "sha256": "de8bc09961e6301fde14dd8c1eca685a7ea55fbb2bf7ef3034d4278e6795c52d",
+    "bytes": 577143,
+    "sha256": "8c9d613c09b4c28a255e23b46ebb5998cc925374fd05f328a5a5c8e2086f8d96",
     "normalize_lf": true
   },
   {
     "path": "docs/inventory.html",
-    "bytes": 838728,
-    "sha256": "9ae067c9cb8d43b4bcb240a965aed9060583d56ae7dec7a6dcd889732d4146db",
+    "bytes": 838953,
+    "sha256": "1351a030823e38a32efa3c5fbf8b6bc85db9dfc0a4ceb399a2e0864c6337aebb",
     "normalize_lf": true
   },
   {
@@ -16295,8 +16301,8 @@
   },
   {
     "path": "tools/inventory.py",
-    "bytes": 28181,
-    "sha256": "5318ebd7ba889d2f944e514c0dbf1e7f351cbc44aec19319da253f332bfd625c",
+    "bytes": 28303,
+    "sha256": "b893368542f7c3d9c5d373386b960b410ee24aed5acee7fb1e8434ba5753c2a0",
     "normalize_lf": true
   },
   {

@@ -13,7 +13,7 @@
 - `docs/MAINTAINERS.md`：需求来源、红线、发布流程、CI 项、版本策略。
 - `examples/quickstart_smoke.py`：不装任何专业软件就能跑的离线冒烟。
 - `install.sh`：macOS/Linux 入口（与两个 `.cmd` 对应）。
-- 发布自动化（打 tag → 生成源码 zip + `SHA256SUMS.txt` 并挂到 Release）：脚本已备好，但推送 workflow 文件需要 token 的 `workflow` scope，获得授权后单独提交。
+- `.github/workflows/release.yml`：打 tag 时自动生成源码 zip + `SHA256SUMS.txt` 并挂到 Release。
 
 ## 改进
 

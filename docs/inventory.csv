@@ -1,6 +1,7 @@
 ﻿path,area,kind,is_entry,runs,side_effects,description
 .gitattributes,仓库支持,配置,,,,行尾规则：md/py/yml 用 LF，.cmd 用 CRLF，保证跨平台哈希一致。
 .github/workflows/check.yml,仓库支持,自动检查,,,,CI：校验账本、跑单元测试、单晶辅助测试、谱学自检。
+.github/workflows/release.yml,仓库支持,自动检查,,,,发布：打 tag 时生成源码包与 SHA256SUMS 并挂到 Release。
 .gitignore,仓库支持,配置,,,,忽略缓存、虚拟环境、本地配置和发布产物。
 LICENSE,仓库支持,许可与来源,,,,本库 MIT 许可。
 LICENSES/GPL-3.0.txt,仓库支持,许可与来源,,,,许可与来源文件

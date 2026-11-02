@@ -104,6 +104,7 @@ CURATED: dict[str, tuple[str, str]] = {
     'tools/manifest.py': (KIND_TOOL, '生成/校验 MANIFEST.json（发布完整性账本）。'),
     'examples/quickstart_smoke.py': (KIND_TOOL, '离线冒烟演示：不装任何专业软件也能看到一两个组件真实跑通。'),
     '.github/workflows/check.yml': (KIND_CI, 'CI：校验账本、跑单元测试、单晶辅助测试、谱学自检。'),
+    '.github/workflows/release.yml': (KIND_CI, '发布：打 tag 时生成源码包与 SHA256SUMS 并挂到 Release。'),
 }
 
 # Large vendored trees are one row in the Markdown overview; CSV/HTML keep every
