@@ -1,6 +1,6 @@
 # 本地经验脱敏说明
 
-v1.3.1 把作者本机的一部分实践经验和资料**脱敏后**并入公开包。这份文档说明加了什么、去掉了什么、你怎么贡献自己的经验。
+自 v1.3.1 起，作者本机的一部分实践经验和资料**脱敏后**并入公开包；v1.3.2 继续并入计算化学勘误与运维经验。这份文档说明加了什么、去掉了什么、你怎么贡献自己的经验。
 
 ## 新增了什么
 
@@ -12,6 +12,19 @@ v1.3.1 把作者本机的一部分实践经验和资料**脱敏后**并入公开
 | `skills/huangjt-spectral-structure-analysis/references/case-lessons.md` | Barton 脱氧产物重排鉴定的证据组织与坑位复盘 | 一次真实结构鉴定项目 |
 | `skills/huangjt-spectral-structure-analysis/references/environment-tested.json` | 数值自检的机器环境记录（说明“跑通”的含义） | 作者机器 |
 | `docs/CAPABILITY-MATRIX.md` | 配置到每一步能做什么、缺什么 | 由包内能力盘点得出 |
+
+## v1.3.2 的增量
+
+- `references/operations-lessons.md` 补入 2026-11 的运维失败模式：`bash -s` 遇 BOM/CRLF 的假语法错、调度器接受 GPUs 标志不等于绑定、`GAUSS_EXEDIR` 是冒号列表、`Path.write_text(newline=)` 的 Python 版本要求、PowerShell 5.1 的 UTF-8 往返损坏、非 ASCII 文件名的归档/传输、把 Cloudflare 挑战误判成鉴权错误、按每节点空闲核数判断队列、FC 表对角线陷阱。具体节点数、原子数与样品相关计数已泛化。
+- `references/cluster-workflow.md` 新增“先验证再承诺”四条：探测即验证、受理不等于预留、远端脚本 LF-only/无 BOM/`bash -n`、站点专用信息留在私有说明。
+- `references/nmr-coupling.md` 与 `practice-lessons.md` 修正 Bally–Rablen u+1s 氢基组为 8s1p（此前 5s1p 是截断版本），补发表 flags `H F H D N`、DU4 逐元素基组与 CH₂ 环境判断，并把基函数计数、氢数等分子特定数值改成通用验收规则。
+- `assets/basis/Bally-H-uplus1s.gbs` 与 `provenance.json` 更新为 8s1p 资产并重算 sha256（旧 provenance 里的 DU4 哈希与实际文件不一致，已修正）。
+
+## 不随包发布的内容
+
+- `references/software-operations.md`：站点专用（主机、队列、GPU、存储与程序路径），只保留在私有说明中。
+- 谱图技能下的真实样品案例文件（含精确位移/HRMS/样品号）：仅保留脱敏后的 `case-lessons.md`。
+- 上游技能包的 evals/fixtures 与可选模块正文：见 `catalog/` 与 `SOURCE-LICENSES.json`。
 
 ## 脱敏规则
 

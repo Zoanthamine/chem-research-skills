@@ -53,4 +53,4 @@ python tools/workbench.py setup --profile thermo-raw --apply   # Thermo RAW 转�
 
 ## 交付状态与边界
 
-安装完成只代表文件完整、入口可发现，不代表任意输入都能一键得到科学结论。各核心已验证/未验证的范围见 [CORE_ACCEPTANCE.md](docs/CORE_ACCEPTANCE.md)；v1.3.0 恢复了完整 CI（账本、索引、测试、离线冒烟），发布说明见 [docs/RELEASE-v1.3.0.md](docs/RELEASE-v1.3.0.md)。第三方来源与许可保留在各技能及 [THIRD_PARTY.md](THIRD_PARTY.md)。
+安装完成只代表文件完整、入口可发现，不代表任意输入都能一键得到科学结论。各核心已验证/未验证的范围见 [CORE_ACCEPTANCE.md](docs/CORE_ACCEPTANCE.md)；v1.3.0 恢复了完整 CI（账本、索引、测试、离线冒烟），发布说明见 [docs/RELEASE-v1.3.0.md](docs/RELEASE-v1.3.0.md)；v1.3.2 的计算化学勘误与运维经验见 [docs/RELEASE-v1.3.2.md](docs/RELEASE-v1.3.2.md)。第三方来源与许可保留在各技能及 [THIRD_PARTY.md](THIRD_PARTY.md)。

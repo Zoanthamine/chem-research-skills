@@ -97,8 +97,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 4270,
-    "sha256": "8be8a42af42a619a6eaef82039a09f3a04cfa23db9bc80dcb9145166729b1484",
+    "bytes": 4368,
+    "sha256": "9146ceb4d5b21ae88ee91b39cdb62e8a4aa0e10a8a774b1d0116349b66b26285",
     "normalize_lf": true
   },
   {
@@ -115,8 +115,8 @@
   },
   {
     "path": "VERSION",
-    "bytes": 5,
-    "sha256": "05c64cb6a9476411f5c1be2445cb7e163b575262cf76c1c116348335d4f9686e",
+    "bytes": 6,
+    "sha256": "33158972a53877b421cfe2598b8d93cab169963a4964b45ee889e85349979018",
     "normalize_lf": true
   },
   {
@@ -175,8 +175,8 @@
   },
   {
     "path": "docs/DESENSITIZATION.md",
-    "bytes": 3077,
-    "sha256": "f11df1121ec1aa925d08fe7a3e06c9c8728a34626942f9befad6abca81659e0a",
+    "bytes": 4716,
+    "sha256": "2d5dba259831bd41307e9cf0a94ef4449dd74d096189b1ee045621656fe9bde4",
     "normalize_lf": true
   },
   {
@@ -187,8 +187,8 @@
   },
   {
     "path": "docs/INVENTORY.md",
-    "bytes": 337328,
-    "sha256": "3c77782571f359a90a5d17227436bd75f3539a9434448d5d8a5e6f3a2cd1c25d",
+    "bytes": 337686,
+    "sha256": "951123e67bf7fab65e1a485c88607d8d36ecbeb980771b42be8787366adce6ed",
     "normalize_lf": true
   },
   {
@@ -234,6 +234,12 @@
     "normalize_lf": true
   },
   {
+    "path": "docs/RELEASE-v1.3.2.md",
+    "bytes": 2539,
+    "sha256": "3b621ffd784f36329345888012cb1d9193e43e6430d5eb465d144c46a2206480",
+    "normalize_lf": true
+  },
+  {
     "path": "docs/TROUBLESHOOTING.md",
     "bytes": 4574,
     "sha256": "c8808b0e200ebb6bcb8422a17cc36f32678374e554bc75993b0a4c0198d15dad",
@@ -259,14 +265,14 @@
   },
   {
     "path": "docs/inventory.csv",
-    "bytes": 579777,
-    "sha256": "51ef9f5d0627ad49f198716e24caa7fe649a9d69d8df0f97016db2b26073a2e2",
+    "bytes": 580144,
+    "sha256": "3fc115ddc437b2592d2bc7159b8f7e662177dcb4020a923df6d207bf6bea1b92",
     "normalize_lf": true
   },
   {
     "path": "docs/inventory.html",
-    "bytes": 842347,
-    "sha256": "8d22fb1842293fa3f2ced08b05806390358e9da02aaaa9eeb8d687eeffcbe7c1",
+    "bytes": 842809,
+    "sha256": "e771456a88c08387deb8d5bbc94b61637a323db8d79e9f9b2bf5b5c42d903eee",
     "normalize_lf": true
   },
   {
@@ -13709,8 +13715,8 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/MANIFEST.json",
-    "bytes": 21382,
-    "sha256": "897f3db259ba1bf91b05047f13ba4ccfa58c78240e686f17270ec8e238f79741",
+    "bytes": 21927,
+    "sha256": "7548987da3d7bff9acafdee22b6aea011011f35d5530995e6285841d650742a0",
     "normalize_lf": true
   },
   {
@@ -13739,8 +13745,8 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/assets/basis/Bally-H-uplus1s.gbs",
-    "bytes": 216,
-    "sha256": "016b864b7bf860ae0741f5a426e6b3aca68e18dd22194e778a83ec34a85de379",
+    "bytes": 319,
+    "sha256": "caafe1d06574eb704024069adf2a330d9046573cb84e1d1e17e804629bfff749",
     "normalize_lf": true
   },
   {
@@ -13751,8 +13757,8 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/assets/basis/provenance.json",
-    "bytes": 599,
-    "sha256": "dcce6a137cf01ed2f639396265f627d40d9282b498e599017cd470ba03cda103",
+    "bytes": 1368,
+    "sha256": "a96dcf726c537702ddeeca624e52602a5aa36933935bdce9e857600ea05d1f51",
     "normalize_lf": true
   },
   {
@@ -14171,8 +14177,8 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/references/cluster-workflow.md",
-    "bytes": 4184,
-    "sha256": "0d6a90537152298596cded361d7f3c7266e3d71be3b4a01c020f1c02304b6cd9",
+    "bytes": 5105,
+    "sha256": "b25fc74a11957152d30e68ab9d218d7b95765dc0d316efcccd01fcf454ff65bb",
     "normalize_lf": true
   },
   {
@@ -14231,14 +14237,14 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/references/nmr-coupling.md",
-    "bytes": 4383,
-    "sha256": "0e283f432da404f6752563cf444c3113ac78528ee3023df0684622471ba9f6cc",
+    "bytes": 6171,
+    "sha256": "6b97becb5e936258c6fc7c26317bc199deeb51842d423068a30ee372abd6d3b9",
     "normalize_lf": true
   },
   {
     "path": "skills/huangjt-computational-chemistry/references/operations-lessons.md",
-    "bytes": 2184,
-    "sha256": "b711ac43a0f8b942619ab856b626be5e2489b6ffd45f243ca031840e0339dfa1",
+    "bytes": 4884,
+    "sha256": "4a734efa57682c1edbf3d95a29f757b6ccdcbbb5f84b773b54d8a80baf39939f",
     "normalize_lf": true
   },
   {
@@ -14249,8 +14255,8 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/references/practice-lessons.md",
-    "bytes": 7610,
-    "sha256": "8df390210072760af2c9d9e03382839b771c460f653b9d97bd8587f33532da62",
+    "bytes": 8977,
+    "sha256": "879cdd8e89888816b53067d0613eeab88d0e62e12c1176b84addfaf88cdb1f10",
     "normalize_lf": true
   },
   {
