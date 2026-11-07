@@ -4,6 +4,13 @@ Read common principles first. Do not open SSH for knowledge-only or local-only r
 
 Before each submission/retry, complete [task preflight](task-preflight.md), inspect the exact current deck and save preflight.json. When the user requests project lessons, apply [experience maintenance](experience-maintenance.md).
 
+## Verify access before promising it
+
+- A probe is the verification: before promising a queue, GPU or program path, submit a short probe job (a few minutes) that prints hostname, `nvidia-smi`/`rocm-smi`, loaded modules and the program version, and confirm its scheduler state and exit code.
+- Scheduler acceptance is not a reservation: `qsub`/`sbatch` may return an ID while the request is unsatisfiable, and a flag a scheduler accepts is not proof the site binds it (for example, a GPUs flag with no gres configured).
+- Remote scripts must be LF-only, BOM-free and `bash -n` clean; test them against the actual remote interpreter before the production run.
+- Site-specific facts (host, port, queue names, GPU model, storage roots, module and program paths, accounts) belong in a private site profile or handoff note, never in this public package. The shipped files describe the procedure; the user supplies the values.
+
 ## Stage and submit
 
 1. Inspect active workflow and exact input; reuse established scripts. Preserve top-N cap and local original ensemble. For Gaussian/ORCA input mechanics use hpc-gaussian if installed; for scheduler operation hpc-orchestration if installed. Required excerpts must remain understandable here when those skills are absent.

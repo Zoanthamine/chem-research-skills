@@ -28,7 +28,7 @@ docs/CAPABILITY-MATRIX.md,仓库支持,文档,yes,,,能力矩阵：配置到哪�
 docs/CATALOG.md,仓库支持,文档,yes,,,四核心+两学术的方法与工具总目录（脚本数/参考数/模块数）。
 docs/COMPATIBILITY.md,仓库支持,文档,yes,,,宿主兼容说明：DSH 与 Codex 的发现/加载差异。
 docs/CORE_ACCEPTANCE.md,仓库支持,文档,yes,,,各核心已做/未做的功能边界，避免把“有方法”当成“已验收”。
-docs/DESENSITIZATION.md,仓库支持,文档,yes,,,本地经验脱敏说明：v1.3.1 把作者本机的一部分实践经验和资料脱敏后并入公开包。这份文档说明加了什么、去掉了什么、你怎么贡献自己的经验。
+docs/DESENSITIZATION.md,仓库支持,文档,yes,,,本地经验脱敏说明：自 v1.3.1 起，作者本机的一部分实践经验和资料脱敏后并入公开包；v1.3.2 继续并入计算化学勘误与运维经验。这份文档说明加了什么、去掉了什么、你怎么贡献自己的经验。
 docs/FIRST_RUN.md,仓库支持,文档,yes,,,新电脑首次配置流程（读什么、装什么、按什么顺序验证）。
 docs/INVENTORY.md,仓库支持,文档,yes,,,逐文件用途索引总览；完整行见 inventory.csv / inventory.html。
 docs/MAINTAINERS.md,仓库支持,文档,yes,,,﻿ 维护者手册：需求、发布流程与红线
@@ -38,6 +38,7 @@ docs/QUICKSTART.md,仓库支持,文档,yes,,,5 分钟上手：安装、自检、
 docs/RELEASE-v1.2.0.md,仓库支持,文档,yes,,,v1.2.0 四核心优先版：按用户要求跳过后续完整回归和迁移验证，先打包发布。此前实际完成的组件测试与适用边界见 docs/COREACCEPTANCE.md，不宣称本版已完整验收。
 docs/RELEASE-v1.3.0.md,仓库支持,文档,yes,,,v1.3.0 新手上路版：这一版不改科学方法，改的是别人拿到这份包之后能不能顺利配置和使用。
 docs/RELEASE-v1.3.1.md,仓库支持,文档,yes,,,v1.3.1 经验与能力说明版：这一版回答“配置后到底能做什么、能做到哪一步”，并把作者本机的一部分实践经验脱敏后并入公开包。
+docs/RELEASE-v1.3.2.md,仓库支持,文档,yes,,,v1.3.2 计算化学更正与运维经验版：这一版把作者本机 2026-11 的四项计算化学更正与一批运维失败模式脱敏后并入公开包。属于勘误性质：v1.3.1 的 Bally–Rablen 氢基组资产是截断版本，本版已改。
 docs/TROUBLESHOOTING.md,仓库支持,文档,yes,,,常见安装/自检/后端问题与处理办法。
 docs/UPSTREAM_EVIDENCE.json,仓库支持,文档,yes,,,文档文件
 docs/VALIDATION.md,仓库支持,文档,yes,,,本版交付验证声明与未覆盖范围。

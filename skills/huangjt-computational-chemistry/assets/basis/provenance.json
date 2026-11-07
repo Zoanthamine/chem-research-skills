@@ -1,15 +1,26 @@
 {
   "sha256": {
-    "Bally-H-uplus1s.gbs": "5b600aeaf2659b2041227fca6c39062b073848678352cb8a8a1ead3761679acb",
-    "DU4-CHO.gbs": "6ca53fdc15c682e4d8e0e409cc30744494d0eb149ee19e38db9938353cbf4dfe"
+    "Bally-H-uplus1s.gbs": "caafe1d06574eb704024069adf2a330d9046573cb84e1d1e17e804629bfff749",
+    "DU4-CHO.gbs": "8bbdfb111af3a40bc642d320a15e0e8a2464a4b8d4bc6e9d6039e68859dddeda"
   },
   "elements": [
     "C",
     "H",
     "O"
   ],
-  "source": "Verified production Gaussian Gen blocks; author SI/method checked in 2026 project",
-  "Bally": "10.1021/jo200513q; hydrogen-only u+1s; factor0.9155",
-  "DU4": "10.1021/jo501781b; author SI S4; environment-specific geminal fit",
-  "limitations": "Must validate geometry, basis flags, elements and calibration applicability before reuse"
+  "source": "Verified production Gaussian Gen blocks; author SI/method checked in a 2026 project",
+  "asset_versions": {
+    "Bally-H-uplus1s.gbs": "8s1p: four decontracted 6-31G s (18.7311/2.8254/0.6401/0.1613) + four tight s (56.1934/168.580/505.741/1517.222) + p(1.1); a trimmed 5s1p copy is a different asset and its results are not comparable",
+    "DU4-CHO.gbs": "author SI S2-S4 per-element basis; H block is 8s1p"
+  },
+  "Bally": "10.1021/jo200513q; hydrogen-only u+1s = 8 s primitives + p(1.1); factor 0.9155; published flags H F H D N (default SCF/grid, ReadAtoms/H, integral=nobasistransform)",
+  "DU4": "10.1021/jo501781b; author SI S2-S4; environment-specific geminal fit",
+  "DU4_elements": {
+    "C": "4-31G",
+    "N/O/F/Li/Be/B": "6-31G",
+    "Si/S/P/Cl/As/Se/Br/I": "3-21G*",
+    "H": "8s1p"
+  },
+  "limitations": "Must validate geometry, basis flags, elements and calibration applicability before reuse; hashes above were recomputed from the files in this directory",
+  "Bally_source": "author script mk_input_file in jo200513q_si_002.zip, verified 2026-11-05; non-H elements default to 6-31G(d,p)"
 }

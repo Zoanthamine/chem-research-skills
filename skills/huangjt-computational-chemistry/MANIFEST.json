@@ -1,38 +1,8 @@
 [
   {
-    "path": "agents/openai.yaml",
-    "bytes": 380,
-    "sha256": "89a71972c9605c108a81ec2ce49cccca16258e5e95a1cd86c6422c247c35268d",
-    "normalize_lf": true
-  },
-  {
-    "path": "assets/basis/Bally-H-uplus1s.gbs",
-    "bytes": 216,
-    "sha256": "016b864b7bf860ae0741f5a426e6b3aca68e18dd22194e778a83ec34a85de379",
-    "normalize_lf": true
-  },
-  {
-    "path": "assets/basis/DU4-CHO.gbs",
-    "bytes": 273,
-    "sha256": "8bbdfb111af3a40bc642d320a15e0e8a2464a4b8d4bc6e9d6039e68859dddeda",
-    "normalize_lf": true
-  },
-  {
-    "path": "assets/basis/provenance.json",
-    "bytes": 599,
-    "sha256": "dcce6a137cf01ed2f639396265f627d40d9282b498e599017cd470ba03cda103",
-    "normalize_lf": true
-  },
-  {
-    "path": "assets/local-profile.example.json",
-    "bytes": 331,
-    "sha256": "1643587e051faa331352d7ffbc3f204c0c925b326a826a07b6d8bb28398f22e7",
-    "normalize_lf": true
-  },
-  {
     "path": "CAPABILITIES.md",
-    "bytes": 10096,
-    "sha256": "9a1e6b7cc73a583cc37f1b4eb571b32cbcbe7b654dd915a233b20d48cee189c7",
+    "bytes": 10272,
+    "sha256": "e47cc220c152b9f0f1ec56d2db504bc882f00895faeaa8820acc79da85122545",
     "normalize_lf": true
   },
   {
@@ -42,21 +12,9 @@
     "normalize_lf": true
   },
   {
-    "path": "LICENSES/conformer-upstream-LICENSE.txt",
-    "bytes": 7652,
-    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
-    "normalize_lf": true
-  },
-  {
     "path": "LICENSES/GPL-3.0.txt",
     "bytes": 34674,
     "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
-    "normalize_lf": true
-  },
-  {
-    "path": "LICENSES/hpc-upstream-LICENSE.txt",
-    "bytes": 1067,
-    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
     "normalize_lf": true
   },
   {
@@ -72,15 +30,33 @@
     "normalize_lf": true
   },
   {
-    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
-    "bytes": 1064,
-    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
-    "normalize_lf": true
-  },
-  {
     "path": "LICENSES/LaoZhong-Mihari__codex-organic-chem-LICENSE",
     "bytes": 1103,
     "sha256": "1f7be1673411d45300c43a5625c65e23746ccfba3bac029fbe2a8035c29ffdfa",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/conformer-upstream-LICENSE.txt",
+    "bytes": 7652,
+    "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/hpc-upstream-LICENSE.txt",
+    "bytes": 1067,
+    "sha256": "d074c9d9f5301162580ecf9ec2cbeec1c83e05efd84a5a8c6e2ce0e1775eb4d4",
+    "normalize_lf": true
+  },
+  {
+    "path": "LICENSES/king12q__Chemical-analyses-skills-LICENSE",
+    "bytes": 1064,
+    "sha256": "89315e5ffe65a3fa4f9046a655962bb08e64806732550e90feeccd6f045d5f26",
     "normalize_lf": true
   },
   {
@@ -102,9 +78,57 @@
     "normalize_lf": true
   },
   {
-    "path": "LICENSES/Yuan1z0825__nature-skills-LICENSE",
-    "bytes": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "path": "SKILL.md",
+    "bytes": 7468,
+    "sha256": "9a74a7c6fb897443dec4aace7204de7c70e7267300fa6068214784ed04f1e7db",
+    "normalize_lf": true
+  },
+  {
+    "path": "SOURCE-LICENSES.json",
+    "bytes": 1921,
+    "sha256": "497973b3a32aad47a89ac19e3cc84b2787baafdb669b56208f5229a4a1ea06d9",
+    "normalize_lf": true
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "bytes": 767,
+    "sha256": "9add0cd663e02b00465651891b6a314fe4cc850c8977cfdce099a90262bc1ba4",
+    "normalize_lf": true
+  },
+  {
+    "path": "agents/openai.yaml",
+    "bytes": 380,
+    "sha256": "89a71972c9605c108a81ec2ce49cccca16258e5e95a1cd86c6422c247c35268d",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/basis/Bally-H-uplus1s.gbs",
+    "bytes": 319,
+    "sha256": "caafe1d06574eb704024069adf2a330d9046573cb84e1d1e17e804629bfff749",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/basis/DU4-CHO.gbs",
+    "bytes": 273,
+    "sha256": "8bbdfb111af3a40bc642d320a15e0e8a2464a4b8d4bc6e9d6039e68859dddeda",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/basis/provenance.json",
+    "bytes": 1368,
+    "sha256": "a96dcf726c537702ddeeca624e52602a5aa36933935bdce9e857600ea05d1f51",
+    "normalize_lf": true
+  },
+  {
+    "path": "assets/local-profile.example.json",
+    "bytes": 331,
+    "sha256": "1643587e051faa331352d7ffbc3f204c0c925b326a826a07b6d8bb28398f22e7",
+    "normalize_lf": true
+  },
+  {
+    "path": "modules/hpc-gaussian/WORKFLOW.md",
+    "bytes": 2541,
+    "sha256": "9dafc4431cb57b0f24f07777661fc96d4d55625e2a06fd89fbf5dbe0d061e2e3",
     "normalize_lf": true
   },
   {
@@ -186,9 +210,9 @@
     "normalize_lf": true
   },
   {
-    "path": "modules/hpc-gaussian/WORKFLOW.md",
-    "bytes": 2541,
-    "sha256": "9dafc4431cb57b0f24f07777661fc96d4d55625e2a06fd89fbf5dbe0d061e2e3",
+    "path": "modules/hpc-gromacs/WORKFLOW.md",
+    "bytes": 2479,
+    "sha256": "518d738b180e0718b6196101d3fca088f8598dfd28b139b53d87bbb6142971b7",
     "normalize_lf": true
   },
   {
@@ -276,9 +300,9 @@
     "normalize_lf": true
   },
   {
-    "path": "modules/hpc-gromacs/WORKFLOW.md",
-    "bytes": 2479,
-    "sha256": "518d738b180e0718b6196101d3fca088f8598dfd28b139b53d87bbb6142971b7",
+    "path": "modules/hpc-orchestration/WORKFLOW.md",
+    "bytes": 3259,
+    "sha256": "96fdce9965ba1d5010fbcbf4c5371bea3a354731622d9cba02990b197a8ebcaf",
     "normalize_lf": true
   },
   {
@@ -462,9 +486,9 @@
     "normalize_lf": true
   },
   {
-    "path": "modules/hpc-orchestration/WORKFLOW.md",
-    "bytes": 3259,
-    "sha256": "96fdce9965ba1d5010fbcbf4c5371bea3a354731622d9cba02990b197a8ebcaf",
+    "path": "modules/molecular-dynamics/WORKFLOW.md",
+    "bytes": 19164,
+    "sha256": "33cc06b4dca310881178605bc3195636cf60ec00746974fc195bd47a4cbb768b",
     "normalize_lf": true
   },
   {
@@ -480,21 +504,15 @@
     "normalize_lf": true
   },
   {
-    "path": "modules/molecular-dynamics/WORKFLOW.md",
-    "bytes": 19164,
-    "sha256": "33cc06b4dca310881178605bc3195636cf60ec00746974fc195bd47a4cbb768b",
+    "path": "modules/rdkit-conf/WORKFLOW.md",
+    "bytes": 9882,
+    "sha256": "3874045117de9dc000fa755f651a713c5ba037df4ecf20b754e631a53c814c31",
     "normalize_lf": true
   },
   {
     "path": "modules/rdkit-conf/scripts/rdkit_conf_helper.py",
     "bytes": 25265,
     "sha256": "7ce0b1c63896b0f10ff79572f3c17b8ce96bb01dd68565fc72c3d919b8654357",
-    "normalize_lf": true
-  },
-  {
-    "path": "modules/rdkit-conf/WORKFLOW.md",
-    "bytes": 9882,
-    "sha256": "3874045117de9dc000fa755f651a713c5ba037df4ecf20b754e631a53c814c31",
     "normalize_lf": true
   },
   {
@@ -510,9 +528,15 @@
     "normalize_lf": true
   },
   {
+    "path": "references/backend-operations.md",
+    "bytes": 4173,
+    "sha256": "4eb30f37f3f4f1381de595d34c05d6a60f17375e8d7ccacdc758f2f89e53a233",
+    "normalize_lf": true
+  },
+  {
     "path": "references/cluster-workflow.md",
-    "bytes": 4184,
-    "sha256": "0d6a90537152298596cded361d7f3c7266e3d71be3b4a01c020f1c02304b6cd9",
+    "bytes": 5105,
+    "sha256": "b25fc74a11957152d30e68ab9d218d7b95765dc0d316efcccd01fcf454ff65bb",
     "normalize_lf": true
   },
   {
@@ -564,21 +588,33 @@
     "normalize_lf": true
   },
   {
+    "path": "references/method-profiles.md",
+    "bytes": 2587,
+    "sha256": "97aa4d8331208f58adf12b53da4d531713eaabbfcd68991c0f08a47d0b33b801",
+    "normalize_lf": true
+  },
+  {
     "path": "references/nmr-coupling.md",
-    "bytes": 4383,
-    "sha256": "0e283f432da404f6752563cf444c3113ac78528ee3023df0684622471ba9f6cc",
+    "bytes": 6169,
+    "sha256": "a7dbd13e6b88de4f2126622542bf634c7ba7b89a203b20ada3667d6acdc9f54e",
     "normalize_lf": true
   },
   {
     "path": "references/operations-lessons.md",
-    "bytes": 2184,
-    "sha256": "b711ac43a0f8b942619ab856b626be5e2489b6ffd45f243ca031840e0339dfa1",
+    "bytes": 4884,
+    "sha256": "4a734efa57682c1edbf3d95a29f757b6ccdcbbb5f84b773b54d8a80baf39939f",
     "normalize_lf": true
   },
   {
     "path": "references/postprocess-cli.md",
-    "bytes": 1841,
-    "sha256": "79b6eedba9e569c957ce269dbfc8155ece4f2eb33318b462707eb8d45e9f978f",
+    "bytes": 1838,
+    "sha256": "86b40e9f7701f2c8a24ee853ab715e349ee36f79b463ab2a51e615f06f21d477",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/practice-lessons.md",
+    "bytes": 8977,
+    "sha256": "879cdd8e89888816b53067d0613eeab88d0e62e12c1176b84addfaf88cdb1f10",
     "normalize_lf": true
   },
   {
@@ -633,24 +669,6 @@
     "path": "scripts/run_gaussian_nmr.py",
     "bytes": 3950,
     "sha256": "9503757129a43ec871f9f0e9d7534f8751201bdcac751390793d7c5952f07e5a",
-    "normalize_lf": true
-  },
-  {
-    "path": "SKILL.md",
-    "bytes": 7468,
-    "sha256": "9a74a7c6fb897443dec4aace7204de7c70e7267300fa6068214784ed04f1e7db",
-    "normalize_lf": true
-  },
-  {
-    "path": "SOURCE-LICENSES.json",
-    "bytes": 1921,
-    "sha256": "497973b3a32aad47a89ac19e3cc84b2787baafdb669b56208f5229a4a1ea06d9",
-    "normalize_lf": true
-  },
-  {
-    "path": "THIRD_PARTY.md",
-    "bytes": 767,
-    "sha256": "9add0cd663e02b00465651891b6a314fe4cc850c8977cfdce099a90262bc1ba4",
     "normalize_lf": true
   }
 ]
