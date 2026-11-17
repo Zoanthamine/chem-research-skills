@@ -259,8 +259,8 @@
   },
   {
     "path": "references/twin-investigation.md",
-    "bytes": 2737,
-    "sha256": "fe551571fc95f8a2c9f80251f3059801c71b393d2e55fb177f7638959fc90b71",
+    "bytes": 3458,
+    "sha256": "16f86c6da07c05dc366ca4e5e35001b16c1d2753f4a9fcf15b69b1f8f2fc9d53",
     "normalize_lf": true
   },
   {
@@ -397,8 +397,8 @@
   },
   {
     "path": "SKILL.md",
-    "bytes": 9609,
-    "sha256": "7afaef19c1e0bcdffc028b4ca50dc3a5e096fdb261a03e8b168e85569c5a4cc3",
+    "bytes": 9925,
+    "sha256": "48eab27b7a853feb4630d9fc13c8cacc02f633ec2b2b733d13d100548de982c2",
     "normalize_lf": true
   },
   {

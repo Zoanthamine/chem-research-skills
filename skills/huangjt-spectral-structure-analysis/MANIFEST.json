@@ -25,8 +25,8 @@
   },
   {
     "path": "CAPABILITIES.md",
-    "bytes": 6523,
-    "sha256": "203a0540467f447a2c0ce59e65a1daa7d510402da0c3ad698e326cd40b0c5c19",
+    "bytes": 6639,
+    "sha256": "0a7ae850d4a005ed2cac0ba3b8ecad0a831c2a69f3bf7d60800339633141b510",
     "normalize_lf": true
   },
   {
@@ -510,9 +510,21 @@
     "normalize_lf": true
   },
   {
+    "path": "references/case-lessons.md",
+    "bytes": 3832,
+    "sha256": "35190cca8cd9797220d2163ba3ae127d853902f1700e4244609b8966f3d49c99",
+    "normalize_lf": true
+  },
+  {
     "path": "references/core-workflows.md",
     "bytes": 1763,
     "sha256": "3944331e6786b52ec791ed3455974588437097012a99ec9084722a50e134907c",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/environment-tested.json",
+    "bytes": 624,
+    "sha256": "a5e46d3f2803dc87f66c5a5de478544cd3f5f8d84af418e7b52ee3cb50d2912b",
     "normalize_lf": true
   },
   {
@@ -537,6 +549,12 @@
     "path": "references/integrated-methods.md",
     "bytes": 1901,
     "sha256": "11f7eb7e82423f4b51def1237bc6118ac15f567d94e40b5723d0132aa5b2538e",
+    "normalize_lf": true
+  },
+  {
+    "path": "references/peptide-handoff.md",
+    "bytes": 1194,
+    "sha256": "be96eb8d470f375a5adce6605b520189d3245bd9b4bd577f36a5e1c381ffbdd6",
     "normalize_lf": true
   },
   {
@@ -607,8 +625,8 @@
   },
   {
     "path": "SKILL.md",
-    "bytes": 4811,
-    "sha256": "1030e1ac0f0080b66a4dcc67cbf83c15b1d5512217b74fa065c98237133316d8",
+    "bytes": 5360,
+    "sha256": "3cc97f671517abfc573ef56b2c3974e25b32bc7092cccfca756ef4e17e7d5c68",
     "normalize_lf": true
   },
   {

@@ -34,7 +34,7 @@ When asked to “沉淀、记住、总结这次计算、更新技能、整理成
 ## Optional modules and reusable assets
 
 - [NMR and coupling](references/nmr-coupling.md): Bally general H–H, DU4 CH2 geminal ²JHH, exact basis assets, per-method scaling/weighting; do not combine the two estimators.
-- [Gaussian and scheduler pitfalls](references/operations-lessons.md): negligible-force termination, blank lines, CRLF hashes, unknown qsub acceptance, TS validation.
+- [Gaussian/CREST and scheduler pitfalls](references/operations-lessons.md): CREST short input names, filename bytes and thread-interface checks; negligible-force termination, blank lines, CRLF hashes, unknown qsub acceptance and TS validation.
 - [Portable post-processing CLI](references/postprocess-cli.md): standard-library Python script, explicit raw FC CSV and chemical-environment mapping, optional normalized weights; no Gaussian/xTB required.
 - `assets/basis/` contains verified C/H/O Gaussian Gen basis blocks for the two FC fits; `assets/local-profile.example.json` is a portable configuration example, not live credentials or a job submission.
 - A separate teaching/retrieval layer `huangjt-computational-chemistry-assistant` may retrieve local literature if installed; it should obey this skill's selected execution mode and does not replace input inspection.
@@ -56,9 +56,9 @@ When asked to “沉淀、记住、总结这次计算、更新技能、整理成
 
 先读 [融合方法](references/integrated-methods.md) 选择会改变当前判断的分析；具体工具和详细流程见 [内部模块](references/absorbed-modules.md)。模块按需加载，不再把源技能当作独立任务入口。自然语言场景见 [任务说法](references/task-language.md)。
 
-## Codex 与 DSH
+## 跨宿主与调用
 
-两个宿主共用本技能的方法、证据与工具。迁移或工具名称不同先读 [宿主适配](references/host-compatibility.md)，按实际文件、命令、检索及文档能力完成任务，不依赖Codex私有API。
+本技能在Codex和DSH共用。加载、命令执行、检索和文档工具按宿主实际能力映射；迁移或工具不匹配时读 [宿主适配](references/host-compatibility.md)。不依赖某个平台私有工具名。
 
 ## 完整方法、工具与迁移
 
@@ -67,3 +67,7 @@ When asked to “沉淀、记住、总结这次计算、更新技能、整理成
 ## 本核心的基础工作流
 
 处理实际数据、构象/核磁任务或有机分析时，先按 [基础功能与联动](references/core-workflows.md) 定位输入和可执行入口；[完整目录](CAPABILITIES.md) 同时列出本主技能自己的方法、脚本和内部扩展。
+
+## 个人经验层（按需）
+
+用户要求沉淀、记住或维护经验时，使用目标机已配置的个人经验目录，保留证据、适用范围和方法参数。通用结论可更新本技能references；项目状态、结果、站点与程序路径另行记录，历史经验不自动恢复任务。
