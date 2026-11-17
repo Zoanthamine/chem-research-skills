@@ -23,3 +23,10 @@ Use when the matching failure appears; these are observations, not reasons to ad
 - The Gaussian FC-coupling table prints its **diagonal** as a huge constant (order 1e11 for the K and J tables) because it is the magnetogyric-ratio term, not a coupling. A parser that keeps self-pairs reports N(N+1)/2 pairs instead of N(N−1)/2 and a nonsense coupling value. Always drop self-pairs before counting or averaging, and sanity-check the pair count.
 
 Project provenance and exact historical results remain in the research project, not in this portable skill. No task should automatically resume because this file describes it.
+
+## CREST短文件名与线程接口核对
+
+- 区分显示名称、实际参数和文件系统字节；有非ASCII名称或版本特定长度限制时，使用阶段目录内的短ASCII副本并比较复制哈希。
+- 从当前版本的帮助/文档确认线程选项；环境变量、启动器参数与程序识别结果一致后再运行，不把接受参数当成已采用目标并行度。
+- 使用当前版本支持的非计算检查，或只检查输入/参数解析与路径；不要为修路径或查看版本重新启动昂贵采样。
+- 恢复任务前核对PID/队列、既有输出、阶段及授权；历史失败和经验记录不是自动重投指令。

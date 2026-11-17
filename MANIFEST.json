@@ -97,8 +97,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 4368,
-    "sha256": "9146ceb4d5b21ae88ee91b39cdb62e8a4aa0e10a8a774b1d0116349b66b26285",
+    "bytes": 4773,
+    "sha256": "a847f443080c18fd931ba1e3a0c74f916394875793f09018f0898a0dc144e6ba",
     "normalize_lf": true
   },
   {
@@ -116,13 +116,13 @@
   {
     "path": "VERSION",
     "bytes": 6,
-    "sha256": "33158972a53877b421cfe2598b8d93cab169963a4964b45ee889e85349979018",
+    "sha256": "a74a0cf84ef0b15e01e64746c3465813312b763796f4f6362b092f092dccb8b5",
     "normalize_lf": true
   },
   {
     "path": "catalog/mains.json",
-    "bytes": 9997,
-    "sha256": "71eb4effb19821d78eb92087f05a365a602c941f9abf0354cbc86e68552544a6",
+    "bytes": 10080,
+    "sha256": "95384b5d9ee007afc656056b7064cfbf1724a2337cc9f7e53596d72743805185",
     "normalize_lf": true
   },
   {
@@ -175,8 +175,8 @@
   },
   {
     "path": "docs/DESENSITIZATION.md",
-    "bytes": 4716,
-    "sha256": "2d5dba259831bd41307e9cf0a94ef4449dd74d096189b1ee045621656fe9bde4",
+    "bytes": 5085,
+    "sha256": "fbdbb6a8edbd7e60a2604947d0b7c2d50fa749c1c5dd1be4cf46d8db54542a8d",
     "normalize_lf": true
   },
   {
@@ -187,8 +187,8 @@
   },
   {
     "path": "docs/INVENTORY.md",
-    "bytes": 337686,
-    "sha256": "951123e67bf7fab65e1a485c88607d8d36ecbeb980771b42be8787366adce6ed",
+    "bytes": 338399,
+    "sha256": "f1dd0dd8aa47b8d66d74deff0c3f66d0645440be7e2da6b87f44ec9ebf88aaa5",
     "normalize_lf": true
   },
   {
@@ -240,6 +240,12 @@
     "normalize_lf": true
   },
   {
+    "path": "docs/RELEASE-v1.3.3.md",
+    "bytes": 1154,
+    "sha256": "8def2c602acc32fe21af33674a4304dcc508ea083f1c8fe3318977af777ee4de",
+    "normalize_lf": true
+  },
+  {
     "path": "docs/TROUBLESHOOTING.md",
     "bytes": 4574,
     "sha256": "c8808b0e200ebb6bcb8422a17cc36f32678374e554bc75993b0a4c0198d15dad",
@@ -265,14 +271,14 @@
   },
   {
     "path": "docs/inventory.csv",
-    "bytes": 580144,
-    "sha256": "3fc115ddc437b2592d2bc7159b8f7e662177dcb4020a923df6d207bf6bea1b92",
+    "bytes": 580872,
+    "sha256": "95c7567b6f20d89dde01a27cc1c6a9069a4f0f079f8bccc5a74d10c117e56931",
     "normalize_lf": true
   },
   {
     "path": "docs/inventory.html",
-    "bytes": 842809,
-    "sha256": "e771456a88c08387deb8d5bbc94b61637a323db8d79e9f9b2bf5b5c42d903eee",
+    "bytes": 843727,
+    "sha256": "cb0065f052f29cc16338bb1da55f5c775cf22450436fff68b6b2071e9d478403",
     "normalize_lf": true
   },
   {
@@ -398,13 +404,13 @@
   {
     "path": "skills/huangjt-academic-research/MANIFEST.json",
     "bytes": 422620,
-    "sha256": "5f5d51d188ebb77798f308ebecdc85e41e0a2a635483391bb68312c4576caef7",
+    "sha256": "19e195efedf2d2c282b200375777885053cbc3278f10ff07e011eb328e642768",
     "normalize_lf": true
   },
   {
     "path": "skills/huangjt-academic-research/SKILL.md",
-    "bytes": 3472,
-    "sha256": "82d194bff2401ca730027467277e454b67f6cf74036387f0069a9c5c744a02b9",
+    "bytes": 3474,
+    "sha256": "aaef5e4ab4d43b20741fe943efaa04a4ff742f80055c8c465e9c4cbfa6cd03d1",
     "normalize_lf": true
   },
   {
@@ -11412,13 +11418,13 @@
   {
     "path": "skills/huangjt-academic-writing/MANIFEST.json",
     "bytes": 83994,
-    "sha256": "16b31445de40e4555720e3c24a360e5fcd6f87e65219df3b7f2ad888edbf22b1",
+    "sha256": "b0d63d147c022dbd38f0e276a618b71d774a35dca48fae53002a4185faa46168",
     "normalize_lf": true
   },
   {
     "path": "skills/huangjt-academic-writing/SKILL.md",
-    "bytes": 3735,
-    "sha256": "b2a47523314ed37d9af9d6f9a7628d1d792914adfd53c9be0a4be3e97692c87d",
+    "bytes": 3737,
+    "sha256": "132f0acb772cc67cebc04b32e25a71bd8bc5fca684623f84c5f2d36610084d32",
     "normalize_lf": true
   },
   {
@@ -13716,13 +13722,13 @@
   {
     "path": "skills/huangjt-computational-chemistry/MANIFEST.json",
     "bytes": 21927,
-    "sha256": "7548987da3d7bff9acafdee22b6aea011011f35d5530995e6285841d650742a0",
+    "sha256": "436040f1120df9a631a38b4ff8ab87757e151af055165830c15c4e8751cb5d92",
     "normalize_lf": true
   },
   {
     "path": "skills/huangjt-computational-chemistry/SKILL.md",
-    "bytes": 7468,
-    "sha256": "9a74a7c6fb897443dec4aace7204de7c70e7267300fa6068214784ed04f1e7db",
+    "bytes": 7862,
+    "sha256": "9af72d8d9baf36bb006b71a6c38c42fb10f282c8f0f714b78d52b85ac9592141",
     "normalize_lf": true
   },
   {
@@ -14243,8 +14249,8 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/references/operations-lessons.md",
-    "bytes": 4884,
-    "sha256": "4a734efa57682c1edbf3d95a29f757b6ccdcbbb5f84b773b54d8a80baf39939f",
+    "bytes": 5553,
+    "sha256": "3660e18d8bc49461670037af1649a7acea0bce710615249d61f48724d7e03226",
     "normalize_lf": true
   },
   {
@@ -14279,8 +14285,8 @@
   },
   {
     "path": "skills/huangjt-computational-chemistry/references/task-preflight.md",
-    "bytes": 3589,
-    "sha256": "47deb3a80acfd229924165f0056bab9d365ac334c5964891189908e83ba3a359",
+    "bytes": 3757,
+    "sha256": "90670eabb1afeacf1997e5919ae9a313e39b342487bdfd76d0ad3ed6a82bb990",
     "normalize_lf": true
   },
   {
@@ -14393,14 +14399,14 @@
   },
   {
     "path": "skills/huangjt-spectral-structure-analysis/MANIFEST.json",
-    "bytes": 19681,
-    "sha256": "ca0fc913b4016b9952ffcb4cc1d694ebf4f430b53cf86db132b71b4a4f228fc7",
+    "bytes": 20222,
+    "sha256": "b2058618c5c45b4dcb6e51b7c5741ed9fb50f4ae3cf14440dc1aa1410a6aa788",
     "normalize_lf": true
   },
   {
     "path": "skills/huangjt-spectral-structure-analysis/SKILL.md",
-    "bytes": 4811,
-    "sha256": "1030e1ac0f0080b66a4dcc67cbf83c15b1d5512217b74fa065c98237133316d8",
+    "bytes": 5360,
+    "sha256": "3cc97f671517abfc573ef56b2c3974e25b32bc7092cccfca756ef4e17e7d5c68",
     "normalize_lf": true
   },
   {
@@ -14890,6 +14896,12 @@
     "normalize_lf": true
   },
   {
+    "path": "skills/huangjt-spectral-structure-analysis/references/peptide-handoff.md",
+    "bytes": 1194,
+    "sha256": "be96eb8d470f375a5adce6605b520189d3245bd9b4bd577f36a5e1c381ffbdd6",
+    "normalize_lf": true
+  },
+  {
     "path": "skills/huangjt-spectral-structure-analysis/references/portability.md",
     "bytes": 3445,
     "sha256": "22ae294f643c0c89a0b245208cc5575817d74830db2a02e046dfd06637d918de",
@@ -15036,13 +15048,13 @@
   {
     "path": "skills/organic-chemistry-reasoning/MANIFEST.json",
     "bytes": 31339,
-    "sha256": "914926384d4a5a11f5d515dba625ec47b0d17a6df979eb85b9710431cb4a9b8a",
+    "sha256": "12acc441c3fee9ab71da049d1aac5c4a239d6af8588ee9388375092c6f655f16",
     "normalize_lf": true
   },
   {
     "path": "skills/organic-chemistry-reasoning/SKILL.md",
-    "bytes": 5396,
-    "sha256": "1a7acad9270139f65661bf6928a9509f0683504a78432c926d527831c759b682",
+    "bytes": 5712,
+    "sha256": "b23c6f4225bd797e0cd0eb125c906dbc84a2b6af66d3d14c5f05ea9a9dac54a2",
     "normalize_lf": true
   },
   {
@@ -15972,13 +15984,13 @@
   {
     "path": "skills/scxrd-refinement/MANIFEST.json",
     "bytes": 12540,
-    "sha256": "20cd02c73f3aca4b713e29ea3131975e51b4f147a28320170d7c57e2726e67af",
+    "sha256": "87ca3926d932d904ce11fc3a3b91805bc4dd5e59b5fc39d65f1d650213e9589f",
     "normalize_lf": true
   },
   {
     "path": "skills/scxrd-refinement/SKILL.md",
-    "bytes": 9609,
-    "sha256": "7afaef19c1e0bcdffc028b4ca50dc3a5e096fdb261a03e8b168e85569c5a4cc3",
+    "bytes": 9925,
+    "sha256": "48eab27b7a853feb4630d9fc13c8cacc02f633ec2b2b733d13d100548de982c2",
     "normalize_lf": true
   },
   {
@@ -16175,8 +16187,8 @@
   },
   {
     "path": "skills/scxrd-refinement/references/twin-investigation.md",
-    "bytes": 2737,
-    "sha256": "fe551571fc95f8a2c9f80251f3059801c71b393d2e55fb177f7638959fc90b71",
+    "bytes": 3458,
+    "sha256": "16f86c6da07c05dc366ca4e5e35001b16c1d2753f4a9fcf15b69b1f8f2fc9d53",
     "normalize_lf": true
   },
   {

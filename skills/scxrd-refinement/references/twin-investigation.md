@@ -30,3 +30,9 @@ ADDSYM/TwinRotMat 用于候选调查。来源技能记录的是特定 macOS/PLAT
 依据：[SHELXL 指令](https://shelx.uni-goettingen.de/shelxl_html.php)。详细的 H、HKLF/溶剂依赖继续使用[已有参考](hydrogen-twin-solvent-cases.md)。
 
 完成条件：当前基底/律、分量、输入协议和来源清楚；对照及采用理由归档；不能解决的重叠、对称与绝对结构问题如实保留。
+
+## SHELXL FCF到TwinRotMat的诊断副本
+
+SHELXL生成的CIF风格FCF可能缺少PLATON某些版本需要的权重说明或波长字段。出现“Weight Parameter A Negative”时先检查缺项和解析口径，不直接断定精修的WGHT为负。字段只能来自同一轮匹配的ACTA CIF或实际INS中的WGHT，并核对强度/振幅、反射标签及版本。
+
+格式适配只作用于另存的诊断副本，保留原FCF及来源哈希；缺乏真实字段来源时保持未知，不填默认实验值。原来源模块提供 `fix_fcf_for_twinrotmat` 工具的获取线索，当前公开包不把未取得或未检查的上游工具算作已安装能力。TwinRotMat诊断输出不能冒充正式提交FCF。

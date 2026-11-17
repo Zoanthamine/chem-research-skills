@@ -65,3 +65,7 @@ python install.py --check && python tools/manifest.py --check && python tools/in
 ## 许可
 
 新增文字为作者原创，随本库以 MIT 发布；引用文献只给 DOI/出处，不复制原文。`upstream-provenance.json` 记录第三方来源与许可，随包保留。
+
+## v1.3.3同步边界
+
+本次只同步可移植的调用与方法说明。private site profile、具体样品/构象ID、未发表结果、真实队列/设备与密钥路径不进入公开包。学术研究的大量本地eval/运行记录、写作32个非默认模块与未标许可的单晶上游原件沿用现有去向；保留公共运行模块与获取索引。

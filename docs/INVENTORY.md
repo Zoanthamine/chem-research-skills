@@ -6,7 +6,7 @@
 文件自身的一级标题或模块 docstring、以及所在目录的约定用途。
 **这是分类索引，不是逐行代码审查**；标记为“上游框架文件”的千余文件按包使用，未逐个核对实现。
 
-- 分发文件：**2729** 个（约 39.1 MB）
+- 分发文件：**2731** 个（约 39.1 MB）
 - 完整逐文件清单：[inventory.csv](inventory.csv)（Excel 可直接打开）、[inventory.html](inventory.html)（可搜索、可筛选）
 - 大块 vendored 目录在下面的表格里折叠成一行，逐文件行仍在 CSV/HTML 中。
 
@@ -14,7 +14,7 @@
 
 | 类型 | 数量 | 含义 |
 |---|---:|---|
-| 方法参考 | 843 | 按问题读取的方法/流程/边界 |
+| 方法参考 | 844 | 按问题读取的方法/流程/边界 |
 | 上游框架文件 | 743 | 随包分发的上游框架/架构文件 |
 | 可执行工具 | 343 | 可直接运行的命令行工具 |
 | 测试 | 326 | 开发/回归测试，不是科研入口 |
@@ -24,7 +24,7 @@
 | 模块工作流 | 53 | 吸收进主技能的专业模块入口 |
 | 函数库 | 46 | 被其他脚本导入的函数库 |
 | 宿主元数据 | 27 | Codex/DSH 的展示与调用元数据 |
-| 文档 | 22 | 面向人的说明文档 |
+| 文档 | 23 | 面向人的说明文档 |
 | 完整性账本 | 6 | 文件完整性账本 |
 | 技能入口 | 6 | 宿主发现的技能主入口 |
 | 能力目录 | 6 | 该技能自己的方法与脚本目录 |
@@ -39,9 +39,9 @@
 | 学术写作 | 384 | 论文/润色/审稿回复/开题学位/Word-PPT 七个默认模块。 |
 | 有机推断 | 156 | 结构身份/绘制/转换、机理与重排、选择性、实验复盘，并组织其他核心的证据链。 |
 | 计算化学 | 113 | 本地采样→选构象→DFT 优化/频率→GIAO/J 核磁；xTB、GROMACS、Gaussian。 |
-| 解谱鉴定 | 107 | 真实 NMR/MS 文件读取与证据化解析；Bruker/Varian/NMRPipe、Thermo RAW/mzML/MGF。 |
+| 解谱鉴定 | 108 | 真实 NMR/MS 文件读取与证据化解析；Bruker/Varian/NMRPipe、Thermo RAW/mzML/MGF。 |
 | 单晶解析 | 70 | 衍射数据→解结构→精修→验证交付；21 个 Python 入口，支持 DIALS/SHELXT/SHELXL/Olex2。 |
-| 仓库支持 | 63 | 仓库级：安装器、目录索引、文档、测试与发布配置。 |
+| 仓库支持 | 64 | 仓库级：安装器、目录索引、文档、测试与发布配置。 |
 
 ## 先看这几张：入口与可运行工具
 
@@ -755,7 +755,7 @@
 | `skills/huangjt-computational-chemistry/scripts/prepare_nmr_jobs.py` | 可执行工具 | Prepare auditable Gaussian opt/freq and NMR inputs from selected XYZ conformers. |
 | `skills/huangjt-computational-chemistry/scripts/run_gaussian_nmr.py` | 可执行工具 | Run one prepared conformer's Gaussian stages, preserving inputs and all logs. |
 
-## 解谱鉴定（107 行）
+## 解谱鉴定（108 行）
 
 | 文件 | 类型 | 用途 |
 |---|---|---|
@@ -855,6 +855,7 @@
 | `skills/huangjt-spectral-structure-analysis/references/foundation-and-migration.md` | 方法参考 | 基础能力与迁移：新电脑的顺序 |
 | `skills/huangjt-spectral-structure-analysis/references/host-compatibility.md` | 方法参考 | Codex 与 DeepSeek Harness：本技能使用通用 SKILL.md、Markdown参考、相对资源和命令行脚本。Codex与DSH使用同一份方法；不要求目标用户拥有Codex桌面、某一插件名称或来源电脑的盘符。 |
 | `skills/huangjt-spectral-structure-analysis/references/integrated-methods.md` | 方法参考 | 融合后的波谱方法：先确认样品、采集次序、粗反应液或分离样品、真实文件格式与轴单位；用户纠正标号后保留修正记录。“帮我分析一下”配有谱图时可直接进入相关谱种，不要求用户说解谱。 |
+| `skills/huangjt-spectral-structure-analysis/references/peptide-handoff.md` | 方法参考 | 多肽谱峰与肽迹交接：本核心处理原始谱、峰表、RT、强度、误差、谱种和仪器口径；有序列和反应上下文时可衔接已安装的 peptide-side-product-diagnosis（肽迹/PepTrace）。它是独立可选扩展，六入口安装器仍只安装原六个主技能。 |
 | `skills/huangjt-spectral-structure-analysis/references/portability.md` | 方法参考 | 迁移和能力矩阵：将本技能整个文件夹放到另一台电脑的Codex skills目录（用户指定目录优先；默认$CODEXHOME/skills或~/.codex/skills）。路径均相对本技能，无需保留E盘。Python3.11+建议新虚拟环境 |
 | `skills/huangjt-spectral-structure-analysis/references/runtime.md` | 方法参考 | 运行环境：本机配置来自 $CODEXHOME/tools/science/INTEGRATION.md 与 environments.json，通过 science.ps1 选择 science、retro 或 dials。新电脑按实际任务配置依赖、程序、模型和许可证，不复用来源电脑的盘符或账号。纯知识任务… |
 | `skills/huangjt-spectral-structure-analysis/references/system-integration.md` | 方法参考 | 六个主技能的协作约定：四个化学核心分别保持完整，学术检索阅读和学术写作各有一个完整入口。其他同领域能力已经成为主技能内部模块，不再作为同级技能抢任务。模块按需读取，不能把一个简短问题升级成全部流程。 |
@@ -1809,7 +1810,7 @@
 | `skills/huangjt-academic-writing/references/system-integration.md` | 方法参考 | 六个主技能的协作约定：四个化学核心分别保持完整，学术检索阅读和学术写作各有一个完整入口。其他同领域能力已经成为主技能内部模块，不再作为同级技能抢任务。模块按需读取，不能把一个简短问题升级成全部流程。 |
 | `skills/huangjt-academic-writing/references/task-language.md` | 方法参考 | 常见任务说法：依据可读取的科研聊天提炼，不包含样品编号、个人路径或作业号。词语不是匹配到就执行的软件命令；结合当前附件、结构和上下文选择方法。 |
 
-## 仓库支持（63 行）
+## 仓库支持（64 行）
 
 | 文件 | 类型 | 用途 |
 |---|---|---|
@@ -1853,6 +1854,7 @@
 | `docs/RELEASE-v1.3.0.md` | 文档 | v1.3.0 新手上路版：这一版不改科学方法，改的是别人拿到这份包之后能不能顺利配置和使用。 |
 | `docs/RELEASE-v1.3.1.md` | 文档 | v1.3.1 经验与能力说明版：这一版回答“配置后到底能做什么、能做到哪一步”，并把作者本机的一部分实践经验脱敏后并入公开包。 |
 | `docs/RELEASE-v1.3.2.md` | 文档 | v1.3.2 计算化学更正与运维经验版：这一版把作者本机 2026-11 的四项计算化学更正与一批运维失败模式脱敏后并入公开包。属于勘误性质：v1.3.1 的 Bally–Rablen 氢基组资产是截断版本，本版已改。 |
+| `docs/RELEASE-v1.3.3.md` | 文档 | v1.3.3：六入口本地更新同步：以当前公开v1.3.2为基线，逐项比较本机六个主技能，保留远端已有改进。同步可移植更新，继续安装六个完整入口、47个默认模块，写作仍为7个默认模块；32个可选方法保留原去向。 |
 | `docs/TROUBLESHOOTING.md` | 文档 | 常见安装/自检/后端问题与处理办法。 |
 | `docs/UPSTREAM_EVIDENCE.json` | 文档 | 文档文件 |
 | `docs/VALIDATION.md` | 文档 | 本版交付验证声明与未覆盖范围。 |

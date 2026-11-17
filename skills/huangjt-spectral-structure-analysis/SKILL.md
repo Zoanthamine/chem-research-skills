@@ -15,6 +15,7 @@ description: "解谱与结构鉴定主技能。用于解谱看谱、核磁归属
 各谱种按实际能力处理：NMR用直接配对、片段与长程/空间相关；MS用电荷/加合离子/精确质量/碎片；IR与拉曼核对波数、基线、吸收/透过/散射信号定义和振动峰；UV-Vis核对波长、吸光度/透过率、溶剂和浓度条件；CD/ECD保留符号、单位及与UV/构象的联系。NMR的耦合、HMBC和NOE距离方法不能套用到其他谱种。专门后端缺失时使用有支持的检查与定性推理，并说明功能边界。
 
 ## 按任务加载
+- 多肽反应副峰：有起始序列、条件和实测质量／m/z时，按[多肽交接](references/peptide-handoff.md)衔接已安装的肽迹；没有该扩展时保留本核心已有谱学判断与缺项。
 - 实验联合归属、信号增强、重叠分峰和NOE强度：读 [实验流程](references/experimental-workflow.md)。
 - 候选结构、计算位移/J、构象与质量对照：读 [候选判断](references/candidate-comparison.md)。
 - 新电脑或新增能力：读 [迁移与能力矩阵](references/portability.md)，运行 `python scripts/evidence_cli.py doctor`。
@@ -23,7 +24,7 @@ description: "解谱与结构鉴定主技能。用于解谱看谱、核磁归属
 ## 工作约定
 建立原始数据、处理版本、信号ID、结构原子编号、逐证据判断、候选和最终结论的对应关系。实验位置、条件拟合、计算预测、用户确认分列。用户确认可结束候选选择，但不能倒写历史为算法独立确证，也不能把未闭合逐碳归属自动升格。
 
-与现有技能配合：nmrglue负责受支持FID处理；organic-chemistry-assistant负责结构/反应；huangjt-computational-chemistry负责量化方法；spectrum-analyzer负责数值谱图。缺少这些技能时按本包参考与本地数值脚本继续有支持的工作，不伪造外部功能。PPT/XLSX使用目标环境的文档技能；本包不捆绑专属桌面运行时。
+与现有技能配合：结构/反应交organic-chemistry-reasoning，量化交huangjt-computational-chemistry；FID与数值谱图按本核心modules及absorbed-modules索引读取，不重新注册旧独立入口。缺少这些技能时按本包参考与本地数值脚本继续有支持的工作，不伪造外部功能。PPT/XLSX使用目标环境的文档技能；本包不捆绑专属桌面运行时。
 
 ## 内置工具
 `scripts/evidence_cli.py`提供依赖检查、分子式/加合离子、校准NPZ的双向有符号NOE积分、带权r^-6有效距离和数值自检。运行 `--help`；输入模式见迁移说明。脚本仅执行数值运算，不做结构自动归属。输入文件只读，输出到指定新文件。
@@ -36,9 +37,9 @@ description: "解谱与结构鉴定主技能。用于解谱看谱、核磁归属
 
 先读 [融合方法](references/integrated-methods.md) 选择会改变当前判断的分析；具体工具和详细流程见 [内部模块](references/absorbed-modules.md)。模块按需加载，不再把源技能当作独立任务入口。自然语言场景见 [任务说法](references/task-language.md)。
 
-## Codex 与 DSH
+## 跨宿主与调用
 
-两个宿主共用本技能的方法、证据与工具。迁移或工具名称不同先读 [宿主适配](references/host-compatibility.md)，按实际文件、命令、检索及文档能力完成任务，不依赖Codex私有API。
+本技能在Codex和DSH共用。加载、命令执行、检索和文档工具按宿主实际能力映射；迁移或工具不匹配时读 [宿主适配](references/host-compatibility.md)。不依赖某个平台私有工具名。
 
 ## 完整方法、工具与迁移
 
@@ -47,3 +48,7 @@ description: "解谱与结构鉴定主技能。用于解谱看谱、核磁归属
 ## 本核心的基础工作流
 
 处理实际数据、构象/核磁任务或有机分析时，先按 [基础功能与联动](references/core-workflows.md) 定位输入和可执行入口；[完整目录](CAPABILITIES.md) 同时列出本主技能自己的方法、脚本和内部扩展。
+
+## 个人经验层（按需）
+
+用户要求沉淀、记住或维护经验时，使用目标机已配置的个人经验目录，保留证据、适用范围和方法参数。通用结论可更新本技能references；项目状态、结果、站点与程序路径另行记录，历史经验不自动恢复任务。
